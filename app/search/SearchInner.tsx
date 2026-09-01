@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search as SearchIcon, FileText } from "lucide-react";
-import { scoreItem, type SearchItem } from "@/components/SearchBox";
+import { scoreItem, matchedCode, type SearchItem } from "@/components/SearchBox";
 
 
 
@@ -77,6 +77,11 @@ export default function SearchPage() {
                 <span className="block text-sm font-medium text-ink-800 dark:text-ink-100">
                   {r.title}
                 </span>
+                {matchedCode(r, q) && (
+                  <span className="mt-0.5 inline-block rounded bg-ink-100 px-1.5 py-0.5 font-mono text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300">
+                    {matchedCode(r, q)}
+                  </span>
+                )}
                 {r.text && (
                   <span className="mt-0.5 block line-clamp-1 text-xs text-ink-400">
                     {r.text}

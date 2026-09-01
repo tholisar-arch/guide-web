@@ -11,6 +11,7 @@ type SearchItem = {
   category: string | null;
   page: number;
   text: string;
+  codes: string;
 };
 
 let cache: SearchItem[] | null = null;
@@ -19,6 +20,18 @@ export function scoreItem(item: SearchItem, q: string): number {
   const query = q.toLowerCase();
   const title = item.title.toLowerCase();
   let score = 0;
+
+  // reference codes (Part Number, Catalog Number, ...) take priority: this
+  // site is a product-reference lookup, so an exact/prefix code match
+  // should always outrank a generic title/category/text match
+  if (item.codes) {
+    const codesLower = item.codes.toLowerCase();
+    const codeTokens = codesLower.split(/\s+/);
+    if (codeTokens.includes(query)) score += 200;
+    else if (codeTokens.some((c) => c.startsWith(query))) score += 130;
+    else if (codesLower.includes(query)) score += 70;
+  }
+
   if (title === query) score += 100;
   else if (title.startsWith(query)) score += 60;
   else if (title.includes(query)) score += 35;
@@ -26,6 +39,14 @@ export function scoreItem(item: SearchItem, q: string): number {
     score += 15;
   if (item.text.toLowerCase().includes(query)) score += 8;
   return score;
+}
+
+export function matchedCode(item: SearchItem, q: string): string | null {
+  const query = q.toLowerCase();
+  if (!item.codes) return null;
+  const tokens = item.codes.split(/\s+/);
+  const hit = tokens.find((c) => c.toLowerCase().includes(query));
+  return hit ?? null;
 }
 
 export default function SearchBox({ variant = "header" }: { variant?: "header" | "hero" }) {
@@ -163,6 +184,11 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
                   <span className="text-sm text-ink-800 dark:text-ink-100">
                     {r.title}
                   </span>
+                  {matchedCode(r, query) && (
+                    <span className="rounded bg-ink-100 px-1.5 py-0.5 font-mono text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300">
+                      {matchedCode(r, query)}
+                    </span>
+                  )}
                 </button>
               ))}
               <button

@@ -46,6 +46,24 @@ def has_real_reference_table(entry):
     return False
 
 
+def extract_codes(entry):
+    """All table cell values (Part Number, Catalog Number, etc.) for this
+    page, so the search index can match an exact reference even when it
+    isn't among the first characters of the page's free text."""
+    seen = []
+    seen_set = set()
+    for b in entry["blocks"]:
+        if b["type"] != "table":
+            continue
+        for row in b["rows"]:
+            for cell in row:
+                cell = (cell or "").strip()
+                if cell and cell not in seen_set:
+                    seen_set.add(cell)
+                    seen.append(cell)
+    return " ".join(seen)
+
+
 pages = json.load(open("data/pages.json"))
 nav = json.load(open("data/nav.json"))
 
@@ -125,6 +143,7 @@ search_index = [
         "category": e["category"],
         "page": e["page"],
         "text": e["text"][:220],
+        "codes": extract_codes(e),
     }
     for e in kept
 ]
