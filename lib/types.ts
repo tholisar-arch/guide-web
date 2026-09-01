@@ -12,12 +12,6 @@ export type ParagraphBlock = {
 
 export type ContentBlock = TableBlock | ParagraphBlock;
 
-export type PageImage = {
-  file: string;
-  w: number;
-  h: number;
-};
-
 export type PageEntry = {
   page: number;
   chapter: "cover" | "about" | "selector" | "markets" | "knowledge";
@@ -27,8 +21,6 @@ export type PageEntry = {
   title: string;
   text: string;
   blocks: ContentBlock[];
-  images: PageImage[];
-  screenshot: string;
   slug: string;
 };
 

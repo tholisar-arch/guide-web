@@ -129,11 +129,6 @@ export function getAllParams(): { slug: string[] }[] {
   return [...leafParams, ...listingParams];
 }
 
-export function countLeaves(node: SelectorNavNode): number {
-  if (node.type === "leaves") return node.items.length;
-  return node.children.reduce((sum, c) => sum + c.count, 0);
-}
-
 export function flattenLeaves(node: SelectorNavNode): NavLeafItem[] {
   if (node.type === "leaves") return node.items;
   return node.children.flatMap((c) => flattenLeaves(c.node));
@@ -156,17 +151,3 @@ export function getListingChain(
   return chain;
 }
 
-export function chapterTitle(slug: string): string {
-  return getChapter(slug)?.title ?? slug;
-}
-
-export const stats = {
-  totalPages: pages.length,
-  categories: (nav.chapters.find((c) => c.slug === "selector") as
-    | ChapterSelector
-    | undefined)?.categories.length ?? 0,
-  productFamilies:
-    (nav.chapters.find((c) => c.slug === "selector") as
-      | ChapterSelector
-      | undefined)?.categories.reduce((s, c) => s + c.count, 0) ?? 0,
-};

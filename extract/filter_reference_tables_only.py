@@ -21,12 +21,21 @@ def looks_like_code(s):
     return bool(re.fullmatch(r"[A-Za-z0-9./,\-]+", s))
 
 
+def is_range_row(row):
+    # summary/overview tables spell out spec ranges ("2A to 100A", "Size:
+    # NDZ to DV") instead of one purchasable reference per row
+    return any(" to " in (cell or "") for cell in row)
+
+
 def has_real_reference_table(entry):
     for b in entry["blocks"]:
         if b["type"] != "table":
             continue
         rows = b["rows"]
         if not rows:
+            continue
+        n_range = sum(1 for r in rows if is_range_row(r))
+        if n_range / len(rows) >= 0.3:
             continue
         firstcol = [r[0] for r in rows if r and r[0]]
         if not firstcol:

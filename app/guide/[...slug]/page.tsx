@@ -5,7 +5,6 @@ import {
   getPageBySlug,
   getListingChain,
   resolveListing,
-  countLeaves,
   flattenLeaves,
 } from "@/lib/data";
 import type { ChapterSelector } from "@/lib/types";
@@ -101,7 +100,6 @@ export default function GuidePage({
           items={c.categories.map((cat) => ({
             title: cat.title,
             href: `/guide/selector/${cat.slug}`,
-            count: cat.count,
           }))}
         />
       </SelectorFrame>
@@ -113,23 +111,18 @@ export default function GuidePage({
     listing.kind === "category"
       ? listing.category.title
       : listing.pathTitles[listing.pathTitles.length - 1];
-  const total = countLeaves(listing.node);
 
   return (
     <SelectorFrame title="Product Selector" backHref={backHref}>
       <Breadcrumbs items={crumbs} />
-      <h1 className="mb-1 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
+      <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
         {title}
       </h1>
-      <p className="mb-6 text-sm text-ink-500 dark:text-ink-400">
-        {total} product reference{total > 1 ? "s" : ""}
-      </p>
       {listing.node.type === "group" ? (
         <GroupCards
           items={listing.node.children.map((child) => ({
             title: child.title,
             href: `/guide/${segments.join("/")}/${child.slug}`,
-            count: child.count,
           }))}
         />
       ) : (

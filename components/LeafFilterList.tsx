@@ -22,12 +22,9 @@ export default function LeafFilterList({ items }: { items: NavLeafItem[] }) {
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder={`Filter the ${items.length} references...`}
+            placeholder="Filter references..."
             className="w-full bg-transparent text-sm outline-none placeholder:text-ink-400"
           />
-          <span className="shrink-0 text-xs text-ink-400">
-            {filtered.length}/{items.length}
-          </span>
         </div>
       )}
       <ul className="divide-y divide-ink-100 overflow-hidden rounded-lg border border-ink-200 dark:divide-ink-800 dark:border-ink-800">

@@ -21,7 +21,6 @@ function SelectorGroupRow({
           key={child.slug}
           href={`/guide/selector/${catSlug}/${child.slug}`}
           title={child.title}
-          count={child.count}
           level={level}
         />
       ))}
@@ -44,19 +43,12 @@ export default function Sidebar() {
         Guide Home
       </Link>
 
-      <CategoryRow
-        href="/guide/selector"
-        title={selector.title}
-        count={selector.categories.reduce((s, c) => s + c.count, 0)}
-        defaultOpen
-        level={0}
-      >
+      <CategoryRow href="/guide/selector" title={selector.title} defaultOpen level={0}>
         {selector.categories.map((cat) => (
           <CategoryRow
             key={cat.slug}
             href={`/guide/selector/${cat.slug}`}
             title={cat.title}
-            count={cat.count}
             level={1}
           >
             {cat.nav.type === "group" ? (
