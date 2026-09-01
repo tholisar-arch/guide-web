@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeftRight, Zap } from "lucide-react";
+import { ArrowLeftRight, Sliders, Zap } from "lucide-react";
 import SearchBox from "@/components/SearchBox";
 import { nav } from "@/lib/data";
 import type { ChapterSelector } from "@/lib/types";
@@ -86,6 +86,26 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pb-14">
+        <Link
+          href="/spd-configurator"
+          className="group flex items-center gap-4 rounded-xl border border-ink-200 bg-white p-4 shadow-card transition hover:border-brand-300 hover:shadow-md dark:border-ink-800 dark:bg-ink-900"
+        >
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
+            <Sliders size={20} />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-semibold text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
+              SPD Configurator
+            </span>
+            <span className="block text-sm text-ink-500 dark:text-ink-400">
+              Answer a few questions about your installation to find the
+              right Surge Protection Device family.
+            </span>
+          </span>
+        </Link>
       </section>
     </div>
   );

@@ -1,7 +1,7 @@
 import { nav } from "@/lib/data";
 import type { ChapterSelector, SelectorNavNode } from "@/lib/types";
 import CategoryRow from "@/components/CategoryRow";
-import { Home, ArrowLeftRight } from "lucide-react";
+import { Home, ArrowLeftRight, Sliders } from "lucide-react";
 import Link from "next/link";
 
 function SelectorGroupRow({
@@ -69,6 +69,14 @@ export default function Sidebar() {
           </CategoryRow>
         ))}
       </CategoryRow>
+
+      <Link
+        href="/spd-configurator"
+        className="mt-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+      >
+        <Sliders size={15} />
+        SPD Configurator
+      </Link>
     </nav>
   );
 }
