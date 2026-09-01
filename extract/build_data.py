@@ -393,7 +393,13 @@ def _build_one_table(rows, min_rows=3):
     header_row, unit_width = find_repeating_header(rows)
     if header_row is not None:
         headers = [s["text"] for s in header_row["spans"][:unit_width]]
-        table_rows = []
+        repeat = len(header_row["spans"]) // unit_width
+        # PDF reading order for side-by-side sub-tables is left column top
+        # to bottom, then right column top to bottom (e.g. Part Number
+        # OTS1..OTS200 on the left, OTS225..OTS600 on the right) -- not
+        # interleaved row by row, which is what a naive per-row split
+        # would produce.
+        columns = [[] for _ in range(repeat)]
         consumed = {id(header_row)}
         for r in rows:
             if r is header_row:
@@ -405,8 +411,9 @@ def _build_one_table(rows, min_rows=3):
             for i in range(n // unit_width):
                 group = texts[i * unit_width:(i + 1) * unit_width]
                 if group != headers:  # a repeated header row further down the page
-                    table_rows.append(group)
+                    columns[i].append(group)
             consumed.add(id(r))
+        table_rows = [group for col in columns for group in col]
         if len(table_rows) >= 2:
             return {"type": "table", "headers": headers, "rows": table_rows}, consumed
 
