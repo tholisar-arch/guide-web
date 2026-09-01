@@ -13,6 +13,13 @@ NAV_WORDS = {"About us","Selector","Markets","Knowledge","Web","Back","Next",
 
 MIN_VISIBLE_FONT = 4.0  # PowerPoint AI-alt-text / file-path metadata is embedded at ~1.2pt
 
+# Display-name overrides for a Product Selector category: keyed by the exact
+# heading text as it appears in the PDF, so slugs/sort order (still keyed on
+# the PDF text) stay stable while only the shown title changes.
+CATEGORY_TITLE_OVERRIDES = {
+    "Protection for DC Distribution and Battery": "DC Distribution and Battery",
+}
+
 JUNK_LINE_RE = re.compile(
     r"\\|\.(jpe?g|png|gif|bmp)\b|generado por IA|Interfaz de usuario|"
     r"contenido generado|^[A-Za-z]:\\",
@@ -628,7 +635,7 @@ def walk(node, cat_slug, cat_title, path_titles, subcategory_title):
             walk(child, cat_slug, cat_title, path_titles + [key], sub_title)
 
 for cat, tree in category_trees.items():
-    walk(tree, slugify(cat), cat, [], None)
+    walk(tree, slugify(cat), CATEGORY_TITLE_OVERRIDES.get(cat, cat), [], None)
 
 # Markets (769 index + 770-774)
 add_entry(769, "markets", "Overview", None, [], "Markets overview", ["markets", "overview"])
@@ -749,7 +756,7 @@ selector_categories = []
 overview_pages = [e for e in by_chapter["selector"] if e["category"] == "Overview"]
 for cat, tree in sorted(category_trees.items(), key=lambda kv: category_sort_key(kv[0])):
     selector_categories.append({
-        "title": cat,
+        "title": CATEGORY_TITLE_OVERRIDES.get(cat, cat),
         "slug": slugify(cat),
         "count": count_leaves(tree),
         "nav": node_to_nav(tree, slugify(cat), []),

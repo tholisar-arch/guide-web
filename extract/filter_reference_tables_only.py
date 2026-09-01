@@ -100,7 +100,7 @@ CATEGORY_ORDER = [
     "UL/CSA fuses",
     "High-speed fuses",
     "Medium voltage fuses",
-    "Protection for DC Distribution and Battery",
+    "DC Distribution and Battery",
     "Industrial DC Fuses",
     "Photovoltaic Applications",
     "Surge Protection",
