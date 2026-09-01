@@ -4,9 +4,20 @@
 // page (a leftover authoring bug in the source deck -- e.g. the
 // "Industrial" box on page 757 links back to page 757 itself instead of
 // page 758, which is literally titled "Surge Protection: Industrial").
-// Each such case below is resolved using the destination page's own
-// title as ground truth, or by elimination among its verified siblings
-// when the title itself was the ambiguous one.
+//
+// The hub-level branches (Industrial/Commercial-Residential/Street
+// Lighting/Photovoltaic -> Overview/Highly/Moderately/Basic Protected)
+// are resolved against extract/build_data.py's own breadcrumb-derived
+// "Applications" nav branch for these pages (independent of the PDF's
+// hyperlinks, built the same way as every other category on the site),
+// which is authoritative. The final hop from each protection-level page
+// to a product subcategory (e.g. "Level 1: Main Panel") is verified
+// against the literal PDF link *and* the target page's own title/
+// subcategory, catching the one case where the two disagreed: the
+// Photovoltaic branch's "Junction Box (DC)" literally links to a
+// "Protection for Power Lines" (AC) page in the PDF -- content-checking
+// the surrounding pages shows the very next page is the correct,
+// on-topic "Photovoltaic & Energy Storage" one instead.
 //
 // Terminal answers that landed on a pruned PDF "choose a sub-type" page
 // (no real reference table of its own) point at that subcategory's
@@ -182,7 +193,7 @@ export const SPD_NODES: Record<string, SpdNode> = {
     options: [
       {
         label: "Junction Box (DC)",
-        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
       },
       {
         label: "Distribution Board (AC)",
