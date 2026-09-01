@@ -1,28 +1,29 @@
 // Recreates the PDF's "SPD Configurator" decision tree (source pages
-// 757-768, "Surge Protection: Applications"). Several of the PDF's own
-// internal link targets are self-referencing or point at an unrelated
-// page (a leftover authoring bug in the source deck -- e.g. the
-// "Industrial" box on page 757 links back to page 757 itself instead of
-// page 758, which is literally titled "Surge Protection: Industrial").
+// 757-768, "Surge Protection: Applications").
 //
-// The hub-level branches (Industrial/Commercial-Residential/Street
-// Lighting/Photovoltaic -> Overview/Highly/Moderately/Basic Protected)
-// are resolved against extract/build_data.py's own breadcrumb-derived
-// "Applications" nav branch for these pages (independent of the PDF's
-// hyperlinks, built the same way as every other category on the site),
-// which is authoritative. The final hop from each protection-level page
-// to a product subcategory (e.g. "Level 1: Main Panel") is verified
-// against the literal PDF link *and* the target page's own title/
-// subcategory, catching the one case where the two disagreed: the
-// Photovoltaic branch's "Junction Box (DC)" literally links to a
-// "Protection for Power Lines" (AC) page in the PDF -- content-checking
-// the surrounding pages shows the very next page is the correct,
-// on-topic "Photovoltaic & Energy Storage" one instead.
+// Root cause of every earlier mismatch: PyMuPDF's link dict returns the
+// target page of an internal ("GoTo") link 0-indexed, but every page
+// number elsewhere in this codebase (breadcrumbs, entry.page, nav.json)
+// is the natural 1-indexed page number. Reading a link's raw `page`
+// field as if it were already 1-indexed silently landed one page early
+// every time -- which also happened to make a very large fraction of
+// these links look like they pointed at themselves (an off-by-one
+// looks exactly like a self-link when the source page itself is at
+// index target+1). Adding 1 to every internal link target here removes
+// every apparent "self-link" or off-topic target in this whole section:
+// each box now points at a page whose own title is an exact content
+// match (e.g. Photovoltaic's "Junction Box (DC)" -> a page literally
+// titled "Photovoltaic & Energy Storage", not "Protection for Power
+// Lines" as the unadjusted index suggested).
 //
-// Terminal answers that landed on a pruned PDF "choose a sub-type" page
-// (no real reference table of its own) point at that subcategory's
-// listing page on this site instead of a dead reference; terminal
-// answers that landed on a real kept reference page link to it directly.
+// Each "Level 1/2/3" or "Panel Board" style answer lands on a PDF page
+// that is itself a "choose your system type" sub-menu (L-N / TT / TNC /
+// TNS / IT / N-PE) rather than one specific product -- true in the PDF
+// too, one more click is needed there -- so those answers link to that
+// subcategory's listing page on this site (verified to contain exactly
+// the same set of system-type pages the PDF's own sub-menu links to).
+// Where the PDF's answer is itself a single specific reference page
+// (Street Lighting's Pole and Panel Board), it links there directly.
 
 export type SpdOption = {
   label: string;
@@ -54,13 +55,13 @@ export const SPD_NODES: Record<string, SpdNode> = {
       {
         label:
           "Installation with lightning protection or near an element exposed to impacts",
-        to: "industrial-basic",
+        to: "industrial-highly",
       },
       {
         label: "Installation supplied by overhead transmission lines",
-        to: "industrial-highly",
+        to: "industrial-moderate",
       },
-      { label: "Installation with underground distribution", to: "industrial-moderate" },
+      { label: "Installation with underground distribution", to: "industrial-basic" },
     ],
   },
   "industrial-highly": {
@@ -116,13 +117,13 @@ export const SPD_NODES: Record<string, SpdNode> = {
       {
         label:
           "Installation with lightning protection or near an element exposed to impacts",
-        to: "commercial-basic",
+        to: "commercial-highly",
       },
       {
         label: "Installation supplied by overhead transmission lines",
-        to: "commercial-highly",
+        to: "commercial-moderate",
       },
-      { label: "Installation with underground distribution", to: "commercial-moderate" },
+      { label: "Installation with underground distribution", to: "commercial-basic" },
     ],
   },
   "commercial-highly": {
@@ -180,11 +181,11 @@ export const SPD_NODES: Record<string, SpdNode> = {
     options: [
       {
         label: "Pole",
-        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
       },
       {
         label: "Panel Board",
-        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p695",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
       },
     ],
   },
@@ -193,7 +194,7 @@ export const SPD_NODES: Record<string, SpdNode> = {
     options: [
       {
         label: "Junction Box (DC)",
-        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
       },
       {
         label: "Distribution Board (AC)",

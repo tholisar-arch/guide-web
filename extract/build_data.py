@@ -375,12 +375,13 @@ def build_table_and_paragraphs(rows):
     (table_block, consumed_row_ids) pairs, in page order."""
     rows = [r for r in rows if any(s["text"] not in NAV_WORDS for s in r["spans"])]
     groups = split_by_vertical_gaps(rows)
-    # a lone header+1-data-row table (e.g. a "Fuse Base" accessory section
-    # with a single reference) is too weak a signal on a whole, otherwise
-    # plain-text page, but the vertical-gap split already proves this
-    # particular group is a deliberate, isolated section, so relax the
-    # minimum row count once we know there's more than one such section.
-    min_rows = 2 if len(groups) > 1 else 3
+    # A lone header+1-data-row table (e.g. a single-reference "Protection
+    # for LED lighting" product, or a "Fuse Base" accessory section) is a
+    # real, if small, reference table -- 2 rows sharing at least 2 aligned
+    # columns (checked further down) is already a reasonably strict bar,
+    # so don't require a 3rd row just because the page has only one such
+    # section.
+    min_rows = 2
     tables = []
     for group in groups:
         block, consumed = _build_one_table(group, min_rows=min_rows)
