@@ -620,6 +620,11 @@ SURGE_TYPE_ORDER = [
     "Protection for signal lines",
 ]
 
+def min_page_in_node(node):
+    if node["type"] == "leaves":
+        return min(it["page"] for it in node["items"])
+    return min(min_page_in_node(c["node"]) for c in node["children"])
+
 # selector: rebuild category/subcategory nested nav using category_trees (with counts)
 def node_to_nav(node, cat_slug, path_titles):
     if node["type"] == "leaves":
@@ -641,7 +646,7 @@ def node_to_nav(node, cat_slug, path_titles):
     if cat_slug == "surge-protection" and not path_titles:
         children.sort(key=lambda c: SURGE_TYPE_ORDER.index(c["title"]) if c["title"] in SURGE_TYPE_ORDER else len(SURGE_TYPE_ORDER))
     else:
-        children.sort(key=lambda c: -c["count"])
+        children.sort(key=lambda c: min_page_in_node(c["node"]))
     return {"type": "group", "children": children}
 
 def count_leaves(node):
