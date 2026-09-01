@@ -1,17 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Layers, ShieldCheck, Zap, Sun } from "lucide-react";
+import { Zap } from "lucide-react";
 import SearchBox from "@/components/SearchBox";
 import { nav } from "@/lib/data";
 import type { ChapterSelector } from "@/lib/types";
-
-const CATEGORY_ICONS: Record<string, JSX.Element> = {
-  "iec-fuses": <Zap size={18} />,
-  "high-speed-fuses": <Zap size={18} />,
-  "surge-protection": <ShieldCheck size={18} />,
-  "medium-voltage-fuses": <Layers size={18} />,
-  "photovoltaic-applications": <Sun size={18} />,
-};
 
 export default function HomePage() {
   const selector = nav.chapters.find(
@@ -66,7 +58,7 @@ export default function HomePage() {
               className="group flex items-center gap-3 rounded-xl border border-ink-200 bg-white p-4 shadow-card transition hover:border-brand-300 hover:shadow-md dark:border-ink-800 dark:bg-ink-900"
             >
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
-                {CATEGORY_ICONS[cat.slug] ?? <Layers size={18} />}
+                <Zap size={18} />
               </span>
               <span className="min-w-0 flex-1 truncate font-medium text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
                 {cat.title}
