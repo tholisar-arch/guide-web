@@ -25,12 +25,12 @@ export default function LeafPageView({
         {entry.title}
       </h1>
       <p className="mb-6 text-sm text-ink-400">
-        Page {entry.page} du guide
+        Page {entry.page} of the guide
         {parentHref && (
           <>
             {" · "}
             <Link href={parentHref} className="text-brand-600 hover:underline dark:text-brand-400">
-              retour à la liste
+              back to the list
             </Link>
           </>
         )}
@@ -65,8 +65,8 @@ export default function LeafPageView({
       {entry.blocks.length === 0 && entry.images.length === 0 && (
         <p className="flex items-center gap-2 rounded-lg border border-dashed border-ink-200 px-4 py-6 text-sm text-ink-400 dark:border-ink-800">
           <ImageIcon size={16} />
-          Contenu principalement visuel &mdash; consultez la page originale
-          ci-dessous.
+          This page is mostly visual &mdash; see the original page
+          below.
         </p>
       )}
 

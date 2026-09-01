@@ -6,7 +6,7 @@ export type Crumb = { title: string; href?: string };
 export default function Breadcrumbs({ items }: { items: Crumb[] }) {
   return (
     <nav
-      aria-label="Fil d'Ariane"
+      aria-label="Breadcrumb"
       className="flex flex-wrap items-center gap-1 text-xs text-ink-500 dark:text-ink-400"
     >
       {items.map((c, i) => (

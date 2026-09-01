@@ -12,7 +12,7 @@ export default function OriginalPageToggle({
     <details className="group mt-6 rounded-xl border border-ink-200 bg-white dark:border-ink-800 dark:bg-ink-900">
       <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-3 text-sm font-medium text-ink-500 [&::-webkit-details-marker]:hidden dark:text-ink-400">
         <ImageIcon size={15} />
-        Voir la page originale du guide (mise en page d&apos;origine)
+        View the original guide page (original layout)
       </summary>
       <div className="border-t border-ink-100 p-4 dark:border-ink-800">
         <Image

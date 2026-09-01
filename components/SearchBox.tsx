@@ -130,7 +130,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
               setQuery(e.target.value);
               setOpen(true);
             }}
-            placeholder="Rechercher dans le guide... (fusibles, SPD, tension...)"
+            placeholder="Search the guide... (fuses, SPD, voltage...)"
             className="w-full bg-transparent text-ink-800 outline-none placeholder:text-ink-400 dark:text-ink-100"
           />
           {query && (
@@ -138,7 +138,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
               type="button"
               onClick={() => setQuery("")}
               className="text-ink-400 hover:text-ink-600"
-              aria-label="Effacer"
+              aria-label="Clear"
             >
               <X size={14} />
             </button>
@@ -155,7 +155,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
         <div className="absolute left-0 right-0 top-full z-30 mt-2 max-h-96 overflow-y-auto rounded-lg border border-ink-200 bg-white p-1 shadow-lg dark:border-ink-700 dark:bg-ink-900">
           {results.length === 0 ? (
             <p className="px-3 py-3 text-sm text-ink-400">
-              Aucun résultat pour « {query} »
+              No results for &ldquo;{query}&rdquo;
             </p>
           ) : (
             <>
@@ -178,7 +178,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
                 onClick={(e) => onSubmit(e)}
                 className="mt-1 w-full rounded-md px-3 py-2 text-left text-sm text-brand-600 hover:bg-ink-100 dark:hover:bg-ink-800"
               >
-                Voir tous les résultats pour « {query} » &rarr;
+                View all results for &ldquo;{query}&rdquo; &rarr;
               </button>
             </>
           )}

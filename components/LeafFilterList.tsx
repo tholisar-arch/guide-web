@@ -22,7 +22,7 @@ export default function LeafFilterList({ items }: { items: NavLeafItem[] }) {
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder={`Filtrer les ${items.length} références...`}
+            placeholder={`Filter the ${items.length} references...`}
             className="w-full bg-transparent text-sm outline-none placeholder:text-ink-400"
           />
           <span className="shrink-0 text-xs text-ink-400">
@@ -47,7 +47,7 @@ export default function LeafFilterList({ items }: { items: NavLeafItem[] }) {
         ))}
         {filtered.length === 0 && (
           <li className="bg-white px-3 py-4 text-center text-sm text-ink-400 dark:bg-ink-900">
-            Aucune référence trouvée.
+            No references found.
           </li>
         )}
       </ul>

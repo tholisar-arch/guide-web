@@ -28,7 +28,7 @@ export default function Shell({
         <button
           onClick={() => setOpen((v) => !v)}
           className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-ink-600 hover:bg-ink-100 lg:hidden dark:text-ink-300 dark:hover:bg-ink-800"
-          aria-label="Ouvrir le menu"
+          aria-label="Open menu"
         >
           {open ? <X size={19} /> : <Menu size={19} />}
         </button>

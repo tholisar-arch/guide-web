@@ -22,7 +22,7 @@ export default function GroupCards({
               {it.title}
             </span>
             <span className="text-xs text-ink-400">
-              {it.count} référence{it.count > 1 ? "s" : ""}
+              {it.count} reference{it.count > 1 ? "s" : ""}
             </span>
           </span>
           <ArrowRight

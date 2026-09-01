@@ -30,7 +30,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggle}
-      aria-label="Basculer le thème"
+      aria-label="Toggle theme"
       className="flex h-9 w-9 items-center justify-center rounded-md text-ink-500 hover:bg-ink-100 dark:text-ink-300 dark:hover:bg-ink-800"
     >
       {dark ? <Sun size={17} /> : <Moon size={17} />}

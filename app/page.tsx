@@ -34,60 +34,60 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b border-ink-200 bg-gradient-to-b from-brand-50 via-white to-white dark:border-ink-800 dark:from-ink-900 dark:via-ink-950 dark:to-ink-950">
         <div className="mx-auto max-w-4xl px-4 py-16 text-center sm:py-24">
           <span className="mb-4 inline-block rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700 dark:bg-brand-950 dark:text-brand-300">
-            Guide interactif · Édition 2026 Europe
+            Interactive Guide · 2026 Europe Edition
           </span>
           <h1 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-5xl dark:text-white">
             Selection Guide
             <span className="block text-brand-600 dark:text-brand-400">
-              Protection électrique
+              Electrical Protection
             </span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-ink-600 sm:text-lg dark:text-ink-300">
-            Retrouvez l&apos;intégralité du guide papier transformé en site
-            web : fusibles, parafoudres, solutions photovoltaïques et outils
-            de sélection, organisés par famille de produits et
-            entièrement consultables sur mobile, tablette et ordinateur.
+            The full print guide, transformed into a website: fuses, surge
+            protection devices, photovoltaic solutions, and selection
+            tools, organized by product family and fully browsable on
+            mobile, tablet, and desktop.
           </p>
           <div className="mx-auto mt-8 max-w-xl">
             <SearchBox variant="hero" />
           </div>
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-4 sm:grid-cols-4">
-            <Stat value={stats.totalPages} label="Pages du guide" />
-            <Stat value={stats.categories} label="Familles produits" />
-            <Stat value={stats.productFamilies} label="Références" />
-            <Stat value={stats.markets} label="Marchés couverts" />
+            <Stat value={stats.totalPages} label="Guide pages" />
+            <Stat value={stats.categories} label="Product families" />
+            <Stat value={stats.productFamilies} label="References" />
+            <Stat value={stats.markets} label="Markets covered" />
           </div>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14">
         <h2 className="mb-6 text-xl font-semibold text-ink-900 dark:text-white">
-          Parcourir le guide
+          Browse the guide
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <ChapterCard
             href="/guide/about"
             icon={<BookOpen size={20} />}
-            title="À propos"
-            desc="Expertise, chiffres clés et engagement durable du groupe."
+            title="About Us"
+            desc="Expertise, key figures, and the group's commitment to sustainability."
           />
           <ChapterCard
             href="/guide/selector"
             icon={<Layers size={20} />}
-            title="Sélecteur de produits"
-            desc={`${stats.productFamilies} références réparties dans ${stats.categories} familles de produits.`}
+            title="Product Selector"
+            desc={`${stats.productFamilies} references across ${stats.categories} product families.`}
           />
           <ChapterCard
             href="/guide/markets"
             icon={<Globe2 size={20} />}
-            title="Marchés"
-            desc="Solutions par secteur : industrie, distribution, solaire, éclairage..."
+            title="Markets"
+            desc="Solutions by sector: industrial, distribution, solar, lighting..."
           />
           <ChapterCard
             href="/guide/knowledge"
             icon={<Lightbulb size={20} />}
-            title="Centre de connaissances"
-            desc="Guides de sélection, FAQ techniques et bonnes pratiques."
+            title="Knowledge Centre"
+            desc="Selection guides, technical FAQs, and best practices."
           />
         </div>
       </section>
@@ -95,13 +95,13 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pb-16">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-xl font-semibold text-ink-900 dark:text-white">
-            Familles de produits
+            Product Families
           </h2>
           <Link
             href="/guide/selector"
             className="flex items-center gap-1 text-sm font-medium text-brand-600 hover:underline dark:text-brand-400"
           >
-            Tout voir <ArrowRight size={14} />
+            View all <ArrowRight size={14} />
           </Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -119,7 +119,7 @@ export default function HomePage() {
                   {cat.title}
                 </span>
                 <span className="text-xs text-ink-400">
-                  {cat.count} référence{cat.count > 1 ? "s" : ""}
+                  {cat.count} reference{cat.count > 1 ? "s" : ""}
                 </span>
               </span>
             </Link>
@@ -130,7 +130,7 @@ export default function HomePage() {
       <section className="border-t border-ink-200 bg-ink-50 dark:border-ink-800 dark:bg-ink-900/40">
         <div className="mx-auto max-w-6xl px-4 py-14">
           <h2 className="mb-6 text-xl font-semibold text-ink-900 dark:text-white">
-            Marchés desservis
+            Markets Served
           </h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
             {markets.items.map((m) => (
@@ -155,7 +155,7 @@ function Stat({ value, label }: { value: number; label: string }) {
   return (
     <div className="rounded-lg border border-ink-200 bg-white/70 py-3 dark:border-ink-800 dark:bg-ink-900/50">
       <div className="text-2xl font-bold text-brand-600 dark:text-brand-400">
-        {value.toLocaleString("fr-FR")}
+        {value.toLocaleString("en-US")}
       </div>
       <div className="text-xs text-ink-500 dark:text-ink-400">{label}</div>
     </div>
@@ -188,7 +188,7 @@ function ChapterCard({
         {desc}
       </span>
       <span className="mt-3 flex items-center gap-1 text-sm font-medium text-brand-600 group-hover:gap-2 dark:text-brand-400">
-        Explorer <ArrowRight size={14} className="transition-all" />
+        Explore <ArrowRight size={14} className="transition-all" />
       </span>
     </Link>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Selection Guide 2026 Europe",
   },
   description:
-    "Guide interactif de sélection des produits de protection électrique : fusibles basse et moyenne tension, fusibles ultra-rapides, parafoudres et solutions photovoltaïques.",
+    "Interactive selection guide for electrical protection products: low and medium voltage fuses, high-speed fuses, surge protection devices, and photovoltaic solutions.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body className="bg-white text-ink-800 dark:bg-ink-950 dark:text-ink-100">
         <Shell sidebar={<Sidebar />}>{children}</Shell>
       </body>

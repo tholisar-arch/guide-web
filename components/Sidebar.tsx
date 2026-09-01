@@ -54,7 +54,7 @@ export default function Sidebar() {
         className="mb-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
       >
         <Home size={15} />
-        Accueil du guide
+        Guide Home
       </Link>
 
       <CategoryRow href="/guide/about" title={about.title} level={0}>

@@ -46,7 +46,7 @@ export default function SearchPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="mb-4 text-2xl font-bold text-ink-900 dark:text-white">
-        Recherche
+        Search
       </h1>
       <form onSubmit={onSubmit} className="mb-8">
         <div className="flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2.5 shadow-sm focus-within:border-brand-500 dark:border-ink-700 dark:bg-ink-900">
@@ -54,7 +54,7 @@ export default function SearchPage() {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Rechercher dans le guide..."
+            placeholder="Search the guide..."
             autoFocus
             className="w-full bg-transparent text-sm outline-none placeholder:text-ink-400"
           />
@@ -63,8 +63,8 @@ export default function SearchPage() {
 
       {q.trim() && (
         <p className="mb-4 text-sm text-ink-500 dark:text-ink-400">
-          {results.length} résultat{results.length !== 1 ? "s" : ""} pour «{" "}
-          <strong>{q}</strong> »
+          {results.length} result{results.length !== 1 ? "s" : ""} for{" "}
+          &ldquo;<strong>{q}</strong>&rdquo;
         </p>
       )}
 
@@ -95,7 +95,7 @@ export default function SearchPage() {
         ))}
         {q.trim() && results.length === 0 && (
           <li className="bg-white px-4 py-8 text-center text-sm text-ink-400 dark:bg-ink-900">
-            Aucun résultat. Essayez un autre terme.
+            No results. Try a different search term.
           </li>
         )}
       </ul>

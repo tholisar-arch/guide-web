@@ -69,7 +69,7 @@ export default function GuidePage({
     const parentSegments = segments.slice(0, -1);
     const chain = getListingChain(parentSegments);
     const crumbs = [
-      { title: "Accueil", href: "/" },
+      { title: "Home", href: "/" },
       ...chainToCrumbs(chain, false),
       { title: entry.title },
     ];
@@ -86,7 +86,7 @@ export default function GuidePage({
 
   const chain = getListingChain(segments);
   const crumbs = [
-    { title: "Accueil", href: "/" },
+    { title: "Home", href: "/" },
     ...chainToCrumbs(chain, true),
   ];
 
@@ -127,8 +127,8 @@ export default function GuidePage({
             {c.title}
           </h1>
           <p className="mb-6 max-w-2xl text-sm text-ink-500 dark:text-ink-400">
-            Parcourez l&apos;ensemble des familles de produits de protection
-            électrique : fusibles, parafoudres et solutions photovoltaïques.
+            Browse the full range of electrical protection product families:
+            fuses, surge protection devices, and photovoltaic solutions.
           </p>
           {c.overview.length > 0 && (
             <div className="mb-6">
@@ -206,7 +206,7 @@ export default function GuidePage({
         {title}
       </h1>
       <p className="mb-6 text-sm text-ink-500 dark:text-ink-400">
-        {total} référence{total > 1 ? "s" : ""} de produits
+        {total} product reference{total > 1 ? "s" : ""}
       </p>
       {listing.node.type === "group" ? (
         <GroupCards
