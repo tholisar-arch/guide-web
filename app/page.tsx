@@ -19,7 +19,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <section className="relative overflow-hidden border-b border-ink-200 bg-gradient-to-b from-brand-50 via-white to-white dark:border-ink-800 dark:from-ink-900 dark:via-ink-950 dark:to-ink-950">
+      <section className="relative border-b border-ink-200 bg-gradient-to-b from-brand-50 via-white to-white dark:border-ink-800 dark:from-ink-900 dark:via-ink-950 dark:to-ink-950">
         <div className="mx-auto max-w-4xl px-4 py-16 text-center sm:py-24">
           <span className="mb-4 inline-block rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700 dark:bg-brand-950 dark:text-brand-300">
             Interactive Product Selector · 2026 Europe Edition
