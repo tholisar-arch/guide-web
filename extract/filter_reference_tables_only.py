@@ -94,6 +94,54 @@ def prune_node(node):
     return node if new_children else None
 
 
+CATEGORY_ORDER = [
+    "Miniature fuses",
+    "IEC fuses",
+    "UL/CSA fuses",
+    "High-speed fuses",
+    "Medium voltage fuses",
+    "Protection for DC Distribution and Battery",
+    "Industrial DC Fuses",
+    "Photovoltaic Applications",
+    "Surge Protection",
+]
+
+SURGE_TYPE_ORDER = [
+    "Type: 1",
+    "Type: 1+2",
+    "Type: 2",
+    "Type: 2+3",
+    "Protection for signal lines",
+]
+
+
+def min_page_in_node(node):
+    if node["type"] == "leaves":
+        return min(it["page"] for it in node["items"])
+    return min(min_page_in_node(c["node"]) for c in node["children"])
+
+
+def resort_node(node, cat_slug, is_top):
+    """build_data.py orders group children by each subtree's earliest PDF
+    page, computed *before* this script prunes out the "no real reference
+    table" pages (overview/index pages, which often have a lower page
+    number than the detail pages under them). Once those are pruned, a
+    subtree's true earliest page can shift, so re-sort using the
+    already-pruned tree instead of trusting the pre-prune order."""
+    if node["type"] == "leaves":
+        return
+    if cat_slug == "surge-protection" and is_top:
+        node["children"].sort(
+            key=lambda c: SURGE_TYPE_ORDER.index(c["title"])
+            if c["title"] in SURGE_TYPE_ORDER
+            else len(SURGE_TYPE_ORDER)
+        )
+    else:
+        node["children"].sort(key=lambda c: min_page_in_node(c["node"]))
+    for child in node["children"]:
+        resort_node(child["node"], cat_slug, False)
+
+
 selector = next(c for c in nav["chapters"] if c["slug"] == "selector")
 selector["overview"] = [
     it for it in selector["overview"] if it["slug"] in kept_slugs
@@ -104,7 +152,9 @@ for cat in selector["categories"]:
     if pruned is not None:
         cat["nav"] = pruned
         cat["count"] = count_leaves(pruned)
+        resort_node(cat["nav"], cat["slug"], True)
         new_categories.append(cat)
+new_categories.sort(key=lambda c: CATEGORY_ORDER.index(c["title"]) if c["title"] in CATEGORY_ORDER else len(CATEGORY_ORDER))
 selector["categories"] = new_categories
 print("categories kept:", [c["title"] for c in new_categories])
 

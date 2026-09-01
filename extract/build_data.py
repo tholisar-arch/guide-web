@@ -338,12 +338,51 @@ def find_repeating_header(rows, scan_limit=6):
                 return r, k
     return None, None
 
+def split_by_vertical_gaps(rows):
+    """A page can stack two unrelated tables with different columns (e.g. a
+    fuse-reference table followed by a separate "Fuse Base" accessory
+    table further down). Column-binning them together skews both tables'
+    bins toward whichever has more rows, misaligning or dropping the
+    other's cells. Split rows into contiguous groups wherever consecutive
+    multi-span rows are separated by an unusually large vertical gap, so
+    each candidate table is column-binned independently."""
+    candidates = sorted([r for r in rows if len(r["spans"]) >= 2], key=lambda r: r["y"])
+    if len(candidates) < 4:
+        return [rows]
+    gaps = [candidates[i + 1]["y"] - candidates[i]["y"] for i in range(len(candidates) - 1)]
+    typical = sorted(gaps)[len(gaps) // 2]
+    threshold = max(3 * typical, 25)
+    break_ys = [candidates[i + 1]["y"] for i, g in enumerate(gaps) if g > threshold]
+    if not break_ys:
+        return [rows]
+    boundaries = [-1] + break_ys + [float("inf")]
+    groups = []
+    for i in range(len(boundaries) - 1):
+        lo, hi = boundaries[i], boundaries[i + 1]
+        groups.append([r for r in rows if lo <= r["y"] < hi])
+    return [g for g in groups if g]
+
 def build_table_and_paragraphs(rows):
-    """Try to find one repeating tabular grid among `rows`. Returns (table_block_or_None, consumed_row_ids)."""
-    # the bottom "About us / Selector / Markets / Knowledge / Web" nav bar
-    # can otherwise partially bin-match (a single word landing in a real
-    # column's x-range) and leak a junk mostly-empty row into the table
+    """Find one or more tabular grids among `rows` (see split_by_vertical_gaps
+    for why a page can hold more than one). Returns a list of
+    (table_block, consumed_row_ids) pairs, in page order."""
     rows = [r for r in rows if any(s["text"] not in NAV_WORDS for s in r["spans"])]
+    groups = split_by_vertical_gaps(rows)
+    # a lone header+1-data-row table (e.g. a "Fuse Base" accessory section
+    # with a single reference) is too weak a signal on a whole, otherwise
+    # plain-text page, but the vertical-gap split already proves this
+    # particular group is a deliberate, isolated section, so relax the
+    # minimum row count once we know there's more than one such section.
+    min_rows = 2 if len(groups) > 1 else 3
+    tables = []
+    for group in groups:
+        block, consumed = _build_one_table(group, min_rows=min_rows)
+        if block is not None:
+            tables.append((block, consumed))
+    return tables
+
+def _build_one_table(rows, min_rows=3):
+    """Try to find one repeating tabular grid among `rows`. Returns (table_block_or_None, consumed_row_ids)."""
     header_row, unit_width = find_repeating_header(rows)
     if header_row is not None:
         headers = [s["text"] for s in header_row["spans"][:unit_width]]
@@ -368,7 +407,7 @@ def build_table_and_paragraphs(rows):
     if not colcounts:
         return None, set()
     mode_val, support = colcounts.most_common(1)[0]
-    if support < 3:
+    if support < min_rows:
         return None, set()
 
     exact_rows = [r for r in rows if len(r["spans"]) == mode_val]
@@ -389,13 +428,13 @@ def build_table_and_paragraphs(rows):
         if assignment is not None and len(assignment) >= min_matched:
             qualifying.append((r, assignment))
 
-    if len(qualifying) < 3:
+    if len(qualifying) < min_rows:
         return None, set()
 
     headers = None
     data = qualifying
     first_row, first_assignment = qualifying[0]
-    if len(first_assignment) == mode_val and len(qualifying) >= 3:
+    if len(first_assignment) == mode_val and len(qualifying) >= min_rows:
         headers = [first_assignment.get(i, "") for i in range(mode_val)]
         data = qualifying[1:]
 
@@ -410,14 +449,15 @@ def build_table_and_paragraphs(rows):
 def build_blocks_tabular(spans, extra_excluded=frozenset()):
     """For product-selector pages: real font, may contain a genuine spec table."""
     rows = cluster_rows(spans)
-    table_block, consumed = build_table_and_paragraphs(rows)
+    tables = build_table_and_paragraphs(rows)  # [(block, consumed_ids), ...] in page order
+    consumed = set().union(*[c for _, c in tables]) if tables else set()
+    pending = list(tables)
     blocks = []
-    emitted_table = False
     for r in rows:
         if id(r) in consumed:
-            if not emitted_table:
-                blocks.append(table_block)
-                emitted_table = True
+            if pending and id(r) in pending[0][1]:
+                blocks.append(pending[0][0])
+                pending.pop(0)
             continue
         kept = [s for s in r["spans"] if s["text"] not in NAV_WORDS and s["text"] not in extra_excluded]
         if not kept:
