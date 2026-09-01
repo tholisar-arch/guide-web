@@ -146,16 +146,21 @@ def _bbox_intersects(a, b, pad=6):
     bx0, by0, bx1, by1 = b
     return not (ax1 + pad < bx0 or bx1 + pad < ax0 or ay1 + pad < by0 or by1 + pad < ay0)
 
+GENERIC_URIS = {"https://www.mersen.com/en"}  # footer "Web" link, not a product resource
+
 def extract_resource_links(page):
     """Datasheet / accessory (fuse base, microswitches, ...) links the PDF
     points at each product page's icon+caption pair. We match each hyperlink
     rect to the caption text sitting on top of it (bbox intersection) rather
     than trusting link order, since every link appears twice in the PDF (an
     icon rect and a text rect) and pages can host several stacked datasheets.
-    Datasheet is always sorted first per the site's convention."""
+    Includes any external link with a matched caption -- not just PDFs, since
+    several accessories (Multivert(R) FSD, Multibloc(R) FSD, ProGrid Smart
+    FSD, ...) link to a mersen.com catalog page rather than a downloadable
+    file. Datasheet is always sorted first per the site's convention."""
     links = [
         l for l in page.get_links()
-        if l.get("kind") == 2 and ".pdf" in l.get("uri", "").lower()
+        if l.get("kind") == 2 and l.get("uri", "") not in GENERIC_URIS
     ]
     if not links:
         return []
