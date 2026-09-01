@@ -20,6 +20,12 @@ export function generateStaticParams() {
   return getAllParams();
 }
 
+function stripKnownPrefix(title: string, prefix: string): string {
+  if (!prefix || title === prefix) return title;
+  const withDash = prefix + " - ";
+  return title.startsWith(withDash) ? title.slice(withDash.length) : title;
+}
+
 function chainToCrumbs(chain: { title: string; href: string }[], dropLastHref = true) {
   return chain.map((c, i) => ({
     title: c.title,
@@ -126,7 +132,12 @@ export default function GuidePage({
           }))}
         />
       ) : (
-        <LeafFilterList items={flattenLeaves(listing.node)} />
+        <LeafFilterList
+          items={flattenLeaves(listing.node).map((it) => ({
+            ...it,
+            title: stripKnownPrefix(it.title, listing.pathTitles.join(" - ")),
+          }))}
+        />
       )}
     </SelectorFrame>
   );
