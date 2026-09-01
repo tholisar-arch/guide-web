@@ -110,21 +110,6 @@ export default function XrefSearch() {
                 </span>
               )}
             </div>
-            {r.e.refs.length > 0 && (
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {r.e.refs.map((ref) => (
-                  <span
-                    key={ref.brand}
-                    className="rounded-md bg-ink-50 px-2 py-1 text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300"
-                  >
-                    <span className="font-medium text-ink-500 dark:text-ink-400">
-                      {ref.brand}:
-                    </span>{" "}
-                    <span className="font-mono">{ref.ref}</span>
-                  </span>
-                ))}
-              </div>
-            )}
           </li>
         ))}
         {query.trim().length >= 2 && results.length === 0 && (
