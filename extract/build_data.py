@@ -141,6 +141,57 @@ def get_spans(page):
                 })
     return spans
 
+def _bbox_intersects(a, b, pad=6):
+    ax0, ay0, ax1, ay1 = a
+    bx0, by0, bx1, by1 = b
+    return not (ax1 + pad < bx0 or bx1 + pad < ax0 or ay1 + pad < by0 or by1 + pad < ay0)
+
+def extract_resource_links(page):
+    """Datasheet / accessory (fuse base, microswitches, ...) links the PDF
+    points at each product page's icon+caption pair. We match each hyperlink
+    rect to the caption text sitting on top of it (bbox intersection) rather
+    than trusting link order, since every link appears twice in the PDF (an
+    icon rect and a text rect) and pages can host several stacked datasheets.
+    Datasheet is always sorted first per the site's convention."""
+    links = [
+        l for l in page.get_links()
+        if l.get("kind") == 2 and ".pdf" in l.get("uri", "").lower()
+    ]
+    if not links:
+        return []
+    d = page.get_text("dict")
+    spans = []
+    for b in d["blocks"]:
+        if "lines" not in b:
+            continue
+        for l in b["lines"]:
+            for s in l["spans"]:
+                t = s["text"].strip()
+                if t:
+                    spans.append({"text": t, "bbox": s["bbox"]})
+
+    uris = {}
+    for l in links:
+        uris.setdefault(l["uri"], []).append(l["from"])
+
+    results = []
+    for uri, rects in uris.items():
+        label = None
+        for r in rects:
+            rbbox = (r.x0, r.y0, r.x1, r.y1)
+            cands = [s for s in spans if _bbox_intersects(rbbox, s["bbox"])]
+            if cands:
+                label = cands[0]["text"]
+                break
+        if not label:
+            continue
+        results.append({"label": label, "url": uri, "_y": min(r.y0 for r in rects)})
+
+    results.sort(key=lambda r: (r["label"] != "Datasheet", r["_y"]))
+    for r in results:
+        del r["_y"]
+    return results
+
 def extract_breadcrumb(spans):
     cand = [s for s in spans if s["size"] == 14.0]
     if not cand:
@@ -377,6 +428,7 @@ for i in range(NPAGES):
         "text": text,
         "blocks": blocks,
         "images": images,
+        "resource_links": extract_resource_links(page),
     })
     if pno % 100 == 0:
         print("processed", pno)
@@ -402,6 +454,7 @@ def add_entry(p, chapter, category, subcategory, tail_segments, title, slug_part
         "images": d["images"],
         "screenshot": f"/pages/{p}.webp",
         "slug": slug,
+        "resourceLinks": d["resource_links"],
     })
 
 # Cover

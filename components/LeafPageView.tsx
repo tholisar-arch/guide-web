@@ -4,6 +4,7 @@ import type { PageEntry } from "@/lib/types";
 import { getAdjacentPages } from "@/lib/data";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import ContentBlocks from "@/components/ContentBlocks";
+import ResourceLinks from "@/components/ResourceLinks";
 import SelectorFrame from "@/components/SelectorFrame";
 
 export default function LeafPageView({
@@ -29,6 +30,8 @@ export default function LeafPageView({
         </p>
 
         <ContentBlocks blocks={entry.blocks} />
+
+        <ResourceLinks links={entry.resourceLinks ?? []} />
 
         <div className="mt-8 flex items-center justify-between gap-3 border-t border-ink-200 pt-6 dark:border-ink-800">
           {prev ? (

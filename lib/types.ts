@@ -12,6 +12,11 @@ export type ParagraphBlock = {
 
 export type ContentBlock = TableBlock | ParagraphBlock;
 
+export type ResourceLink = {
+  label: string;
+  url: string;
+};
+
 export type PageEntry = {
   page: number;
   chapter: "cover" | "about" | "selector" | "markets" | "knowledge";
@@ -22,6 +27,7 @@ export type PageEntry = {
   text: string;
   blocks: ContentBlock[];
   slug: string;
+  resourceLinks?: ResourceLink[];
 };
 
 export type NavLeafItem = {
