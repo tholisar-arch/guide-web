@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Zap } from "lucide-react";
+import { ArrowLeftRight, Zap } from "lucide-react";
 import SearchBox from "@/components/SearchBox";
 import { nav } from "@/lib/data";
 import type { ChapterSelector } from "@/lib/types";
@@ -44,6 +44,26 @@ export default function HomePage() {
             <SearchBox variant="hero" />
           </div>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pt-10">
+        <Link
+          href="/xref"
+          className="group flex items-center gap-4 rounded-xl border border-ink-200 bg-white p-4 shadow-card transition hover:border-brand-300 hover:shadow-md dark:border-ink-800 dark:bg-ink-900"
+        >
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
+            <ArrowLeftRight size={20} />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-semibold text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
+              Cross Reference Search
+            </span>
+            <span className="block text-sm text-ink-500 dark:text-ink-400">
+              Find the equivalent Mersen reference for a competitor part
+              number (Citel, Dehn, Eaton, Siemens, and more).
+            </span>
+          </span>
+        </Link>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14">

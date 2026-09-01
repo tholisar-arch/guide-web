@@ -90,3 +90,14 @@ export type Chapter =
 export type NavRoot = {
   chapters: Chapter[];
 };
+
+export type XrefCompetitorRef = {
+  brand: string;
+  ref: string;
+};
+
+export type XrefEntry = {
+  pn: string;
+  desc: string;
+  refs: XrefCompetitorRef[];
+};
