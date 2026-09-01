@@ -628,7 +628,7 @@ def node_to_nav(node, cat_slug, path_titles):
             p = leaf["page"]
             match = next(e for e in entries if e["page"] == p)
             items.append({"title": match["title"], "slug": match["slug"], "page": p})
-        items.sort(key=lambda x: x["title"])
+        items.sort(key=lambda x: x["page"])
         return {"type": "leaves", "items": items}
     children = []
     for key, child in node["children"].items():
