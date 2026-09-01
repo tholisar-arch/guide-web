@@ -6,6 +6,166 @@
    "overview": [],
    "categories": [
     {
+     "title": "Miniature fuses",
+     "slug": "miniature-fuses",
+     "count": 18,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Ceramic fuses",
+        "slug": "ceramic-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Size: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Ceramic fuses - Size: 5 x 20 mm - Fast Acting",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
+              "page": 27
+             },
+             {
+              "title": "Ceramic fuses - Size: 5 x 20 mm - Fast Acting - Assortment box Part Number: B229863",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p28",
+              "page": 28
+             },
+             {
+              "title": "Ceramic fuses - Size: 5 x 20 mm - Medium Acting",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
+              "page": 26
+             },
+             {
+              "title": "Ceramic fuses - Size: 5 x 20 mm - Time Delay",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p24",
+              "page": 24
+             },
+             {
+              "title": "Ceramic fuses - Size: 5 x 20 mm - Time Delay - Assortment box Part Number: C229864",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p25",
+              "page": 25
+             },
+             {
+              "title": "Ceramic fuses - Size: 5 x 20 mm - Very Fast Acting",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p29",
+              "page": 29
+             }
+            ]
+           }
+          },
+          {
+           "title": "Size: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Ceramic fuses - Size: 6 x 32 mm - Fast Acting",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
+              "page": 32
+             },
+             {
+              "title": "Ceramic fuses - Size: 6 x 32 mm - Medium Acting",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
+              "page": 31
+             },
+             {
+              "title": "Ceramic fuses - Size: 6 x 32 mm - Time Delay",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p30",
+              "page": 30
+             },
+             {
+              "title": "Ceramic fuses - Size: 6 x 32 mm - Very Fast Acting",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p33",
+              "page": 33
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Glass fuses",
+        "slug": "glass-fuses",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Size: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Glass fuses - Size: 5 x 20 mm - Fast Acting",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
+              "page": 20
+             },
+             {
+              "title": "Glass fuses - Size: 5 x 20 mm - Fast Acting - Assortment box Part Number: G203763",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p21",
+              "page": 21
+             },
+             {
+              "title": "Glass fuses - Size: 5 x 20 mm - Medium Acting",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
+              "page": 18
+             },
+             {
+              "title": "Glass fuses - Size: 5 x 20 mm - Medium Acting - Assortment box Part Number: P233440",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
+              "page": 19
+             },
+             {
+              "title": "Glass fuses - Size: 5 x 20 mm - Time Delay",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p16",
+              "page": 16
+             },
+             {
+              "title": "Glass fuses - Size: 5 x 20 mm - Time Delay - Assortment box Part Number: H203764",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p17",
+              "page": 17
+             }
+            ]
+           }
+          },
+          {
+           "title": "Size: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Glass fuses - Size: 6 x 32 mm - Fast Acting",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
+              "page": 23
+             },
+             {
+              "title": "Glass fuses - Size: 6 x 32 mm - Time Delay",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p22",
+              "page": 22
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
      "title": "IEC fuses",
      "slug": "iec-fuses",
      "count": 150,
@@ -955,6 +1115,266 @@
               "title": "Type: gG Flink - Size: DIII",
               "slug": "selector/iec-fuses/type-gg-flink/size-diii/p147",
               "page": 147
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "UL/CSA fuses",
+     "slug": "ul-csa-fuses",
+     "count": 20,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Time Delay",
+        "slug": "time-delay",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Class CC",
+           "slug": "class-cc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Time Delay - Class CC - Range: ATDR - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
+              "page": 303
+             },
+             {
+              "title": "Time Delay - Class CC - Range: ATQR - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p304",
+              "page": 304
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Time Delay - Midget - Rated voltage: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
+              "page": 306
+             },
+             {
+              "title": "Time Delay - Midget - Rated voltage: 500 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p307",
+              "page": 307
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Time Delay - Class RK1 - Rated voltage: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
+              "page": 310
+             },
+             {
+              "title": "Time Delay - Class RK1 - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p311",
+              "page": 311
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class RK5",
+           "slug": "class-rk5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Time Delay - Class RK5 - Rated voltage: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
+              "page": 312
+             },
+             {
+              "title": "Time Delay - Class RK5 - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
+              "page": 313
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Time Delay - Class J - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-j/p308",
+              "page": 308
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class L",
+           "slug": "class-l",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Time Delay - Class L - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-l/p309",
+              "page": 309
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Fast Acting",
+        "slug": "fast-acting",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Class T",
+           "slug": "class-t",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Class T - Rated voltage: 300 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
+              "page": 296
+             },
+             {
+              "title": "Fast Acting - Class T - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p297",
+              "page": 297
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class K5",
+           "slug": "class-k5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Class K5 - Rated voltage: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
+              "page": 299
+             },
+             {
+              "title": "Fast Acting - Class K5 - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p300",
+              "page": 300
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Class RK1 - Rated voltage: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
+              "page": 301
+             },
+             {
+              "title": "Fast Acting - Class RK1 - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
+              "page": 302
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class C",
+           "slug": "class-c",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Class C - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-c/p293",
+              "page": 293
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class CC",
+           "slug": "class-cc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Class CC - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-cc/p294",
+              "page": 294
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Midget - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/midget/p295",
+              "page": 295
+             }
+            ]
+           }
+          },
+          {
+           "title": "Class J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fast Acting - Class J - Rated voltage: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-j/p298",
+              "page": 298
              }
             ]
            }
@@ -1921,301 +2341,6 @@
      }
     },
     {
-     "title": "Surge Protection",
-     "slug": "surge-protection",
-     "count": 31,
-     "nav": {
-      "type": "group",
-      "children": [
-       {
-        "title": "Type: 1+2",
-        "slug": "type-1plus2",
-        "count": 12,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Protection for Power Lines",
-           "slug": "protection-for-power-lines",
-           "count": 11,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
-              "page": 671
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
-              "page": 677
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
-              "page": 666
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
-              "page": 680
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
-              "page": 669
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
-              "page": 676
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
-              "page": 681
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
-              "page": 670
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
-              "page": 674
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
-              "page": 679
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
-              "page": 668
-             }
-            ]
-           }
-          },
-          {
-           "title": "Photovoltaic & Energy Storage",
-           "slug": "photovoltaic-and-energy-storage",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1+2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
-              "page": 682
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Type: 2",
-        "slug": "type-2",
-        "count": 10,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Protection for Power Lines",
-           "slug": "protection-for-power-lines",
-           "count": 9,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
-              "page": 690
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
-              "page": 691
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
-              "page": 685
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
-              "page": 694
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
-              "page": 688
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
-              "page": 695
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
-              "page": 689
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
-              "page": 693
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
-              "page": 687
-             }
-            ]
-           }
-          },
-          {
-           "title": "Photovoltaic & Energy Storage",
-           "slug": "photovoltaic-and-energy-storage",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
-              "page": 697
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Type: 2+3",
-        "slug": "type-2plus3",
-        "count": 6,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Protection for Power Lines",
-           "slug": "protection-for-power-lines",
-           "count": 6,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - Surge-Trap® Monobloc STET Series - Imax (8/20): 20 kA with EMI filter - In (8/20): 10 kA - Icc: 10 kA - IL: 20 A",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
-              "page": 706
-             },
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - Surge-Trap® Monobloc STMT Series - Imax (8/20): 6 kA (20 kA @Un = 240 V) - In (8/20): 3 kA (10 kA @Un = 240 V)",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p705",
-              "page": 705
-             },
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p700",
-              "page": 700
-             },
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p703",
-              "page": 703
-             },
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p704",
-              "page": 704
-             },
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p702",
-              "page": 702
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Type: 1",
-        "slug": "type-1",
-        "count": 1,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series",
-           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1 - System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
-              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
-              "page": 664
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Protection for signal lines",
-        "slug": "protection-for-signal-lines",
-        "count": 2,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Surge-Trap® Signal - STS NET- IN LINE",
-           "slug": "surge-trap-signal-sts-net-in-line",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protection for signal lines - Surge-Trap® Signal - STS NET- IN LINE - In (8/20): 0.25 A - IL: 0.1 A (1 A @Un = 48 V) - Connection type: RJ45",
-              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-net-in-line/p708",
-              "page": 708
-             }
-            ]
-           }
-          },
-          {
-           "title": "Surge-Trap® Signal - STS 485",
-           "slug": "surge-trap-signal-sts-485",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protection for signal lines - Surge-Trap® Signal - STS 485 - Imax (8/20): 10 kA - In (8/20): 5/10 kA - Connection type: Terminal",
-              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-485/p709",
-              "page": 709
-             }
-            ]
-           }
-          }
-         ]
-        }
-       }
-      ]
-     }
-    },
-    {
      "title": "Medium voltage fuses",
      "slug": "medium-voltage-fuses",
      "count": 41,
@@ -2811,576 +2936,16 @@
      }
     },
     {
-     "title": "UL/CSA fuses",
-     "slug": "ul-csa-fuses",
-     "count": 20,
+     "title": "Protection for DC Distribution and Battery",
+     "slug": "protection-for-dc-distribution-and-battery",
+     "count": 1,
      "nav": {
-      "type": "group",
-      "children": [
+      "type": "leaves",
+      "items": [
        {
-        "title": "Time Delay",
-        "slug": "time-delay",
-        "count": 10,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Class CC",
-           "slug": "class-cc",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Class CC - Range: ATDR - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
-              "page": 303
-             },
-             {
-              "title": "Time Delay - Class CC - Range: ATQR - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p304",
-              "page": 304
-             }
-            ]
-           }
-          },
-          {
-           "title": "Midget",
-           "slug": "midget",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Midget - Rated voltage: 250 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
-              "page": 306
-             },
-             {
-              "title": "Time Delay - Midget - Rated voltage: 500 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/midget/p307",
-              "page": 307
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class RK1",
-           "slug": "class-rk1",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Class RK1 - Rated voltage: 250 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
-              "page": 310
-             },
-             {
-              "title": "Time Delay - Class RK1 - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p311",
-              "page": 311
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class RK5",
-           "slug": "class-rk5",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Class RK5 - Rated voltage: 250 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
-              "page": 312
-             },
-             {
-              "title": "Time Delay - Class RK5 - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
-              "page": 313
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class J",
-           "slug": "class-j",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Class J - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-j/p308",
-              "page": 308
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class L",
-           "slug": "class-l",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Class L - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-l/p309",
-              "page": 309
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Fast Acting",
-        "slug": "fast-acting",
-        "count": 10,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Class T",
-           "slug": "class-t",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Class T - Rated voltage: 300 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
-              "page": 296
-             },
-             {
-              "title": "Fast Acting - Class T - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p297",
-              "page": 297
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class K5",
-           "slug": "class-k5",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Class K5 - Rated voltage: 250 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
-              "page": 299
-             },
-             {
-              "title": "Fast Acting - Class K5 - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p300",
-              "page": 300
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class RK1",
-           "slug": "class-rk1",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Class RK1 - Rated voltage: 250 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
-              "page": 301
-             },
-             {
-              "title": "Fast Acting - Class RK1 - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
-              "page": 302
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class C",
-           "slug": "class-c",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Class C - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-c/p293",
-              "page": 293
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class CC",
-           "slug": "class-cc",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Class CC - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-cc/p294",
-              "page": 294
-             }
-            ]
-           }
-          },
-          {
-           "title": "Midget",
-           "slug": "midget",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Midget - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/midget/p295",
-              "page": 295
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class J",
-           "slug": "class-j",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Class J - Rated voltage: 600 VAC",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-j/p298",
-              "page": 298
-             }
-            ]
-           }
-          }
-         ]
-        }
-       }
-      ]
-     }
-    },
-    {
-     "title": "Photovoltaic Applications",
-     "slug": "photovoltaic-applications",
-     "count": 15,
-     "nav": {
-      "type": "group",
-      "children": [
-       {
-        "title": "gPV Square body fuses",
-        "slug": "gpv-square-body-fuses",
-        "count": 10,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Rated voltage: 1500 VDC",
-           "slug": "rated-voltage-1500-vdc",
-           "count": 6,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1L - Type: Direct mounting",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
-              "page": 642
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1XL - Type: Plain blades",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p641",
-              "page": 641
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH2L - Type: Direct mounting",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p644",
-              "page": 644
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH2XL - Type: Plain blades",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
-              "page": 643
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH3L - Type: Direct mounting",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p646",
-              "page": 646
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH3L - Type: Plain blades",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p645",
-              "page": 645
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 1000 VDC",
-           "slug": "rated-voltage-1000-vdc",
-           "count": 4,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1 - Type: Direct mounting",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
-              "page": 638
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1 - Type: Plain blades",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
-              "page": 637
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH2 - Type: Direct mounting",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p640",
-              "page": 640
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH2 - Type: Plain blades",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p639",
-              "page": 639
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "gPV cylindrical fuses",
-        "slug": "gpv-cylindrical-fuses",
-        "count": 5,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Rated voltage: 1000 VDC",
-           "slug": "rated-voltage-1000-vdc",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 1000 VDC - Size: 10 x 38 mm",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
-              "page": 634
-             },
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 1000 VDC - Size: 10 x 38 mm - Type: Crimp Cap",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
-              "page": 633
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 1500 VDC",
-           "slug": "rated-voltage-1500-vdc",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
-              "page": 636
-             },
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm - Type: Crimp Cap",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
-              "page": 635
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 600 VDC",
-           "slug": "rated-voltage-600-vdc",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 600 VDC - Size: 10 x 38 mm",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-600-vdc/p632",
-              "page": 632
-             }
-            ]
-           }
-          }
-         ]
-        }
-       }
-      ]
-     }
-    },
-    {
-     "title": "Miniature fuses",
-     "slug": "miniature-fuses",
-     "count": 18,
-     "nav": {
-      "type": "group",
-      "children": [
-       {
-        "title": "Ceramic fuses",
-        "slug": "ceramic-fuses",
-        "count": 10,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Size: 5 x 20 mm",
-           "slug": "size-5-x-20-mm",
-           "count": 6,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm - Fast Acting",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
-              "page": 27
-             },
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm - Fast Acting - Assortment box Part Number: B229863",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p28",
-              "page": 28
-             },
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm - Medium Acting",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
-              "page": 26
-             },
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm - Time Delay",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p24",
-              "page": 24
-             },
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm - Time Delay - Assortment box Part Number: C229864",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p25",
-              "page": 25
-             },
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm - Very Fast Acting",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p29",
-              "page": 29
-             }
-            ]
-           }
-          },
-          {
-           "title": "Size: 6 x 32 mm",
-           "slug": "size-6-x-32-mm",
-           "count": 4,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Ceramic fuses - Size: 6 x 32 mm - Fast Acting",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
-              "page": 32
-             },
-             {
-              "title": "Ceramic fuses - Size: 6 x 32 mm - Medium Acting",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
-              "page": 31
-             },
-             {
-              "title": "Ceramic fuses - Size: 6 x 32 mm - Time Delay",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p30",
-              "page": 30
-             },
-             {
-              "title": "Ceramic fuses - Size: 6 x 32 mm - Very Fast Acting",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p33",
-              "page": 33
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Glass fuses",
-        "slug": "glass-fuses",
-        "count": 8,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Size: 5 x 20 mm",
-           "slug": "size-5-x-20-mm",
-           "count": 6,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm - Fast Acting",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
-              "page": 20
-             },
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm - Fast Acting - Assortment box Part Number: G203763",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p21",
-              "page": 21
-             },
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm - Medium Acting",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
-              "page": 18
-             },
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm - Medium Acting - Assortment box Part Number: P233440",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
-              "page": 19
-             },
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm - Time Delay",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p16",
-              "page": 16
-             },
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm - Time Delay - Assortment box Part Number: H203764",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p17",
-              "page": 17
-             }
-            ]
-           }
-          },
-          {
-           "title": "Size: 6 x 32 mm",
-           "slug": "size-6-x-32-mm",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Glass fuses - Size: 6 x 32 mm - Fast Acting",
-              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
-              "page": 23
-             },
-             {
-              "title": "Glass fuses - Size: 6 x 32 mm - Time Delay",
-              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p22",
-              "page": 22
-             }
-            ]
-           }
-          }
-         ]
-        }
+        "title": "Protection for DC Distribution and Battery",
+        "slug": "selector/protection-for-dc-distribution-and-battery/p609",
+        "page": 609
        }
       ]
      }
@@ -3561,16 +3126,451 @@
      }
     },
     {
-     "title": "Protection for DC Distribution and Battery",
-     "slug": "protection-for-dc-distribution-and-battery",
-     "count": 1,
+     "title": "Photovoltaic Applications",
+     "slug": "photovoltaic-applications",
+     "count": 15,
      "nav": {
-      "type": "leaves",
-      "items": [
+      "type": "group",
+      "children": [
        {
-        "title": "Protection for DC Distribution and Battery",
-        "slug": "selector/protection-for-dc-distribution-and-battery/p609",
-        "page": 609
+        "title": "gPV Square body fuses",
+        "slug": "gpv-square-body-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Rated voltage: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1L - Type: Direct mounting",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
+              "page": 642
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1XL - Type: Plain blades",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p641",
+              "page": 641
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH2L - Type: Direct mounting",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p644",
+              "page": 644
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH2XL - Type: Plain blades",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
+              "page": 643
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH3L - Type: Direct mounting",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p646",
+              "page": 646
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH3L - Type: Plain blades",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p645",
+              "page": 645
+             }
+            ]
+           }
+          },
+          {
+           "title": "Rated voltage: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1 - Type: Direct mounting",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
+              "page": 638
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1 - Type: Plain blades",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
+              "page": 637
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH2 - Type: Direct mounting",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p640",
+              "page": 640
+             },
+             {
+              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH2 - Type: Plain blades",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p639",
+              "page": 639
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "gPV cylindrical fuses",
+        "slug": "gpv-cylindrical-fuses",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Rated voltage: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV cylindrical fuses - Rated voltage: 1000 VDC - Size: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
+              "page": 634
+             },
+             {
+              "title": "gPV cylindrical fuses - Rated voltage: 1000 VDC - Size: 10 x 38 mm - Type: Crimp Cap",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
+              "page": 633
+             }
+            ]
+           }
+          },
+          {
+           "title": "Rated voltage: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
+              "page": 636
+             },
+             {
+              "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm - Type: Crimp Cap",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
+              "page": 635
+             }
+            ]
+           }
+          },
+          {
+           "title": "Rated voltage: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV cylindrical fuses - Rated voltage: 600 VDC - Size: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-600-vdc/p632",
+              "page": 632
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Surge Protection",
+     "slug": "surge-protection",
+     "count": 31,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Type: 1+2",
+        "slug": "type-1plus2",
+        "count": 12,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Protection for Power Lines",
+           "slug": "protection-for-power-lines",
+           "count": 11,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
+              "page": 671
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
+              "page": 677
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
+              "page": 666
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
+              "page": 680
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
+              "page": 669
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
+              "page": 676
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
+              "page": 681
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
+              "page": 670
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
+              "page": 674
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
+              "page": 679
+             },
+             {
+              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
+              "page": 668
+             }
+            ]
+           }
+          },
+          {
+           "title": "Photovoltaic & Energy Storage",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 1+2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
+              "page": 682
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: 2",
+        "slug": "type-2",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Protection for Power Lines",
+           "slug": "protection-for-power-lines",
+           "count": 9,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
+              "page": 690
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
+              "page": 691
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
+              "page": 685
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
+              "page": 694
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
+              "page": 688
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
+              "page": 695
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
+              "page": 689
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
+              "page": 693
+             },
+             {
+              "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
+              "page": 687
+             }
+            ]
+           }
+          },
+          {
+           "title": "Photovoltaic & Energy Storage",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
+              "page": 697
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: 2+3",
+        "slug": "type-2plus3",
+        "count": 6,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Protection for Power Lines",
+           "slug": "protection-for-power-lines",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 2+3 - Protection for Power Lines - Surge-Trap® Monobloc STET Series - Imax (8/20): 20 kA with EMI filter - In (8/20): 10 kA - Icc: 10 kA - IL: 20 A",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
+              "page": 706
+             },
+             {
+              "title": "Type: 2+3 - Protection for Power Lines - Surge-Trap® Monobloc STMT Series - Imax (8/20): 6 kA (20 kA @Un = 240 V) - In (8/20): 3 kA (10 kA @Un = 240 V)",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p705",
+              "page": 705
+             },
+             {
+              "title": "Type: 2+3 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p700",
+              "page": 700
+             },
+             {
+              "title": "Type: 2+3 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p703",
+              "page": 703
+             },
+             {
+              "title": "Type: 2+3 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p704",
+              "page": 704
+             },
+             {
+              "title": "Type: 2+3 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p702",
+              "page": 702
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: 1",
+        "slug": "type-1",
+        "count": 1,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series",
+           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 1 - System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
+              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
+              "page": 664
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protection for signal lines",
+        "slug": "protection-for-signal-lines",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Surge-Trap® Signal - STS NET- IN LINE",
+           "slug": "surge-trap-signal-sts-net-in-line",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protection for signal lines - Surge-Trap® Signal - STS NET- IN LINE - In (8/20): 0.25 A - IL: 0.1 A (1 A @Un = 48 V) - Connection type: RJ45",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-net-in-line/p708",
+              "page": 708
+             }
+            ]
+           }
+          },
+          {
+           "title": "Surge-Trap® Signal - STS 485",
+           "slug": "surge-trap-signal-sts-485",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protection for signal lines - Surge-Trap® Signal - STS 485 - Imax (8/20): 10 kA - In (8/20): 5/10 kA - Connection type: Terminal",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-485/p709",
+              "page": 709
+             }
+            ]
+           }
+          }
+         ]
+        }
        }
       ]
      }

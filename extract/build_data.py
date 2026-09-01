@@ -585,9 +585,27 @@ def count_leaves(node):
         return len(node["leaves"])
     return sum(count_leaves(c) for c in node["children"].values())
 
+CATEGORY_ORDER = [
+    "Miniature fuses",
+    "IEC fuses",
+    "UL/CSA fuses",
+    "High-speed fuses",
+    "Medium voltage fuses",
+    "Protection for DC Distribution and Battery",
+    "Industrial DC Fuses",
+    "Photovoltaic Applications",
+    "Surge Protection",
+]
+
+def category_sort_key(cat):
+    try:
+        return CATEGORY_ORDER.index(cat)
+    except ValueError:
+        return len(CATEGORY_ORDER)
+
 selector_categories = []
 overview_pages = [e for e in by_chapter["selector"] if e["category"] == "Overview"]
-for cat, tree in sorted(category_trees.items(), key=lambda kv: -count_leaves(kv[1])):
+for cat, tree in sorted(category_trees.items(), key=lambda kv: category_sort_key(kv[0])):
     selector_categories.append({
         "title": cat,
         "slug": slugify(cat),
