@@ -3288,6 +3288,31 @@
       "type": "group",
       "children": [
        {
+        "title": "Type: 1",
+        "slug": "type-1",
+        "count": 1,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series",
+           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 1 - System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
+              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
+              "page": 664
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
         "title": "Type: 1+2",
         "slug": "type-1plus2",
         "count": 12,
@@ -3500,31 +3525,6 @@
               "title": "Type: 2+3 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
               "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p702",
               "page": 702
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Type: 1",
-        "slug": "type-1",
-        "count": 1,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series",
-           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1 - System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
-              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
-              "page": 664
              }
             ]
            }

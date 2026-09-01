@@ -559,6 +559,14 @@ nav["chapters"].append({
     "items": [{"title": e["title"], "slug": e["slug"], "page": e["page"]} for e in about_items]
 })
 
+SURGE_TYPE_ORDER = [
+    "Type: 1",
+    "Type: 1+2",
+    "Type: 2",
+    "Type: 2+3",
+    "Protection for signal lines",
+]
+
 # selector: rebuild category/subcategory nested nav using category_trees (with counts)
 def node_to_nav(node, cat_slug, path_titles):
     if node["type"] == "leaves":
@@ -577,7 +585,10 @@ def node_to_nav(node, cat_slug, path_titles):
             "count": count_leaves(child),
             "node": node_to_nav(child, cat_slug, path_titles + [key]),
         })
-    children.sort(key=lambda c: -c["count"])
+    if cat_slug == "surge-protection" and not path_titles:
+        children.sort(key=lambda c: SURGE_TYPE_ORDER.index(c["title"]) if c["title"] in SURGE_TYPE_ORDER else len(SURGE_TYPE_ORDER))
+    else:
+        children.sort(key=lambda c: -c["count"])
     return {"type": "group", "children": children}
 
 def count_leaves(node):
