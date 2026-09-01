@@ -3,50 +3,29 @@
   {
    "slug": "selector",
    "title": "Product Selector",
-   "overview": [
-    {
-     "title": "Product Selector - Categories",
-     "slug": "selector/overview/page-8",
-     "page": 8
-    }
-   ],
+   "overview": [],
    "categories": [
     {
      "title": "IEC fuses",
      "slug": "iec-fuses",
-     "count": 266,
+     "count": 159,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "Type: gG",
         "slug": "type-gg",
-        "count": 169,
+        "count": 104,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "DIN NH Standard",
            "slug": "din-nh-standard",
-           "count": 76,
+           "count": 46,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gG - DIN NH Standard",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p47",
-              "page": 47
-             },
-             {
-              "title": "Type: gG - DIN NH Standard",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p717",
-              "page": 717
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p54",
-              "page": 54
-             },
              {
               "title": "Type: gG - DIN NH Standard - Size: 0 - Insulated tags - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
@@ -68,34 +47,9 @@
               "page": 163
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - With indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p55",
-              "page": 55
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - With indicator - Insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p56",
-              "page": 56
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - With indicator - Non-insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p57",
-              "page": 57
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 0 - With stricker",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
               "page": 164
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 00",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p51",
-              "page": 51
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p52",
-              "page": 52
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 400 VAC",
@@ -113,11 +67,6 @@
               "page": 156
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p53",
-              "page": 53
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 400 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
               "page": 157
@@ -131,16 +80,6 @@
               "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 690 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
               "page": 159
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 000",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p48",
-              "page": 48
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p49",
-              "page": 49
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 400 VAC",
@@ -158,11 +97,6 @@
               "page": 150
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p50",
-              "page": 50
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 400 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
               "page": 151
@@ -176,11 +110,6 @@
               "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 690 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
               "page": 153
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p58",
-              "page": 58
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 400 VAC",
@@ -213,29 +142,9 @@
               "page": 170
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - With indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p59",
-              "page": 59
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - With indicator - Insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p60",
-              "page": 60
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - With indicator - Non-insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p61",
-              "page": 61
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 1 - With stricker",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
               "page": 171
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p62",
-              "page": 62
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 400 VAC",
@@ -268,29 +177,9 @@
               "page": 177
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - With indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p63",
-              "page": 63
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - With indicator - Insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p64",
-              "page": 64
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - With indicator - Non-insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p65",
-              "page": 65
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 2 - With stricker",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
               "page": 178
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p66",
-              "page": 66
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 400 VAC",
@@ -323,39 +212,9 @@
               "page": 184
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - With indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p67",
-              "page": 67
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - With indicator - Insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p68",
-              "page": 68
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - With indicator - Non-insulated tags",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p69",
-              "page": 69
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 3 - With stricker",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
               "page": 185
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p70",
-              "page": 70
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p71",
-              "page": 71
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With middle indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p73",
-              "page": 73
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 4 - With middle indicator - Rated voltage: 500 VAC",
@@ -373,11 +232,6 @@
               "page": 190
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p72",
-              "page": 72
-             },
-             {
               "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
               "page": 186
@@ -386,16 +240,6 @@
               "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator - Rated voltage: 690 VAC",
               "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
               "page": 187
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4a - With indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p74",
-              "page": 74
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4a - With middle indicator",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p75",
-              "page": 75
              },
              {
               "title": "Type: gG - DIN NH Standard - Size: 4a - With middle indicator - Rated voltage: 500 VAC",
@@ -418,7 +262,7 @@
           {
            "title": "BS88 Standard",
            "slug": "bs88-standard",
-           "count": 58,
+           "count": 39,
            "node": {
             "type": "leaves",
             "items": [
@@ -431,11 +275,6 @@
               "title": "Type: gG - BS88 Standard - BS Feeder Pillar",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
               "page": 229
-             },
-             {
-              "title": "Type: gG - BS88 Standard - BS Street Lighting",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p94",
-              "page": 94
              },
              {
               "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BLD (240 VAC)",
@@ -454,18 +293,8 @@
              },
              {
               "title": "Type: gG - BS88 Standard - Type: A",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p78",
-              "page": 78
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: A",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p719",
               "page": 719
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: A1",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p79",
-              "page": 79
              },
              {
               "title": "Type: gG - BS88 Standard - Type: A1 - BS type: BEIT (415 VAC)",
@@ -478,11 +307,6 @@
               "page": 194
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A2",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p80",
-              "page": 80
-             },
-             {
               "title": "Type: gG - BS88 Standard - Type: A2 - BS type: BTIA (550 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
               "page": 196
@@ -491,11 +315,6 @@
               "title": "Type: gG - BS88 Standard - Type: A2 - BS type: BTIA (690 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
               "page": 197
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: A3",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p81",
-              "page": 81
              },
              {
               "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTIS (415 VAC)",
@@ -511,16 +330,6 @@
               "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTSDS (415 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
               "page": 199
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTSS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
-              "page": 198
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: A4",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p82",
-              "page": 82
              },
              {
               "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTCP (415 VAC)",
@@ -548,16 +357,6 @@
               "page": 720
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: B IEC fuses - Low Voltage - Type: gG - BS88 Standard - Type: A4",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p83",
-              "page": 83
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B1",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p84",
-              "page": 84
-             },
-             {
               "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTBC (415 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
               "page": 206
@@ -578,11 +377,6 @@
               "page": 207
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: B2",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p85",
-              "page": 85
-             },
-             {
               "title": "Type: gG - BS88 Standard - Type: B2 - BS type: BTF (415 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
               "page": 210
@@ -591,11 +385,6 @@
               "title": "Type: gG - BS88 Standard - Type: B2 - BS type: BTF (690 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
               "page": 211
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B3",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p86",
-              "page": 86
              },
              {
               "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKF (415 VAC)",
@@ -613,11 +402,6 @@
               "page": 214
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: B4",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p87",
-              "page": 87
-             },
-             {
               "title": "Type: gG - BS88 Standard - Type: B4 - BS type: BTMF (415 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
               "page": 215
@@ -629,18 +413,8 @@
              },
              {
               "title": "Type: gG - BS88 Standard - Type: C",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p88",
-              "page": 88
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p721",
               "page": 721
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C1",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p89",
-              "page": 89
              },
              {
               "title": "Type: gG - BS88 Standard - Type: C1 - BS type: BTM (415 VAC)",
@@ -653,11 +427,6 @@
               "page": 218
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: C2",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p90",
-              "page": 90
-             },
-             {
               "title": "Type: gG - BS88 Standard - Type: C2 - BS type: BTTM (415 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
               "page": 219
@@ -666,11 +435,6 @@
               "title": "Type: gG - BS88 Standard - Type: C2 - BS type: BTTM (690 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
               "page": 220
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C3",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p91",
-              "page": 91
              },
              {
               "title": "Type: gG - BS88 Standard - Type: C3 - BS type: BTLM (415 VAC)",
@@ -683,24 +447,9 @@
               "page": 222
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: F",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p92",
-              "page": 92
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: F",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p722",
-              "page": 722
-             },
-             {
               "title": "Type: gG - BS88 Standard - Type: F1 - BS type: BNS (550 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
               "page": 223
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: F2",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p93",
-              "page": 93
              },
              {
               "title": "Type: gG - BS88 Standard - Type: F2 - BS type: BES (415 VAC)",
@@ -718,25 +467,10 @@
           {
            "title": "Ferrule fuse-links Standard",
            "slug": "ferrule-fuse-links-standard",
-           "count": 14,
+           "count": 8,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gG - Ferrule fuse-links Standard",
-              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p37",
-              "page": 37
-             },
-             {
-              "title": "Type: gG - Ferrule fuse-links Standard",
-              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p713",
-              "page": 713
-             },
-             {
-              "title": "Type: gG - Ferrule fuse-links Standard - Size: 10 x 38 mm",
-              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p39",
-              "page": 39
-             },
              {
               "title": "Type: gG - Ferrule fuse-links Standard - Size: 10 x 38 mm - With indicator",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p132",
@@ -746,11 +480,6 @@
               "title": "Type: gG - Ferrule fuse-links Standard - Size: 10 x 38 mm - Without indicator",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p131",
               "page": 131
-             },
-             {
-              "title": "Type: gG - Ferrule fuse-links Standard - Size: 14 x 51 mm",
-              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p40",
-              "page": 40
              },
              {
               "title": "Type: gG - Ferrule fuse-links Standard - Size: 14 x 51 mm - With stricker",
@@ -763,11 +492,6 @@
               "page": 133
              },
              {
-              "title": "Type: gG - Ferrule fuse-links Standard - Size: 22 x 58 mm",
-              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p41",
-              "page": 41
-             },
-             {
               "title": "Type: gG - Ferrule fuse-links Standard - Size: 22 x 58 mm - With stricker",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p136",
               "page": 136
@@ -776,11 +500,6 @@
               "title": "Type: gG - Ferrule fuse-links Standard - Size: 22 x 58 mm - Without stricker",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p135",
               "page": 135
-             },
-             {
-              "title": "Type: gG - Ferrule fuse-links Standard - Size: 8.5 x 31.5 mm",
-              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p38",
-              "page": 38
              },
              {
               "title": "Type: gG - Ferrule fuse-links Standard - Size: 8.5 x 31.5 mm - With indicator",
@@ -798,25 +517,10 @@
           {
            "title": "DIN D Standard",
            "slug": "din-d-standard",
-           "count": 8,
+           "count": 5,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gG - DIN D Standard",
-              "slug": "selector/iec-fuses/type-gg/din-d-standard/p44",
-              "page": 44
-             },
-             {
-              "title": "Type: gG - DIN D Standard",
-              "slug": "selector/iec-fuses/type-gg/din-d-standard/p45",
-              "page": 45
-             },
-             {
-              "title": "Type: gG - DIN D Standard",
-              "slug": "selector/iec-fuses/type-gg/din-d-standard/p716",
-              "page": 716
-             },
              {
               "title": "Type: gG - DIN D Standard - Size: DII",
               "slug": "selector/iec-fuses/type-gg/din-d-standard/p141",
@@ -848,20 +552,10 @@
           {
            "title": "DIN D0 Standard",
            "slug": "din-d0-standard",
-           "count": 5,
+           "count": 3,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gG - DIN D0 Standard",
-              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p43",
-              "page": 43
-             },
-             {
-              "title": "Type: gG - DIN D0 Standard",
-              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p715",
-              "page": 715
-             },
              {
               "title": "Type: gG - DIN D0 Standard - Size: D01 (E14)",
               "slug": "selector/iec-fuses/type-gg/din-d0-standard/p137",
@@ -883,15 +577,10 @@
           {
            "title": "BS1361 Standard",
            "slug": "bs1361-standard",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gG - BS1361 Standard - House Service",
-              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p95",
-              "page": 95
-             },
              {
               "title": "Type: gG - BS1361 Standard - House Service - BS type: BME (415 VAC)",
               "slug": "selector/iec-fuses/type-gg/bs1361-standard/p230",
@@ -908,54 +597,14 @@
           {
            "title": "Other",
            "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: gG - Other",
-              "slug": "selector/iec-fuses/type-gg/other/p36",
-              "page": 36
-             },
-             {
-              "title": "Type: gG - Other",
-              "slug": "selector/iec-fuses/type-gg/other/p712",
-              "page": 712
-             }
-            ]
-           }
-          },
-          {
-           "title": "DIN Standard",
-           "slug": "din-standard",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: gG - DIN Standard",
-              "slug": "selector/iec-fuses/type-gg/din-standard/p42",
-              "page": 42
-             },
-             {
-              "title": "Type: gG - DIN Standard",
-              "slug": "selector/iec-fuses/type-gg/din-standard/p714",
-              "page": 714
-             }
-            ]
-           }
-          },
-          {
-           "title": "British Standard",
-           "slug": "british-standard",
            "count": 1,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type: gG - British Standard",
-              "slug": "selector/iec-fuses/type-gg/british-standard/p77",
-              "page": 77
+              "title": "Type: gG - Other",
+              "slug": "selector/iec-fuses/type-gg/other/p712",
+              "page": 712
              }
             ]
            }
@@ -966,37 +615,17 @@
        {
         "title": "Type: aM",
         "slug": "type-am",
-        "count": 51,
+        "count": 29,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "DIN NH Standard",
            "slug": "din-nh-standard",
-           "count": 36,
+           "count": 21,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: aM - DIN NH Standard",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p102",
-              "page": 102
-             },
-             {
-              "title": "Type: aM - DIN NH Standard",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p726",
-              "page": 726
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 0",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p105",
-              "page": 105
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 0 - With indicator",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p106",
-              "page": 106
-             },
              {
               "title": "Type: aM - DIN NH Standard - Size: 0 - With indicator - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
@@ -1013,11 +642,6 @@
               "page": 246
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 00",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p104",
-              "page": 104
-             },
-             {
               "title": "Type: aM - DIN NH Standard - Size: 00 - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
               "page": 242
@@ -1028,11 +652,6 @@
               "page": 243
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 000",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p103",
-              "page": 103
-             },
-             {
               "title": "Type: aM - DIN NH Standard - Size: 000 - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
               "page": 240
@@ -1041,16 +660,6 @@
               "title": "Type: aM - DIN NH Standard - Size: 000 - Rated voltage: 690 VAC",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
               "page": 241
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 1",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p107",
-              "page": 107
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 1 - With indicator",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p108",
-              "page": 108
              },
              {
               "title": "Type: aM - DIN NH Standard - Size: 1 - With indicator - Rated voltage: 500 VAC",
@@ -1068,16 +677,6 @@
               "page": 249
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 2",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p109",
-              "page": 109
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 2 - With indicator",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p110",
-              "page": 110
-             },
-             {
               "title": "Type: aM - DIN NH Standard - Size: 2 - With indicator - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
               "page": 250
@@ -1091,16 +690,6 @@
               "title": "Type: aM - DIN NH Standard - Size: 2 - With stricker",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
               "page": 252
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 3",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p111",
-              "page": 111
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 3 - With indicator",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p112",
-              "page": 112
              },
              {
               "title": "Type: aM - DIN NH Standard - Size: 3 - With indicator - Rated voltage: 500 VAC",
@@ -1118,16 +707,6 @@
               "page": 255
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 4",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p113",
-              "page": 113
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4 - With indicator",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p114",
-              "page": 114
-             },
-             {
               "title": "Type: aM - DIN NH Standard - Size: 4 - With indicator - Rated voltage: 500 VAC",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
               "page": 256
@@ -1141,11 +720,6 @@
               "title": "Type: aM - DIN NH Standard - Size: 4 - With stricker",
               "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
               "page": 258
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4a - With indicator",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p115",
-              "page": 115
              },
              {
               "title": "Type: aM - DIN NH Standard - Size: 4a - With indicator - Rated voltage: 500 VAC",
@@ -1163,25 +737,10 @@
           {
            "title": "Ferrule fuse-links Standard",
            "slug": "ferrule-fuse-links-standard",
-           "count": 12,
+           "count": 7,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: aM - Ferrule fuse-links Standard",
-              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p97",
-              "page": 97
-             },
-             {
-              "title": "Type: aM - Ferrule fuse-links Standard",
-              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p724",
-              "page": 724
-             },
-             {
-              "title": "Type: aM - Ferrule fuse-links Standard - Size: 10 x 38 mm",
-              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p98",
-              "page": 98
-             },
              {
               "title": "Type: aM - Ferrule fuse-links Standard - Size: 10 x 38 mm - With indicator",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p234",
@@ -1193,11 +752,6 @@
               "page": 233
              },
              {
-              "title": "Type: aM - Ferrule fuse-links Standard - Size: 14 x 51 mm",
-              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p99",
-              "page": 99
-             },
-             {
               "title": "Type: aM - Ferrule fuse-links Standard - Size: 14 x 51 mm - With stricker",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p236",
               "page": 236
@@ -1206,11 +760,6 @@
               "title": "Type: aM - Ferrule fuse-links Standard - Size: 14 x 51 mm - Without stricker",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p235",
               "page": 235
-             },
-             {
-              "title": "Type: aM - Ferrule fuse-links Standard - Size: 22 x 58 mm",
-              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p100",
-              "page": 100
              },
              {
               "title": "Type: aM - Ferrule fuse-links Standard - Size: 22 x 58 mm - With stricker",
@@ -1226,26 +775,6 @@
               "title": "Type: aM - Ferrule fuse-links Standard - Size: 8.5 x 31.5 mm",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p232",
               "page": 232
-             }
-            ]
-           }
-          },
-          {
-           "title": "DIN Standard",
-           "slug": "din-standard",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: aM - DIN Standard",
-              "slug": "selector/iec-fuses/type-am/din-standard/p101",
-              "page": 101
-             },
-             {
-              "title": "Type: aM - DIN Standard",
-              "slug": "selector/iec-fuses/type-am/din-standard/p725",
-              "page": 725
              }
             ]
            }
@@ -1271,27 +800,17 @@
        {
         "title": "Type: gM",
         "slug": "type-gm",
-        "count": 31,
+        "count": 20,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "BS88 Standard",
            "slug": "bs88-standard",
-           "count": 30,
+           "count": 19,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gM - BS88 Standard",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p117",
-              "page": 117
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: A",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p118",
-              "page": 118
-             },
              {
               "title": "Type: gM - BS88 Standard - Type: A",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p728",
@@ -1303,11 +822,6 @@
               "page": 261
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A2",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p119",
-              "page": 119
-             },
-             {
               "title": "Type: gM - BS88 Standard - Type: A2 - BS type: BTIA (415 VAC)",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
               "page": 262
@@ -1316,11 +830,6 @@
               "title": "Type: gM - BS88 Standard - Type: A2 - BS type: BTIA (690 VAC)",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
               "page": 263
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: A3",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p120",
-              "page": 120
              },
              {
               "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTIS (415 VAC)",
@@ -1336,11 +845,6 @@
               "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTSDS (415 VAC)",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
               "page": 264
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: A4",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p121",
-              "page": 121
              },
              {
               "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTCP (415 VAC)",
@@ -1364,18 +868,8 @@
              },
              {
               "title": "Type: gM - BS88 Standard - Type: B",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p122",
-              "page": 122
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p729",
               "page": 729
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B1",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p123",
-              "page": 123
              },
              {
               "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTC (415 VAC)",
@@ -1393,11 +887,6 @@
               "page": 271
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: B2",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p124",
-              "page": 124
-             },
-             {
               "title": "Type: gM - BS88 Standard - Type: B2 - BS type: BTF (415 VAC)",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
               "page": 274
@@ -1406,21 +895,6 @@
               "title": "Type: gM - BS88 Standard - Type: B2 - BS type: BTF (690 VAC)",
               "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
               "page": 275
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B3 - BS type: BTKF (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
-              "page": 276
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B4 - BS type: BTMF (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
-              "page": 277
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: F1",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p125",
-              "page": 125
              },
              {
               "title": "Type: gM - BS88 Standard - Type: F1 - BS type: BNS (415 VAC)",
@@ -1456,42 +930,17 @@
        {
         "title": "Type: aD",
         "slug": "type-ad",
-        "count": 5,
+        "count": 2,
         "node": {
          "type": "group",
          "children": [
           {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: aD - Other",
-              "slug": "selector/iec-fuses/type-ad/other/p126",
-              "page": 126
-             },
-             {
-              "title": "Type: aD - Other",
-              "slug": "selector/iec-fuses/type-ad/other/p730",
-              "page": 730
-             }
-            ]
-           }
-          },
-          {
            "title": "Ferrule fuse-links Standard",
            "slug": "ferrule-fuse-links-standard",
-           "count": 2,
+           "count": 1,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: aD - Ferrule fuse-links Standard - Size: 14 x 51 mm",
-              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p280",
-              "page": 280
-             },
              {
               "title": "Type: aD - Ferrule fuse-links Standard - Size: 22 x 58 mm",
               "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p281",
@@ -1521,25 +970,10 @@
        {
         "title": "Type: gG Flink",
         "slug": "type-gg-flink",
-        "count": 4,
+        "count": 3,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: gG Flink - Other",
-              "slug": "selector/iec-fuses/type-gg-flink/other/p46",
-              "page": 46
-             }
-            ]
-           }
-          },
           {
            "title": "Size: NDZ",
            "slug": "size-ndz",
@@ -1589,91 +1023,16 @@
         }
        },
        {
-        "title": "Type: Neutral Link",
-        "slug": "type-neutral-link",
-        "count": 3,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: Neutral Link - Other",
-              "slug": "selector/iec-fuses/type-neutral-link/other/p35",
-              "page": 35
-             }
-            ]
-           }
-          },
-          {
-           "title": "Size: 8.5 x 31.5 mm",
-           "slug": "size-8-5-x-31-5-mm",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: Neutral Link - Size: 8.5 x 31.5 mm",
-              "slug": "selector/iec-fuses/type-neutral-link/size-8-5-x-31-5-mm/p127",
-              "page": 127
-             }
-            ]
-           }
-          },
-          {
-           "title": "Size: 10 x 38 mm",
-           "slug": "size-10-x-38-mm",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: Neutral Link - Size: 10 x 38 mm",
-              "slug": "selector/iec-fuses/type-neutral-link/size-10-x-38-mm/p128",
-              "page": 128
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
         "title": "Type: aM / gM",
         "slug": "type-am-gm",
-        "count": 2,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Type: aM / gM",
-           "slug": "selector/iec-fuses/type-am-gm/p96",
-           "page": 96
-          },
-          {
-           "title": "Type: aM / gM",
-           "slug": "selector/iec-fuses/type-am-gm/p723",
-           "page": 723
-          }
-         ]
-        }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
         "count": 1,
         "node": {
          "type": "leaves",
          "items": [
           {
-           "title": "Other",
-           "slug": "selector/iec-fuses/other/p34",
-           "page": 34
+           "title": "Type: aM / gM",
+           "slug": "selector/iec-fuses/type-am-gm/p723",
+           "page": 723
           }
          ]
         }
@@ -1684,53 +1043,28 @@
     {
      "title": "High-speed fuses",
      "slug": "high-speed-fuses",
-     "count": 240,
+     "count": 156,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "Type: aR",
         "slug": "type-ar",
-        "count": 143,
+        "count": 101,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Square body",
            "slug": "square-body",
-           "count": 111,
+           "count": 82,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type: aR - Square body",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p351",
-              "page": 351
-             },
-             {
-              "title": "Type: aR - Square body",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p744",
-              "page": 744
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p352",
-              "page": 352
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p745",
-              "page": 745
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 2 x 72 - Type: TTF French threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
               "page": 503
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 2 x 73",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p369",
-              "page": 369
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: 2 x 73 - Type: TTF French threaded terminals",
@@ -1751,11 +1085,6 @@
               "title": "Type: aR - Square body - AC Rated - Size: 2 x 93 - Type: TTF French threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
               "page": 516
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p358",
-              "page": 358
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: DIN110 slotted blades",
@@ -1793,11 +1122,6 @@
               "page": 463
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 31",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p359",
-              "page": 359
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: DIN110 slotted blades",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
               "page": 465
@@ -1831,11 +1155,6 @@
               "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: TTI US threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
               "page": 470
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p360",
-              "page": 360
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: DIN110 slotted blades",
@@ -1873,11 +1192,6 @@
               "page": 477
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 33",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p361",
-              "page": 361
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: DIN110 slotted blades",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
               "page": 479
@@ -1913,16 +1227,6 @@
               "page": 484
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 3x",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p357",
-              "page": 357
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p363",
-              "page": 363
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: DIN110 slotted blades",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
               "page": 485
@@ -1951,11 +1255,6 @@
               "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: TTI US threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
               "page": 490
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p364",
-              "page": 364
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: DIN110 slotted blades",
@@ -1988,16 +1287,6 @@
               "page": 496
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 72",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p365",
-              "page": 365
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p366",
-              "page": 366
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: DIN110 slotted blades",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
               "page": 497
@@ -2026,16 +1315,6 @@
               "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: TTI US threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
               "page": 502
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p367",
-              "page": 367
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p368",
-              "page": 368
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: DIN110 slotted blades",
@@ -2068,19 +1347,9 @@
               "page": 509
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 7x",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p362",
-              "page": 362
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 91 - Type: TTF French threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
               "page": 512
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 92",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p371",
-              "page": 371
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: 92 - Type: TTF French threaded terminals",
@@ -2088,29 +1357,14 @@
               "page": 513
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 93",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p372",
-              "page": 372
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: 93 - Type: TTF French threaded terminals",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
               "page": 515
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: 9x",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p370",
-              "page": 370
-             },
-             {
               "title": "Type: aR - Square body - AC Rated - Size: NH0 - Type: Plain blades",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
               "page": 453
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH00",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p356",
-              "page": 356
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: DIN110 Bracket - Monitoring micro-contact",
@@ -2126,16 +1380,6 @@
               "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: Plain blades",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
               "page": 450
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH000",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p354",
-              "page": 354
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p355",
-              "page": 355
              },
              {
               "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - Monitoring micro-contact",
@@ -2173,21 +1417,6 @@
               "page": 456
              },
              {
-              "title": "Type: aR - Square body - AC Rated - Size: NHx",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p353",
-              "page": 353
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p373",
-              "page": 373
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p747",
-              "page": 747
-             },
-             {
               "title": "Type: aR - Square body - DC Rated - Size: 120 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
               "page": 520
@@ -2218,11 +1447,6 @@
               "page": 522
              },
              {
-              "title": "Type: aR - Square body - DC Rated - Size: 302",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p375",
-              "page": 375
-             },
-             {
               "title": "Type: aR - Square body - DC Rated - Size: 302 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
               "page": 523
@@ -2231,11 +1455,6 @@
               "title": "Type: aR - Square body - DC Rated - Size: 600 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
               "page": 525
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 602",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p376",
-              "page": 376
              },
              {
               "title": "Type: aR - Square body - DC Rated - Size: 602 - Type: Bracket",
@@ -2248,11 +1467,6 @@
               "page": 517
              },
              {
-              "title": "Type: aR - Square body - DC Rated - Size: 72",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p374",
-              "page": 374
-             },
-             {
               "title": "Type: aR - Square body - DC Rated - Size: 72 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
               "page": 518
@@ -2263,15 +1477,10 @@
           {
            "title": "BS88-4 Standard",
            "slug": "bs88-4-standard",
-           "count": 18,
+           "count": 12,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: aR - BS88-4 Standard",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p377",
-              "page": 377
-             },
              {
               "title": "Type: aR - BS88-4 Standard - AC Rated",
               "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p746",
@@ -2281,11 +1490,6 @@
               "title": "Type: aR - BS88-4 Standard - Size: 10 x 28 mm - Rated voltage: 250 VAC - Without trip-indicator",
               "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
               "page": 528
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 17 x 27 mm - Rated voltage: 250 VAC",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p378",
-              "page": 378
              },
              {
               "title": "Type: aR - BS88-4 Standard - Size: 17 x 27 mm - Rated voltage: 250 VAC - With separated trip-indicator",
@@ -2298,11 +1502,6 @@
               "page": 529
              },
              {
-              "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p379",
-              "page": 379
-             },
-             {
               "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC - With separated trip-indicator",
               "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
               "page": 532
@@ -2311,11 +1510,6 @@
               "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC - Without trip-indicator",
               "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
               "page": 531
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p382",
-              "page": 382
              },
              {
               "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - With built-in trip-indicator",
@@ -2331,16 +1525,6 @@
               "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - Without trip-indicator",
               "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
               "page": 536
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p380",
-              "page": 380
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p381",
-              "page": 381
              },
              {
               "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - With built-in trip-indicator",
@@ -2363,25 +1547,10 @@
           {
            "title": "Cylindrical",
            "slug": "cylindrical",
-           "count": 12,
+           "count": 7,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: aR - Cylindrical",
-              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p347",
-              "page": 347
-             },
-             {
-              "title": "Type: aR - Cylindrical - AC Rated",
-              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p743",
-              "page": 743
-             },
-             {
-              "title": "Type: aR - Cylindrical - Size: 10 x 38 mm",
-              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p348",
-              "page": 348
-             },
              {
               "title": "Type: aR - Cylindrical - Size: 10 x 38 mm - With indicator",
               "slug": "selector/high-speed-fuses/type-ar/cylindrical/p440",
@@ -2393,11 +1562,6 @@
               "page": 439
              },
              {
-              "title": "Type: aR - Cylindrical - Size: 14 x 51 mm",
-              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p349",
-              "page": 349
-             },
-             {
               "title": "Type: aR - Cylindrical - Size: 14 x 51 mm - With stricker",
               "slug": "selector/high-speed-fuses/type-ar/cylindrical/p442",
               "page": 442
@@ -2406,11 +1570,6 @@
               "title": "Type: aR - Cylindrical - Size: 14 x 51 mm - Without stricker",
               "slug": "selector/high-speed-fuses/type-ar/cylindrical/p441",
               "page": 441
-             },
-             {
-              "title": "Type: aR - Cylindrical - Size: 22 x 58 mm",
-              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p350",
-              "page": 350
              },
              {
               "title": "Type: aR - Cylindrical - Size: 22 x 58 mm - With stricker",
@@ -2429,26 +1588,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: aR - Other",
-              "slug": "selector/high-speed-fuses/type-ar/other/p346",
-              "page": 346
-             },
-             {
-              "title": "Type: aR - Other",
-              "slug": "selector/high-speed-fuses/type-ar/other/p742",
-              "page": 742
-             }
-            ]
-           }
           }
          ]
         }
@@ -2456,42 +1595,17 @@
        {
         "title": "Type: gR",
         "slug": "type-gr",
-        "count": 84,
+        "count": 47,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Square body",
            "slug": "square-body",
-           "count": 50,
+           "count": 30,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: gR - Square body",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p329",
-              "page": 329
-             },
-             {
-              "title": "Type: gR - Square body",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p738",
-              "page": 738
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p330",
-              "page": 330
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p739",
-              "page": 739
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 70",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p331",
-              "page": 331
-             },
              {
               "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: DIN110 (DIN110 blades)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
@@ -2506,11 +1620,6 @@
               "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: TTF (Threaded Terminals)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
               "page": 411
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 71",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p332",
-              "page": 332
              },
              {
               "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: DIN110 (DIN110 blades)",
@@ -2528,11 +1637,6 @@
               "page": 414
              },
              {
-              "title": "Type: gR - Square body - AC Rated - Size: 72",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p333",
-              "page": 333
-             },
-             {
               "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: DIN110 (DIN110 blades)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
               "page": 415
@@ -2546,11 +1650,6 @@
               "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: TTF (Threaded Terminals)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
               "page": 417
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 73",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p334",
-              "page": 334
              },
              {
               "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: DIN110 (DIN110 blades)",
@@ -2568,21 +1667,6 @@
               "page": 420
              },
              {
-              "title": "Type: gR - Square body - DC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p335",
-              "page": 335
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p741",
-              "page": 741
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 120",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p336",
-              "page": 336
-             },
-             {
               "title": "Type: gR - Square body - DC Rated - Size: 120 - Type: EF (Bolted connections)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
               "page": 421
@@ -2591,11 +1675,6 @@
               "title": "Type: gR - Square body - DC Rated - Size: 120 - Type: TTF (Threaded Terminals)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
               "page": 422
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 121",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p337",
-              "page": 337
              },
              {
               "title": "Type: gR - Square body - DC Rated - Size: 121 - Type: EF (Bolted connections)",
@@ -2608,16 +1687,6 @@
               "page": 424
              },
              {
-              "title": "Type: gR - Square body - DC Rated - Size: 122",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p338",
-              "page": 338
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 122 - Single body",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p339",
-              "page": 339
-             },
-             {
               "title": "Type: gR - Square body - DC Rated - Size: 122 - Type: EF (Bolted connections)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
               "page": 425
@@ -2626,16 +1695,6 @@
               "title": "Type: gR - Square body - DC Rated - Size: 122 - Type: TTF (Threaded Terminals)",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
               "page": 426
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 123",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p340",
-              "page": 340
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 123 - Single body",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p341",
-              "page": 341
              },
              {
               "title": "Type: gR - Square body - DC Rated - Size: 123 - Type: EF (Bolted connections)",
@@ -2668,11 +1727,6 @@
               "page": 438
              },
              {
-              "title": "Type: gR - Square body - DC Rated - Size: 300",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p342",
-              "page": 342
-             },
-             {
               "title": "Type: gR - Square body - DC Rated - Size: 300 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
               "page": 431
@@ -2683,19 +1737,9 @@
               "page": 432
              },
              {
-              "title": "Type: gR - Square body - DC Rated - Size: 302",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p343",
-              "page": 343
-             },
-             {
               "title": "Type: gR - Square body - DC Rated - Size: 302 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
               "page": 433
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 600",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p344",
-              "page": 344
              },
              {
               "title": "Type: gR - Square body - DC Rated - Size: 600 - Type: Bracket",
@@ -2708,11 +1752,6 @@
               "page": 436
              },
              {
-              "title": "Type: gR - Square body - DC Rated - Size: 602",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p345",
-              "page": 345
-             },
-             {
               "title": "Type: gR - Square body - DC Rated - Size: 602 - Type: Bracket",
               "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
               "page": 437
@@ -2723,39 +1762,14 @@
           {
            "title": "Cylindrical",
            "slug": "cylindrical",
-           "count": 32,
+           "count": 17,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type: gR - Cylindrical",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p318",
-              "page": 318
-             },
-             {
-              "title": "Type: gR - Cylindrical",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p736",
-              "page": 736
-             },
-             {
-              "title": "Type: gR - Cylindrical - AC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p319",
-              "page": 319
-             },
-             {
-              "title": "Type: gR - Cylindrical - AC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p737",
-              "page": 737
-             },
-             {
               "title": "Type: gR - Cylindrical - AC Rated - Size: 10 x 38 mm",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
               "page": 391
-             },
-             {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 14 x 51 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p320",
-              "page": 320
              },
              {
               "title": "Type: gR - Cylindrical - AC Rated - Size: 14 x 51 mm - With stricker",
@@ -2768,11 +1782,6 @@
               "page": 392
              },
              {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p321",
-              "page": 321
-             },
-             {
               "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm - With stricker",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
               "page": 395
@@ -2781,26 +1790,6 @@
               "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm - Without stricker",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
               "page": 394
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p322",
-              "page": 322
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p740",
-              "page": 740
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p323",
-              "page": 323
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p325",
-              "page": 325
              },
              {
               "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - With stricker - Rated voltage: 1000 VDC",
@@ -2813,11 +1802,6 @@
               "page": 400
              },
              {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p324",
-              "page": 324
-             },
-             {
               "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker - Rated voltage: 1000 VDC",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
               "page": 397
@@ -2826,11 +1810,6 @@
               "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker - Rated voltage: 1500 VDC",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
               "page": 398
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 190 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p326",
-              "page": 326
              },
              {
               "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 190 mm - With stricker",
@@ -2848,16 +1827,6 @@
               "page": 396
              },
              {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 127 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p403",
-              "page": 403
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p327",
-              "page": 327
-             },
-             {
               "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm - With stricker",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
               "page": 405
@@ -2866,11 +1835,6 @@
               "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm - Without stricker",
               "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
               "page": 404
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 250 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p328",
-              "page": 328
              },
              {
               "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 250 mm - With stricker",
@@ -2889,26 +1853,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: gR - Other",
-              "slug": "selector/high-speed-fuses/type-gr/other/p317",
-              "page": 317
-             },
-             {
-              "title": "Type: gR - Other",
-              "slug": "selector/high-speed-fuses/type-gr/other/p735",
-              "page": 735
-             }
-            ]
-           }
           }
          ]
         }
@@ -2916,30 +1860,10 @@
        {
         "title": "Type: gS",
         "slug": "type-gs",
-        "count": 7,
+        "count": 5,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: gS - Other",
-              "slug": "selector/high-speed-fuses/type-gs/other/p316",
-              "page": 316
-             },
-             {
-              "title": "Type: gS - Other",
-              "slug": "selector/high-speed-fuses/type-gs/other/p734",
-              "page": 734
-             }
-            ]
-           }
-          },
           {
            "title": "Size: 000",
            "slug": "size-000",
@@ -3021,30 +1945,10 @@
        {
         "title": "Type: gLB",
         "slug": "type-glb",
-        "count": 5,
+        "count": 3,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: gLB - Other",
-              "slug": "selector/high-speed-fuses/type-glb/other/p315",
-              "page": 315
-             },
-             {
-              "title": "Type: gLB - Other",
-              "slug": "selector/high-speed-fuses/type-glb/other/p733",
-              "page": 733
-             }
-            ]
-           }
-          },
           {
            "title": "Size: 14 x 51 mm",
            "slug": "size-14-x-51-mm",
@@ -3092,21 +1996,6 @@
           }
          ]
         }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 1,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/high-speed-fuses/other/p314",
-           "page": 314
-          }
-         ]
-        }
        }
       ]
      }
@@ -3114,53 +2003,28 @@
     {
      "title": "Surge Protection",
      "slug": "surge-protection",
-     "count": 75,
+     "count": 31,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "Type: 1+2",
         "slug": "type-1plus2",
-        "count": 25,
+        "count": 12,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Protection for Power Lines",
            "slug": "protection-for-power-lines",
-           "count": 20,
+           "count": 11,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type: 1+2 - Protection for Power Lines",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p650",
-              "page": 650
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p653",
-              "page": 653
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p651",
-              "page": 651
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p652",
-              "page": 652
-             },
-             {
               "title": "Type: 1+2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
               "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
               "page": 671
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p672",
-              "page": 672
              },
              {
               "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
@@ -3171,26 +2035,6 @@
               "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
               "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
               "page": 666
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 100 kA - Imax (8/20): 100kA - In (8/20): 50 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p673",
-              "page": 673
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p678",
-              "page": 678
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 25/50 kA - Imax (8/20): 50 kA - In (8/20): 25/50 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p667",
-              "page": 667
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p675",
-              "page": 675
              },
              {
               "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
@@ -3238,44 +2082,14 @@
           {
            "title": "Photovoltaic & Energy Storage",
            "slug": "photovoltaic-and-energy-storage",
-           "count": 4,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1+2 - Photovoltaic & Energy Storage",
-              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p654",
-              "page": 654
-             },
-             {
-              "title": "Type: 1+2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
-              "page": 682
-             },
-             {
-              "title": "Type: 1+2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 5 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p683",
-              "page": 683
-             },
-             {
-              "title": "Type: 1+2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 8 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p684",
-              "page": 684
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
            "count": 1,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type: 1+2 - Other",
-              "slug": "selector/surge-protection/type-1plus2/other/p649",
-              "page": 649
+              "title": "Type: 1+2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
+              "page": 682
              }
             ]
            }
@@ -3286,37 +2100,17 @@
        {
         "title": "Type: 2",
         "slug": "type-2",
-        "count": 20,
+        "count": 10,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Protection for Power Lines",
            "slug": "protection-for-power-lines",
-           "count": 15,
+           "count": 9,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: 2 - Protection for Power Lines",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p656",
-              "page": 656
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - Surge-Trap® POP + SPD - Power frequency overvoltage protection - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p696",
-              "page": 696
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p658",
-              "page": 658
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p657",
-              "page": 657
-             },
              {
               "title": "Type: 2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
               "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
@@ -3331,16 +2125,6 @@
               "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
               "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
               "page": 685
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p692",
-              "page": 692
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p686",
-              "page": 686
              },
              {
               "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
@@ -3378,164 +2162,14 @@
           {
            "title": "Photovoltaic & Energy Storage",
            "slug": "photovoltaic-and-energy-storage",
-           "count": 4,
+           "count": 1,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: 2 - Photovoltaic & Energy Storage",
-              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p659",
-              "page": 659
-             },
              {
               "title": "Type: 2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 3 - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 10 kA",
               "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
               "page": 697
-             },
-             {
-              "title": "Type: 2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 5 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p698",
-              "page": 698
-             },
-             {
-              "title": "Type: 2 - Photovoltaic & Energy Storage - Surge-Trap® Pluggable - Number of poles: 8 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p699",
-              "page": 699
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 2 - Other",
-              "slug": "selector/surge-protection/type-2/other/p655",
-              "page": 655
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Applications",
-        "slug": "applications",
-        "count": 12,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Industrial",
-           "slug": "industrial",
-           "count": 4,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Applications - Industrial - Basic Protection",
-              "slug": "selector/surge-protection/applications/industrial/p761",
-              "page": 761
-             },
-             {
-              "title": "Applications - Industrial - Highly Protected",
-              "slug": "selector/surge-protection/applications/industrial/p759",
-              "page": 759
-             },
-             {
-              "title": "Applications - Industrial - Moderately Protected",
-              "slug": "selector/surge-protection/applications/industrial/p760",
-              "page": 760
-             },
-             {
-              "title": "Applications - Industrial - Overview",
-              "slug": "selector/surge-protection/applications/industrial/p758",
-              "page": 758
-             }
-            ]
-           }
-          },
-          {
-           "title": "Commercial / Residential",
-           "slug": "commercial-residential",
-           "count": 4,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Applications - Commercial / Residential - Basic Protection",
-              "slug": "selector/surge-protection/applications/commercial-residential/p765",
-              "page": 765
-             },
-             {
-              "title": "Applications - Commercial / Residential - Highly Protected",
-              "slug": "selector/surge-protection/applications/commercial-residential/p763",
-              "page": 763
-             },
-             {
-              "title": "Applications - Commercial / Residential - Moderately Protected",
-              "slug": "selector/surge-protection/applications/commercial-residential/p764",
-              "page": 764
-             },
-             {
-              "title": "Applications - Commercial / Residential - Overview",
-              "slug": "selector/surge-protection/applications/commercial-residential/p762",
-              "page": 762
-             }
-            ]
-           }
-          },
-          {
-           "title": "Street Lighting",
-           "slug": "street-lighting",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Applications - Street Lighting - Overview",
-              "slug": "selector/surge-protection/applications/street-lighting/p766",
-              "page": 766
-             },
-             {
-              "title": "Applications - Street Lighting - Panel Builder / Installer",
-              "slug": "selector/surge-protection/applications/street-lighting/p767",
-              "page": 767
-             }
-            ]
-           }
-          },
-          {
-           "title": "Overview",
-           "slug": "overview",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Applications - Overview - Applications overview",
-              "slug": "selector/surge-protection/applications/overview/p757",
-              "page": 757
-             }
-            ]
-           }
-          },
-          {
-           "title": "Photovoltaic",
-           "slug": "photovoltaic",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Applications - Photovoltaic - Overview",
-              "slug": "selector/surge-protection/applications/photovoltaic/p768",
-              "page": 768
              }
             ]
            }
@@ -3546,22 +2180,17 @@
        {
         "title": "Type: 2+3",
         "slug": "type-2plus3",
-        "count": 11,
+        "count": 6,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Protection for Power Lines",
            "slug": "protection-for-power-lines",
-           "count": 9,
+           "count": 6,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Type: 2+3 - Protection for Power Lines",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p661",
-              "page": 661
-             },
              {
               "title": "Type: 2+3 - Protection for Power Lines - Surge-Trap® Monobloc STET Series - Imax (8/20): 20 kA with EMI filter - In (8/20): 10 kA - Icc: 10 kA - IL: 20 A",
               "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
@@ -3573,19 +2202,9 @@
               "page": 705
              },
              {
-              "title": "Type: 2+3 - Protection for Power Lines - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p662",
-              "page": 662
-             },
-             {
               "title": "Type: 2+3 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
               "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p700",
               "page": 700
-             },
-             {
-              "title": "Type: 2+3 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p701",
-              "page": 701
              },
              {
               "title": "Type: 2+3 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
@@ -3604,36 +2223,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 2+3 - Other",
-              "slug": "selector/surge-protection/type-2plus3/other/p660",
-              "page": 660
-             }
-            ]
-           }
-          },
-          {
-           "title": "Protection for LED lighting",
-           "slug": "protection-for-led-lighting",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 2+3 - Protection for LED lighting - Surge-Trap® Monobloc STMT Series - Imax (8/20): 10 kA - In (8/20): 5 kA - Icc: 10 kA",
-              "slug": "selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
-              "page": 707
-             }
-            ]
-           }
           }
          ]
         }
@@ -3641,25 +2230,10 @@
        {
         "title": "Type: 1",
         "slug": "type-1",
-        "count": 3,
+        "count": 1,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1 - Other",
-              "slug": "selector/surge-protection/type-1/other/p648",
-              "page": 648
-             }
-            ]
-           }
-          },
           {
            "title": "System type: L-N (1Ph) - Surge-Trap® Monobloc STMT Series",
            "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
@@ -3674,21 +2248,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "System type: N-PE (N) - Surge-Trap® Monobloc STMT Series",
-           "slug": "system-type-n-pe-n-surge-trap-monobloc-stmt-series",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: 1 - System type: N-PE (N) - Surge-Trap® Monobloc STMT Series - Iimp (10/350): 100 kA - In (8/20): 100 kA - Icc: 50 kA",
-              "slug": "selector/surge-protection/type-1/system-type-n-pe-n-surge-trap-monobloc-stmt-series/p665",
-              "page": 665
-             }
-            ]
-           }
           }
          ]
         }
@@ -3696,25 +2255,10 @@
        {
         "title": "Protection for signal lines",
         "slug": "protection-for-signal-lines",
-        "count": 3,
+        "count": 2,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protection for signal lines - Other",
-              "slug": "selector/surge-protection/protection-for-signal-lines/other/p663",
-              "page": 663
-             }
-            ]
-           }
-          },
           {
            "title": "Surge-Trap® Signal - STS NET- IN LINE",
            "slug": "surge-trap-signal-sts-net-in-line",
@@ -3747,21 +2291,6 @@
           }
          ]
         }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 1,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/surge-protection/other/p647",
-           "page": 647
-          }
-         ]
-        }
        }
       ]
      }
@@ -3769,82 +2298,17 @@
     {
      "title": "Medium voltage fuses",
      "slug": "medium-voltage-fuses",
-     "count": 69,
+     "count": 41,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "MV Street Lighting Fuses For transformers",
         "slug": "mv-street-lighting-fuses-for-transformers",
-        "count": 17,
+        "count": 9,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Rated voltage: 5.5 KV",
-           "slug": "rated-voltage-5-5-kv",
-           "count": 3,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "MV Street Lighting Fuses For transformers - Rated voltage: 5.5 KV",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv/p559",
-              "page": 559
-             },
-             {
-              "title": "MV Street Lighting Fuses For transformers - Rated voltage: 5.5 KV - Size: 36 x 250 mm",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv/p560",
-              "page": 560
-             },
-             {
-              "title": "MV Street Lighting Fuses For transformers - Rated voltage: 5.5 KV - Size: 55 x 259 mm",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv/p561",
-              "page": 561
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "MV Street Lighting Fuses For transformers - Other",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/other/p556",
-              "page": 556
-             },
-             {
-              "title": "MV Street Lighting Fuses For transformers - Other",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/other/p751",
-              "page": 751
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 3.2 KV",
-           "slug": "rated-voltage-3-2-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "MV Street Lighting Fuses For transformers - Rated voltage: 3.2 KV",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv/p557",
-              "page": 557
-             },
-             {
-              "title": "MV Street Lighting Fuses For transformers - Rated voltage: 3.2 KV - Size: 36 x 190 mm",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv/p558",
-              "page": 558
-             }
-            ]
-           }
-          },
           {
            "title": "Rated voltage: 3.2 KV - Size: 36 x 190 mm",
            "slug": "rated-voltage-3-2-kv-size-36-x-190-mm",
@@ -3921,21 +2385,6 @@
            }
           },
           {
-           "title": "Rated voltage: 2.5 KV",
-           "slug": "rated-voltage-2-5-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "MV Street Lighting Fuses For transformers - Rated voltage: 2.5 KV",
-              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-2-5-kv/p595",
-              "page": 595
-             }
-            ]
-           }
-          },
-          {
            "title": "Rated voltage: 3.2 KV - Size: 10 x 180 mm",
            "slug": "rated-voltage-3-2-kv-size-10-x-180-mm",
            "count": 1,
@@ -3971,22 +2420,17 @@
        {
         "title": "NF/UTE Back-Up fuses for transformers",
         "slug": "nf-ute-back-up-fuses-for-transformers",
-        "count": 11,
+        "count": 6,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Rated voltage: 7.2 KV",
            "slug": "rated-voltage-7-2-kv",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "NF/UTE Back-Up fuses for transformers - Rated voltage: 7.2 KV",
-              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p550",
-              "page": 550
-             },
              {
               "title": "NF/UTE Back-Up fuses for transformers - Rated voltage: 7.2 KV - Size: 55 x 520 mm - With stricker",
               "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p584",
@@ -4003,15 +2447,10 @@
           {
            "title": "Rated voltage: 12 KV",
            "slug": "rated-voltage-12-kv",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "NF/UTE Back-Up fuses for transformers - Rated voltage: 12 KV",
-              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p551",
-              "page": 551
-             },
              {
               "title": "NF/UTE Back-Up fuses for transformers - Rated voltage: 12 KV - Size: 55 x 520 mm - With stricker",
               "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p586",
@@ -4028,15 +2467,10 @@
           {
            "title": "Rated voltage: 24 KV",
            "slug": "rated-voltage-24-kv",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "NF/UTE Back-Up fuses for transformers - Rated voltage: 24 KV",
-              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p552",
-              "page": 552
-             },
              {
               "title": "NF/UTE Back-Up fuses for transformers - Rated voltage: 24 KV - Size: 55 x 520 mm - With stricker",
               "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p588",
@@ -4049,146 +2483,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "NF/UTE Back-Up fuses for transformers - Other",
-              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/other/p549",
-              "page": 549
-             },
-             {
-              "title": "NF/UTE Back-Up fuses for transformers - Other",
-              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/other/p749",
-              "page": 749
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "DIN Back-Up for transformers",
-        "slug": "din-back-up-for-transformers",
-        "count": 10,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Rated voltage: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 3,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 12 KV",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-12-kv/p542",
-              "page": 542
-             },
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 12 KV - Length: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-12-kv/p543",
-              "page": 543
-             },
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 12 KV - Length: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-12-kv/p544",
-              "page": 544
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for transformers - Other",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/other/p540",
-              "page": 540
-             },
-             {
-              "title": "DIN Back-Up for transformers - Other",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/other/p748",
-              "page": 748
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 24 KV",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-24-kv/p546",
-              "page": 546
-             },
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 24 KV - Length: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-24-kv/p547",
-              "page": 547
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 7.2 KV",
-           "slug": "rated-voltage-7-2-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 7.2 KV - Length: 192 mm",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-7-2-kv/p541",
-              "page": 541
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 17.5 KV",
-           "slug": "rated-voltage-17-5-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 17.5 KV - Length: 367 mm",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-17-5-kv/p545",
-              "page": 545
-             }
-            ]
-           }
-          },
-          {
-           "title": "Rated voltage: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for transformers - Rated voltage: 36 KV - Length: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/rated-voltage-36-kv/p548",
-              "page": 548
-             }
-            ]
-           }
           }
          ]
         }
@@ -4196,22 +2490,17 @@
        {
         "title": "DIN Back-Up for Motors",
         "slug": "din-back-up-for-motors",
-        "count": 9,
+        "count": 5,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Rated voltage: 3.6 KV",
            "slug": "rated-voltage-3-6-kv",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "DIN Back-Up for Motors - Rated voltage: 3.6 KV",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p554",
-              "page": 554
-             },
              {
               "title": "DIN Back-Up for Motors - Rated voltage: 3.6 KV - Length: 192 mm",
               "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p589",
@@ -4228,15 +2517,10 @@
           {
            "title": "Rated voltage: 7.2 KV",
            "slug": "rated-voltage-7-2-kv",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "DIN Back-Up for Motors - Rated voltage: 7.2 KV",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p555",
-              "page": 555
-             },
              {
               "title": "DIN Back-Up for Motors - Rated voltage: 7.2 KV - Length: 292 mm",
               "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p591",
@@ -4246,26 +2530,6 @@
               "title": "DIN Back-Up for Motors - Rated voltage: 7.2 KV - Length: 442 mm",
               "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p592",
               "page": 592
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "DIN Back-Up for Motors - Other",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/other/p553",
-              "page": 553
-             },
-             {
-              "title": "DIN Back-Up for Motors - Other",
-              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/other/p750",
-              "page": 750
              }
             ]
            }
@@ -4622,21 +2886,6 @@
           }
          ]
         }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 1,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/medium-voltage-fuses/other/p539",
-           "page": 539
-          }
-         ]
-        }
        }
       ]
      }
@@ -4644,29 +2893,24 @@
     {
      "title": "UL/CSA fuses",
      "slug": "ul-csa-fuses",
-     "count": 33,
+     "count": 20,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "Time Delay",
         "slug": "time-delay",
-        "count": 17,
+        "count": 10,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Class CC",
            "slug": "class-cc",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Time Delay - Class CC",
-              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p289",
-              "page": 289
-             },
              {
               "title": "Time Delay - Class CC - Range: ATDR - Rated voltage: 600 VAC",
               "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
@@ -4683,15 +2927,10 @@
           {
            "title": "Midget",
            "slug": "midget",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Time Delay - Midget",
-              "slug": "selector/ul-csa-fuses/time-delay/midget/p290",
-              "page": 290
-             },
              {
               "title": "Time Delay - Midget - Rated voltage: 250 VAC",
               "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
@@ -4708,15 +2947,10 @@
           {
            "title": "Class RK1",
            "slug": "class-rk1",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Time Delay - Class RK1",
-              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p291",
-              "page": 291
-             },
              {
               "title": "Time Delay - Class RK1 - Rated voltage: 250 VAC",
               "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
@@ -4733,15 +2967,10 @@
           {
            "title": "Class RK5",
            "slug": "class-rk5",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Time Delay - Class RK5",
-              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p292",
-              "page": 292
-             },
              {
               "title": "Time Delay - Class RK5 - Rated voltage: 250 VAC",
               "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
@@ -4751,41 +2980,6 @@
               "title": "Time Delay - Class RK5 - Rated voltage: 600 VAC",
               "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
               "page": 313
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Other",
-              "slug": "selector/ul-csa-fuses/time-delay/other/p288",
-              "page": 288
-             },
-             {
-              "title": "Time Delay - Other",
-              "slug": "selector/ul-csa-fuses/time-delay/other/p732",
-              "page": 732
-             }
-            ]
-           }
-          },
-          {
-           "title": "Class G",
-           "slug": "class-g",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Time Delay - Class G",
-              "slug": "selector/ul-csa-fuses/time-delay/class-g/p305",
-              "page": 305
              }
             ]
            }
@@ -4826,22 +3020,17 @@
        {
         "title": "Fast Acting",
         "slug": "fast-acting",
-        "count": 15,
+        "count": 10,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Class T",
            "slug": "class-t",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Fast Acting - Class T",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p285",
-              "page": 285
-             },
              {
               "title": "Fast Acting - Class T - Rated voltage: 300 VAC",
               "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
@@ -4858,15 +3047,10 @@
           {
            "title": "Class K5",
            "slug": "class-k5",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Fast Acting - Class K5",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p286",
-              "page": 286
-             },
              {
               "title": "Fast Acting - Class K5 - Rated voltage: 250 VAC",
               "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
@@ -4883,15 +3067,10 @@
           {
            "title": "Class RK1",
            "slug": "class-rk1",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Fast Acting - Class RK1",
-              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p287",
-              "page": 287
-             },
              {
               "title": "Fast Acting - Class RK1 - Rated voltage: 250 VAC",
               "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
@@ -4901,26 +3080,6 @@
               "title": "Fast Acting - Class RK1 - Rated voltage: 600 VAC",
               "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
               "page": 302
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Fast Acting - Other",
-              "slug": "selector/ul-csa-fuses/fast-acting/other/p284",
-              "page": 284
-             },
-             {
-              "title": "Fast Acting - Other",
-              "slug": "selector/ul-csa-fuses/fast-acting/other/p731",
-              "page": 731
              }
             ]
            }
@@ -4987,21 +3146,6 @@
           }
          ]
         }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 1,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/ul-csa-fuses/other/p283",
-           "page": 283
-          }
-         ]
-        }
        }
       ]
      }
@@ -5009,38 +3153,28 @@
     {
      "title": "Photovoltaic Applications",
      "slug": "photovoltaic-applications",
-     "count": 32,
+     "count": 15,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "gPV Square body fuses",
         "slug": "gpv-square-body-fuses",
-        "count": 17,
+        "count": 10,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Rated voltage: 1500 VDC",
            "slug": "rated-voltage-1500-vdc",
-           "count": 10,
+           "count": 6,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p627",
-              "page": 627
-             },
-             {
               "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1L - Type: Direct mounting",
               "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
               "page": 642
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1L/XL",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p628",
-              "page": 628
              },
              {
               "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH1XL - Type: Plain blades",
@@ -5053,19 +3187,9 @@
               "page": 644
              },
              {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH2L/XL",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p629",
-              "page": 629
-             },
-             {
               "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH2XL - Type: Plain blades",
               "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
               "page": 643
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH3L",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p630",
-              "page": 630
              },
              {
               "title": "gPV Square body fuses - Rated voltage: 1500 VDC - Size: NH3L - Type: Direct mounting",
@@ -5083,20 +3207,10 @@
           {
            "title": "Rated voltage: 1000 VDC",
            "slug": "rated-voltage-1000-vdc",
-           "count": 7,
+           "count": 4,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p624",
-              "page": 624
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p625",
-              "page": 625
-             },
              {
               "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1 - Type: Direct mounting",
               "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
@@ -5106,11 +3220,6 @@
               "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH1 - Type: Plain blades",
               "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
               "page": 637
-             },
-             {
-              "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH2",
-              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p626",
-              "page": 626
              },
              {
               "title": "gPV Square body fuses - Rated voltage: 1000 VDC - Size: NH2 - Type: Direct mounting",
@@ -5131,22 +3240,17 @@
        {
         "title": "gPV cylindrical fuses",
         "slug": "gpv-cylindrical-fuses",
-        "count": 9,
+        "count": 5,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Rated voltage: 1000 VDC",
            "slug": "rated-voltage-1000-vdc",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 1000 VDC - Size: 10 x 38 mm",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p621",
-              "page": 621
-             },
              {
               "title": "gPV cylindrical fuses - Rated voltage: 1000 VDC - Size: 10 x 38 mm",
               "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
@@ -5163,15 +3267,10 @@
           {
            "title": "Rated voltage: 1500 VDC",
            "slug": "rated-voltage-1500-vdc",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p622",
-              "page": 622
-             },
              {
               "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm",
               "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
@@ -5181,26 +3280,6 @@
               "title": "gPV cylindrical fuses - Rated voltage: 1500 VDC - Size: 10 x 85 mm - Type: Crimp Cap",
               "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
               "page": 635
-             }
-            ]
-           }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "gPV cylindrical fuses - Other",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/other/p620",
-              "page": 620
-             },
-             {
-              "title": "gPV cylindrical fuses - Other",
-              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/other/p754",
-              "page": 754
              }
             ]
            }
@@ -5222,56 +3301,6 @@
           }
          ]
         }
-       },
-       {
-        "title": "Square body fuses",
-        "slug": "square-body-fuses",
-        "count": 4,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Square body fuses",
-           "slug": "selector/photovoltaic-applications/square-body-fuses/p623",
-           "page": 623
-          },
-          {
-           "title": "Square body fuses",
-           "slug": "selector/photovoltaic-applications/square-body-fuses/p631",
-           "page": 631
-          },
-          {
-           "title": "Square body fuses",
-           "slug": "selector/photovoltaic-applications/square-body-fuses/p755",
-           "page": 755
-          },
-          {
-           "title": "Square body fuses",
-           "slug": "selector/photovoltaic-applications/square-body-fuses/p756",
-           "page": 756
-          }
-         ]
-        }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 2,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/photovoltaic-applications/other/p619",
-           "page": 619
-          },
-          {
-           "title": "Other",
-           "slug": "selector/photovoltaic-applications/other/p753",
-           "page": 753
-          }
-         ]
-        }
        }
       ]
      }
@@ -5279,29 +3308,24 @@
     {
      "title": "Miniature fuses",
      "slug": "miniature-fuses",
-     "count": 27,
+     "count": 18,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "Ceramic fuses",
         "slug": "ceramic-fuses",
-        "count": 14,
+        "count": 10,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Size: 5 x 20 mm",
            "slug": "size-5-x-20-mm",
-           "count": 7,
+           "count": 6,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Ceramic fuses - Size: 5 x 20 mm",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p14",
-              "page": 14
-             },
              {
               "title": "Ceramic fuses - Size: 5 x 20 mm - Fast Acting",
               "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
@@ -5338,15 +3362,10 @@
           {
            "title": "Size: 6 x 32 mm",
            "slug": "size-6-x-32-mm",
-           "count": 5,
+           "count": 4,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Ceramic fuses - Size: 6 x 32 mm",
-              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p15",
-              "page": 15
-             },
              {
               "title": "Ceramic fuses - Size: 6 x 32 mm - Fast Acting",
               "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
@@ -5369,26 +3388,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Ceramic fuses - Other",
-              "slug": "selector/miniature-fuses/ceramic-fuses/other/p13",
-              "page": 13
-             },
-             {
-              "title": "Ceramic fuses - Other",
-              "slug": "selector/miniature-fuses/ceramic-fuses/other/p711",
-              "page": 711
-             }
-            ]
-           }
           }
          ]
         }
@@ -5396,22 +3395,17 @@
        {
         "title": "Glass fuses",
         "slug": "glass-fuses",
-        "count": 12,
+        "count": 8,
         "node": {
          "type": "group",
          "children": [
           {
            "title": "Size: 5 x 20 mm",
            "slug": "size-5-x-20-mm",
-           "count": 7,
+           "count": 6,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Glass fuses - Size: 5 x 20 mm",
-              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p11",
-              "page": 11
-             },
              {
               "title": "Glass fuses - Size: 5 x 20 mm - Fast Acting",
               "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
@@ -5448,15 +3442,10 @@
           {
            "title": "Size: 6 x 32 mm",
            "slug": "size-6-x-32-mm",
-           "count": 3,
+           "count": 2,
            "node": {
             "type": "leaves",
             "items": [
-             {
-              "title": "Glass fuses - Size: 6 x 32 mm",
-              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p12",
-              "page": 12
-             },
              {
               "title": "Glass fuses - Size: 6 x 32 mm - Fast Acting",
               "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
@@ -5469,41 +3458,6 @@
              }
             ]
            }
-          },
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Glass fuses - Other",
-              "slug": "selector/miniature-fuses/glass-fuses/other/p10",
-              "page": 10
-             },
-             {
-              "title": "Glass fuses - Other",
-              "slug": "selector/miniature-fuses/glass-fuses/other/p710",
-              "page": 710
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 1,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/miniature-fuses/other/p9",
-           "page": 9
           }
          ]
         }
@@ -5514,32 +3468,17 @@
     {
      "title": "Industrial DC Fuses",
      "slug": "industrial-dc-fuses",
-     "count": 14,
+     "count": 9,
      "nav": {
       "type": "group",
       "children": [
        {
         "title": "Rated voltage: 1000 VDC",
         "slug": "rated-voltage-1000-vdc",
-        "count": 5,
+        "count": 4,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 1000 VDC - Other",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/other/p608",
-              "page": 608
-             }
-            ]
-           }
-          },
           {
            "title": "Type: Ferrule Fuse",
            "slug": "type-ferrule-fuse",
@@ -5606,25 +3545,10 @@
        {
         "title": "Rated voltage: 600 VDC",
         "slug": "rated-voltage-600-vdc",
-        "count": 4,
+        "count": 3,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 600 VDC - Other",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/other/p606",
-              "page": 606
-             }
-            ]
-           }
-          },
           {
            "title": "Type: Ferrule Fuse",
            "slug": "type-ferrule-fuse",
@@ -5676,25 +3600,10 @@
        {
         "title": "Rated voltage: 700 VDC",
         "slug": "rated-voltage-700-vdc",
-        "count": 3,
+        "count": 2,
         "node": {
          "type": "group",
          "children": [
-          {
-           "title": "Other",
-           "slug": "other",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 700 VDC - Other",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/other/p607",
-              "page": 607
-             }
-            ]
-           }
-          },
           {
            "title": "Type: Surface Mount Fuse",
            "slug": "type-surface-mount-fuse",
@@ -5727,46 +3636,6 @@
           }
          ]
         }
-       },
-       {
-        "title": "Other",
-        "slug": "other",
-        "count": 2,
-        "node": {
-         "type": "leaves",
-         "items": [
-          {
-           "title": "Other",
-           "slug": "selector/industrial-dc-fuses/other/p605",
-           "page": 605
-          },
-          {
-           "title": "Other",
-           "slug": "selector/industrial-dc-fuses/other/p752",
-           "page": 752
-          }
-         ]
-        }
-       }
-      ]
-     }
-    },
-    {
-     "title": "IEC Fuse Switch Disconnectors",
-     "slug": "iec-fuse-switch-disconnectors",
-     "count": 2,
-     "nav": {
-      "type": "leaves",
-      "items": [
-       {
-        "title": "IEC Fuse Switch Disconnectors",
-        "slug": "selector/iec-fuse-switch-disconnectors/p76",
-        "page": 76
-       },
-       {
-        "title": "IEC Fuse Switch Disconnectors",
-        "slug": "selector/iec-fuse-switch-disconnectors/p116",
-        "page": 116
        }
       ]
      }
@@ -5774,15 +3643,10 @@
     {
      "title": "Protection for DC Distribution and Battery",
      "slug": "protection-for-dc-distribution-and-battery",
-     "count": 2,
+     "count": 1,
      "nav": {
       "type": "leaves",
       "items": [
-       {
-        "title": "Protection for DC Distribution and Battery",
-        "slug": "selector/protection-for-dc-distribution-and-battery/p604",
-        "page": 604
-       },
        {
         "title": "Protection for DC Distribution and Battery",
         "slug": "selector/protection-for-dc-distribution-and-battery/p609",

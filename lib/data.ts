@@ -28,9 +28,11 @@ export function getPageByNumber(n: number): PageEntry | undefined {
 }
 
 export function getAdjacentPages(pageNumber: number) {
+  const entry = pagesByNumber.get(pageNumber);
+  const index = entry ? pages.indexOf(entry) : -1;
   return {
-    prev: pagesByNumber.get(pageNumber - 1) ?? null,
-    next: pagesByNumber.get(pageNumber + 1) ?? null,
+    prev: index > 0 ? pages[index - 1] : null,
+    next: index >= 0 && index < pages.length - 1 ? pages[index + 1] : null,
   };
 }
 
