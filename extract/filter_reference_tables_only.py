@@ -102,7 +102,7 @@ for p in removed_pages:
         removed_screens += 1
 print("removed screenshots:", removed_screens)
 
-all_asset_files = {f"/assets/{f}" for f in os.listdir("public/assets")}
+all_asset_files = {f"/assets/{f}" for f in os.listdir("public/assets")} if os.path.isdir("public/assets") else set()
 unused = all_asset_files - kept_images
 removed_assets = 0
 for f in unused:

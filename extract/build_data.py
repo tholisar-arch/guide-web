@@ -212,6 +212,11 @@ def cluster_rows(spans):
     return rows
 
 def assign_to_bins(spans, bin_centers, tol=32):
+    """Map each span to its nearest column bin. A span with no bin within
+    tolerance is a stray caption that drifted into this row during y
+    clustering (e.g. a left-margin note landing within 3pt of a data row) --
+    drop it rather than voiding the whole row. Two spans genuinely competing
+    for the same column is a real misalignment, so that still fails."""
     assignment = {}
     for s in spans:
         best_i, best_d = None, tol + 1
@@ -219,13 +224,62 @@ def assign_to_bins(spans, bin_centers, tol=32):
             dist = abs(s["x"] - c)
             if dist < best_d:
                 best_d, best_i = dist, i
-        if best_i is None or best_i in assignment:
+        if best_i is None:
+            continue
+        if best_i in assignment:
             return None
         assignment[best_i] = s["text"]
-    return assignment
+    return assignment if assignment else None
+
+def find_repeating_header(rows, scan_limit=6):
+    """Some pages lay out two (or three) side-by-side sub-tables sharing the
+    same columns (e.g. 'Part Number Catalog Number ... Part Number Catalog
+    Number ...') to fit more references per page. Detect that duplicated
+    header among the first few content rows and return (header_row,
+    unit_width) so the row-splitter can treat every `unit_width`-wide slice
+    of a row as its own table row."""
+    for r in rows[:scan_limit]:
+        n = len(r["spans"])
+        if n < 4:
+            continue
+        texts = [s["text"] for s in r["spans"]]
+        for repeat in (2, 3, 4):
+            if n % repeat != 0:
+                continue
+            k = n // repeat
+            if k < 2:
+                continue
+            groups = [texts[i * k:(i + 1) * k] for i in range(repeat)]
+            if all(g == groups[0] for g in groups):
+                return r, k
+    return None, None
 
 def build_table_and_paragraphs(rows):
     """Try to find one repeating tabular grid among `rows`. Returns (table_block_or_None, consumed_row_ids)."""
+    # the bottom "About us / Selector / Markets / Knowledge / Web" nav bar
+    # can otherwise partially bin-match (a single word landing in a real
+    # column's x-range) and leak a junk mostly-empty row into the table
+    rows = [r for r in rows if any(s["text"] not in NAV_WORDS for s in r["spans"])]
+    header_row, unit_width = find_repeating_header(rows)
+    if header_row is not None:
+        headers = [s["text"] for s in header_row["spans"][:unit_width]]
+        table_rows = []
+        consumed = {id(header_row)}
+        for r in rows:
+            if r is header_row:
+                continue
+            n = len(r["spans"])
+            if n == 0 or n % unit_width != 0:
+                continue
+            texts = [s["text"] for s in r["spans"]]
+            for i in range(n // unit_width):
+                group = texts[i * unit_width:(i + 1) * unit_width]
+                if group != headers:  # a repeated header row further down the page
+                    table_rows.append(group)
+            consumed.add(id(r))
+        if len(table_rows) >= 2:
+            return {"type": "table", "headers": headers, "rows": table_rows}, consumed
+
     colcounts = Counter(len(r["spans"]) for r in rows if len(r["spans"]) >= 2)
     if not colcounts:
         return None, set()
@@ -239,12 +293,16 @@ def build_table_and_paragraphs(rows):
         for i in range(mode_val)
     ]
 
+    min_matched = min(2, mode_val)
     qualifying = []
     for r in rows:
         if len(r["spans"]) < 2:
             continue
         assignment = assign_to_bins(r["spans"], bin_centers)
-        if assignment is not None:
+        # a single matched bin is too weak a signal -- a stray caption that
+        # happens to land near one column (e.g. "Number of poles: 2" close
+        # to the Part Number column) would otherwise leak in as a row
+        if assignment is not None and len(assignment) >= min_matched:
             qualifying.append((r, assignment))
 
     if len(qualifying) < 3:
@@ -258,6 +316,10 @@ def build_table_and_paragraphs(rows):
         data = qualifying[1:]
 
     table_rows = [[a.get(i, "") for i in range(mode_val)] for _, a in data]
+    if headers is not None:
+        # a repeated header row further down a multi-section page (e.g. a
+        # second "Number of poles: 4" block) looks like ordinary data here
+        table_rows = [row for row in table_rows if row != headers]
     consumed = {id(r) for r, _ in qualifying}
     return {"type": "table", "headers": headers, "rows": table_rows}, consumed
 
