@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(120, 130, 150, 0.3);
+  border-radius: 8px;
+}
+.no-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.prose-guide p {
+  margin: 0.5rem 0;
+}
