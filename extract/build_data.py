@@ -192,6 +192,34 @@ def extract_resource_links(page):
         del r["_y"]
     return results
 
+def caption_texts_near_links(page):
+    """Text captions the PDF places next to any external hyperlink icon
+    (Datasheet, or an accessory name like "Multivert(R) FSD" that links to a
+    mersen.com catalog page rather than a downloadable file). These are
+    layout chrome for the icon, not real body text -- whether or not they
+    end up in the Documentation list -- so callers strip them from
+    paragraph blocks rather than showing them as stray, meaningless lines."""
+    links = [l for l in page.get_links() if l.get("kind") == 2]
+    if not links:
+        return set()
+    d = page.get_text("dict")
+    spans = []
+    for b in d["blocks"]:
+        if "lines" not in b:
+            continue
+        for l in b["lines"]:
+            for s in l["spans"]:
+                t = s["text"].strip()
+                if t:
+                    spans.append({"text": t, "bbox": s["bbox"]})
+    captions = set()
+    for l in links:
+        rbbox = (l["from"].x0, l["from"].y0, l["from"].x1, l["from"].y1)
+        for s in spans:
+            if _bbox_intersects(rbbox, s["bbox"]):
+                captions.add(s["text"])
+    return captions
+
 def extract_breadcrumb(spans):
     cand = [s for s in spans if s["size"] == 14.0]
     if not cand:
@@ -374,7 +402,7 @@ def build_table_and_paragraphs(rows):
     consumed = {id(r) for r, _ in qualifying}
     return {"type": "table", "headers": headers, "rows": table_rows}, consumed
 
-def build_blocks_tabular(spans):
+def build_blocks_tabular(spans, extra_excluded=frozenset()):
     """For product-selector pages: real font, may contain a genuine spec table."""
     rows = cluster_rows(spans)
     table_block, consumed = build_table_and_paragraphs(rows)
@@ -386,7 +414,7 @@ def build_blocks_tabular(spans):
                 blocks.append(table_block)
                 emitted_table = True
             continue
-        kept = [s for s in r["spans"] if s["text"] not in NAV_WORDS]
+        kept = [s for s in r["spans"] if s["text"] not in NAV_WORDS and s["text"] not in extra_excluded]
         if not kept:
             continue
         text = PRIVATE_USE_RE.sub("", " ".join(s["text"] for s in kept)).strip()
@@ -416,7 +444,7 @@ for i in range(NPAGES):
     text = clean_text(page.get_text("text"))
     images = extract_page_images(page)
     if pno in TABULAR_PAGE_RANGE:
-        blocks = build_blocks_tabular(spans)
+        blocks = build_blocks_tabular(spans, caption_texts_near_links(page))
     else:
         blocks = build_blocks_simple(text)
     pages.append({
