@@ -4,15 +4,13 @@ import { useEffect, useMemo, useState } from "react";
 import { Search, Loader2, ArrowLeftRight } from "lucide-react";
 import type { XrefEntry } from "@/lib/types";
 
+// Competitor -> Mersen only: the query is matched against competitor
+// references exclusively, never against our own Part Number or the
+// description, so looking up a Mersen reference here returns nothing.
 function scoreEntry(entry: XrefEntry, q: string): { score: number; matched: string | null } {
   const query = q.toLowerCase();
-  const pn = entry.pn.toLowerCase();
   let score = 0;
   let matched: string | null = null;
-
-  if (pn === query) score += 200;
-  else if (pn.startsWith(query)) score += 130;
-  else if (pn.includes(query)) score += 60;
 
   for (const r of entry.refs) {
     const ref = r.ref.toLowerCase();
@@ -27,8 +25,6 @@ function scoreEntry(entry: XrefEntry, q: string): { score: number; matched: stri
       matched = matched ?? r.brand;
     }
   }
-
-  if (entry.desc.toLowerCase().includes(query)) score += 10;
 
   return { score, matched };
 }
@@ -69,8 +65,8 @@ export default function XrefSearch() {
         Find a Mersen reference from a competitor part number
       </h1>
       <p className="mb-6 text-sm text-ink-500 dark:text-ink-400">
-        Search by Mersen Part Number or by a competitor&apos;s reference
-        (Citel, Dehn, Eaton, Siemens, Schneider Electric, and more).
+        Search by a competitor&apos;s reference (Citel, Dehn, Eaton, Siemens,
+        Schneider Electric, and more) to find the equivalent Mersen part.
       </p>
 
       <div className="mb-8 flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2.5 shadow-sm focus-within:border-brand-500 dark:border-ink-700 dark:bg-ink-900">
@@ -82,7 +78,7 @@ export default function XrefSearch() {
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search a Mersen or competitor reference..."
+          placeholder="Search a competitor reference..."
           autoFocus
           className="w-full bg-transparent text-sm outline-none placeholder:text-ink-400"
         />
