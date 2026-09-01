@@ -13,14 +13,6 @@ type SearchItem = {
   text: string;
 };
 
-const CHAPTER_LABELS: Record<string, string> = {
-  about: "About us",
-  selector: "Product Selector",
-  markets: "Markets",
-  knowledge: "Knowledge Centre",
-  cover: "Guide",
-};
-
 let cache: SearchItem[] | null = null;
 
 export function scoreItem(item: SearchItem, q: string): number {
@@ -166,8 +158,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
                   className="flex w-full flex-col items-start gap-0.5 rounded-md px-3 py-2 text-left hover:bg-ink-100 dark:hover:bg-ink-800"
                 >
                   <span className="text-xs font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400">
-                    {CHAPTER_LABELS[r.chapter] ?? r.chapter}
-                    {r.category ? ` · ${r.category}` : ""}
+                    {r.category ?? "Product Selector"}
                   </span>
                   <span className="text-sm text-ink-800 dark:text-ink-100">
                     {r.title}

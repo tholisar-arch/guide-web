@@ -1,21 +1,19 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Link from "next/link";
 import {
   getAllParams,
   getPageBySlug,
-  getPageByNumber,
   getListingChain,
   resolveListing,
   countLeaves,
   flattenLeaves,
 } from "@/lib/data";
-import type { ChapterAbout, ChapterMarkets, ChapterKnowledge } from "@/lib/types";
+import type { ChapterSelector } from "@/lib/types";
 import LeafPageView from "@/components/LeafPageView";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import GroupCards from "@/components/GroupCards";
 import LeafFilterList from "@/components/LeafFilterList";
-import ThumbCard from "@/components/ThumbCard";
+import SelectorFrame from "@/components/SelectorFrame";
 
 export const dynamicParams = false;
 
@@ -73,9 +71,7 @@ export default function GuidePage({
       ...chainToCrumbs(chain, false),
       { title: entry.title },
     ];
-    const parentHref = chain.length
-      ? chain[chain.length - 1].href
-      : "/";
+    const parentHref = chain.length ? chain[chain.length - 1].href : "/";
     return (
       <LeafPageView entry={entry} crumbs={crumbs} parentHref={parentHref} />
     );
@@ -85,110 +81,30 @@ export default function GuidePage({
   if (!listing) notFound();
 
   const chain = getListingChain(segments);
-  const crumbs = [
-    { title: "Home", href: "/" },
-    ...chainToCrumbs(chain, true),
-  ];
+  const crumbs = [{ title: "Home", href: "/" }, ...chainToCrumbs(chain, true)];
+  const backHref =
+    segments.length > 1 ? "/guide/" + segments.slice(0, -1).join("/") : undefined;
 
   if (listing.kind === "chapter") {
-    const chapter = listing.chapter;
-
-    if (chapter.slug === "about") {
-      const c = chapter as ChapterAbout;
-      return (
-        <div className="mx-auto max-w-6xl px-4 py-8">
-          <Breadcrumbs items={crumbs} />
-          <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
-            {c.title}
-          </h1>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {c.items.map((it) => {
-              const p = getPageByNumber(it.page);
-              return (
-                <ThumbCard
-                  key={it.slug}
-                  href={`/guide/${it.slug}`}
-                  title={it.title}
-                  image={p?.screenshot ?? ""}
-                />
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    if (chapter.slug === "selector") {
-      const c = chapter;
-      return (
-        <div className="mx-auto max-w-6xl px-4 py-8">
-          <Breadcrumbs items={crumbs} />
-          <h1 className="mb-2 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
-            {c.title}
-          </h1>
-          <p className="mb-6 max-w-2xl text-sm text-ink-500 dark:text-ink-400">
-            Browse the full range of electrical protection product families:
-            fuses, surge protection devices, and photovoltaic solutions.
-          </p>
-          {c.overview.length > 0 && (
-            <div className="mb-6">
-              {c.overview.map((it) => (
-                <Link
-                  key={it.slug}
-                  href={`/guide/${it.slug}`}
-                  className="text-sm font-medium text-brand-600 hover:underline dark:text-brand-400"
-                >
-                  {it.title} &rarr;
-                </Link>
-              ))}
-            </div>
-          )}
-          <GroupCards
-            items={c.categories.map((cat) => ({
-              title: cat.title,
-              href: `/guide/selector/${cat.slug}`,
-              count: cat.count,
-            }))}
-          />
-        </div>
-      );
-    }
-
-    if (chapter.slug === "markets") {
-      const c = chapter as ChapterMarkets;
-      return (
-        <div className="mx-auto max-w-6xl px-4 py-8">
-          <Breadcrumbs items={crumbs} />
-          <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
-            {c.title}
-          </h1>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {c.items.map((it) => {
-              const p = getPageByNumber(it.page);
-              return (
-                <ThumbCard
-                  key={it.slug}
-                  href={`/guide/${it.slug}`}
-                  title={it.title}
-                  image={p?.screenshot ?? ""}
-                />
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // knowledge
-    const c = chapter as ChapterKnowledge;
+    const c = listing.chapter as ChapterSelector;
     return (
-      <div className="mx-auto max-w-4xl px-4 py-8">
+      <SelectorFrame title="Product Selector" backHref={backHref}>
         <Breadcrumbs items={crumbs} />
-        <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
+        <h1 className="mb-2 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
           {c.title}
         </h1>
-        <LeafFilterList items={c.items} />
-      </div>
+        <p className="mb-6 max-w-2xl text-sm text-ink-500 dark:text-ink-400">
+          Browse the full range of electrical protection product families:
+          fuses, surge protection devices, and photovoltaic solutions.
+        </p>
+        <GroupCards
+          items={c.categories.map((cat) => ({
+            title: cat.title,
+            href: `/guide/selector/${cat.slug}`,
+            count: cat.count,
+          }))}
+        />
+      </SelectorFrame>
     );
   }
 
@@ -200,7 +116,7 @@ export default function GuidePage({
   const total = countLeaves(listing.node);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8">
+    <SelectorFrame title="Product Selector" backHref={backHref}>
       <Breadcrumbs items={crumbs} />
       <h1 className="mb-1 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
         {title}
@@ -219,6 +135,6 @@ export default function GuidePage({
       ) : (
         <LeafFilterList items={flattenLeaves(listing.node)} />
       )}
-    </div>
+    </SelectorFrame>
   );
 }

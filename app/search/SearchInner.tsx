@@ -6,13 +6,7 @@ import Link from "next/link";
 import { Search as SearchIcon, FileText } from "lucide-react";
 import { scoreItem, type SearchItem } from "@/components/SearchBox";
 
-const CHAPTER_LABELS: Record<string, string> = {
-  about: "About us",
-  selector: "Product Selector",
-  markets: "Markets",
-  knowledge: "Knowledge Centre",
-  cover: "Guide",
-};
+
 
 export default function SearchPage() {
   const params = useSearchParams();
@@ -78,8 +72,7 @@ export default function SearchPage() {
               <FileText size={16} className="mt-0.5 shrink-0 text-ink-300" />
               <span className="min-w-0">
                 <span className="mb-0.5 block text-xs font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400">
-                  {CHAPTER_LABELS[r.chapter] ?? r.chapter}
-                  {r.category ? ` · ${r.category}` : ""}
+                  {r.category ?? "Product Selector"}
                 </span>
                 <span className="block text-sm font-medium text-ink-800 dark:text-ink-100">
                   {r.title}

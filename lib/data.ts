@@ -167,8 +167,4 @@ export const stats = {
     (nav.chapters.find((c) => c.slug === "selector") as
       | ChapterSelector
       | undefined)?.categories.reduce((s, c) => s + c.count, 0) ?? 0,
-  markets:
-    (nav.chapters.find((c) => c.slug === "markets") as
-      | { items: unknown[] }
-      | undefined)?.items.length ?? 0,
 };
