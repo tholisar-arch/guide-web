@@ -22,12 +22,9 @@ export default function LeafPageView({
     <SelectorFrame title="Product Selector" backHref={parentHref}>
       <article>
         <Breadcrumbs items={crumbs} />
-        <h1 className="mb-1 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
+        <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
           {entry.title}
         </h1>
-        <p className="mb-6 text-sm text-ink-400">
-          Page {entry.page} of the guide
-        </p>
 
         <ContentBlocks blocks={entry.blocks} />
 

@@ -36,9 +36,6 @@ export default function LeafFilterList({ items }: { items: NavLeafItem[] }) {
             >
               <FileText size={14} className="shrink-0 text-ink-300" />
               <span className="min-w-0 flex-1 truncate">{it.title}</span>
-              <span className="shrink-0 text-xs text-ink-400">
-                p.{it.page}
-              </span>
             </Link>
           </li>
         ))}
