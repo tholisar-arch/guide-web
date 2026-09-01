@@ -1,5 +1,7 @@
 import fitz, json, re, os
-from collections import defaultdict
+from collections import defaultdict, Counter
+from PIL import Image
+import io
 
 PDF = "Selection Guide - 2026 Europe - English.pdf"
 doc = fitz.open(PDF)
@@ -7,7 +9,117 @@ NPAGES = doc.page_count
 
 NAV_WORDS = {"About us","Selector","Markets","Knowledge","Web","Back","Next",
              "PRODUCT SELECTOR","KNOWLEDGE CENTRE","MARKETS","------------------",
-             "+","---------------"}
+             "+","---------------","Datasheet"}
+
+MIN_VISIBLE_FONT = 4.0  # PowerPoint AI-alt-text / file-path metadata is embedded at ~1.2pt
+
+JUNK_LINE_RE = re.compile(
+    r"\\|\.(jpe?g|png|gif|bmp)\b|generado por IA|Interfaz de usuario|"
+    r"contenido generado|^[A-Za-z]:\\",
+    re.IGNORECASE,
+)
+
+IMG_DIR = "web_data/assets"
+os.makedirs(IMG_DIR, exist_ok=True)
+
+# ---------- pass 1: find template/chrome images (logo, banners, nav buttons) ----------
+# and soft-mask (alpha channel) objects, which PyMuPDF also lists as if they
+# were standalone images -- rendering one directly yields a flat black tile.
+_xref_freq = Counter()
+MASK_XREFS = set()
+XREF_SMASK = {}
+for _page in doc:
+    for _im in _page.get_images(full=True):
+        _xref_freq[_im[0]] += 1
+        if _im[1]:
+            MASK_XREFS.add(_im[1])
+            XREF_SMASK[_im[0]] = _im[1]
+_xref_freq = Counter({x: c for x, c in _xref_freq.items() if x not in MASK_XREFS})
+CHROME_XREFS = {x for x, c in _xref_freq.items() if c >= 300}
+
+_saved_images = {}  # xref -> {"file", "w", "h"}
+
+def extract_page_images(page):
+    """Return list of {file,w,h} for non-chrome images on this page.
+
+    PowerPoint-exported slides often stack several images (a coloured badge
+    shape, then an icon glyph) at the *same* position. get_images() is
+    returned in roughly paint order, so when several images share a bbox we
+    keep only the last one (the one actually visible on top) instead of
+    showing every layer as a separate, confusingly blank/duplicate tile.
+    """
+    candidates = []  # (xref, rect) in paint order
+    for img in page.get_images(full=True):
+        xref = img[0]
+        if xref in CHROME_XREFS or xref in MASK_XREFS:
+            continue
+        rects = page.get_image_rects(xref)
+        if not rects:
+            continue
+        r = rects[0]
+        if r.width < 12 or r.height < 12:
+            continue  # skip specks
+        candidates.append((xref, r))
+
+    by_pos = {}
+    for xref, r in candidates:
+        key = (round(r.x0 / 3), round(r.y0 / 3), round(r.x1 / 3), round(r.y1 / 3))
+        by_pos[key] = (xref, r)  # later entries overwrite earlier ones at same slot
+
+    winners = list(by_pos.values())
+    winners.sort(key=lambda t: (round(t[1].y0), round(t[1].x0)))
+
+    out = []
+    seen = set()
+    for xref, r in winners:
+        if xref in seen:
+            continue
+        seen.add(xref)
+        if xref not in _saved_images:
+            try:
+                pix = fitz.Pixmap(doc, xref)
+                if pix.colorspace is None or pix.colorspace.n not in (1, 3):
+                    pix = fitz.Pixmap(fitz.csRGB, pix)
+                base_n = pix.colorspace.n if pix.colorspace else 1
+                mode = {1: "L", 3: "RGB"}[base_n] + ("A" if pix.alpha else "")
+                im = Image.frombytes(mode, (pix.width, pix.height), pix.samples).convert("RGB")
+
+                smask_xref = XREF_SMASK.get(xref)
+                alpha_im = None
+                if smask_xref:
+                    try:
+                        mpix = fitz.Pixmap(doc, smask_xref)
+                        alpha_im = Image.frombytes("L", (mpix.width, mpix.height), mpix.samples)
+                        if alpha_im.size != im.size:
+                            alpha_im = alpha_im.resize(im.size)
+                    except Exception:
+                        alpha_im = None
+                if alpha_im is not None:
+                    bg = Image.new("RGB", im.size, (255, 255, 255))
+                    bg.paste(im, mask=alpha_im)
+                    im = bg
+            except Exception:
+                continue
+            small = im.resize((32, 32))
+            if small.getcolors(maxcolors=2) is not None:
+                # flat single-colour raster: a drop-shadow/blend artefact,
+                # never meaningful standalone content
+                _saved_images[xref] = None
+                continue
+            max_sat = max(px[1] for px in small.convert("HSV").getdata())
+            if max_sat < 18:
+                # near-greyscale blur/shadow layer with no real colour of its
+                # own -- also not meaningful standalone content
+                _saved_images[xref] = None
+                continue
+            fname = f"img-{xref}.webp"
+            im.save(f"{IMG_DIR}/{fname}", "WEBP", quality=82, method=4)
+            _saved_images[xref] = {"file": f"/assets/{fname}", "w": im.width, "h": im.height}
+        if _saved_images[xref] is not None:
+            out.append(_saved_images[xref])
+    return out
+
+# ---------- span extraction ----------
 
 def get_spans(page):
     d = page.get_text("dict")
@@ -20,8 +132,13 @@ def get_spans(page):
                 t = s["text"].strip()
                 if not t:
                     continue
-                spans.append({"size": round(s["size"], 1), "text": t,
-                              "x": round(s["bbox"][0], 1), "y": round(s["bbox"][1], 1)})
+                if s["size"] < MIN_VISIBLE_FONT:
+                    continue
+                spans.append({
+                    "size": round(s["size"], 1), "text": t,
+                    "x": round(s["bbox"][0], 1), "y": round(s["bbox"][1], 1),
+                    "x1": round(s["bbox"][2], 1),
+                })
     return spans
 
 def extract_breadcrumb(spans):
@@ -56,13 +173,17 @@ def extract_fallback_title(spans):
     cand.sort(key=lambda s: (-s["size"], s["y"]))
     return cand[0]["text"] if cand else ""
 
+PRIVATE_USE_RE = re.compile(r"[-]")
+
 def clean_text(t):
-    lines = [l.strip() for l in t.split("\n")]
+    lines = [PRIVATE_USE_RE.sub("", l).strip() for l in t.split("\n")]
     out = []
     for l in lines:
         if not l:
             continue
         if l in NAV_WORDS:
+            continue
+        if JUNK_LINE_RE.search(l):
             continue
         if re.fullmatch(r"[\W_]+", l) and l not in ("?",):
             continue
@@ -76,12 +197,115 @@ def slugify(s):
     s = re.sub(r"-+", "-", s).strip("-")
     return s or "x"
 
+# ---------- content block reconstruction (real text + real tables, no screenshots) ----------
+
+def cluster_rows(spans):
+    spans = sorted(spans, key=lambda s: (s["y"], s["x"]))
+    rows = []
+    for s in spans:
+        if rows and abs(s["y"] - rows[-1]["y"]) < 3.0:
+            rows[-1]["spans"].append(s)
+        else:
+            rows.append({"y": s["y"], "spans": [s]})
+    for r in rows:
+        r["spans"].sort(key=lambda s: s["x"])
+    return rows
+
+def assign_to_bins(spans, bin_centers, tol=32):
+    assignment = {}
+    for s in spans:
+        best_i, best_d = None, tol + 1
+        for i, c in enumerate(bin_centers):
+            dist = abs(s["x"] - c)
+            if dist < best_d:
+                best_d, best_i = dist, i
+        if best_i is None or best_i in assignment:
+            return None
+        assignment[best_i] = s["text"]
+    return assignment
+
+def build_table_and_paragraphs(rows):
+    """Try to find one repeating tabular grid among `rows`. Returns (table_block_or_None, consumed_row_ids)."""
+    colcounts = Counter(len(r["spans"]) for r in rows if len(r["spans"]) >= 2)
+    if not colcounts:
+        return None, set()
+    mode_val, support = colcounts.most_common(1)[0]
+    if support < 3:
+        return None, set()
+
+    exact_rows = [r for r in rows if len(r["spans"]) == mode_val]
+    bin_centers = [
+        sorted(r["spans"][i]["x"] for r in exact_rows)[len(exact_rows) // 2]
+        for i in range(mode_val)
+    ]
+
+    qualifying = []
+    for r in rows:
+        if len(r["spans"]) < 2:
+            continue
+        assignment = assign_to_bins(r["spans"], bin_centers)
+        if assignment is not None:
+            qualifying.append((r, assignment))
+
+    if len(qualifying) < 3:
+        return None, set()
+
+    headers = None
+    data = qualifying
+    first_row, first_assignment = qualifying[0]
+    if len(first_assignment) == mode_val and len(qualifying) >= 3:
+        headers = [first_assignment.get(i, "") for i in range(mode_val)]
+        data = qualifying[1:]
+
+    table_rows = [[a.get(i, "") for i in range(mode_val)] for _, a in data]
+    consumed = {id(r) for r, _ in qualifying}
+    return {"type": "table", "headers": headers, "rows": table_rows}, consumed
+
+def build_blocks_tabular(spans):
+    """For product-selector pages: real font, may contain a genuine spec table."""
+    rows = cluster_rows(spans)
+    table_block, consumed = build_table_and_paragraphs(rows)
+    blocks = []
+    emitted_table = False
+    for r in rows:
+        if id(r) in consumed:
+            if not emitted_table:
+                blocks.append(table_block)
+                emitted_table = True
+            continue
+        kept = [s for s in r["spans"] if s["text"] not in NAV_WORDS]
+        if not kept:
+            continue
+        text = PRIVATE_USE_RE.sub("", " ".join(s["text"] for s in kept)).strip()
+        if not text:
+            continue
+        size = max(s["size"] for s in kept)
+        blocks.append({"type": "paragraph", "text": text, "size": size})
+    return blocks
+
+def build_blocks_simple(text):
+    """For about/markets/knowledge/cover pages: rely on PyMuPDF's reading-order text
+    (robust even for decorative/stylised headings), one paragraph per line."""
+    blocks = []
+    for line in text.split("\n"):
+        line = line.strip()
+        if line:
+            blocks.append({"type": "paragraph", "text": line, "size": 12})
+    return blocks
+
+TABULAR_PAGE_RANGE = set(range(8, 769))
+
 pages = []
 for i in range(NPAGES):
     pno = i + 1
     page = doc[i]
     spans = get_spans(page)
     text = clean_text(page.get_text("text"))
+    images = extract_page_images(page)
+    if pno in TABULAR_PAGE_RANGE:
+        blocks = build_blocks_tabular(spans)
+    else:
+        blocks = build_blocks_simple(text)
     pages.append({
         "page": pno,
         "spans": spans,
@@ -89,8 +313,11 @@ for i in range(NPAGES):
         "main": extract_main(spans),
         "fallback": extract_fallback_title(spans),
         "text": text,
-        "n_images": len(page.get_images()),
+        "blocks": blocks,
+        "images": images,
     })
+    if pno % 100 == 0:
+        print("processed", pno)
 
 # ---- Chapter boundaries ----
 # 1 cover | 2-7 about | 8-756 selector (product families) | 757-768 selector applications
@@ -109,7 +336,9 @@ def add_entry(p, chapter, category, subcategory, tail_segments, title, slug_part
         "tail": tail_segments,
         "title": title.strip(),
         "text": d["text"][:4000],
-        "image": f"/pages/{p}.webp",
+        "blocks": d["blocks"],
+        "images": d["images"],
+        "screenshot": f"/pages/{p}.webp",
         "slug": slug,
     })
 
@@ -144,7 +373,6 @@ CATEGORY_ALIASES = {
     "Medium voltage fuses & Fuse Holders": "Medium voltage fuses",
     "Medium voltage fuses & fuse holders": "Medium voltage fuses",
 }
-SKIP_PAGES = set()
 
 for p in range(8, 757):
     d = pages[p - 1]
@@ -212,7 +440,6 @@ def walk(node, cat_slug, cat_title, path_titles, subcategory_title):
             walk(child, cat_slug, cat_title, path_titles + [key], sub_title)
 
 for cat, tree in category_trees.items():
-    add_entry_used = False
     walk(tree, slugify(cat), cat, [], None)
 
 # Markets (769 index + 770-774)
@@ -258,10 +485,6 @@ with open("web_data/pages.json", "w", encoding="utf-8") as f:
     json.dump(entries, f, ensure_ascii=False)
 
 # ---------- Build nav tree JSON ----------
-def title_for_chapter(ch):
-    return {"cover": "Cover", "about": "About Us", "selector": "Product Selector",
-            "markets": "Markets", "knowledge": "Knowledge Centre"}[ch]
-
 nav = {"chapters": []}
 by_chapter = defaultdict(list)
 for e in entries:
@@ -342,3 +565,4 @@ with open("web_data/search-index.json", "w", encoding="utf-8") as f:
     json.dump(search_index, f, ensure_ascii=False)
 
 print("done. categories:", [(c["title"], c["count"]) for c in selector_categories])
+print("unique content images saved:", len(_saved_images))

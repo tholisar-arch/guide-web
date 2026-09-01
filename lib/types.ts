@@ -1,3 +1,23 @@
+export type TableBlock = {
+  type: "table";
+  headers: string[] | null;
+  rows: string[][];
+};
+
+export type ParagraphBlock = {
+  type: "paragraph";
+  text: string;
+  size: number;
+};
+
+export type ContentBlock = TableBlock | ParagraphBlock;
+
+export type PageImage = {
+  file: string;
+  w: number;
+  h: number;
+};
+
 export type PageEntry = {
   page: number;
   chapter: "cover" | "about" | "selector" | "markets" | "knowledge";
@@ -6,7 +26,9 @@ export type PageEntry = {
   tail: string[];
   title: string;
   text: string;
-  image: string;
+  blocks: ContentBlock[];
+  images: PageImage[];
+  screenshot: string;
   slug: string;
 };
 

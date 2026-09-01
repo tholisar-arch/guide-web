@@ -109,7 +109,7 @@ export default function GuidePage({
                   key={it.slug}
                   href={`/guide/${it.slug}`}
                   title={it.title}
-                  image={p?.image ?? ""}
+                  image={p?.screenshot ?? ""}
                 />
               );
             })}
@@ -170,7 +170,7 @@ export default function GuidePage({
                   key={it.slug}
                   href={`/guide/${it.slug}`}
                   title={it.title}
-                  image={p?.image ?? ""}
+                  image={p?.screenshot ?? ""}
                 />
               );
             })}
