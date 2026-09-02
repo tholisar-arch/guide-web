@@ -93,7 +93,7 @@ export default function GuidePage({
   if (listing.kind === "chapter") {
     const c = listing.chapter as ChapterSelector;
     return (
-      <SelectorFrame title="Product Selector" backHref={backHref}>
+      <SelectorFrame backHref={backHref}>
         <Breadcrumbs items={crumbs} />
         <h1 className="mb-2 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
           {c.title}
@@ -119,7 +119,7 @@ export default function GuidePage({
       : listing.pathTitles[listing.pathTitles.length - 1];
 
   return (
-    <SelectorFrame title="Product Selector" backHref={backHref}>
+    <SelectorFrame backHref={backHref}>
       <Breadcrumbs items={crumbs} />
       <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
         {title}

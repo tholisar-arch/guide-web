@@ -19,7 +19,7 @@ export default function LeafPageView({
   const { prev, next } = getAdjacentPages(entry.page);
 
   return (
-    <SelectorFrame title="Product Selector" backHref={parentHref}>
+    <SelectorFrame backHref={parentHref}>
       <article>
         <Breadcrumbs items={crumbs} />
         <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
