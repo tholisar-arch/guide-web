@@ -3951,185 +3951,195 @@
      }
     },
     {
-     "title": "DC Distribution and Battery",
-     "slug": "protection-for-dc-distribution-and-battery",
-     "count": 1,
-     "nav": {
-      "type": "leaves",
-      "items": [
-       {
-        "title": "DC Distribution and Battery",
-        "slug": "selector/protection-for-dc-distribution-and-battery/p609",
-        "page": 609
-       }
-      ]
-     }
-    },
-    {
-     "title": "Industrial DC Fuses",
-     "slug": "industrial-dc-fuses",
-     "count": 9,
+     "title": "DC fuses",
+     "slug": "dc-fuses",
+     "count": 10,
      "nav": {
       "type": "group",
       "children": [
        {
-        "title": "Rated voltage: 600 VDC",
-        "slug": "rated-voltage-600-vdc",
-        "count": 3,
+        "title": "DC Distribution and Battery",
+        "slug": "protection-for-dc-distribution-and-battery",
+        "count": 1,
         "node": {
-         "type": "group",
-         "children": [
+         "type": "leaves",
+         "items": [
           {
-           "title": "Type: Ferrule Fuse",
-           "slug": "type-ferrule-fuse",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 600 VDC - Type: Ferrule Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-ferrule-fuse/p610",
-              "page": 610
-             }
-            ]
-           }
-          },
-          {
-           "title": "Type: Surface Mount Fuse",
-           "slug": "type-surface-mount-fuse",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 600 VDC - Type: Surface Mount Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-surface-mount-fuse/p611",
-              "page": 611
-             }
-            ]
-           }
-          },
-          {
-           "title": "Type: PC Board Mount",
-           "slug": "type-pc-board-mount",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 600 VDC - Type: PC Board Mount",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-pc-board-mount/p612",
-              "page": 612
-             }
-            ]
-           }
+           "title": "DC Distribution and Battery",
+           "slug": "selector/protection-for-dc-distribution-and-battery/p609",
+           "page": 609
           }
          ]
         }
        },
        {
-        "title": "Rated voltage: 700 VDC",
-        "slug": "rated-voltage-700-vdc",
-        "count": 2,
+        "title": "Industrial DC Fuses",
+        "slug": "industrial-dc-fuses",
+        "count": 9,
         "node": {
          "type": "group",
          "children": [
           {
-           "title": "Type: Surface Mount Fuse",
-           "slug": "type-surface-mount-fuse",
-           "count": 1,
+           "title": "Rated voltage: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 3,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Rated voltage: 700 VDC - Type: Surface Mount Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-surface-mount-fuse/p613",
-              "page": 613
+              "title": "Type: Ferrule Fuse",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 600 VDC - Type: Ferrule Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-ferrule-fuse/p610",
+                 "page": 610
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Surface Mount Fuse",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 600 VDC - Type: Surface Mount Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-surface-mount-fuse/p611",
+                 "page": 611
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: PC Board Mount",
+              "slug": "type-pc-board-mount",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 600 VDC - Type: PC Board Mount",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-pc-board-mount/p612",
+                 "page": 612
+                }
+               ]
+              }
              }
             ]
            }
           },
           {
-           "title": "Type: Round Body Fuse",
-           "slug": "type-round-body-fuse",
-           "count": 1,
+           "title": "Rated voltage: 700 VDC",
+           "slug": "rated-voltage-700-vdc",
+           "count": 2,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Rated voltage: 700 VDC - Type: Round Body Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-round-body-fuse/p614",
-              "page": 614
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Rated voltage: 1000 VDC",
-        "slug": "rated-voltage-1000-vdc",
-        "count": 4,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Type: Ferrule Fuse",
-           "slug": "type-ferrule-fuse",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
+              "title": "Type: Surface Mount Fuse",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 700 VDC - Type: Surface Mount Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-surface-mount-fuse/p613",
+                 "page": 613
+                }
+               ]
+              }
+             },
              {
-              "title": "Rated voltage: 1000 VDC - Type: Ferrule Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-ferrule-fuse/p615",
-              "page": 615
-             }
-            ]
-           }
-          },
-          {
-           "title": "Type: Surface Mount Fuse",
-           "slug": "type-surface-mount-fuse",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Rated voltage: 1000 VDC - Type: Surface Mount Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-surface-mount-fuse/p616",
-              "page": 616
+              "title": "Type: Round Body Fuse",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 700 VDC - Type: Round Body Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-round-body-fuse/p614",
+                 "page": 614
+                }
+               ]
+              }
              }
             ]
            }
           },
           {
-           "title": "Type: Round Body Fuse",
-           "slug": "type-round-body-fuse",
-           "count": 1,
+           "title": "Rated voltage: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Rated voltage: 1000 VDC - Type: Round Body Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-fuse/p617",
-              "page": 617
-             }
-            ]
-           }
-          },
-          {
-           "title": "Type: Round Body for Metric Screws Fuse",
-           "slug": "type-round-body-for-metric-screws-fuse",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
+              "title": "Type: Ferrule Fuse",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 1000 VDC - Type: Ferrule Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-ferrule-fuse/p615",
+                 "page": 615
+                }
+               ]
+              }
+             },
              {
-              "title": "Rated voltage: 1000 VDC - Type: Round Body for Metric Screws Fuse",
-              "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-for-metric-screws-fuse/p618",
-              "page": 618
+              "title": "Type: Surface Mount Fuse",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 1000 VDC - Type: Surface Mount Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-surface-mount-fuse/p616",
+                 "page": 616
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Round Body Fuse",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 1000 VDC - Type: Round Body Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-fuse/p617",
+                 "page": 617
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Round Body for Metric Screws Fuse",
+              "slug": "type-round-body-for-metric-screws-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Rated voltage: 1000 VDC - Type: Round Body for Metric Screws Fuse",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-for-metric-screws-fuse/p618",
+                 "page": 618
+                }
+               ]
+              }
              }
             ]
            }
