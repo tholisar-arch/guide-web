@@ -7,7 +7,6 @@ import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import type { ReactNode } from "react";
 import SearchBox from "@/components/SearchBox";
-import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Shell({
   sidebar,
@@ -53,7 +52,6 @@ export default function Shell({
         <div className="ml-auto flex flex-1 items-center justify-end gap-2 sm:flex-none sm:w-80">
           <SearchBox />
         </div>
-        <ThemeToggle />
       </header>
 
       <div className="mx-auto flex w-full max-w-[1500px] flex-1">
