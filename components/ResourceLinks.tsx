@@ -5,8 +5,8 @@ export default function ResourceLinks({ links }: { links: ResourceLink[] }) {
   if (!links.length) return null;
 
   return (
-    <div className="mt-6 rounded-xl border border-ink-200 p-4 dark:border-ink-800">
-      <h2 className="mb-3 text-sm font-semibold text-ink-700 dark:text-ink-200">
+    <div className="mt-6 rounded-lg border border-ink-200 bg-ink-50/60 p-4 dark:border-ink-800 dark:bg-ink-900/40">
+      <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-ink-500 dark:text-ink-400">
         Documentation
       </h2>
       <ul className="space-y-2">

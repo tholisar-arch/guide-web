@@ -8,16 +8,16 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
           return (
             <div
               key={i}
-              className="overflow-x-auto rounded-xl border border-ink-200 dark:border-ink-800"
+              className="overflow-x-auto rounded-lg border border-ink-200 dark:border-ink-800"
             >
               <table className="w-full min-w-[480px] border-collapse text-sm">
                 {block.headers && (
                   <thead>
-                    <tr className="bg-ink-50 dark:bg-ink-900">
+                    <tr className="bg-ink-50 dark:bg-ink-900/60">
                       {block.headers.map((h, j) => (
                         <th
                           key={j}
-                          className="whitespace-nowrap border-b border-ink-200 px-3 py-2 text-left font-semibold text-ink-700 dark:border-ink-800 dark:text-ink-200"
+                          className="whitespace-nowrap border-b border-ink-200 px-3 py-2.5 text-left text-xs font-semibold uppercase tracking-wide text-ink-500 dark:border-ink-800 dark:text-ink-400"
                         >
                           {h || <span className="text-ink-300">&mdash;</span>}
                         </th>
@@ -34,7 +34,7 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                       {row.map((cell, c) => (
                         <td
                           key={c}
-                          className="whitespace-nowrap px-3 py-2 text-ink-700 dark:text-ink-200"
+                          className="whitespace-nowrap px-3 py-2 tabular-nums text-ink-700 dark:text-ink-200"
                         >
                           {cell === "" ? (
                             <span className="text-ink-300 dark:text-ink-600">

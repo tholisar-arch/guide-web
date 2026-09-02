@@ -49,7 +49,7 @@ export default function SpdConfigurator() {
         </p>
       )}
 
-      <div className="rounded-xl border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900">
+      <div className="rounded-lg border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900">
         <h2 className="mb-4 text-lg font-semibold text-ink-800 dark:text-ink-100">
           {node.title}
         </h2>

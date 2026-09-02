@@ -32,10 +32,10 @@ export default function CategoryRow({
       <Link
         href={href}
         onClick={stop}
-        className={`flex items-center gap-2 rounded-md px-2 py-1.5 text-sm hover:bg-ink-100 dark:hover:bg-ink-800 ${
+        className={`flex items-center gap-2 border-l-2 py-1.5 pr-2 text-sm transition-colors ${
           isActive
-            ? "bg-brand-50 text-brand-700 font-medium dark:bg-brand-950 dark:text-brand-300"
-            : "text-ink-700 dark:text-ink-200"
+            ? "border-brand-500 bg-brand-50 font-medium text-brand-700 dark:bg-brand-950 dark:text-brand-300"
+            : "border-transparent text-ink-700 hover:bg-ink-100 dark:text-ink-200 dark:hover:bg-ink-800"
         }`}
         style={{ paddingLeft: 8 + level * 12 }}
       >
@@ -47,10 +47,10 @@ export default function CategoryRow({
   return (
     <details open={open} className="group/details">
       <summary
-        className={`flex cursor-pointer list-none items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm hover:bg-ink-100 dark:hover:bg-ink-800 [&::-webkit-details-marker]:hidden ${
+        className={`flex cursor-pointer list-none items-center justify-between gap-2 border-l-2 py-1.5 pr-2 text-sm transition-colors [&::-webkit-details-marker]:hidden ${
           isActive
-            ? "bg-brand-50 text-brand-700 font-medium dark:bg-brand-950 dark:text-brand-300"
-            : "text-ink-700 dark:text-ink-200"
+            ? "border-brand-500 bg-brand-50 font-medium text-brand-700 dark:bg-brand-950 dark:text-brand-300"
+            : "border-transparent text-ink-700 hover:bg-ink-100 dark:text-ink-200 dark:hover:bg-ink-800"
         }`}
         style={{ paddingLeft: 8 + level * 12 }}
       >

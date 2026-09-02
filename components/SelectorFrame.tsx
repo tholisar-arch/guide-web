@@ -14,7 +14,7 @@ export default function SelectorFrame({
 }) {
   return (
     <div className="mx-auto max-w-5xl px-4 py-6 sm:py-8">
-      <div className="overflow-hidden rounded-xl border border-ink-200 shadow-card dark:border-ink-800">
+      <div className="overflow-hidden rounded-lg border border-ink-200 shadow-card dark:border-ink-800">
         <div className="relative flex items-center gap-4 border-b border-ink-200 bg-white pr-4 dark:border-ink-800 dark:bg-ink-900">
           <div className="relative hidden h-[52px] w-[140px] shrink-0 overflow-hidden sm:block sm:h-[64px] sm:w-[168px]">
             <Image

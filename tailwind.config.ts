@@ -40,10 +40,11 @@ const config: Config = {
       },
       fontFamily: {
         sans: [
-          "Segoe UI",
+          "var(--font-inter)",
           "ui-sans-serif",
           "system-ui",
           "-apple-system",
+          "Segoe UI",
           "Roboto",
           "Helvetica Neue",
           "Arial",
@@ -51,7 +52,10 @@ const config: Config = {
         ],
       },
       boxShadow: {
-        card: "0 1px 2px rgba(16,24,40,0.06), 0 1px 3px rgba(16,24,40,0.08)",
+        // Restrained, single-layer shadows -- a Swiss/enterprise-tool
+        // surface reads as precise, not soft/decorative.
+        card: "0 1px 2px rgba(15,23,42,0.05)",
+        "card-hover": "0 2px 8px rgba(15,23,42,0.08)",
       },
     },
   },

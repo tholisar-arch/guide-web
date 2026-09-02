@@ -12,9 +12,9 @@ export default function GroupCards({
         <Link
           key={it.href}
           href={it.href}
-          className="group flex items-center gap-3 rounded-xl border border-ink-200 bg-white p-4 shadow-card transition hover:border-brand-300 hover:shadow-md dark:border-ink-800 dark:bg-ink-900"
+          className="group flex items-center gap-3 rounded-lg border border-ink-200 bg-white p-4 transition hover:border-brand-300 hover:shadow-card-hover dark:border-ink-800 dark:bg-ink-900"
         >
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
             <Folder size={17} />
           </span>
           <span className="min-w-0 flex-1 truncate font-medium text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">

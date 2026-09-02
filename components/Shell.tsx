@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import type { ReactNode } from "react";
 import SearchBox from "@/components/SearchBox";
 import ThemeToggle from "@/components/ThemeToggle";
@@ -32,12 +33,20 @@ export default function Shell({
         >
           {open ? <X size={19} /> : <Menu size={19} />}
         </button>
-        <Link href="/" className="flex shrink-0 items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-md bg-brand-600 text-white">
-            <Zap size={16} fill="currentColor" />
+        <Link href="/" className="flex shrink-0 items-center gap-3">
+          <span className="flex h-8 items-center rounded-md bg-white px-1.5 shadow-card dark:shadow-none">
+            <Image
+              src="/brand/mersen-logo.png"
+              alt="Mersen"
+              width={84}
+              height={32}
+              className="h-5 w-auto"
+              priority
+            />
           </span>
-          <span className="hidden text-sm font-semibold text-ink-800 sm:block dark:text-ink-50">
-            Selection&nbsp;Guide{" "}
+          <span className="hidden h-5 w-px bg-ink-200 sm:block dark:bg-ink-800" />
+          <span className="hidden text-sm font-medium tracking-tight text-ink-800 sm:block dark:text-ink-50">
+            Selection Guide{" "}
             <span className="font-normal text-ink-400">2026 Europe</span>
           </span>
         </Link>

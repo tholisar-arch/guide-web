@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Shell from "@/components/Shell";
 import Sidebar from "@/components/Sidebar";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -18,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="bg-white text-ink-800 dark:bg-ink-950 dark:text-ink-100">
+    <html lang="en" suppressHydrationWarning className={inter.variable}>
+      <body className="bg-white font-sans text-ink-800 antialiased dark:bg-ink-950 dark:text-ink-100">
         <Shell sidebar={<Sidebar />}>{children}</Shell>
       </body>
     </html>
