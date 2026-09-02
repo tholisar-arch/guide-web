@@ -334,237 +334,317 @@
            "slug": "din-nh-standard",
            "count": 46,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
-              "page": 148
+              "title": "Size: 000",
+              "slug": "size-000",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
+                 "page": 148
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
+                 "page": 149
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
+                 "page": 150
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
+                 "page": 151
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
+                 "page": 152
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
+                 "page": 153
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
-              "page": 149
+              "title": "Size: 00",
+              "slug": "size-00",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
+                 "page": 154
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
+                 "page": 155
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
+                 "page": 156
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
+                 "page": 157
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
+                 "page": 158
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
+                 "page": 159
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
-              "page": 150
+              "title": "Size: 0",
+              "slug": "size-0",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 0 - Insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
+                 "page": 160
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 0 - Insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
+                 "page": 161
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 0 - Non-insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
+                 "page": 162
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 0 - Non-insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
+                 "page": 163
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 0 - With stricker",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
+                 "page": 164
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
-              "page": 151
+              "title": "Size: 1",
+              "slug": "size-1",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
+                 "page": 165
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
+                 "page": 166
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
+                 "page": 167
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - Non-insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
+                 "page": 168
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - Non-insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
+                 "page": 169
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - Non-insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
+                 "page": 170
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 1 - With stricker",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
+                 "page": 171
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
-              "page": 152
+              "title": "Size: 2",
+              "slug": "size-2",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
+                 "page": 172
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
+                 "page": 173
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
+                 "page": 174
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - Non-insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
+                 "page": 175
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - Non-insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
+                 "page": 176
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - Non-insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
+                 "page": 177
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 2 - With stricker",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
+                 "page": 178
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 000 - Non-insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
-              "page": 153
+              "title": "Size: 3",
+              "slug": "size-3",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
+                 "page": 179
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
+                 "page": 180
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
+                 "page": 181
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - Non-insulated tags - Rated voltage: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
+                 "page": 182
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - Non-insulated tags - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
+                 "page": 183
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - Non-insulated tags - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
+                 "page": 184
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 3 - With stricker",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
+                 "page": 185
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
-              "page": 154
+              "title": "Size: 4",
+              "slug": "size-4",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
+                 "page": 186
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
+                 "page": 187
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4 - With middle indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p188",
+                 "page": 188
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4 - With middle indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p189",
+                 "page": 189
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4 - With stricker",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p190",
+                 "page": 190
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
-              "page": 155
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
-              "page": 156
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
-              "page": 157
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
-              "page": 158
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 00 - Non-insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
-              "page": 159
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - Insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
-              "page": 160
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - Insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
-              "page": 161
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - Non-insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
-              "page": 162
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - Non-insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
-              "page": 163
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 0 - With stricker",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
-              "page": 164
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
-              "page": 165
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
-              "page": 166
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - Insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
-              "page": 167
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - Non-insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
-              "page": 168
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - Non-insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
-              "page": 169
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - Non-insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
-              "page": 170
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 1 - With stricker",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
-              "page": 171
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
-              "page": 172
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
-              "page": 173
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - Insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
-              "page": 174
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - Non-insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
-              "page": 175
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - Non-insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
-              "page": 176
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - Non-insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
-              "page": 177
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 2 - With stricker",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
-              "page": 178
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
-              "page": 179
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
-              "page": 180
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - Insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
-              "page": 181
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - Non-insulated tags - Rated voltage: 400 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
-              "page": 182
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - Non-insulated tags - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
-              "page": 183
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - Non-insulated tags - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
-              "page": 184
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 3 - With stricker",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
-              "page": 185
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
-              "page": 186
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With top indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
-              "page": 187
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With middle indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p188",
-              "page": 188
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With middle indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p189",
-              "page": 189
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4 - With stricker",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p190",
-              "page": 190
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4a - With top indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p191",
-              "page": 191
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4a - With middle indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p192",
-              "page": 192
-             },
-             {
-              "title": "Type: gG - DIN NH Standard - Size: 4a - With middle indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-gg/din-nh-standard/p193",
-              "page": 193
+              "title": "Size: 4a",
+              "slug": "size-4a",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4a - With top indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p191",
+                 "page": 191
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4a - With middle indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p192",
+                 "page": 192
+                },
+                {
+                 "title": "Type: gG - DIN NH Standard - Size: 4a - With middle indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p193",
+                 "page": 193
+                }
+               ]
+              }
              }
             ]
            }
@@ -574,187 +654,337 @@
            "slug": "bs88-standard",
            "count": 36,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: gG - BS88 Standard - Type: A1 - BS type: BNIT (550 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p194",
-              "page": 194
+              "title": "Type: A1",
+              "slug": "type-a1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A1 - BS type: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p194",
+                 "page": 194
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A1 - BS type: BEIT (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p195",
+                 "page": 195
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A1 - BS type: BEIT (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p195",
-              "page": 195
+              "title": "Type: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A2 - BS type: BTIA (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
+                 "page": 196
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A2 - BS type: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
+                 "page": 197
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A2 - BS type: BTIA (550 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
-              "page": 196
+              "title": "Type: A3",
+              "slug": "type-a3",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTSS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
+                 "page": 198
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
+                 "page": 199
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p200",
+                 "page": 200
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p201",
+                 "page": 201
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A2 - BS type: BTIA (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
-              "page": 197
+              "title": "Type: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p202",
+                 "page": 202
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p203",
+                 "page": 203
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p204",
+                 "page": 204
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p205",
+                 "page": 205
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTSS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
-              "page": 198
+              "title": "Type: B1",
+              "slug": "type-b1",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTBC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
+                 "page": 206
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p207",
+                 "page": 207
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p208",
+                 "page": 208
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p209",
+                 "page": 209
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTSDS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
-              "page": 199
+              "title": "Type: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B2 - BS type: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
+                 "page": 210
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B2 - BS type: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
+                 "page": 211
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTIS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p200",
-              "page": 200
+              "title": "Type: B3",
+              "slug": "type-b3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p212",
+                 "page": 212
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p213",
+                 "page": 213
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p214",
+                 "page": 214
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A3 - BS type: BTIS (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p201",
-              "page": 201
+              "title": "Type: B4",
+              "slug": "type-b4",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B4 - BS type: BTMF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
+                 "page": 215
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: B4 - BS type: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p216",
+                 "page": 216
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTSD (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p202",
-              "page": 202
+              "title": "Type: C1",
+              "slug": "type-c1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: C1 - BS type: BTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p217",
+                 "page": 217
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: C1 - BS type: BTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p218",
+                 "page": 218
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTCP (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p203",
-              "page": 203
+              "title": "Type: C2",
+              "slug": "type-c2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: C2 - BS type: BTTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
+                 "page": 219
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: C2 - BS type: BTTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
+                 "page": 220
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTCP (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p204",
-              "page": 204
+              "title": "Type: C3",
+              "slug": "type-c3",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: C3 - BS type: BTLM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p221",
+                 "page": 221
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: C3 - BS type: BTLM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p222",
+                 "page": 222
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: A4 - BS type: BTFP (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p205",
-              "page": 205
+              "title": "Type: F1",
+              "slug": "type-f1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: F1 - BS type: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
+                 "page": 223
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTBC (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
-              "page": 206
+              "title": "Type: F2",
+              "slug": "type-f2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - Type: F2 - BS type: BES (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p224",
+                 "page": 224
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - Type: F2 - BS type: BES (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p225",
+                 "page": 225
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTSDC (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p207",
-              "page": 207
+              "title": "BS Street Lighting",
+              "slug": "bs-street-lighting",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BMD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p226",
+                 "page": 226
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BLST (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p227",
+                 "page": 227
+                },
+                {
+                 "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BLD (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p228",
+                 "page": 228
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTC (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p208",
-              "page": 208
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B1 - BS type: BTC (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p209",
-              "page": 209
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B2 - BS type: BTF (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
-              "page": 210
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B2 - BS type: BTF (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
-              "page": 211
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKF (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p212",
-              "page": 212
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKF (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p213",
-              "page": 213
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B3 - BS type: BTKM (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p214",
-              "page": 214
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B4 - BS type: BTMF (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
-              "page": 215
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: B4 - BS type: BTMF (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p216",
-              "page": 216
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C1 - BS type: BTM (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p217",
-              "page": 217
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C1 - BS type: BTM (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p218",
-              "page": 218
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C2 - BS type: BTTM (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
-              "page": 219
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C2 - BS type: BTTM (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
-              "page": 220
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C3 - BS type: BTLM (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p221",
-              "page": 221
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: C3 - BS type: BTLM (690 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p222",
-              "page": 222
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: F1 - BS type: BNS (550 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
-              "page": 223
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: F2 - BS type: BES (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p224",
-              "page": 224
-             },
-             {
-              "title": "Type: gG - BS88 Standard - Type: F2 - BS type: BES (550 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p225",
-              "page": 225
-             },
-             {
-              "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BMD (415 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p226",
-              "page": 226
-             },
-             {
-              "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BLST (240 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p227",
-              "page": 227
-             },
-             {
-              "title": "Type: gG - BS88 Standard - BS Street Lighting - BS type: BLD (240 VAC)",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p228",
-              "page": 228
-             },
-             {
-              "title": "Type: gG - BS88 Standard - BS Feeder Pillar",
-              "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
-              "page": 229
+              "title": "BS Feeder Pillar",
+              "slug": "bs-feeder-pillar",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - BS88 Standard - BS Feeder Pillar",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
+                 "page": 229
+                }
+               ]
+              }
              }
             ]
            }
@@ -909,112 +1139,192 @@
            "slug": "din-nh-standard",
            "count": 21,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: aM - DIN NH Standard - Size: 000 - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
-              "page": 240
+              "title": "Size: 000",
+              "slug": "size-000",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 000 - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
+                 "page": 240
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 000 - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
+                 "page": 241
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 000 - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
-              "page": 241
+              "title": "Size: 00",
+              "slug": "size-00",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 00 - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
+                 "page": 242
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 00 - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p243",
+                 "page": 243
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 00 - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
-              "page": 242
+              "title": "Size: 0",
+              "slug": "size-0",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 0 - With indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
+                 "page": 244
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 0 - With indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p245",
+                 "page": 245
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 0 - With stricker",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p246",
+                 "page": 246
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 00 - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p243",
-              "page": 243
+              "title": "Size: 1",
+              "slug": "size-1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 1 - With indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p247",
+                 "page": 247
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 1 - With indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p248",
+                 "page": 248
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 1 - With stricker",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p249",
+                 "page": 249
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 0 - With indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
-              "page": 244
+              "title": "Size: 2",
+              "slug": "size-2",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 2 - With indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
+                 "page": 250
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 2 - With indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p251",
+                 "page": 251
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 2 - With stricker",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
+                 "page": 252
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 0 - With indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p245",
-              "page": 245
+              "title": "Size: 3",
+              "slug": "size-3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 3 - With indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p253",
+                 "page": 253
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 3 - With indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p254",
+                 "page": 254
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 3 - With stricker",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p255",
+                 "page": 255
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 0 - With stricker",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p246",
-              "page": 246
+              "title": "Size: 4",
+              "slug": "size-4",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 4 - With indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
+                 "page": 256
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 4 - With indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p257",
+                 "page": 257
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 4 - With stricker",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
+                 "page": 258
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aM - DIN NH Standard - Size: 1 - With indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p247",
-              "page": 247
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 1 - With indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p248",
-              "page": 248
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 1 - With stricker",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p249",
-              "page": 249
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 2 - With indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
-              "page": 250
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 2 - With indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p251",
-              "page": 251
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 2 - With stricker",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
-              "page": 252
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 3 - With indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p253",
-              "page": 253
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 3 - With indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p254",
-              "page": 254
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 3 - With stricker",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p255",
-              "page": 255
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4 - With indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
-              "page": 256
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4 - With indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p257",
-              "page": 257
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4 - With stricker",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
-              "page": 258
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4a - With indicator - Rated voltage: 500 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p259",
-              "page": 259
-             },
-             {
-              "title": "Type: aM - DIN NH Standard - Size: 4a - With indicator - Rated voltage: 690 VAC",
-              "slug": "selector/iec-fuses/type-am/din-nh-standard/p260",
-              "page": 260
+              "title": "Size: 4a",
+              "slug": "size-4a",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 4a - With indicator - Rated voltage: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p259",
+                 "page": 259
+                },
+                {
+                 "title": "Type: aM - DIN NH Standard - Size: 4a - With indicator - Rated voltage: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p260",
+                 "page": 260
+                }
+               ]
+              }
              }
             ]
            }
@@ -1034,102 +1344,192 @@
            "slug": "bs88-standard",
            "count": 19,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: gM - BS88 Standard - Type: A1 - BS type: BNIT (550 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p261",
-              "page": 261
+              "title": "Type: A1",
+              "slug": "type-a1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A1 - BS type: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p261",
+                 "page": 261
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A2 - BS type: BTIA (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
-              "page": 262
+              "title": "Type: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A2 - BS type: BTIA (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
+                 "page": 262
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A2 - BS type: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
+                 "page": 263
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A2 - BS type: BTIA (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
-              "page": 263
+              "title": "Type: A3",
+              "slug": "type-a3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
+                 "page": 264
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p265",
+                 "page": 265
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p266",
+                 "page": 266
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTSDS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
-              "page": 264
+              "title": "Type: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p267",
+                 "page": 267
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p268",
+                 "page": 268
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p269",
+                 "page": 269
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p270",
+                 "page": 270
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTIS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p265",
-              "page": 265
+              "title": "Type: B1",
+              "slug": "type-b1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p271",
+                 "page": 271
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p272",
+                 "page": 272
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p273",
+                 "page": 273
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A3 - BS type: BTIS (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p266",
-              "page": 266
+              "title": "Type: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B2 - BS type: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
+                 "page": 274
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B2 - BS type: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
+                 "page": 275
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTSD (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p267",
-              "page": 267
+              "title": "Type: B3",
+              "slug": "type-b3",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B3 - BS type: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
+                 "page": 276
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTCP (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p268",
-              "page": 268
+              "title": "Type: B4",
+              "slug": "type-b4",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: B4 - BS type: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
+                 "page": 277
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTCP (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p269",
-              "page": 269
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: A4 - BS type: BTFP (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p270",
-              "page": 270
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTSDC (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p271",
-              "page": 271
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTC (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p272",
-              "page": 272
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B1 - BS type: BTC (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p273",
-              "page": 273
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B2 - BS type: BTF (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
-              "page": 274
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B2 - BS type: BTF (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
-              "page": 275
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B3 - BS type: BTKF (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
-              "page": 276
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: B4 - BS type: BTMF (690 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
-              "page": 277
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: F1 - BS type: BNS (415 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p278",
-              "page": 278
-             },
-             {
-              "title": "Type: gM - BS88 Standard - Type: F1 - BS type: BNS (550 VAC)",
-              "slug": "selector/iec-fuses/type-gm/bs88-standard/p279",
-              "page": 279
+              "title": "Type: F1",
+              "slug": "type-f1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - BS88 Standard - Type: F1 - BS type: BNS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p278",
+                 "page": 278
+                },
+                {
+                 "title": "Type: gM - BS88 Standard - Type: F1 - BS type: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p279",
+                 "page": 279
+                }
+               ]
+              }
              }
             ]
            }
@@ -1604,92 +2004,172 @@
            "slug": "cylindrical",
            "count": 17,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 10 x 38 mm",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
-              "page": 391
+              "title": "AC Rated",
+              "slug": "ac-rated",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gR - Cylindrical - AC Rated - Size: 10 x 38 mm",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
+                 "page": 391
+                },
+                {
+                 "title": "Type: gR - Cylindrical - AC Rated - Size: 14 x 51 mm - Without stricker",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p392",
+                 "page": 392
+                },
+                {
+                 "title": "Type: gR - Cylindrical - AC Rated - Size: 14 x 51 mm - With stricker",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p393",
+                 "page": 393
+                },
+                {
+                 "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm - Without stricker",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
+                 "page": 394
+                },
+                {
+                 "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm - With stricker",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
+                 "page": 395
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 14 x 51 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p392",
-              "page": 392
-             },
-             {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 14 x 51 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p393",
-              "page": 393
-             },
-             {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
-              "page": 394
-             },
-             {
-              "title": "Type: gR - Cylindrical - AC Rated - Size: 22 x 58 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
-              "page": 395
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 27 x 60 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p396",
-              "page": 396
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker - Rated voltage: 1000 VDC",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
-              "page": 397
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker - Rated voltage: 1500 VDC",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
-              "page": 398
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - With stricker - Rated voltage: 1000 VDC",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p399",
-              "page": 399
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - With stricker - Rated voltage: 1500 VDC",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p400",
-              "page": 400
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 190 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p401",
-              "page": 401
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 190 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p402",
-              "page": 402
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
-              "page": 404
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
-              "page": 405
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 250 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p406",
-              "page": 406
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 250 mm - With stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p407",
-              "page": 407
-             },
-             {
-              "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 400 mm - Without stricker",
-              "slug": "selector/high-speed-fuses/type-gr/cylindrical/p408",
-              "page": 408
+              "title": "DC Rated",
+              "slug": "dc-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Size: 27 x 60 mm",
+                 "slug": "size-27-x-60-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 27 x 60 mm - With stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p396",
+                    "page": 396
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 20 x 127 mm",
+                 "slug": "size-20-x-127-mm",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker - Rated voltage: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
+                    "page": 397
+                   },
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - Without stricker - Rated voltage: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
+                    "page": 398
+                   },
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - With stricker - Rated voltage: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p399",
+                    "page": 399
+                   },
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 127 mm - With stricker - Rated voltage: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p400",
+                    "page": 400
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 20 x 190 mm",
+                 "slug": "size-20-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 190 mm - Without stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p401",
+                    "page": 401
+                   },
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 20 x 190 mm - With stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p402",
+                    "page": 402
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 36 x 190 mm",
+                 "slug": "size-36-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm - Without stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
+                    "page": 404
+                   },
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 190 mm - With stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
+                    "page": 405
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 36 x 250 mm",
+                 "slug": "size-36-x-250-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 250 mm - Without stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p406",
+                    "page": 406
+                   },
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 250 mm - With stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p407",
+                    "page": 407
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 36 x 400 mm",
+                 "slug": "size-36-x-400-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cylindrical - DC Rated - Size: 36 x 400 mm - Without stricker",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p408",
+                    "page": 408
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
              }
             ]
            }
@@ -1699,157 +2179,337 @@
            "slug": "square-body",
            "count": 30,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: DIN110 (DIN110 blades)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
-              "page": 409
+              "title": "AC Rated",
+              "slug": "ac-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Size: 70",
+                 "slug": "size-70",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: DIN110 (DIN110 blades)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
+                    "page": 409
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p410",
+                    "page": 410
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
+                    "page": 411
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 71",
+                 "slug": "size-71",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: DIN110 (DIN110 blades)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p412",
+                    "page": 412
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p413",
+                    "page": 413
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p414",
+                    "page": 414
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 72",
+                 "slug": "size-72",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: DIN110 (DIN110 blades)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
+                    "page": 415
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p416",
+                    "page": 416
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
+                    "page": 417
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 73",
+                 "slug": "size-73",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: DIN110 (DIN110 blades)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p418",
+                    "page": 418
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p419",
+                    "page": 419
+                   },
+                   {
+                    "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p420",
+                    "page": 420
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
              },
              {
-              "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p410",
-              "page": 410
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 70 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
-              "page": 411
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: DIN110 (DIN110 blades)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p412",
-              "page": 412
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p413",
-              "page": 413
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 71 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p414",
-              "page": 414
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: DIN110 (DIN110 blades)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
-              "page": 415
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p416",
-              "page": 416
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 72 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
-              "page": 417
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: DIN110 (DIN110 blades)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p418",
-              "page": 418
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p419",
-              "page": 419
-             },
-             {
-              "title": "Type: gR - Square body - AC Rated - Size: 73 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p420",
-              "page": 420
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 120 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
-              "page": 421
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 120 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
-              "page": 422
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 121 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p423",
-              "page": 423
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 121 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p424",
-              "page": 424
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 122 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
-              "page": 425
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 122 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
-              "page": 426
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 2 x 122 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p427",
-              "page": 427
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 123 - Type: EF (Bolted connections)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p428",
-              "page": 428
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 123 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p429",
-              "page": 429
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 2 x 123 - Type: TTF (Threaded Terminals)",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p430",
-              "page": 430
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 300 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
-              "page": 431
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 300 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p432",
-              "page": 432
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 302 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
-              "page": 433
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 2 x 302 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p434",
-              "page": 434
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 600 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p435",
-              "page": 435
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 600 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p436",
-              "page": 436
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 602 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
-              "page": 437
-             },
-             {
-              "title": "Type: gR - Square body - DC Rated - Size: 2 x 602 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-gr/square-body/p438",
-              "page": 438
+              "title": "DC Rated",
+              "slug": "dc-rated",
+              "count": 18,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Size: 120",
+                 "slug": "size-120",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 120 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
+                    "page": 421
+                   },
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 120 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
+                    "page": 422
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 121",
+                 "slug": "size-121",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 121 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p423",
+                    "page": 423
+                   },
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 121 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p424",
+                    "page": 424
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 122",
+                 "slug": "size-122",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 122 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
+                    "page": 425
+                   },
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 122 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
+                    "page": 426
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 122",
+                 "slug": "size-2-x-122",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 2 x 122 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p427",
+                    "page": 427
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 123",
+                 "slug": "size-123",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 123 - Type: EF (Bolted connections)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p428",
+                    "page": 428
+                   },
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 123 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p429",
+                    "page": 429
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 123",
+                 "slug": "size-2-x-123",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 2 x 123 - Type: TTF (Threaded Terminals)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p430",
+                    "page": 430
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 300",
+                 "slug": "size-300",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 300 - Type: Bracket",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
+                    "page": 431
+                   },
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 300 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p432",
+                    "page": 432
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 302",
+                 "slug": "size-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 302 - Type: Bracket",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
+                    "page": 433
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 302",
+                 "slug": "size-2-x-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 2 x 302 - Type: Bracket",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p434",
+                    "page": 434
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 600",
+                 "slug": "size-600",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 600 - Type: Bracket",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p435",
+                    "page": 435
+                   },
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 600 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p436",
+                    "page": 436
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 602",
+                 "slug": "size-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 602 - Type: Bracket",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
+                    "page": 437
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 602",
+                 "slug": "size-2-x-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Square body - DC Rated - Size: 2 x 602 - Type: Bracket",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p438",
+                    "page": 438
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
              }
             ]
            }
@@ -1914,417 +2574,647 @@
            "slug": "square-body",
            "count": 82,
            "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p446",
-              "page": 446
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - Monitoring micro-contact",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p447",
-              "page": 447
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - With indicator",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p448",
-              "page": 448
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - Without indicator",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p449",
-              "page": 449
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
-              "page": 450
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: DIN80 Bracket - Monitoring micro-contact",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p451",
-              "page": 451
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: DIN110 Bracket - Monitoring micro-contact",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p452",
-              "page": 452
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH0 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
-              "page": 453
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH1 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p454",
-              "page": 454
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH2 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p455",
-              "page": 455
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: NH3 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p456",
-              "page": 456
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: DIN80 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p457",
-              "page": 457
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p458",
-              "page": 458
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p459",
-              "page": 459
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: KI US short slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p460",
-              "page": 460
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p461",
-              "page": 461
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p462",
-              "page": 462
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p463",
-              "page": 463
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: DIN80 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p464",
-              "page": 464
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
-              "page": 465
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p466",
-              "page": 466
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: KI US short slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p467",
-              "page": 467
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p468",
-              "page": 468
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p469",
-              "page": 469
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
-              "page": 470
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: DIN80 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p471",
-              "page": 471
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p472",
-              "page": 472
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p473",
-              "page": 473
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: KI US short slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p474",
-              "page": 474
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p475",
-              "page": 475
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p476",
-              "page": 476
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p477",
-              "page": 477
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: DIN80 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p478",
-              "page": 478
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
-              "page": 479
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p480",
-              "page": 480
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: KI US short slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p481",
-              "page": 481
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p482",
-              "page": 482
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p483",
-              "page": 483
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p484",
-              "page": 484
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
-              "page": 485
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p486",
-              "page": 486
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p487",
-              "page": 487
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p488",
-              "page": 488
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p489",
-              "page": 489
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
-              "page": 490
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p491",
-              "page": 491
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p492",
-              "page": 492
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p493",
-              "page": 493
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p494",
-              "page": 494
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p495",
-              "page": 495
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p496",
-              "page": 496
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
-              "page": 497
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p498",
-              "page": 498
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p499",
-              "page": 499
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p500",
-              "page": 500
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p501",
-              "page": 501
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
-              "page": 502
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 2 x 72 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
-              "page": 503
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: DIN110 slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p504",
-              "page": 504
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: EF French slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p505",
-              "page": 505
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: LI US long slotted blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p506",
-              "page": 506
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: Plain blades",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p507",
-              "page": 507
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p508",
-              "page": 508
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: TTI US threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p509",
-              "page": 509
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 2 x 73 - Type: Threaded plates",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p510",
-              "page": 510
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 2 x 73 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p511",
-              "page": 511
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 91 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
-              "page": 512
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 92 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p513",
-              "page": 513
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 2 x 92 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p514",
-              "page": 514
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 93 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
-              "page": 515
-             },
-             {
-              "title": "Type: aR - Square body - AC Rated - Size: 2 x 93 - Type: TTF French threaded terminals",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
-              "page": 516
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 70 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p517",
-              "page": 517
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 72 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
-              "page": 518
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 2 x 72 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p519",
-              "page": 519
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 120 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
-              "page": 520
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 122 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p521",
-              "page": 521
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 300 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p522",
-              "page": 522
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 302 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
-              "page": 523
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 2 x 302 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p524",
-              "page": 524
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 600 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
-              "page": 525
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 602 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p526",
-              "page": 526
-             },
-             {
-              "title": "Type: aR - Square body - DC Rated - Size: 2 x 602 - Type: Bracket",
-              "slug": "selector/high-speed-fuses/type-ar/square-body/p527",
-              "page": 527
+            "type": "group",
+            "children": [
+             {
+              "title": "AC Rated",
+              "slug": "ac-rated",
+              "count": 71,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Size: NH000",
+                 "slug": "size-nh000",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p446",
+                    "page": 446
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - Monitoring micro-contact",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p447",
+                    "page": 447
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - With indicator",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p448",
+                    "page": 448
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH000 - Type: DIN80 Bracket - Without indicator",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p449",
+                    "page": 449
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: NH00",
+                 "slug": "size-nh00",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
+                    "page": 450
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: DIN80 Bracket - Monitoring micro-contact",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p451",
+                    "page": 451
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH00 - Type: DIN110 Bracket - Monitoring micro-contact",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p452",
+                    "page": 452
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: NH0",
+                 "slug": "size-nh0",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH0 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
+                    "page": 453
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: NH1",
+                 "slug": "size-nh1",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH1 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p454",
+                    "page": 454
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: NH2",
+                 "slug": "size-nh2",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH2 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p455",
+                    "page": 455
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: NH3",
+                 "slug": "size-nh3",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: NH3 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p456",
+                    "page": 456
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 30",
+                 "slug": "size-30",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: DIN80 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p457",
+                    "page": 457
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p458",
+                    "page": 458
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p459",
+                    "page": 459
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: KI US short slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p460",
+                    "page": 460
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p461",
+                    "page": 461
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p462",
+                    "page": 462
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 30 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p463",
+                    "page": 463
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 31",
+                 "slug": "size-31",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: DIN80 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p464",
+                    "page": 464
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
+                    "page": 465
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p466",
+                    "page": 466
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: KI US short slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p467",
+                    "page": 467
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p468",
+                    "page": 468
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p469",
+                    "page": 469
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 31 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
+                    "page": 470
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 32",
+                 "slug": "size-32",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: DIN80 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p471",
+                    "page": 471
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p472",
+                    "page": 472
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p473",
+                    "page": 473
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: KI US short slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p474",
+                    "page": 474
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p475",
+                    "page": 475
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p476",
+                    "page": 476
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 32 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p477",
+                    "page": 477
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 33",
+                 "slug": "size-33",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: DIN80 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p478",
+                    "page": 478
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
+                    "page": 479
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p480",
+                    "page": 480
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: KI US short slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p481",
+                    "page": 481
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p482",
+                    "page": 482
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p483",
+                    "page": 483
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 33 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p484",
+                    "page": 484
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 70",
+                 "slug": "size-70",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
+                    "page": 485
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p486",
+                    "page": 486
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p487",
+                    "page": 487
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p488",
+                    "page": 488
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p489",
+                    "page": 489
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 70 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
+                    "page": 490
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 71",
+                 "slug": "size-71",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p491",
+                    "page": 491
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p492",
+                    "page": 492
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p493",
+                    "page": 493
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p494",
+                    "page": 494
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p495",
+                    "page": 495
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 71 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p496",
+                    "page": 496
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 72",
+                 "slug": "size-72",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
+                    "page": 497
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p498",
+                    "page": 498
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p499",
+                    "page": 499
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p500",
+                    "page": 500
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p501",
+                    "page": 501
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 72 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
+                    "page": 502
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 72",
+                 "slug": "size-2-x-72",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 2 x 72 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
+                    "page": 503
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 73",
+                 "slug": "size-73",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: DIN110 slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p504",
+                    "page": 504
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: EF French slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p505",
+                    "page": 505
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: LI US long slotted blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p506",
+                    "page": 506
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: Plain blades",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p507",
+                    "page": 507
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p508",
+                    "page": 508
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 73 - Type: TTI US threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p509",
+                    "page": 509
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 73",
+                 "slug": "size-2-x-73",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 2 x 73 - Type: Threaded plates",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p510",
+                    "page": 510
+                   },
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 2 x 73 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p511",
+                    "page": 511
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 91",
+                 "slug": "size-91",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 91 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
+                    "page": 512
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 92",
+                 "slug": "size-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 92 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p513",
+                    "page": 513
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 92",
+                 "slug": "size-2-x-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 2 x 92 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p514",
+                    "page": 514
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 93",
+                 "slug": "size-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 93 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
+                    "page": 515
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Size: 2 x 93",
+                 "slug": "size-2-x-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Square body - AC Rated - Size: 2 x 93 - Type: TTF French threaded terminals",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
+                    "page": 516
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC Rated",
+              "slug": "dc-rated",
+              "count": 11,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 70 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p517",
+                 "page": 517
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 72 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
+                 "page": 518
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 2 x 72 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p519",
+                 "page": 519
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 120 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
+                 "page": 520
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 122 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p521",
+                 "page": 521
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 300 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p522",
+                 "page": 522
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 302 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
+                 "page": 523
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 2 x 302 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p524",
+                 "page": 524
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 600 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
+                 "page": 525
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 602 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p526",
+                 "page": 526
+                },
+                {
+                 "title": "Type: aR - Square body - DC Rated - Size: 2 x 602 - Type: Bracket",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p527",
+                 "page": 527
+                }
+               ]
+              }
              }
             ]
            }
@@ -2334,62 +3224,112 @@
            "slug": "bs88-4-standard",
            "count": 11,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: aR - BS88-4 Standard - Size: 10 x 28 mm - Rated voltage: 250 VAC - Without trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
-              "page": 528
+              "title": "Size: 10 x 28 mm",
+              "slug": "size-10-x-28-mm",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 10 x 28 mm - Rated voltage: 250 VAC - Without trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
+                 "page": 528
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aR - BS88-4 Standard - Size: 17 x 27 mm - Rated voltage: 250 VAC - Without trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p529",
-              "page": 529
+              "title": "Size: 17 x 27 mm",
+              "slug": "size-17-x-27-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 17 x 27 mm - Rated voltage: 250 VAC - Without trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p529",
+                 "page": 529
+                },
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 17 x 27 mm - Rated voltage: 250 VAC - With separated trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p530",
+                 "page": 530
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aR - BS88-4 Standard - Size: 17 x 27 mm - Rated voltage: 250 VAC - With separated trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p530",
-              "page": 530
+              "title": "Size: 17 x 49 mm",
+              "slug": "size-17-x-49-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC - Without trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
+                 "page": 531
+                },
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC - With separated trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
+                 "page": 532
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC - Without trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
-              "page": 531
+              "title": "Size: 36 x 55 mm",
+              "slug": "size-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - Without trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p533",
+                 "page": 533
+                },
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - With built-in trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p534",
+                 "page": 534
+                },
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - With separated trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p535",
+                 "page": 535
+                }
+               ]
+              }
              },
              {
-              "title": "Type: aR - BS88-4 Standard - Size: 17 x 49 mm - Rated voltage: 690 VAC - With separated trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
-              "page": 532
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - Without trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p533",
-              "page": 533
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - With built-in trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p534",
-              "page": 534
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 36 x 55 mm - Rated voltage: 690 VAC - With separated trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p535",
-              "page": 535
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - Without trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
-              "page": 536
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - With built-in trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p537",
-              "page": 537
-             },
-             {
-              "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - With separated trip-indicator",
-              "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p538",
-              "page": 538
+              "title": "Size: 2 x 36 x 55 mm",
+              "slug": "size-2-x-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - Without trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
+                 "page": 536
+                },
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - With built-in trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p537",
+                 "page": 537
+                },
+                {
+                 "title": "Type: aR - BS88-4 Standard - Size: 2 x 36 x 55 mm - Rated voltage: 690 VAC - With separated trip-indicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p538",
+                 "page": 538
+                }
+               ]
+              }
              }
             ]
            }
@@ -3399,82 +4339,142 @@
            "slug": "protection-for-power-lines",
            "count": 15,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
-              "page": 666
+              "title": "System type: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
+                 "page": 666
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p672",
+                 "page": 672
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
+                 "page": 677
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 25/50 kA - Imax (8/20): 50 kA - In (8/20): 25/50 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p667",
-              "page": 667
+              "title": "System type: N-PE (N)",
+              "slug": "system-type-n-pe-n",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 25/50 kA - Imax (8/20): 50 kA - In (8/20): 25/50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p667",
+                 "page": 667
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p678",
+                 "page": 678
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
-              "page": 668
+              "title": "System type: TT",
+              "slug": "system-type-tt",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
+                 "page": 668
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
+                 "page": 674
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
+                 "page": 679
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
-              "page": 669
+              "title": "System type: TNC",
+              "slug": "system-type-tnc",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
+                 "page": 669
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p675",
+                 "page": 675
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
+                 "page": 680
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
-              "page": 670
+              "title": "System type: TNS",
+              "slug": "system-type-tns",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
+                 "page": 670
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
+                 "page": 676
+                },
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
+                 "page": 681
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
-              "page": 671
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p672",
-              "page": 672
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
-              "page": 674
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p675",
-              "page": 675
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Monobloc STPT Series - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
-              "page": 676
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
-              "page": 677
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: N-PE (N) - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p678",
-              "page": 678
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
-              "page": 679
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
-              "page": 680
-             },
-             {
-              "title": "Type: 1+2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K-K1 Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
-              "page": 681
+              "title": "System type: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
+                 "page": 671
+                }
+               ]
+              }
              }
             ]
            }
@@ -3519,57 +4519,117 @@
            "slug": "protection-for-power-lines",
            "count": 10,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
-              "page": 685
+              "title": "System type: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
+                 "page": 685
+                },
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
+                 "page": 691
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
-              "page": 687
+              "title": "System type: TT",
+              "slug": "system-type-tt",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
+                 "page": 687
+                },
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
+                 "page": 693
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
-              "page": 688
+              "title": "System type: TNC",
+              "slug": "system-type-tnc",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
+                 "page": 688
+                },
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
+                 "page": 694
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
-              "page": 689
+              "title": "System type: TNS",
+              "slug": "system-type-tns",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
+                 "page": 689
+                },
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
+                 "page": 695
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
-              "page": 690
+              "title": "System type: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Protection for Power Lines - System type: IT - Surge-Trap® Pluggable STPT Series - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
+                 "page": 690
+                }
+               ]
+              }
              },
              {
-              "title": "Type: 2 - Protection for Power Lines - System type: L-N (1Ph) - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
-              "page": 691
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TT - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
-              "page": 693
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNC - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
-              "page": 694
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - System type: TNS - Surge-Trap® Pluggable K–K2 Series - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
-              "page": 695
-             },
-             {
-              "title": "Type: 2 - Protection for Power Lines - Surge-Trap® POP + SPD - Power frequency overvoltage protection - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 25 kA",
-              "slug": "selector/surge-protection/type-2/protection-for-power-lines/p696",
-              "page": 696
+              "title": "Surge-Trap® POP + SPD",
+              "slug": "surge-trap-pop-plus-spd",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Protection for Power Lines - Surge-Trap® POP + SPD - Power frequency overvoltage protection - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p696",
+                 "page": 696
+                }
+               ]
+              }
              }
             ]
            }
