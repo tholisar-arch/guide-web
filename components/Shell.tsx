@@ -33,16 +33,14 @@ export default function Shell({
           {open ? <X size={19} /> : <Menu size={19} />}
         </button>
         <Link href="/" className="flex shrink-0 items-center gap-3">
-          <span className="flex h-8 items-center rounded-md bg-white px-1.5 shadow-card dark:shadow-none">
-            <Image
-              src="/brand/mersen-logo.png"
-              alt="Mersen"
-              width={84}
-              height={32}
-              className="h-5 w-auto"
-              priority
-            />
-          </span>
+          <Image
+            src="/brand/mersen-logo.png"
+            alt="Mersen"
+            width={84}
+            height={32}
+            className="h-5 w-auto"
+            priority
+          />
           <span className="hidden h-5 w-px bg-ink-200 sm:block dark:bg-ink-800" />
           <span className="hidden text-sm font-medium tracking-tight text-ink-800 sm:block dark:text-ink-50">
             Selection Guide{" "}
