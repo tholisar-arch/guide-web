@@ -3,12 +3,15 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, ExternalLink, RotateCcw, Sliders } from "lucide-react";
-import { SPD_NODES, SPD_START } from "@/lib/spd-configurator";
+import { getSpdNodes, SPD_START } from "@/lib/spd-configurator";
+import { localeHref, t, type Locale } from "@/lib/i18n";
 
-export default function SpdConfigurator() {
+export default function SpdConfigurator({ locale }: { locale: Locale }) {
+  const nodes = getSpdNodes(locale);
+  const dict = t(locale);
   const [path, setPath] = useState<string[]>([SPD_START]);
   const currentId = path[path.length - 1];
-  const node = SPD_NODES[currentId];
+  const node = nodes[currentId];
 
   function choose(to: string) {
     setPath((p) => [...p, to]);
@@ -24,7 +27,7 @@ export default function SpdConfigurator() {
 
   const breadcrumb = path
     .slice(0, -1)
-    .map((id) => SPD_NODES[id]?.title)
+    .map((id) => nodes[id]?.title)
     .filter(Boolean);
 
   return (
@@ -32,15 +35,14 @@ export default function SpdConfigurator() {
       <div className="mb-2 flex items-center gap-2 text-brand-600 dark:text-brand-400">
         <Sliders size={18} />
         <span className="text-xs font-semibold uppercase tracking-wide">
-          SPD Configurator
+          {dict.spdEyebrow}
         </span>
       </div>
       <h1 className="mb-2 text-2xl font-bold text-ink-900 dark:text-white">
-        Find the right surge protection device
+        {dict.spdH1}
       </h1>
       <p className="mb-6 text-sm text-ink-500 dark:text-ink-400">
-        Answer a few questions about your installation to reach the right
-        Surge Protection product family.
+        {dict.spdDesc}
       </p>
 
       {breadcrumb.length > 0 && (
@@ -78,7 +80,7 @@ export default function SpdConfigurator() {
             ) : (
               <Link
                 key={opt.label}
-                href={opt.href as string}
+                href={localeHref(locale, opt.href as string)}
                 className="flex w-full items-center justify-between rounded-lg border border-brand-200 bg-brand-50 px-4 py-3 text-left text-sm font-medium text-brand-700 transition hover:border-brand-300 hover:bg-brand-100 dark:border-brand-900 dark:bg-brand-950 dark:text-brand-300 dark:hover:bg-brand-900"
               >
                 {opt.label}
@@ -96,7 +98,7 @@ export default function SpdConfigurator() {
             className="flex items-center gap-1.5 rounded-lg border border-ink-200 px-3 py-1.5 text-sm text-ink-600 hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:text-ink-300 dark:hover:bg-brand-950"
           >
             <ChevronLeft size={15} />
-            Back
+            {dict.back}
           </button>
         )}
         {path.length > 1 && (
@@ -105,7 +107,7 @@ export default function SpdConfigurator() {
             className="flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm text-ink-400 hover:text-ink-600 dark:hover:text-ink-200"
           >
             <RotateCcw size={14} />
-            Start over
+            {dict.spdStartOver}
           </button>
         )}
       </div>

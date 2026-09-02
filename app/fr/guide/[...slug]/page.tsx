@@ -5,7 +5,7 @@ import GuideRoute, { getGuideMetadataFor } from "@/components/GuideRoute";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getData("en").getAllParams();
+  return getData("fr").getAllParams();
 }
 
 export function generateMetadata({
@@ -13,13 +13,13 @@ export function generateMetadata({
 }: {
   params: { slug: string[] };
 }): Metadata {
-  return getGuideMetadataFor("en", params.slug);
+  return getGuideMetadataFor("fr", params.slug);
 }
 
-export default function GuidePage({
+export default function GuidePageFr({
   params,
 }: {
   params: { slug: string[] };
 }) {
-  return <GuideRoute locale="en" segments={params.slug} />;
+  return <GuideRoute locale="fr" segments={params.slug} />;
 }

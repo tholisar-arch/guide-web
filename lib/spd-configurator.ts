@@ -203,3 +203,175 @@ export const SPD_NODES: Record<string, SpdNode> = {
     ],
   },
 };
+
+// French translation of the same tree: every `to`/`href`/`external` value
+// is identical to SPD_NODES above (the site's slugs don't change between
+// locales - see lib/data.ts), only `title`/`label` text is translated.
+export const SPD_NODES_FR: Record<string, SpdNode> = {
+  hub: {
+    title: "Pour quel type d'installation ?",
+    options: [
+      { label: "Industriel", to: "industrial" },
+      { label: "Tertiaire / Résidentiel", to: "commercial" },
+      { label: "Éclairage public", to: "street-lighting" },
+      { label: "Photovoltaïque", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Industriel — exposition de l'installation",
+    options: [
+      {
+        label:
+          "Installation avec protection foudre ou proche d'un élément exposé aux impacts",
+        to: "industrial-highly",
+      },
+      {
+        label: "Installation alimentée par lignes aériennes",
+        to: "industrial-moderate",
+      },
+      { label: "Installation avec distribution souterraine", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Industriel — Fortement protégé",
+    options: [
+      {
+        label: "Niveau 1 : Tableau principal",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 2 : Tableau de distribution (si >10 m du tableau principal)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 3 : Équipement sensible",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Industriel — Moyennement protégé",
+    options: [
+      {
+        label: "Niveau 1 : Tableau principal",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 2 : Tableau de distribution (si >10 m du tableau principal)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 3 : Équipement sensible",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Industriel — Protection de base",
+    options: [
+      {
+        label: "Niveau 1 : Tableau principal",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 3 : Équipement sensible",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Tertiaire / Résidentiel — exposition de l'installation",
+    options: [
+      {
+        label:
+          "Installation avec protection foudre ou proche d'un élément exposé aux impacts",
+        to: "commercial-highly",
+      },
+      {
+        label: "Installation alimentée par lignes aériennes",
+        to: "commercial-moderate",
+      },
+      { label: "Installation avec distribution souterraine", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Tertiaire / Résidentiel — Fortement protégé",
+    options: [
+      {
+        label: "Tableau électrique",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Équipement sensible",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Tertiaire / Résidentiel — Moyennement protégé",
+    options: [
+      {
+        label: "Tableau électrique",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Équipement sensible",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Tertiaire / Résidentiel — Protection de base",
+    options: [
+      {
+        label: "Tableau électrique",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Équipement sensible",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Éclairage public",
+    options: [
+      {
+        label: "Fabricant de luminaire extérieur",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Tableautier / Installateur", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Éclairage public — Tableautier / Installateur",
+    options: [
+      {
+        label: "Mât",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Tableau électrique",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Photovoltaïque",
+    options: [
+      {
+        label: "Boîte de jonction (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Tableau de distribution (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
+export function getSpdNodes(locale: "en" | "fr"): Record<string, SpdNode> {
+  return locale === "fr" ? SPD_NODES_FR : SPD_NODES;
+}

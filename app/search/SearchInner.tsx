@@ -5,10 +5,12 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search as SearchIcon, FileText } from "lucide-react";
 import { scoreItem, matchedCode, type SearchItem } from "@/components/SearchBox";
+import { localeHref, t, type Locale } from "@/lib/i18n";
 
-
-
-export default function SearchPage() {
+export default function SearchInner({ locale }: { locale: Locale }) {
+  const dict = t(locale);
+  const indexUrl =
+    locale === "fr" ? "/data/search-index.fr.json" : "/data/search-index.json";
   const params = useSearchParams();
   const router = useRouter();
   const q = params.get("q") ?? "";
@@ -16,10 +18,10 @@ export default function SearchPage() {
   const [items, setItems] = useState<SearchItem[]>([]);
 
   useEffect(() => {
-    fetch("/data/search-index.json")
+    fetch(indexUrl)
       .then((r) => r.json())
       .then(setItems);
-  }, []);
+  }, [indexUrl]);
 
   useEffect(() => setInput(q), [q]);
 
@@ -34,13 +36,13 @@ export default function SearchPage() {
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-    router.push(`/search?q=${encodeURIComponent(input.trim())}`);
+    router.push(localeHref(locale, `/search?q=${encodeURIComponent(input.trim())}`));
   }
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="mb-4 text-2xl font-bold text-ink-900 dark:text-white">
-        Search
+        {dict.searchTitle}
       </h1>
       <form onSubmit={onSubmit} className="mb-8">
         <div className="flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2.5 shadow-sm focus-within:border-brand-500 dark:border-ink-700 dark:bg-ink-900">
@@ -48,7 +50,7 @@ export default function SearchPage() {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Search the guide..."
+            placeholder={dict.searchPlaceholderHeader}
             autoFocus
             className="w-full bg-transparent text-sm outline-none placeholder:text-ink-400"
           />
@@ -57,8 +59,7 @@ export default function SearchPage() {
 
       {q.trim() && (
         <p className="mb-4 text-sm text-ink-500 dark:text-ink-400">
-          {results.length} result{results.length !== 1 ? "s" : ""} for{" "}
-          &ldquo;<strong>{q}</strong>&rdquo;
+          {dict.resultsCountFor(results.length, q)}
         </p>
       )}
 
@@ -66,13 +67,13 @@ export default function SearchPage() {
         {results.map((r) => (
           <li key={r.slug}>
             <Link
-              href={`/guide/${r.slug}`}
+              href={localeHref(locale, `/guide/${r.slug}`)}
               className="flex items-start gap-3 bg-white px-4 py-3 hover:bg-brand-50 dark:bg-ink-900 dark:hover:bg-brand-950"
             >
               <FileText size={16} className="mt-0.5 shrink-0 text-ink-300" />
               <span className="min-w-0">
                 <span className="mb-0.5 block text-xs font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400">
-                  {r.category ?? "Product Selector"}
+                  {r.category ?? dict.productSelectorFallback}
                 </span>
                 <span className="block text-sm font-medium text-ink-800 dark:text-ink-100">
                   {r.title}
@@ -93,7 +94,7 @@ export default function SearchPage() {
         ))}
         {q.trim() && results.length === 0 && (
           <li className="bg-white px-4 py-8 text-center text-sm text-ink-400 dark:bg-ink-900">
-            No results. Try a different search term.
+            {dict.searchNoResults}
           </li>
         )}
       </ul>

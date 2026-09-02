@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function SpdConfiguratorPage() {
-  return <SpdConfigurator />;
+  return <SpdConfigurator locale="en" />;
 }

@@ -1,13 +1,21 @@
 import { FileText } from "lucide-react";
 import type { ResourceLink } from "@/lib/types";
+import { t, type Locale } from "@/lib/i18n";
 
-export default function ResourceLinks({ links }: { links: ResourceLink[] }) {
+export default function ResourceLinks({
+  links,
+  locale,
+}: {
+  links: ResourceLink[];
+  locale: Locale;
+}) {
   if (!links.length) return null;
+  const dict = t(locale);
 
   return (
     <div className="mt-6 rounded-lg border border-ink-200 bg-ink-50/60 p-4 dark:border-ink-800 dark:bg-ink-900/40">
       <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-ink-500 dark:text-ink-400">
-        Documentation
+        {dict.documentation}
       </h2>
       <ul className="space-y-2">
         {links.map((link, i) => (

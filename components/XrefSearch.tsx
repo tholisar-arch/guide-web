@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, Loader2, ArrowLeftRight, ArrowUpRight } from "lucide-react";
 import type { XrefEntry } from "@/lib/types";
+import { localeHref, t, type Locale } from "@/lib/i18n";
 
 type SearchIndexEntry = {
   slug: string;
@@ -35,7 +36,10 @@ function scoreEntry(entry: XrefEntry, q: string): { score: number; matched: stri
   return { score, matched };
 }
 
-export default function XrefSearch() {
+export default function XrefSearch({ locale }: { locale: Locale }) {
+  const dict = t(locale);
+  const searchIndexUrl =
+    locale === "fr" ? "/data/search-index.fr.json" : "/data/search-index.json";
   const [query, setQuery] = useState("");
   const [entries, setEntries] = useState<XrefEntry[] | null>(null);
   const [pnToSlug, setPnToSlug] = useState<Map<string, string> | null>(null);
@@ -44,7 +48,7 @@ export default function XrefSearch() {
   useEffect(() => {
     Promise.all([
       fetch("/data/xref-index.json").then((r) => r.json()) as Promise<XrefEntry[]>,
-      fetch("/data/search-index.json").then((r) => r.json()) as Promise<
+      fetch(searchIndexUrl).then((r) => r.json()) as Promise<
         SearchIndexEntry[]
       >,
     ]).then(([xrefData, searchData]) => {
@@ -58,7 +62,7 @@ export default function XrefSearch() {
       setPnToSlug(map);
       setLoading(false);
     });
-  }, []);
+  }, [searchIndexUrl]);
 
   const results = useMemo(() => {
     if (!entries || query.trim().length < 2) return [];
@@ -75,15 +79,14 @@ export default function XrefSearch() {
       <div className="mb-2 flex items-center gap-2 text-brand-600 dark:text-brand-400">
         <ArrowLeftRight size={18} />
         <span className="text-xs font-semibold uppercase tracking-wide">
-          Cross Reference Search
+          {dict.xrefEyebrow}
         </span>
       </div>
       <h1 className="mb-2 text-2xl font-bold text-ink-900 dark:text-white">
-        Find a Mersen reference from a competitor part number
+        {dict.xrefH1}
       </h1>
       <p className="mb-6 text-sm text-ink-500 dark:text-ink-400">
-        Search by a competitor&apos;s reference (Citel, Dehn, Eaton, Siemens,
-        Schneider Electric, and more) to find the equivalent Mersen part.
+        {dict.xrefDesc}
       </p>
 
       <div className="mb-8 flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2.5 shadow-sm focus-within:border-brand-500 dark:border-ink-700 dark:bg-ink-900">
@@ -95,7 +98,7 @@ export default function XrefSearch() {
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search a competitor reference..."
+          placeholder={dict.xrefSearchPlaceholder}
           autoFocus
           className="w-full bg-transparent text-sm outline-none placeholder:text-ink-400"
         />
@@ -103,8 +106,7 @@ export default function XrefSearch() {
 
       {query.trim().length >= 2 && (
         <p className="mb-4 text-sm text-ink-500 dark:text-ink-400">
-          {results.length} result{results.length !== 1 ? "s" : ""} for{" "}
-          &ldquo;<strong>{query}</strong>&rdquo;
+          {dict.xrefResultsFor(results.length, query)}
         </p>
       )}
 
@@ -119,7 +121,7 @@ export default function XrefSearch() {
             <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
               {slug ? (
                 <Link
-                  href={`/guide/${slug}`}
+                  href={localeHref(locale, `/guide/${slug}`)}
                   className="inline-flex items-center gap-1 font-mono text-sm font-semibold text-brand-600 hover:underline dark:text-brand-400"
                 >
                   {r.e.pn}
@@ -135,7 +137,7 @@ export default function XrefSearch() {
               </span>
               {r.matched && (
                 <span className="ml-auto rounded bg-ink-100 px-1.5 py-0.5 text-xs text-ink-500 dark:bg-ink-800 dark:text-ink-400">
-                  matched via {r.matched}
+                  {dict.xrefMatchedVia(r.matched)}
                 </span>
               )}
             </div>
@@ -144,7 +146,7 @@ export default function XrefSearch() {
         })}
         {query.trim().length >= 2 && results.length === 0 && (
           <li className="rounded-lg border border-ink-200 bg-white px-4 py-8 text-center text-sm text-ink-400 dark:border-ink-800 dark:bg-ink-900">
-            No results. Try a different reference.
+            {dict.xrefNoResults}
           </li>
         )}
       </ul>
