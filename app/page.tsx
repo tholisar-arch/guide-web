@@ -12,8 +12,8 @@ export default function HomePage() {
 
   return (
     <div>
-      <div className="border-b border-ink-200 bg-white">
-        <div className="mx-auto flex max-w-4xl justify-end px-4 py-6">
+      <section className="relative border-b border-ink-200 bg-ink-50 dark:border-ink-800 dark:bg-ink-900/40">
+        <div className="mx-auto flex max-w-4xl justify-end px-4 pt-6 sm:pt-8">
           <Image
             src="/brand/mersen-logo.png"
             alt="Mersen"
@@ -22,28 +22,17 @@ export default function HomePage() {
             priority
           />
         </div>
-      </div>
-
-      <section className="relative overflow-hidden border-b border-ink-200">
-        <Image
-          src="/brand/hero-industrial.webp"
-          alt=""
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink-950/80 via-ink-950/70 to-ink-950/90" />
-        <div className="relative mx-auto max-w-4xl px-4 py-16 text-center sm:py-24">
-          <span className="mb-4 inline-block rounded border border-white/20 bg-white/10 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-brand-300 backdrop-blur-sm">
+        <div className="mx-auto max-w-4xl px-4 pb-14 pt-6 text-center sm:pb-20">
+          <span className="mb-4 inline-block rounded border border-brand-200 bg-white px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700 dark:border-brand-900 dark:bg-transparent dark:text-brand-400">
             Interactive Product Selector · 2026 Europe Edition
           </span>
-          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-5xl dark:text-white">
             Selection Guide
-            <span className="block text-brand-400">
+            <span className="block text-brand-600 dark:text-brand-400">
               Electrical Protection
             </span>
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-ink-200 sm:text-lg">
+          <p className="mx-auto mt-4 max-w-2xl text-base text-ink-600 sm:text-lg dark:text-ink-300">
             The full product selector, transformed into a website: fuses,
             surge protection devices, and photovoltaic solutions, organized
             by product family and fully browsable on mobile, tablet, and
