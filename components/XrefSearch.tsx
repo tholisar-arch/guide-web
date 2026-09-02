@@ -1,8 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Search, Loader2, ArrowLeftRight } from "lucide-react";
+import Link from "next/link";
+import { Search, Loader2, ArrowLeftRight, ArrowUpRight } from "lucide-react";
 import type { XrefEntry } from "@/lib/types";
+
+type SearchIndexEntry = {
+  slug: string;
+  codes: string;
+};
 
 // Competitor -> Mersen only: the query is matched against competitor
 // references exclusively, never against our own Part Number or the
@@ -32,15 +38,26 @@ function scoreEntry(entry: XrefEntry, q: string): { score: number; matched: stri
 export default function XrefSearch() {
   const [query, setQuery] = useState("");
   const [entries, setEntries] = useState<XrefEntry[] | null>(null);
+  const [pnToSlug, setPnToSlug] = useState<Map<string, string> | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/xref-index.json")
-      .then((r) => r.json())
-      .then((data) => {
-        setEntries(data);
-        setLoading(false);
-      });
+    Promise.all([
+      fetch("/data/xref-index.json").then((r) => r.json()) as Promise<XrefEntry[]>,
+      fetch("/data/search-index.json").then((r) => r.json()) as Promise<
+        SearchIndexEntry[]
+      >,
+    ]).then(([xrefData, searchData]) => {
+      const map = new Map<string, string>();
+      for (const entry of searchData) {
+        for (const code of entry.codes.split(/\s+/)) {
+          if (code && !map.has(code)) map.set(code, entry.slug);
+        }
+      }
+      setEntries(xrefData);
+      setPnToSlug(map);
+      setLoading(false);
+    });
   }, []);
 
   const results = useMemo(() => {
@@ -92,15 +109,27 @@ export default function XrefSearch() {
       )}
 
       <ul className="space-y-3">
-        {results.map((r) => (
+        {results.map((r) => {
+          const slug = pnToSlug?.get(r.e.pn);
+          return (
           <li
             key={r.e.pn}
             className="rounded-lg border border-ink-200 bg-white p-4 dark:border-ink-800 dark:bg-ink-900"
           >
             <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-              <span className="font-mono text-sm font-semibold text-brand-600 dark:text-brand-400">
-                {r.e.pn}
-              </span>
+              {slug ? (
+                <Link
+                  href={`/guide/${slug}`}
+                  className="inline-flex items-center gap-1 font-mono text-sm font-semibold text-brand-600 hover:underline dark:text-brand-400"
+                >
+                  {r.e.pn}
+                  <ArrowUpRight size={13} className="shrink-0" />
+                </Link>
+              ) : (
+                <span className="font-mono text-sm font-semibold text-ink-800 dark:text-ink-100">
+                  {r.e.pn}
+                </span>
+              )}
               <span className="text-sm text-ink-600 dark:text-ink-300">
                 {r.e.desc}
               </span>
@@ -111,7 +140,8 @@ export default function XrefSearch() {
               )}
             </div>
           </li>
-        ))}
+          );
+        })}
         {query.trim().length >= 2 && results.length === 0 && (
           <li className="rounded-lg border border-ink-200 bg-white px-4 py-8 text-center text-sm text-ink-400 dark:border-ink-800 dark:bg-ink-900">
             No results. Try a different reference.
