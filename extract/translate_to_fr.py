@@ -257,30 +257,10 @@ def translate_title(title, translated_tail):
     return title
 
 
-# ---------- nav.json ----------
-nav = json.load(open("data/nav.json"))
-for chapter in nav["chapters"]:
-    if chapter["slug"] == "selector":
-        chapter["title"] = PHRASE_DICT.get(chapter["title"], chapter["title"])
-
-
-def translate_nav_node(node):
-    if node["type"] == "leaves":
-        return
-    for child in node["children"]:
-        child["title"] = translate_segment(child["title"])
-        translate_nav_node(child["node"])
-
-
-selector = next(c for c in nav["chapters"] if c["slug"] == "selector")
-for cat in selector["categories"]:
-    cat["title"] = PHRASE_DICT.get(cat["title"], cat["title"])
-    translate_nav_node(cat["nav"])
-
-with open("data/nav.fr.json", "w", encoding="utf-8") as f:
-    json.dump(nav, f, ensure_ascii=False, indent=1)
-
-# ---------- pages.json ----------
+# ---------- pages.json (translated first: nav.json's leaf items each
+# duplicate a page's title, so build that translation once and reuse it -
+# both for consistency and so leaf items in listing pages aren't left in
+# English) ----------
 pages = json.load(open("data/pages.json"))
 for p in pages:
     new_tail = [translate_segment(s) for s in p["tail"]]
@@ -312,6 +292,37 @@ for p in pages:
 
 with open("data/pages.fr.json", "w", encoding="utf-8") as f:
     json.dump(pages, f, ensure_ascii=False)
+
+# ---------- nav.json ----------
+nav = json.load(open("data/nav.json"))
+for chapter in nav["chapters"]:
+    if chapter["slug"] == "selector":
+        chapter["title"] = PHRASE_DICT.get(chapter["title"], chapter["title"])
+
+pages_fr_by_slug = {p["slug"]: p for p in pages}
+
+
+def translate_nav_node(node):
+    if node["type"] == "leaves":
+        for item in node["items"]:
+            fr_page = pages_fr_by_slug.get(item["slug"])
+            if fr_page:
+                item["title"] = fr_page["title"]
+            else:
+                unmatched_log.add(f"[leaf-no-page] {item['slug']!r}")
+        return
+    for child in node["children"]:
+        child["title"] = translate_segment(child["title"])
+        translate_nav_node(child["node"])
+
+
+selector = next(c for c in nav["chapters"] if c["slug"] == "selector")
+for cat in selector["categories"]:
+    cat["title"] = PHRASE_DICT.get(cat["title"], cat["title"])
+    translate_nav_node(cat["nav"])
+
+with open("data/nav.fr.json", "w", encoding="utf-8") as f:
+    json.dump(nav, f, ensure_ascii=False, indent=1)
 
 # ---------- search-index.json ----------
 search_index = json.load(open("public/data/search-index.json"))
