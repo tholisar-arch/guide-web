@@ -38,10 +38,10 @@ export default function Shell({
             alt="Mersen"
             width={84}
             height={32}
-            className="h-5 w-auto"
+            className="h-6 w-auto"
             priority
           />
-          <span className="hidden h-5 w-px bg-ink-200 sm:block dark:bg-ink-800" />
+          <span className="hidden h-6 w-px bg-ink-200 sm:block dark:bg-ink-800" />
           <span className="hidden text-sm font-medium tracking-tight text-ink-800 sm:block dark:text-ink-50">
             Selection Guide{" "}
             <span className="font-normal text-ink-400">2026 Europe</span>
