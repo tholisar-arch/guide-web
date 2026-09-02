@@ -51,7 +51,7 @@ export default function Sidebar() {
         Cross Reference Search
       </Link>
 
-      <CategoryRow href="/guide/selector" title={selector.title} defaultOpen level={0}>
+      <CategoryRow href="/guide/selector" title={selector.title} defaultOpen level={0} bold>
         {selector.categories.map((cat) => (
           <CategoryRow
             key={cat.slug}

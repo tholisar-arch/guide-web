@@ -11,12 +11,14 @@ export default function CategoryRow({
   children,
   defaultOpen = false,
   level = 0,
+  bold = false,
 }: {
   href: string;
   title: string;
   children?: ReactNode;
   defaultOpen?: boolean;
   level?: number;
+  bold?: boolean;
 }) {
   const pathname = usePathname();
   const isActive = pathname === href;
@@ -39,7 +41,7 @@ export default function CategoryRow({
         }`}
         style={{ paddingLeft: 8 + level * 12 }}
       >
-        <span className="truncate">{title}</span>
+        <span className={`truncate ${bold ? "font-medium" : ""}`}>{title}</span>
       </Link>
     );
   }
@@ -54,7 +56,11 @@ export default function CategoryRow({
         }`}
         style={{ paddingLeft: 8 + level * 12 }}
       >
-        <Link href={href} onClick={stop} className="min-w-0 flex-1 truncate">
+        <Link
+          href={href}
+          onClick={stop}
+          className={`min-w-0 flex-1 truncate ${bold ? "font-medium" : ""}`}
+        >
           {title}
         </Link>
         <ChevronRight
