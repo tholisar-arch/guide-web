@@ -8,3 +8,5 @@ next-env.d.ts
 extract/test_imgs
 extract/pages_info.json
 web_data
+
+__pycache__
