@@ -1,0 +1,13 @@
+Item Code,Description,Category,Supplier,Unit Cost,Unit Price,Lead Time (days)
+FUSE-001,Fast-Acting Fuse 10A,Circuit Protection,Mersen SA,1.2,3.5,10
+FUSE-002,Semiconductor Fuse 32A,Circuit Protection,Mersen SA,4.8,12.9,21
+BUSB-010,Copper Busbar 100A,Power Distribution,CopperTech Ltd,18.5,42.0,30
+SURG-005,Surge Protective Device Type 2,Surge Protection,Mersen SA,22.0,58.0,25
+SURG-006,Surge Protective Device Type 1+2,Surge Protection,Mersen SA,55.0,129.0,35
+HOLD-020,Fuse Holder Panel Mount,Accessories,ElecParts GmbH,2.1,6.2,14
+SWITCH-030,Disconnect Switch 63A,Switching,SwitchCo,15.0,39.0,18
+SWITCH-031,Disconnect Switch 125A,Switching,SwitchCo,28.0,72.0,18
+CABLE-040,Cable Lug 25mm2,Accessories,ElecParts GmbH,0.45,1.35,7
+RELAY-050,Monitoring Relay 3-Phase,Protection Relays,Mersen SA,32.0,84.0,28
+FUSE-003,Slow-Blow Fuse 6A,Circuit Protection,Mersen SA,0.9,2.6,10
+OBSOLETE-099,Legacy Terminal Block (EOL),Accessories,ElecParts GmbH,3.0,7.5,14
