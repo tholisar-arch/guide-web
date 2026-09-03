@@ -96,8 +96,8 @@ def prune_node(node):
 
 CATEGORY_ORDER = [
     "Miniature fuses",
-    "IEC fuses",
-    "UL/CSA fuses",
+    "IEC low voltage fuses",
+    "UL/CSA low voltage fuses",
     "High-speed fuses",
     "Medium voltage fuses",
     "DC Distribution and Battery",

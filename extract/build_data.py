@@ -18,6 +18,8 @@ MIN_VISIBLE_FONT = 4.0  # PowerPoint AI-alt-text / file-path metadata is embedde
 # the PDF text) stay stable while only the shown title changes.
 CATEGORY_TITLE_OVERRIDES = {
     "Protection for DC Distribution and Battery": "DC Distribution and Battery",
+    "IEC fuses": "IEC low voltage fuses",
+    "UL/CSA fuses": "UL/CSA low voltage fuses",
 }
 
 JUNK_LINE_RE = re.compile(

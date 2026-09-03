@@ -48,8 +48,8 @@ PHRASE_DICT = {
     # top-level categories / chapter
     "Product Selector": "Sélecteur de produits",
     "Miniature fuses": "Fusibles miniatures",
-    "IEC fuses": "Fusibles CEI",
-    "UL/CSA fuses": "Fusibles UL/CSA",
+    "IEC low voltage fuses": "Fusibles basse tension CEI",
+    "UL/CSA low voltage fuses": "Fusibles basse tension UL/CSA",
     "High-speed fuses": "Fusibles ultra-rapides",
     "Medium voltage fuses": "Fusibles moyenne tension",
     "DC fuses": "Fusibles DC",

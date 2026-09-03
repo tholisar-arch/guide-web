@@ -166,7 +166,7 @@
      }
     },
     {
-     "title": "Fusibles CEI",
+     "title": "Fusibles basse tension CEI",
      "slug": "iec-fuses",
      "count": 156,
      "nav": {
@@ -1586,7 +1586,7 @@
      }
     },
     {
-     "title": "Fusibles UL/CSA",
+     "title": "Fusibles basse tension UL/CSA",
      "slug": "ul-csa-fuses",
      "count": 20,
      "nav": {
