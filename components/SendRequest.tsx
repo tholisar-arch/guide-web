@@ -11,10 +11,14 @@ export default function SendRequest({ locale }: { locale: Locale }) {
   const [message, setMessage] = useState("");
 
   const mailtoHref = useMemo(() => {
-    const params = new URLSearchParams();
-    if (subject.trim()) params.set("subject", subject);
-    if (message.trim()) params.set("body", message);
-    const query = params.toString();
+    // encodeURIComponent (not URLSearchParams, which encodes spaces as "+"
+    // - fine for form bodies, but many mail clients take a mailto query
+    // literally and show "+" instead of a space) so spaces come through as
+    // %20 and the mail app shows exactly what was typed.
+    const parts = [];
+    if (subject.trim()) parts.push(`subject=${encodeURIComponent(subject)}`);
+    if (message.trim()) parts.push(`body=${encodeURIComponent(message)}`);
+    const query = parts.join("&");
     return `mailto:${to.trim()}${query ? `?${query}` : ""}`;
   }, [to, subject, message]);
 
