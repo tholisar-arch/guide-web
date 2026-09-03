@@ -16,14 +16,15 @@ export default function HomeContent({ locale }: { locale: Locale }) {
   return (
     <div>
       <section className="relative border-b border-ink-200 bg-ink-50 dark:border-ink-800 dark:bg-ink-900/40">
-        <Image
-          src="/brand/mersen-logo.png"
-          alt="Mersen"
-          width={128}
-          height={49}
-          priority
-          className="absolute right-4 top-3 sm:right-6 sm:top-4"
-        />
+        <div className="mx-auto flex max-w-4xl justify-end px-4 pt-6 sm:pt-8">
+          <Image
+            src="/brand/mersen-logo.png"
+            alt="Mersen"
+            width={128}
+            height={49}
+            priority
+          />
+        </div>
         <div className="mx-auto max-w-4xl px-4 pb-14 pt-6 text-center sm:pb-20">
           <span className="mb-4 inline-block rounded border border-brand-200 bg-white px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700 dark:border-brand-900 dark:bg-transparent dark:text-brand-400">
             {dict.heroBadge}
