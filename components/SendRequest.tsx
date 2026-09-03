@@ -4,9 +4,10 @@ import { useMemo, useState } from "react";
 import { Mail, Send } from "lucide-react";
 import { t, type Locale } from "@/lib/i18n";
 
+const RECIPIENT = "thomas.lisar@mersen.com";
+
 export default function SendRequest({ locale }: { locale: Locale }) {
   const dict = t(locale);
-  const [to, setTo] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
@@ -19,10 +20,8 @@ export default function SendRequest({ locale }: { locale: Locale }) {
     if (subject.trim()) parts.push(`subject=${encodeURIComponent(subject)}`);
     if (message.trim()) parts.push(`body=${encodeURIComponent(message)}`);
     const query = parts.join("&");
-    return `mailto:${to.trim()}${query ? `?${query}` : ""}`;
-  }, [to, subject, message]);
-
-  const canSend = to.trim().length > 3 && to.includes("@");
+    return `mailto:${RECIPIENT}${query ? `?${query}` : ""}`;
+  }, [subject, message]);
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
@@ -44,21 +43,12 @@ export default function SendRequest({ locale }: { locale: Locale }) {
         className="space-y-4 rounded-lg border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900"
       >
         <div>
-          <label
-            htmlFor="send-request-to"
-            className="mb-1 block text-xs font-medium uppercase tracking-wide text-ink-500 dark:text-ink-400"
-          >
+          <span className="mb-1 block text-xs font-medium uppercase tracking-wide text-ink-500 dark:text-ink-400">
             {dict.sendRequestToLabel}
-          </label>
-          <input
-            id="send-request-to"
-            type="email"
-            required
-            value={to}
-            onChange={(e) => setTo(e.target.value)}
-            placeholder={dict.sendRequestToPlaceholder}
-            className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
-          />
+          </span>
+          <p className="rounded-lg border border-ink-200 bg-ink-50 px-3 py-2 text-sm text-ink-600 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-300">
+            {RECIPIENT}
+          </p>
         </div>
 
         <div>
@@ -96,13 +86,8 @@ export default function SendRequest({ locale }: { locale: Locale }) {
         </div>
 
         <a
-          href={canSend ? mailtoHref : undefined}
-          aria-disabled={!canSend}
-          className={`flex w-full items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-medium transition ${
-            canSend
-              ? "bg-brand-600 text-white hover:bg-brand-700"
-              : "cursor-not-allowed bg-ink-100 text-ink-400 dark:bg-ink-800 dark:text-ink-600"
-          }`}
+          href={mailtoHref}
+          className="flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-brand-700"
         >
           <Send size={15} />
           {dict.sendRequestButton}

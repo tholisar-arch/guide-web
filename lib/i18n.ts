@@ -81,7 +81,6 @@ type Dict = {
   sendRequestH1: string;
   sendRequestDesc: string;
   sendRequestToLabel: string;
-  sendRequestToPlaceholder: string;
   sendRequestSubjectLabel: string;
   sendRequestSubjectPlaceholder: string;
   sendRequestMessageLabel: string;
@@ -150,9 +149,8 @@ const en: Dict = {
   sendRequestEyebrow: "Send a Request",
   sendRequestH1: "Send a request by email",
   sendRequestDesc:
-    "Fill in the recipient, subject, and your message, then open it in your mail app to send it.",
-  sendRequestToLabel: "Recipient email",
-  sendRequestToPlaceholder: "name@example.com",
+    "Fill in the subject and your message, then open it in your mail app to send it.",
+  sendRequestToLabel: "To",
   sendRequestSubjectLabel: "Subject",
   sendRequestSubjectPlaceholder: "Subject of your request...",
   sendRequestMessageLabel: "Message",
@@ -222,9 +220,8 @@ const fr: Dict = {
   sendRequestEyebrow: "Envoyer une demande",
   sendRequestH1: "Envoyer une demande par e-mail",
   sendRequestDesc:
-    "Renseignez le destinataire, l'objet et votre message, puis ouvrez-le dans votre messagerie pour l'envoyer.",
-  sendRequestToLabel: "Adresse du destinataire",
-  sendRequestToPlaceholder: "nom@exemple.com",
+    "Renseignez l'objet et votre message, puis ouvrez-le dans votre messagerie pour l'envoyer.",
+  sendRequestToLabel: "À",
   sendRequestSubjectLabel: "Objet",
   sendRequestSubjectPlaceholder: "Objet de votre demande...",
   sendRequestMessageLabel: "Message",
