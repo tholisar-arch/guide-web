@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { PageEntry } from "@/lib/types";
 import { getData } from "@/lib/data";
@@ -6,6 +7,7 @@ import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import ContentBlocks from "@/components/ContentBlocks";
 import ResourceLinks from "@/components/ResourceLinks";
 import SelectorFrame from "@/components/SelectorFrame";
+import HighlightRefFromQuery from "@/components/HighlightRefFromQuery";
 import { localeHref, type Locale } from "@/lib/i18n";
 
 export default function LeafPageView({
@@ -29,6 +31,9 @@ export default function LeafPageView({
           {entry.title}
         </h1>
 
+        <Suspense fallback={null}>
+          <HighlightRefFromQuery />
+        </Suspense>
         <ContentBlocks blocks={entry.blocks} />
 
         <ResourceLinks links={entry.resourceLinks ?? []} locale={locale} />

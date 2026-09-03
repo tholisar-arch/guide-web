@@ -34,6 +34,7 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                       {row.map((cell, c) => (
                         <td
                           key={c}
+                          data-ref-cell={cell || undefined}
                           className="whitespace-nowrap px-3 py-2 tabular-nums text-ink-700 dark:text-ink-200"
                         >
                           {cell === "" ? (

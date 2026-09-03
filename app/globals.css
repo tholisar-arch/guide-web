@@ -37,3 +37,8 @@ body {
 .prose-guide p {
   margin: 0.5rem 0;
 }
+
+.ref-highlight {
+  background-color: rgba(255, 81, 18, 0.14) !important;
+  box-shadow: inset 2px 0 0 0 #ff5112;
+}

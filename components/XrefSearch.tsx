@@ -121,7 +121,7 @@ export default function XrefSearch({ locale }: { locale: Locale }) {
             <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
               {slug ? (
                 <Link
-                  href={localeHref(locale, `/guide/${slug}`)}
+                  href={localeHref(locale, `/guide/${slug}?ref=${encodeURIComponent(r.e.pn)}`)}
                   className="inline-flex items-center gap-1 font-mono text-sm font-semibold text-brand-600 hover:underline dark:text-brand-400"
                 >
                   {r.e.pn}
