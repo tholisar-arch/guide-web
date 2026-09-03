@@ -110,7 +110,7 @@ export default function Shell({
         </div>
       </header>
 
-      <div className="mx-auto flex w-full max-w-[1500px] flex-1">
+      <div className="flex w-full flex-1">
         <div
           className={`fixed inset-0 z-30 bg-black/30 transition-opacity lg:hidden ${
             open ? "opacity-100" : "pointer-events-none opacity-0"
