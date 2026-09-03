@@ -80,13 +80,19 @@ type Dict = {
   sendRequestEyebrow: string;
   sendRequestH1: string;
   sendRequestDesc: string;
-  sendRequestToLabel: string;
-  sendRequestSubjectLabel: string;
-  sendRequestSubjectPlaceholder: string;
+  sendRequestCountryLabel: string;
+  sendRequestCountryPlaceholder: string;
+  sendRequestFirstNameLabel: string;
+  sendRequestLastNameLabel: string;
+  sendRequestCompanyLabel: string;
+  sendRequestEmailLabel: string;
+  sendRequestEmailPlaceholder: string;
   sendRequestMessageLabel: string;
   sendRequestMessagePlaceholder: string;
   sendRequestButton: string;
   sendRequestHint: string;
+  sendRequestSentTo: (country: string) => string;
+  sendRequestSubjectPrefix: string;
 };
 
 const en: Dict = {
@@ -145,17 +151,24 @@ const en: Dict = {
   sendRequestNav: "Send a Request",
   sendRequestCardTitle: "Send a Request",
   sendRequestCardDesc:
-    "Compose an email right from the site: recipient, subject, and message.",
-  sendRequestEyebrow: "Send a Request",
-  sendRequestH1: "Send a request by email",
+    "Get in touch with your local Mersen team about a product or project.",
+  sendRequestEyebrow: "Contact Us",
+  sendRequestH1: "Send a request",
   sendRequestDesc:
-    "Fill in the subject and your message, then open it in your mail app to send it.",
-  sendRequestToLabel: "To",
-  sendRequestSubjectLabel: "Subject",
-  sendRequestSubjectPlaceholder: "Subject of your request...",
+    "Select your country and we'll route your request to the right contact.",
+  sendRequestCountryLabel: "Country",
+  sendRequestCountryPlaceholder: "Select your country...",
+  sendRequestFirstNameLabel: "First name",
+  sendRequestLastNameLabel: "Last name",
+  sendRequestCompanyLabel: "Company (optional)",
+  sendRequestEmailLabel: "Your email",
+  sendRequestEmailPlaceholder: "name@example.com",
   sendRequestMessageLabel: "Message",
   sendRequestMessagePlaceholder: "Write your message...",
   sendRequestButton: "Open in Mail App",
+  sendRequestSentTo: (country) =>
+    `Your request will be sent to our ${country} team.`,
+  sendRequestSubjectPrefix: "Website contact request",
   sendRequestHint:
     "This opens your own email app with everything pre-filled — just click Send from there.",
 };
@@ -217,16 +230,23 @@ const fr: Dict = {
   sendRequestCardTitle: "Envoyer une demande",
   sendRequestCardDesc:
     "Rédigez un e-mail directement depuis le site : destinataire, objet et message.",
-  sendRequestEyebrow: "Envoyer une demande",
-  sendRequestH1: "Envoyer une demande par e-mail",
+  sendRequestEyebrow: "Contactez-nous",
+  sendRequestH1: "Envoyer une demande",
   sendRequestDesc:
-    "Renseignez l'objet et votre message, puis ouvrez-le dans votre messagerie pour l'envoyer.",
-  sendRequestToLabel: "À",
-  sendRequestSubjectLabel: "Objet",
-  sendRequestSubjectPlaceholder: "Objet de votre demande...",
+    "Sélectionnez votre pays : votre demande sera transmise au bon interlocuteur.",
+  sendRequestCountryLabel: "Pays",
+  sendRequestCountryPlaceholder: "Sélectionnez votre pays...",
+  sendRequestFirstNameLabel: "Prénom",
+  sendRequestLastNameLabel: "Nom",
+  sendRequestCompanyLabel: "Société (facultatif)",
+  sendRequestEmailLabel: "Votre e-mail",
+  sendRequestEmailPlaceholder: "nom@exemple.com",
   sendRequestMessageLabel: "Message",
   sendRequestMessagePlaceholder: "Rédigez votre message...",
   sendRequestButton: "Ouvrir dans l'application mail",
+  sendRequestSentTo: (country) =>
+    `Votre demande sera envoyée à notre équipe pour ${country}.`,
+  sendRequestSubjectPrefix: "Demande de contact depuis le site",
   sendRequestHint:
     "Cela ouvre votre messagerie habituelle avec ces informations pré-remplies ; il ne vous reste qu'à cliquer sur Envoyer.",
 };
