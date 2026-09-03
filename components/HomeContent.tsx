@@ -16,7 +16,7 @@ export default function HomeContent({ locale }: { locale: Locale }) {
   return (
     <div>
       <section className="relative border-b border-ink-200 bg-ink-50 dark:border-ink-800 dark:bg-ink-900/40">
-        <div className="mx-auto flex max-w-4xl justify-end px-4 pt-6 sm:pt-8">
+        <div className="flex justify-end px-4 pt-6 sm:pt-8">
           <Image
             src="/brand/mersen-logo.png"
             alt="Mersen"
