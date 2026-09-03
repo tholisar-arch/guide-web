@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { getData } from "@/lib/data";
 import type { ChapterSelector, SelectorNavNode } from "@/lib/types";
 import CategoryRow from "@/components/CategoryRow";
-import { Home, ArrowLeftRight, Sliders } from "lucide-react";
+import { Home, ArrowLeftRight, Sliders, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { localeFromPathname, localeHref, t } from "@/lib/i18n";
 
@@ -94,6 +94,16 @@ export default function Sidebar() {
         <Sliders size={15} />
         {dict.spdConfigurator}
       </Link>
+
+      <a
+        href={dict.mersenWebsiteUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-4 flex items-center gap-2 rounded-md border-t border-ink-100 px-2 pb-1.5 pt-3 text-sm text-ink-500 hover:text-brand-600 dark:border-ink-800 dark:text-ink-400 dark:hover:text-brand-400"
+      >
+        <ExternalLink size={15} />
+        {dict.mersenWebsiteLabel}
+      </a>
     </nav>
   );
 }

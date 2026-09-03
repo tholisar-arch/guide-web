@@ -72,6 +72,8 @@ type Dict = {
   matchTitle: string;
   metaSiteTitle: string;
   metaSiteDescription: string;
+  mersenWebsiteLabel: string;
+  mersenWebsiteUrl: string;
 };
 
 const en: Dict = {
@@ -125,6 +127,8 @@ const en: Dict = {
   metaSiteTitle: "Selection Guide 2026 Europe | Mersen Electrical Protection",
   metaSiteDescription:
     "Interactive selection guide for electrical protection products: low and medium voltage fuses, high-speed fuses, surge protection devices, and photovoltaic solutions.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
 };
 
 const fr: Dict = {
@@ -178,6 +182,8 @@ const fr: Dict = {
   metaSiteTitle: "Guide de sélection 2026 Europe | Mersen Protection Électrique",
   metaSiteDescription:
     "Guide de sélection interactif pour les produits de protection électrique : fusibles basse et moyenne tension, fusibles ultra-rapides, parafoudres et solutions photovoltaïques.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/fr",
 };
 
 const dicts: Record<Locale, Dict> = { en, fr };
