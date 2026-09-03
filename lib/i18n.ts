@@ -74,6 +74,20 @@ type Dict = {
   metaSiteDescription: string;
   mersenWebsiteLabel: string;
   mersenWebsiteUrl: string;
+  sendRequestNav: string;
+  sendRequestCardTitle: string;
+  sendRequestCardDesc: string;
+  sendRequestEyebrow: string;
+  sendRequestH1: string;
+  sendRequestDesc: string;
+  sendRequestToLabel: string;
+  sendRequestToPlaceholder: string;
+  sendRequestSubjectLabel: string;
+  sendRequestSubjectPlaceholder: string;
+  sendRequestMessageLabel: string;
+  sendRequestMessagePlaceholder: string;
+  sendRequestButton: string;
+  sendRequestHint: string;
 };
 
 const en: Dict = {
@@ -129,6 +143,23 @@ const en: Dict = {
     "Interactive selection guide for electrical protection products: low and medium voltage fuses, high-speed fuses, surge protection devices, and photovoltaic solutions.",
   mersenWebsiteLabel: "mersen.com",
   mersenWebsiteUrl: "https://www.mersen.com/en",
+  sendRequestNav: "Send a Request",
+  sendRequestCardTitle: "Send a Request",
+  sendRequestCardDesc:
+    "Compose an email right from the site: recipient, subject, and message.",
+  sendRequestEyebrow: "Send a Request",
+  sendRequestH1: "Send a request by email",
+  sendRequestDesc:
+    "Fill in the recipient, subject, and your message, then open it in your mail app to send it.",
+  sendRequestToLabel: "Recipient email",
+  sendRequestToPlaceholder: "name@example.com",
+  sendRequestSubjectLabel: "Subject",
+  sendRequestSubjectPlaceholder: "Subject of your request...",
+  sendRequestMessageLabel: "Message",
+  sendRequestMessagePlaceholder: "Write your message...",
+  sendRequestButton: "Open in Mail App",
+  sendRequestHint:
+    "This opens your own email app with everything pre-filled — just click Send from there.",
 };
 
 const fr: Dict = {
@@ -184,6 +215,23 @@ const fr: Dict = {
     "Guide de sélection interactif pour les produits de protection électrique : fusibles basse et moyenne tension, fusibles ultra-rapides, parafoudres et solutions photovoltaïques.",
   mersenWebsiteLabel: "mersen.com",
   mersenWebsiteUrl: "https://www.mersen.com/fr",
+  sendRequestNav: "Envoyer une demande",
+  sendRequestCardTitle: "Envoyer une demande",
+  sendRequestCardDesc:
+    "Rédigez un e-mail directement depuis le site : destinataire, objet et message.",
+  sendRequestEyebrow: "Envoyer une demande",
+  sendRequestH1: "Envoyer une demande par e-mail",
+  sendRequestDesc:
+    "Renseignez le destinataire, l'objet et votre message, puis ouvrez-le dans votre messagerie pour l'envoyer.",
+  sendRequestToLabel: "Adresse du destinataire",
+  sendRequestToPlaceholder: "nom@exemple.com",
+  sendRequestSubjectLabel: "Objet",
+  sendRequestSubjectPlaceholder: "Objet de votre demande...",
+  sendRequestMessageLabel: "Message",
+  sendRequestMessagePlaceholder: "Rédigez votre message...",
+  sendRequestButton: "Ouvrir dans l'application mail",
+  sendRequestHint:
+    "Cela ouvre votre messagerie habituelle avec ces informations pré-remplies ; il ne vous reste qu'à cliquer sur Envoyer.",
 };
 
 const dicts: Record<Locale, Dict> = { en, fr };

@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { getData } from "@/lib/data";
 import type { ChapterSelector, SelectorNavNode } from "@/lib/types";
 import CategoryRow from "@/components/CategoryRow";
-import { Home, ArrowLeftRight, Sliders, ExternalLink } from "lucide-react";
+import { Home, ArrowLeftRight, Sliders, Mail, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { localeFromPathname, localeHref, t } from "@/lib/i18n";
 
@@ -93,6 +93,14 @@ export default function Sidebar() {
       >
         <Sliders size={15} />
         {dict.spdConfigurator}
+      </Link>
+
+      <Link
+        href={localeHref(locale, "/send-request")}
+        className="flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+      >
+        <Mail size={15} />
+        {dict.sendRequestNav}
       </Link>
 
       <a

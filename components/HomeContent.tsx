@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeftRight, ArrowRight, ExternalLink, Sliders, Zap } from "lucide-react";
+import { ArrowLeftRight, ArrowRight, ExternalLink, Mail, Sliders, Zap } from "lucide-react";
 import SearchBox from "@/components/SearchBox";
 import { getData } from "@/lib/data";
 import type { ChapterSelector } from "@/lib/types";
@@ -89,7 +89,7 @@ export default function HomeContent({ locale }: { locale: Locale }) {
         <p className="mb-6 text-sm text-ink-500 dark:text-ink-400">
           {dict.moreToolsDesc}
         </p>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           <Link
             href={localeHref(locale, "/xref")}
             className="group flex items-start gap-4 rounded-lg border border-ink-200 bg-white p-5 transition hover:border-brand-300 hover:shadow-card-hover dark:border-ink-800 dark:bg-ink-900"
@@ -120,6 +120,23 @@ export default function HomeContent({ locale }: { locale: Locale }) {
               </span>
               <span className="mt-0.5 block text-sm text-ink-500 dark:text-ink-400">
                 {dict.spdCardDesc}
+              </span>
+            </span>
+          </Link>
+
+          <Link
+            href={localeHref(locale, "/send-request")}
+            className="group flex items-start gap-4 rounded-lg border border-ink-200 bg-white p-5 transition hover:border-brand-300 hover:shadow-card-hover dark:border-ink-800 dark:bg-ink-900"
+          >
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
+              <Mail size={20} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-semibold text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
+                {dict.sendRequestCardTitle}
+              </span>
+              <span className="mt-0.5 block text-sm text-ink-500 dark:text-ink-400">
+                {dict.sendRequestCardDesc}
               </span>
             </span>
           </Link>
