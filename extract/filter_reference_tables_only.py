@@ -99,7 +99,7 @@ CATEGORY_ORDER = [
     "IEC low voltage fuses",
     "UL/CSA low voltage fuses",
     "High-speed fuses",
-    "Medium voltage fuses",
+    "IEC medium voltage fuses",
     "DC Distribution and Battery",
     "Industrial DC Fuses",
     "Photovoltaic Applications",

@@ -20,6 +20,7 @@ CATEGORY_TITLE_OVERRIDES = {
     "Protection for DC Distribution and Battery": "DC Distribution and Battery",
     "IEC fuses": "IEC low voltage fuses",
     "UL/CSA fuses": "UL/CSA low voltage fuses",
+    "Medium voltage fuses": "IEC medium voltage fuses",
 }
 
 JUNK_LINE_RE = re.compile(

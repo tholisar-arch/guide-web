@@ -51,7 +51,7 @@ PHRASE_DICT = {
     "IEC low voltage fuses": "Fusibles basse tension CEI",
     "UL/CSA low voltage fuses": "Fusibles basse tension UL/CSA",
     "High-speed fuses": "Fusibles ultra-rapides",
-    "Medium voltage fuses": "Fusibles moyenne tension",
+    "IEC medium voltage fuses": "Fusibles moyenne tension CEI",
     "DC fuses": "Fusibles DC",
     "Photovoltaic Applications": "Applications photovoltaïques",
     "Surge Protection": "Protection contre les surtensions",
