@@ -64,10 +64,15 @@ export default function SearchInner({ locale }: { locale: Locale }) {
       )}
 
       <ul className="divide-y divide-ink-100 overflow-hidden rounded-lg border border-ink-200 dark:divide-ink-800 dark:border-ink-800">
-        {results.map((r) => (
+        {results.map((r) => {
+          const ref = matchedCode(r, q);
+          return (
           <li key={r.slug}>
             <Link
-              href={localeHref(locale, `/guide/${r.slug}`)}
+              href={localeHref(
+                locale,
+                `/guide/${r.slug}${ref ? `?ref=${encodeURIComponent(ref)}` : ""}`
+              )}
               className="flex items-start gap-3 bg-white px-4 py-3 hover:bg-brand-50 dark:bg-ink-900 dark:hover:bg-brand-950"
             >
               <FileText size={16} className="mt-0.5 shrink-0 text-ink-300" />
@@ -78,9 +83,9 @@ export default function SearchInner({ locale }: { locale: Locale }) {
                 <span className="block text-sm font-medium text-ink-800 dark:text-ink-100">
                   {r.title}
                 </span>
-                {matchedCode(r, q) && (
+                {ref && (
                   <span className="mt-0.5 inline-block rounded bg-ink-100 px-1.5 py-0.5 font-mono text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300">
-                    {matchedCode(r, q)}
+                    {ref}
                   </span>
                 )}
                 {r.text && (
@@ -91,7 +96,8 @@ export default function SearchInner({ locale }: { locale: Locale }) {
               </span>
             </Link>
           </li>
-        ))}
+          );
+        })}
         {q.trim() && results.length === 0 && (
           <li className="bg-white px-4 py-8 text-center text-sm text-ink-400 dark:bg-ink-900">
             {dict.searchNoResults}

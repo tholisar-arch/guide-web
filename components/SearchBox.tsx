@@ -115,10 +115,11 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
       .map((r) => r.it);
   }, [items, query]);
 
-  function goToItem(slug: string) {
+  function goToItem(slug: string, ref?: string | null) {
     setOpen(false);
     setQuery("");
-    router.push(localeHref(locale, `/guide/${slug}`));
+    const suffix = ref ? `?ref=${encodeURIComponent(ref)}` : "";
+    router.push(localeHref(locale, `/guide/${slug}${suffix}`));
   }
 
   function onSubmit(e: React.FormEvent) {
@@ -183,10 +184,12 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
             </p>
           ) : (
             <>
-              {results.map((r) => (
+              {results.map((r) => {
+                const ref = matchedCode(r, query);
+                return (
                 <button
                   key={r.slug}
-                  onClick={() => goToItem(r.slug)}
+                  onClick={() => goToItem(r.slug, ref)}
                   className="flex w-full flex-col items-start gap-0.5 rounded-md px-3 py-2 text-left hover:bg-ink-100 dark:hover:bg-ink-800"
                 >
                   <span className="text-xs font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400">
@@ -195,13 +198,14 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
                   <span className="text-sm text-ink-800 dark:text-ink-100">
                     {r.title}
                   </span>
-                  {matchedCode(r, query) && (
+                  {ref && (
                     <span className="rounded bg-ink-100 px-1.5 py-0.5 font-mono text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300">
-                      {matchedCode(r, query)}
+                      {ref}
                     </span>
                   )}
                 </button>
-              ))}
+                );
+              })}
               <button
                 onClick={(e) => onSubmit(e)}
                 className="mt-1 w-full rounded-md px-3 py-2 text-left text-sm text-brand-600 hover:bg-ink-100 dark:hover:bg-ink-800"
