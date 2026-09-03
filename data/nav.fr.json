@@ -37,12 +37,12 @@
               "page": 17
              },
              {
-              "title": "Fusibles en verre - Taille : 5 x 20 mm - Action moyenne",
+              "title": "Fusibles en verre - Taille : 5 x 20 mm - Semi-temporisé",
               "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
               "page": 18
              },
              {
-              "title": "Fusibles en verre - Taille : 5 x 20 mm - Action moyenne - Référence coffret d'assortiment : P233440",
+              "title": "Fusibles en verre - Taille : 5 x 20 mm - Semi-temporisé - Référence coffret d'assortiment : P233440",
               "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
               "page": 19
              },
@@ -107,7 +107,7 @@
               "page": 25
              },
              {
-              "title": "Fusibles céramique - Taille : 5 x 20 mm - Action moyenne",
+              "title": "Fusibles céramique - Taille : 5 x 20 mm - Semi-temporisé",
               "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
               "page": 26
              },
@@ -142,7 +142,7 @@
               "page": 30
              },
              {
-              "title": "Fusibles céramique - Taille : 6 x 32 mm - Action moyenne",
+              "title": "Fusibles céramique - Taille : 6 x 32 mm - Semi-temporisé",
               "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
               "page": 31
              },
@@ -220,49 +220,49 @@
          "type": "group",
          "children": [
           {
-           "title": "Cartouches fusibles à ferrules standard",
+           "title": "Fusibles cylindriques",
            "slug": "ferrule-fuse-links-standard",
            "count": 8,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 8.5 x 31.5 mm - Sans indicateur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 8.5 x 31.5 mm - Sans indicateur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p129",
               "page": 129
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 8.5 x 31.5 mm - Avec indicateur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 8.5 x 31.5 mm - Avec indicateur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p130",
               "page": 130
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 10 x 38 mm - Sans indicateur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 10 x 38 mm - Sans indicateur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p131",
               "page": 131
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 10 x 38 mm - Avec indicateur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 10 x 38 mm - Avec indicateur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p132",
               "page": 132
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 14 x 51 mm - Sans percuteur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 14 x 51 mm - Sans percuteur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p133",
               "page": 133
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 14 x 51 mm - Avec percuteur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 14 x 51 mm - Avec percuteur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p134",
               "page": 134
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 22 x 58 mm - Sans percuteur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 22 x 58 mm - Sans percuteur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p135",
               "page": 135
              },
              {
-              "title": "Type : gG - Cartouches fusibles à ferrules standard - Taille : 22 x 58 mm - Avec percuteur",
+              "title": "Type : gG - Fusibles cylindriques - Taille : 22 x 58 mm - Avec percuteur",
               "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p136",
               "page": 136
              }
@@ -344,32 +344,32 @@
                "type": "leaves",
                "items": [
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Cosses isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Pattes isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
                  "page": 148
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Cosses isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Pattes isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
                  "page": 149
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Cosses isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Pattes isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
                  "page": 150
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Cosses non isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Pattes non isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
                  "page": 151
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Cosses non isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Pattes non isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
                  "page": 152
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Cosses non isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 000 - Pattes non isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
                  "page": 153
                 }
@@ -384,32 +384,32 @@
                "type": "leaves",
                "items": [
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Cosses isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Pattes isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
                  "page": 154
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Cosses isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Pattes isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
                  "page": 155
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Cosses isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Pattes isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
                  "page": 156
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Cosses non isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Pattes non isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
                  "page": 157
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Cosses non isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Pattes non isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
                  "page": 158
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Cosses non isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 00 - Pattes non isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
                  "page": 159
                 }
@@ -424,22 +424,22 @@
                "type": "leaves",
                "items": [
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Cosses isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Pattes isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
                  "page": 160
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Cosses isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Pattes isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
                  "page": 161
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Cosses non isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Pattes non isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
                  "page": 162
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Cosses non isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 0 - Pattes non isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
                  "page": 163
                 },
@@ -459,32 +459,32 @@
                "type": "leaves",
                "items": [
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Cosses isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Pattes isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
                  "page": 165
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Cosses isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Pattes isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
                  "page": 166
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Cosses isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Pattes isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
                  "page": 167
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Cosses non isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Pattes non isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
                  "page": 168
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Cosses non isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Pattes non isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
                  "page": 169
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Cosses non isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 1 - Pattes non isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
                  "page": 170
                 },
@@ -504,32 +504,32 @@
                "type": "leaves",
                "items": [
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Cosses isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Pattes isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
                  "page": 172
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Cosses isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Pattes isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
                  "page": 173
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Cosses isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Pattes isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
                  "page": 174
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Cosses non isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Pattes non isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
                  "page": 175
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Cosses non isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Pattes non isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
                  "page": 176
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Cosses non isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 2 - Pattes non isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
                  "page": 177
                 },
@@ -549,32 +549,32 @@
                "type": "leaves",
                "items": [
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Cosses isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Pattes isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
                  "page": 179
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Cosses isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Pattes isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
                  "page": 180
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Cosses isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Pattes isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
                  "page": 181
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Cosses non isolées - Tension assignée : 400 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Pattes non isolées - Tension assignée : 400 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
                  "page": 182
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Cosses non isolées - Tension assignée : 500 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Pattes non isolées - Tension assignée : 500 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
                  "page": 183
                 },
                 {
-                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Cosses non isolées - Tension assignée : 690 VAC",
+                 "title": "Type : gG - Norme DIN NH - Taille : 3 - Pattes non isolées - Tension assignée : 690 VAC",
                  "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
                  "page": 184
                 },
@@ -1075,44 +1075,44 @@
          "type": "group",
          "children": [
           {
-           "title": "Cartouches fusibles à ferrules standard",
+           "title": "Fusibles cylindriques",
            "slug": "ferrule-fuse-links-standard",
            "count": 7,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 8.5 x 31.5 mm",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 8.5 x 31.5 mm",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p232",
               "page": 232
              },
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 10 x 38 mm - Sans indicateur",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 10 x 38 mm - Sans indicateur",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p233",
               "page": 233
              },
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 10 x 38 mm - Avec indicateur",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 10 x 38 mm - Avec indicateur",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p234",
               "page": 234
              },
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 14 x 51 mm - Sans percuteur",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 14 x 51 mm - Sans percuteur",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p235",
               "page": 235
              },
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 14 x 51 mm - Avec percuteur",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 14 x 51 mm - Avec percuteur",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p236",
               "page": 236
              },
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 22 x 58 mm - Sans percuteur",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 22 x 58 mm - Sans percuteur",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p237",
               "page": 237
              },
              {
-              "title": "Type : aM - Cartouches fusibles à ferrules standard - Taille : 22 x 58 mm - Avec percuteur",
+              "title": "Type : aM - Fusibles cylindriques - Taille : 22 x 58 mm - Avec percuteur",
               "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p238",
               "page": 238
              }
@@ -1545,19 +1545,19 @@
          "type": "group",
          "children": [
           {
-           "title": "Cartouches fusibles à ferrules standard",
+           "title": "Fusibles cylindriques",
            "slug": "ferrule-fuse-links-standard",
            "count": 2,
            "node": {
             "type": "leaves",
             "items": [
              {
-              "title": "Type : aD - Cartouches fusibles à ferrules standard - Taille : 14 x 51 mm",
+              "title": "Type : aD - Fusibles cylindriques - Taille : 14 x 51 mm",
               "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p280",
               "page": 280
              },
              {
-              "title": "Type : aD - Cartouches fusibles à ferrules standard - Taille : 22 x 58 mm",
+              "title": "Type : aD - Fusibles cylindriques - Taille : 22 x 58 mm",
               "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p281",
               "page": 281
              }
@@ -4187,7 +4187,7 @@
             "type": "leaves",
             "items": [
              {
-              "title": "Fusibles gPV cylindriques - Tension assignée : 1000 VDC - Taille : 10 x 38 mm - Type : Capuchon à sertir",
+              "title": "Fusibles gPV cylindriques - Tension assignée : 1000 VDC - Taille : 10 x 38 mm - Type : À sertir",
               "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
               "page": 633
              },
@@ -4207,7 +4207,7 @@
             "type": "leaves",
             "items": [
              {
-              "title": "Fusibles gPV cylindriques - Tension assignée : 1500 VDC - Taille : 10 x 85 mm - Type : Capuchon à sertir",
+              "title": "Fusibles gPV cylindriques - Tension assignée : 1500 VDC - Taille : 10 x 85 mm - Type : À sertir",
               "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
               "page": 635
              },
