@@ -25,6 +25,15 @@ export default function SendRequest({ locale }: { locale: Locale }) {
     both: dict.sendRequestTypeBoth,
   };
 
+  // Surge protection requests for France/Belgium/Luxembourg also go to
+  // Mersen's local surge protection specialist, in copy.
+  const SURGE_CC = "florent.ivankovics@mersen.com";
+  const SURGE_CC_COUNTRIES = ["france", "belgium", "luxembourg"];
+  const needsSurgeCc =
+    (requestType === "surge" || requestType === "both") &&
+    !!selectedCountry &&
+    SURGE_CC_COUNTRIES.includes(selectedCountry.key);
+
   const mailtoHref = useMemo(() => {
     if (!selectedCountry) return null;
 
@@ -47,13 +56,14 @@ export default function SendRequest({ locale }: { locale: Locale }) {
     // %20 and the mail app shows exactly what was typed.
     const query = [
       `subject=${encodeURIComponent(subject)}`,
+      needsSurgeCc && `cc=${encodeURIComponent(SURGE_CC)}`,
       body && `body=${encodeURIComponent(body)}`,
     ]
       .filter(Boolean)
       .join("&");
 
     return `mailto:${selectedCountry.email}?${query}`;
-  }, [selectedCountry, firstName, lastName, company, requestType, email, message, dict]);
+  }, [selectedCountry, firstName, lastName, company, requestType, email, message, dict, needsSurgeCc]);
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
