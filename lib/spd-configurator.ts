@@ -1382,8 +1382,177 @@ export const SPD_NODES_PL: Record<string, SpdNode> = {
   },
 };
 
+// Romanian translation of the same tree: every `to`/`href`/`external`
+// value is identical to SPD_NODES above (the site's slugs don't change
+// between locales - see lib/data.ts), only `title`/`label` text is
+// translated.
+export const SPD_NODES_RO: Record<string, SpdNode> = {
+  hub: {
+    title: "Pentru ce tip de instalație este aceasta?",
+    options: [
+      { label: "Industrială", to: "industrial" },
+      { label: "Comercială / Rezidențială", to: "commercial" },
+      { label: "Iluminat stradal", to: "street-lighting" },
+      { label: "Fotovoltaică", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Industrială — expunerea instalației",
+    options: [
+      {
+        label:
+          "Instalație cu protecție la trăsnet sau în apropierea unui element expus la impacturi",
+        to: "industrial-highly",
+      },
+      {
+        label: "Instalație alimentată prin linii aeriene",
+        to: "industrial-moderate",
+      },
+      { label: "Instalație cu distribuție subterană", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Industrială — Puternic protejată",
+    options: [
+      {
+        label: "Nivel 1: Tablou principal",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Nivel 2: Tablou de distribuție (dacă >10 m de tabloul principal)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Nivel 3: Echipament sensibil",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Industrială — Moderat protejată",
+    options: [
+      {
+        label: "Nivel 1: Tablou principal",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Nivel 2: Tablou de distribuție (dacă >10 m de tabloul principal)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Nivel 3: Echipament sensibil",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Industrială — Protecție de bază",
+    options: [
+      {
+        label: "Nivel 1: Tablou principal",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Nivel 3: Echipament sensibil",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Comercială / Rezidențială — expunerea instalației",
+    options: [
+      {
+        label:
+          "Instalație cu protecție la trăsnet sau în apropierea unui element expus la impacturi",
+        to: "commercial-highly",
+      },
+      {
+        label: "Instalație alimentată prin linii aeriene",
+        to: "commercial-moderate",
+      },
+      { label: "Instalație cu distribuție subterană", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Comercială / Rezidențială — Puternic protejată",
+    options: [
+      {
+        label: "Tablou electric",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Echipament sensibil",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Comercială / Rezidențială — Moderat protejată",
+    options: [
+      {
+        label: "Tablou electric",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Echipament sensibil",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Comercială / Rezidențială — Protecție de bază",
+    options: [
+      {
+        label: "Tablou electric",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Echipament sensibil",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Iluminat stradal",
+    options: [
+      {
+        label: "Producător de corpuri de iluminat exterioare",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Constructor de tablouri / Instalator", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Iluminat stradal — Constructor de tablouri / Instalator",
+    options: [
+      {
+        label: "Stâlp",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Tablou electric",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Fotovoltaică",
+    options: [
+      {
+        label: "Cutie de joncțiune (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Tablou de distribuție (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
 export function getSpdNodes(
-  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl"
+  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro"
 ): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
@@ -1392,5 +1561,6 @@ export function getSpdNodes(
   if (locale === "hu") return SPD_NODES_HU;
   if (locale === "pt") return SPD_NODES_PT;
   if (locale === "pl") return SPD_NODES_PL;
+  if (locale === "ro") return SPD_NODES_RO;
   return SPD_NODES;
 }

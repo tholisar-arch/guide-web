@@ -1,8 +1,8 @@
-export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl";
+export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro";
 
 // Kept in alphabetical order by display label (LOCALE_LABELS below) since
 // the language switcher renders this list as-is.
-export const LOCALES: Locale[] = ["de", "en", "fr", "it", "hu", "nl", "pl", "pt"];
+export const LOCALES: Locale[] = ["de", "en", "fr", "it", "hu", "nl", "pl", "pt", "ro"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
@@ -13,6 +13,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   hu: "Magyar",
   pt: "Português",
   pl: "Polski",
+  ro: "Română",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -780,7 +781,90 @@ const pl: Dict = {
     "Spowoduje to otwarcie Twojej aplikacji pocztowej z gotowymi danymi — wystarczy kliknąć Wyślij.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl };
+const ro: Dict = {
+  guideHome: "Pagina principală a catalogului",
+  crossReferenceSearch: "Căutare referințe încrucișate",
+  spdConfigurator: "Configurator SPD",
+  searchPlaceholderHeader: "Căutați în catalog... (siguranțe, SPD, tensiune...)",
+  searchPlaceholderHero: "Căutați în catalog... (siguranțe, SPD, tensiune...)",
+  home: "Acasă",
+  back: "Înapoi",
+  documentation: "Documentație",
+  filterReferences: "Filtrați referințele...",
+  noReferencesFound: "Nu a fost găsită nicio referință.",
+  noResultsFor: (q) => `Niciun rezultat pentru „${q}"`,
+  viewAllResultsFor: (q) => `Vedeți toate rezultatele pentru „${q}" →`,
+  resultsCountFor: (n, q) => `${n} rezultat${n !== 1 ? "e" : ""} pentru „${q}"`,
+  loading: "Se încarcă...",
+  productSelectorFallback: "Selector de produse",
+  siteSubtitle: "2026 Europa",
+  heroBadge: "Selector de produse interactiv · Ediția Europa 2026",
+  heroTitle1: "Ghid de selecție",
+  heroTitle2: "Protecție electrică",
+  heroDescription:
+    "Întregul selector de produse, transformat într-un site web: siguranțe, dispozitive de protecție la supratensiuni și soluții fotovoltaice, organizate pe familii de produse și complet accesibile pe mobil, tabletă și desktop.",
+  productFamilies: "Familii de produse",
+  productFamiliesDesc: "Răsfoiți întregul selector de produse pe categorii.",
+  moreTools: "Mai multe instrumente",
+  moreToolsDesc: "Căutări suplimentare bazate pe aceleași date de produs.",
+  xrefCardTitle: "Căutare referințe încrucișate",
+  xrefCardDesc:
+    "Găsiți referința Mersen echivalentă unui cod de produs al concurenței (Citel, Dehn, Eaton, Siemens și altele).",
+  spdCardTitle: "Configurator SPD",
+  spdCardDesc:
+    "Răspundeți la câteva întrebări despre instalația dumneavoastră pentru a găsi familia potrivită de protecție la supratensiuni.",
+  xrefEyebrow: "Căutare referințe încrucișate",
+  xrefH1: "Găsiți o referință Mersen pornind de la un cod al concurenței",
+  xrefDesc:
+    "Căutați după o referință a concurenței (Citel, Dehn, Eaton, Siemens, Schneider Electric și altele) pentru a găsi produsul Mersen echivalent.",
+  xrefSearchPlaceholder: "Căutați o referință a concurenței...",
+  xrefResultsFor: (n, q) => `${n} rezultat${n !== 1 ? "e" : ""} pentru „${q}"`,
+  xrefNoResults: "Niciun rezultat. Încercați o altă referință.",
+  xrefMatchedVia: (brand) => `găsit prin ${brand}`,
+  spdEyebrow: "Configurator SPD",
+  spdH1: "Găsiți dispozitivul potrivit de protecție la supratensiuni",
+  spdDesc:
+    "Răspundeți la câteva întrebări despre instalația dumneavoastră pentru a ajunge la familia potrivită de produse de protecție la supratensiuni.",
+  spdStartOver: "Reîncepeți",
+  searchTitle: "Căutare",
+  searchNoResults: "Niciun rezultat. Încercați un alt termen de căutare.",
+  matchTitle: "Căutare",
+  metaSiteTitle: "Ghid de selecție 2026 Europa | Mersen Protecție Electrică",
+  metaSiteDescription:
+    "Ghid interactiv de selecție pentru produse de protecție electrică: siguranțe de joasă și medie tensiune, siguranțe ultrarapide, dispozitive de protecție la supratensiuni și soluții fotovoltaice.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/ro",
+  sendRequestNav: "Trimiteți o solicitare",
+  sendRequestCardTitle: "Trimiteți o solicitare",
+  sendRequestCardDesc:
+    "Contactați echipa Mersen locală în legătură cu un produs sau un proiect.",
+  sendRequestEyebrow: "Contactați-ne",
+  sendRequestH1: "Trimiteți o solicitare",
+  sendRequestDesc:
+    "Selectați țara dumneavoastră și vom direcționa solicitarea către persoana de contact potrivită.",
+  sendRequestCountryLabel: "Țară",
+  sendRequestCountryPlaceholder: "Selectați țara...",
+  sendRequestFirstNameLabel: "Prenume",
+  sendRequestLastNameLabel: "Nume",
+  sendRequestCompanyLabel: "Companie (opțional)",
+  sendRequestTypeLabel: "Solicitare",
+  sendRequestTypePlaceholder: "Selectați tipul solicitării...",
+  sendRequestTypeFuse: "Siguranță",
+  sendRequestTypeSurge: "Protecție la supratensiuni",
+  sendRequestTypeBoth: "Siguranță și protecție la supratensiuni",
+  sendRequestEmailLabel: "E-mailul dumneavoastră",
+  sendRequestEmailPlaceholder: "nume@exemplu.ro",
+  sendRequestMessageLabel: "Mesaj",
+  sendRequestMessagePlaceholder: "Scrieți mesajul dumneavoastră...",
+  sendRequestButton: "Deschideți în aplicația de e-mail",
+  sendRequestSentTo: (country) =>
+    `Solicitarea dumneavoastră va fi trimisă echipei noastre pentru ${country}.`,
+  sendRequestSubjectPrefix: "Solicitare de contact de pe site",
+  sendRequestHint:
+    "Aceasta vă deschide propria aplicație de e-mail cu totul completat în prealabil — trebuie doar să apăsați Trimitere.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl, ro };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];

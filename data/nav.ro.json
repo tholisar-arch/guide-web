@@ -1,0 +1,4791 @@
+{
+ "chapters": [
+  {
+   "slug": "selector",
+   "title": "Selector de produse",
+   "overview": [],
+   "categories": [
+    {
+     "title": "Siguranțe miniaturale",
+     "slug": "miniature-fuses",
+     "count": 18,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Siguranțe din sticlă",
+        "slug": "glass-fuses",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Dimensiune: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 5 x 20 mm - Temporizat",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p16",
+              "page": 16
+             },
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 5 x 20 mm - Temporizat - Cod cutie de asortiment: H203764",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p17",
+              "page": 17
+             },
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 5 x 20 mm - Semitemporizat",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
+              "page": 18
+             },
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 5 x 20 mm - Semitemporizat - Cod cutie de asortiment: P233440",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
+              "page": 19
+             },
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 5 x 20 mm - Acțiune rapidă",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
+              "page": 20
+             },
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 5 x 20 mm - Acțiune rapidă - Cod cutie de asortiment: G203763",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p21",
+              "page": 21
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 6 x 32 mm - Temporizat",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p22",
+              "page": 22
+             },
+             {
+              "title": "Siguranțe din sticlă - Dimensiune: 6 x 32 mm - Acțiune rapidă",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
+              "page": 23
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Siguranțe ceramice",
+        "slug": "ceramic-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Dimensiune: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 5 x 20 mm - Temporizat",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p24",
+              "page": 24
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 5 x 20 mm - Temporizat - Cod cutie de asortiment: C229864",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p25",
+              "page": 25
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 5 x 20 mm - Semitemporizat",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
+              "page": 26
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 5 x 20 mm - Acțiune rapidă",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
+              "page": 27
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 5 x 20 mm - Acțiune rapidă - Cod cutie de asortiment: B229863",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p28",
+              "page": 28
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 5 x 20 mm - Acțiune ultrarapidă",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p29",
+              "page": 29
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 6 x 32 mm - Temporizat",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p30",
+              "page": 30
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 6 x 32 mm - Semitemporizat",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
+              "page": 31
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 6 x 32 mm - Acțiune rapidă",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
+              "page": 32
+             },
+             {
+              "title": "Siguranțe ceramice - Dimensiune: 6 x 32 mm - Acțiune ultrarapidă",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p33",
+              "page": 33
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Siguranțe de joasă tensiune IEC",
+     "slug": "iec-fuses",
+     "count": 156,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Tip: Punte de nul",
+        "slug": "type-neutral-link",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Dimensiune: 8.5 x 31.5 mm",
+           "slug": "size-8-5-x-31-5-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: Punte de nul - Dimensiune: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-8-5-x-31-5-mm/p127",
+              "page": 127
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 10 x 38 mm",
+           "slug": "size-10-x-38-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: Punte de nul - Dimensiune: 10 x 38 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-10-x-38-mm/p128",
+              "page": 128
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: gG",
+        "slug": "type-gg",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Siguranțe cilindrice",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 8,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 8.5 x 31.5 mm - Fără indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p129",
+              "page": 129
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 8.5 x 31.5 mm - Cu indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p130",
+              "page": 130
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 10 x 38 mm - Fără indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p131",
+              "page": 131
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 10 x 38 mm - Cu indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p132",
+              "page": 132
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 14 x 51 mm - Fără percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p133",
+              "page": 133
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 14 x 51 mm - Cu percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p134",
+              "page": 134
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 22 x 58 mm - Fără percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p135",
+              "page": 135
+             },
+             {
+              "title": "Tip: gG - Siguranțe cilindrice - Dimensiune: 22 x 58 mm - Cu percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p136",
+              "page": 136
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard DIN D0",
+           "slug": "din-d0-standard",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG - Standard DIN D0 - Dimensiune: D01 (E14)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p137",
+              "page": 137
+             },
+             {
+              "title": "Tip: gG - Standard DIN D0 - Dimensiune: D02 (E18)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p138",
+              "page": 138
+             },
+             {
+              "title": "Tip: gG - Standard DIN D0 - Dimensiune: D03 (M30x2)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p139",
+              "page": 139
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard DIN D",
+           "slug": "din-d-standard",
+           "count": 5,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG - Standard DIN D - Dimensiune: NDZ",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p140",
+              "page": 140
+             },
+             {
+              "title": "Tip: gG - Standard DIN D - Dimensiune: DII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p141",
+              "page": 141
+             },
+             {
+              "title": "Tip: gG - Standard DIN D - Dimensiune: DIII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p142",
+              "page": 142
+             },
+             {
+              "title": "Tip: gG - Standard DIN D - Dimensiune: DIV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p143",
+              "page": 143
+             },
+             {
+              "title": "Tip: gG - Standard DIN D - Dimensiune: DV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p144",
+              "page": 144
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard DIN NH",
+           "slug": "din-nh-standard",
+           "count": 46,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Dimensiune: 000",
+              "slug": "size-000",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 000 - Papuci izolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
+                 "page": 148
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 000 - Papuci izolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
+                 "page": 149
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 000 - Papuci izolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
+                 "page": 150
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 000 - Papuci neizolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
+                 "page": 151
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 000 - Papuci neizolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
+                 "page": 152
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 000 - Papuci neizolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
+                 "page": 153
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 00",
+              "slug": "size-00",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 00 - Papuci izolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
+                 "page": 154
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 00 - Papuci izolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
+                 "page": 155
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 00 - Papuci izolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
+                 "page": 156
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 00 - Papuci neizolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
+                 "page": 157
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 00 - Papuci neizolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
+                 "page": 158
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 00 - Papuci neizolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
+                 "page": 159
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 0",
+              "slug": "size-0",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 0 - Papuci izolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
+                 "page": 160
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 0 - Papuci izolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
+                 "page": 161
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 0 - Papuci neizolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
+                 "page": 162
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 0 - Papuci neizolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
+                 "page": 163
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 0 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
+                 "page": 164
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 1",
+              "slug": "size-1",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Papuci izolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
+                 "page": 165
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Papuci izolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
+                 "page": 166
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Papuci izolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
+                 "page": 167
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Papuci neizolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
+                 "page": 168
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Papuci neizolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
+                 "page": 169
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Papuci neizolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
+                 "page": 170
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 1 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
+                 "page": 171
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 2",
+              "slug": "size-2",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Papuci izolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
+                 "page": 172
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Papuci izolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
+                 "page": 173
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Papuci izolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
+                 "page": 174
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Papuci neizolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
+                 "page": 175
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Papuci neizolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
+                 "page": 176
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Papuci neizolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
+                 "page": 177
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 2 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
+                 "page": 178
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 3",
+              "slug": "size-3",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Papuci izolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
+                 "page": 179
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Papuci izolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
+                 "page": 180
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Papuci izolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
+                 "page": 181
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Papuci neizolați - Tensiune nominală: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
+                 "page": 182
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Papuci neizolați - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
+                 "page": 183
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Papuci neizolați - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
+                 "page": 184
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 3 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
+                 "page": 185
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 4",
+              "slug": "size-4",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4 - Cu indicator superior - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
+                 "page": 186
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4 - Cu indicator superior - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
+                 "page": 187
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4 - Cu indicator central - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p188",
+                 "page": 188
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4 - Cu indicator central - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p189",
+                 "page": 189
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p190",
+                 "page": 190
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 4a",
+              "slug": "size-4a",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4a - Cu indicator superior - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p191",
+                 "page": 191
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4a - Cu indicator central - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p192",
+                 "page": 192
+                },
+                {
+                 "title": "Tip: gG - Standard DIN NH - Dimensiune: 4a - Cu indicator central - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p193",
+                 "page": 193
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard BS88",
+           "slug": "bs88-standard",
+           "count": 36,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip: A1",
+              "slug": "type-a1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A1 - Tip BS: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p194",
+                 "page": 194
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A1 - Tip BS: BEIT (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p195",
+                 "page": 195
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A2 - Tip BS: BTIA (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
+                 "page": 196
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A2 - Tip BS: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
+                 "page": 197
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: A3",
+              "slug": "type-a3",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A3 - Tip BS: BTSS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
+                 "page": 198
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A3 - Tip BS: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
+                 "page": 199
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A3 - Tip BS: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p200",
+                 "page": 200
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A3 - Tip BS: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p201",
+                 "page": 201
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A4 - Tip BS: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p202",
+                 "page": 202
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A4 - Tip BS: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p203",
+                 "page": 203
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A4 - Tip BS: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p204",
+                 "page": 204
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: A4 - Tip BS: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p205",
+                 "page": 205
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B1",
+              "slug": "type-b1",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B1 - Tip BS: BTBC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
+                 "page": 206
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B1 - Tip BS: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p207",
+                 "page": 207
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B1 - Tip BS: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p208",
+                 "page": 208
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B1 - Tip BS: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p209",
+                 "page": 209
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B2 - Tip BS: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
+                 "page": 210
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B2 - Tip BS: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
+                 "page": 211
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B3",
+              "slug": "type-b3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B3 - Tip BS: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p212",
+                 "page": 212
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B3 - Tip BS: BTKF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p213",
+                 "page": 213
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B3 - Tip BS: BTKM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p214",
+                 "page": 214
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B4",
+              "slug": "type-b4",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B4 - Tip BS: BTMF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
+                 "page": 215
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: B4 - Tip BS: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p216",
+                 "page": 216
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: C1",
+              "slug": "type-c1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: C1 - Tip BS: BTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p217",
+                 "page": 217
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: C1 - Tip BS: BTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p218",
+                 "page": 218
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: C2",
+              "slug": "type-c2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: C2 - Tip BS: BTTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
+                 "page": 219
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: C2 - Tip BS: BTTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
+                 "page": 220
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: C3",
+              "slug": "type-c3",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: C3 - Tip BS: BTLM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p221",
+                 "page": 221
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: C3 - Tip BS: BTLM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p222",
+                 "page": 222
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: F1",
+              "slug": "type-f1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: F1 - Tip BS: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
+                 "page": 223
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: F2",
+              "slug": "type-f2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: F2 - Tip BS: BES (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p224",
+                 "page": 224
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Tip: F2 - Tip BS: BES (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p225",
+                 "page": 225
+                }
+               ]
+              }
+             },
+             {
+              "title": "Iluminat stradal BS",
+              "slug": "bs-street-lighting",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Iluminat stradal BS - Tip BS: BMD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p226",
+                 "page": 226
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Iluminat stradal BS - Tip BS: BLST (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p227",
+                 "page": 227
+                },
+                {
+                 "title": "Tip: gG - Standard BS88 - Iluminat stradal BS - Tip BS: BLD (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p228",
+                 "page": 228
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dulap de distribuție BS",
+              "slug": "bs-feeder-pillar",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gG - Standard BS88 - Dulap de distribuție BS",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
+                 "page": 229
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard BS1361",
+           "slug": "bs1361-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG - Standard BS1361 - Branșament individual - Tip BS: BME (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p230",
+              "page": 230
+             },
+             {
+              "title": "Tip: gG - Standard BS1361 - Branșament individual - Tip BS: BMF (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p231",
+              "page": 231
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: gG Flink",
+        "slug": "type-gg-flink",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Dimensiune: NDZ",
+           "slug": "size-ndz",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG Flink - Dimensiune: NDZ",
+              "slug": "selector/iec-fuses/type-gg-flink/size-ndz/p145",
+              "page": 145
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: DII",
+           "slug": "size-dii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG Flink - Dimensiune: DII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-dii/p146",
+              "page": 146
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: DIII",
+           "slug": "size-diii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gG Flink - Dimensiune: DIII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-diii/p147",
+              "page": 147
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: aM",
+        "slug": "type-am",
+        "count": 29,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Siguranțe cilindrice",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p232",
+              "page": 232
+             },
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 10 x 38 mm - Fără indicator",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p233",
+              "page": 233
+             },
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 10 x 38 mm - Cu indicator",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p234",
+              "page": 234
+             },
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 14 x 51 mm - Fără percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p235",
+              "page": 235
+             },
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 14 x 51 mm - Cu percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p236",
+              "page": 236
+             },
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 22 x 58 mm - Fără percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p237",
+              "page": 237
+             },
+             {
+              "title": "Tip: aM - Siguranțe cilindrice - Dimensiune: 22 x 58 mm - Cu percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p238",
+              "page": 238
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard DIN D0",
+           "slug": "din-d0-standard",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: aM - Standard DIN D0 - Dimensiune: D02",
+              "slug": "selector/iec-fuses/type-am/din-d0-standard/p239",
+              "page": 239
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard DIN NH",
+           "slug": "din-nh-standard",
+           "count": 21,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Dimensiune: 000",
+              "slug": "size-000",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 000 - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
+                 "page": 240
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 000 - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
+                 "page": 241
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 00",
+              "slug": "size-00",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 00 - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
+                 "page": 242
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 00 - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p243",
+                 "page": 243
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 0",
+              "slug": "size-0",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 0 - Cu indicator - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
+                 "page": 244
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 0 - Cu indicator - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p245",
+                 "page": 245
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 0 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p246",
+                 "page": 246
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 1",
+              "slug": "size-1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 1 - Cu indicator - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p247",
+                 "page": 247
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 1 - Cu indicator - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p248",
+                 "page": 248
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 1 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p249",
+                 "page": 249
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 2",
+              "slug": "size-2",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 2 - Cu indicator - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
+                 "page": 250
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 2 - Cu indicator - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p251",
+                 "page": 251
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 2 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
+                 "page": 252
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 3",
+              "slug": "size-3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 3 - Cu indicator - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p253",
+                 "page": 253
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 3 - Cu indicator - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p254",
+                 "page": 254
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 3 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p255",
+                 "page": 255
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 4",
+              "slug": "size-4",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 4 - Cu indicator - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
+                 "page": 256
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 4 - Cu indicator - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p257",
+                 "page": 257
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 4 - Cu percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
+                 "page": 258
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 4a",
+              "slug": "size-4a",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 4a - Cu indicator - Tensiune nominală: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p259",
+                 "page": 259
+                },
+                {
+                 "title": "Tip: aM - Standard DIN NH - Dimensiune: 4a - Cu indicator - Tensiune nominală: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p260",
+                 "page": 260
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: gM",
+        "slug": "type-gm",
+        "count": 19,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Standard BS88",
+           "slug": "bs88-standard",
+           "count": 19,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip: A1",
+              "slug": "type-a1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A1 - Tip BS: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p261",
+                 "page": 261
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A2 - Tip BS: BTIA (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
+                 "page": 262
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A2 - Tip BS: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
+                 "page": 263
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: A3",
+              "slug": "type-a3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A3 - Tip BS: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
+                 "page": 264
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A3 - Tip BS: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p265",
+                 "page": 265
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A3 - Tip BS: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p266",
+                 "page": 266
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A4 - Tip BS: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p267",
+                 "page": 267
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A4 - Tip BS: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p268",
+                 "page": 268
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A4 - Tip BS: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p269",
+                 "page": 269
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: A4 - Tip BS: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p270",
+                 "page": 270
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B1",
+              "slug": "type-b1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B1 - Tip BS: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p271",
+                 "page": 271
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B1 - Tip BS: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p272",
+                 "page": 272
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B1 - Tip BS: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p273",
+                 "page": 273
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B2 - Tip BS: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
+                 "page": 274
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B2 - Tip BS: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
+                 "page": 275
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B3",
+              "slug": "type-b3",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B3 - Tip BS: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
+                 "page": 276
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: B4",
+              "slug": "type-b4",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: B4 - Tip BS: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
+                 "page": 277
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: F1",
+              "slug": "type-f1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: F1 - Tip BS: BNS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p278",
+                 "page": 278
+                },
+                {
+                 "title": "Tip: gM - Standard BS88 - Tip: F1 - Tip BS: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p279",
+                 "page": 279
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: aD",
+        "slug": "type-ad",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Siguranțe cilindrice",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: aD - Siguranțe cilindrice - Dimensiune: 14 x 51 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p280",
+              "page": 280
+             },
+             {
+              "title": "Tip: aD - Siguranțe cilindrice - Dimensiune: 22 x 58 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p281",
+              "page": 281
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: aD - Dimensiune: 00",
+              "slug": "selector/iec-fuses/type-ad/size-00/p282",
+              "page": 282
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Siguranțe de joasă tensiune UL/CSA",
+     "slug": "ul-csa-fuses",
+     "count": 20,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Acțiune rapidă",
+        "slug": "fast-acting",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Clasa C",
+           "slug": "class-c",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Clasa C - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-c/p293",
+              "page": 293
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa CC",
+           "slug": "class-cc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Clasa CC - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-cc/p294",
+              "page": 294
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Midget - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/midget/p295",
+              "page": 295
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa T",
+           "slug": "class-t",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Clasa T - Tensiune nominală: 300 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
+              "page": 296
+             },
+             {
+              "title": "Acțiune rapidă - Clasa T - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p297",
+              "page": 297
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Clasa J - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-j/p298",
+              "page": 298
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa K5",
+           "slug": "class-k5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Clasa K5 - Tensiune nominală: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
+              "page": 299
+             },
+             {
+              "title": "Acțiune rapidă - Clasa K5 - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p300",
+              "page": 300
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acțiune rapidă - Clasa RK1 - Tensiune nominală: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
+              "page": 301
+             },
+             {
+              "title": "Acțiune rapidă - Clasa RK1 - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
+              "page": 302
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Temporizat",
+        "slug": "time-delay",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Clasa CC",
+           "slug": "class-cc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Temporizat - Clasa CC - Gamă: ATDR - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
+              "page": 303
+             },
+             {
+              "title": "Temporizat - Clasa CC - Gamă: ATQR - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p304",
+              "page": 304
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Temporizat - Midget - Tensiune nominală: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
+              "page": 306
+             },
+             {
+              "title": "Temporizat - Midget - Tensiune nominală: 500 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p307",
+              "page": 307
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Temporizat - Clasa J - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-j/p308",
+              "page": 308
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa L",
+           "slug": "class-l",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Temporizat - Clasa L - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-l/p309",
+              "page": 309
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Temporizat - Clasa RK1 - Tensiune nominală: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
+              "page": 310
+             },
+             {
+              "title": "Temporizat - Clasa RK1 - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p311",
+              "page": 311
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clasa RK5",
+           "slug": "class-rk5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Temporizat - Clasa RK5 - Tensiune nominală: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
+              "page": 312
+             },
+             {
+              "title": "Temporizat - Clasa RK5 - Tensiune nominală: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
+              "page": 313
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Siguranțe ultrarapide",
+     "slug": "high-speed-fuses",
+     "count": 155,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Tip: gLB",
+        "slug": "type-glb",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Dimensiune: 14 x 51 mm",
+           "slug": "size-14-x-51-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gLB - Dimensiune: 14 x 51 mm - Cu percutor",
+              "slug": "selector/high-speed-fuses/type-glb/size-14-x-51-mm/p383",
+              "page": 383
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 22 x 58 mm",
+           "slug": "size-22-x-58-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gLB - Dimensiune: 22 x 58 mm - Cu percutor",
+              "slug": "selector/high-speed-fuses/type-glb/size-22-x-58-mm/p384",
+              "page": 384
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 27 x 60 mm",
+           "slug": "size-27-x-60-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gLB - Dimensiune: 27 x 60 mm - Cu percutor",
+              "slug": "selector/high-speed-fuses/type-glb/size-27-x-60-mm/p385",
+              "page": 385
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: gS",
+        "slug": "type-gs",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Dimensiune: 000",
+           "slug": "size-000",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gS - Dimensiune: 000",
+              "slug": "selector/high-speed-fuses/type-gs/size-000/p386",
+              "page": 386
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gS - Dimensiune: 00",
+              "slug": "selector/high-speed-fuses/type-gs/size-00/p387",
+              "page": 387
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 1",
+           "slug": "size-1",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gS - Dimensiune: 1",
+              "slug": "selector/high-speed-fuses/type-gs/size-1/p388",
+              "page": 388
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 2",
+           "slug": "size-2",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gS - Dimensiune: 2",
+              "slug": "selector/high-speed-fuses/type-gs/size-2/p389",
+              "page": 389
+             }
+            ]
+           }
+          },
+          {
+           "title": "Dimensiune: 3",
+           "slug": "size-3",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: gS - Dimensiune: 3",
+              "slug": "selector/high-speed-fuses/type-gs/size-3/p390",
+              "page": 390
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: gR",
+        "slug": "type-gr",
+        "count": 47,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindric",
+           "slug": "cylindrical",
+           "count": 17,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Versiune AC",
+              "slug": "ac-rated",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: gR - Cilindric - Versiune AC - Dimensiune: 10 x 38 mm",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
+                 "page": 391
+                },
+                {
+                 "title": "Tip: gR - Cilindric - Versiune AC - Dimensiune: 14 x 51 mm - Fără percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p392",
+                 "page": 392
+                },
+                {
+                 "title": "Tip: gR - Cilindric - Versiune AC - Dimensiune: 14 x 51 mm - Cu percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p393",
+                 "page": 393
+                },
+                {
+                 "title": "Tip: gR - Cilindric - Versiune AC - Dimensiune: 22 x 58 mm - Fără percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
+                 "page": 394
+                },
+                {
+                 "title": "Tip: gR - Cilindric - Versiune AC - Dimensiune: 22 x 58 mm - Cu percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
+                 "page": 395
+                }
+               ]
+              }
+             },
+             {
+              "title": "Versiune DC",
+              "slug": "dc-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Dimensiune: 27 x 60 mm",
+                 "slug": "size-27-x-60-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 27 x 60 mm - Cu percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p396",
+                    "page": 396
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 20 x 127 mm",
+                 "slug": "size-20-x-127-mm",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 20 x 127 mm - Fără percutor - Tensiune nominală: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
+                    "page": 397
+                   },
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 20 x 127 mm - Fără percutor - Tensiune nominală: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
+                    "page": 398
+                   },
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 20 x 127 mm - Cu percutor - Tensiune nominală: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p399",
+                    "page": 399
+                   },
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 20 x 127 mm - Cu percutor - Tensiune nominală: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p400",
+                    "page": 400
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 20 x 190 mm",
+                 "slug": "size-20-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 20 x 190 mm - Fără percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p401",
+                    "page": 401
+                   },
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 20 x 190 mm - Cu percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p402",
+                    "page": 402
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 36 x 190 mm",
+                 "slug": "size-36-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 36 x 190 mm - Fără percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
+                    "page": 404
+                   },
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 36 x 190 mm - Cu percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
+                    "page": 405
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 36 x 250 mm",
+                 "slug": "size-36-x-250-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 36 x 250 mm - Fără percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p406",
+                    "page": 406
+                   },
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 36 x 250 mm - Cu percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p407",
+                    "page": 407
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 36 x 400 mm",
+                 "slug": "size-36-x-400-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Cilindric - Versiune DC - Dimensiune: 36 x 400 mm - Fără percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p408",
+                    "page": 408
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Corp pătrat",
+           "slug": "square-body",
+           "count": 30,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Versiune AC",
+              "slug": "ac-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Dimensiune: 70",
+                 "slug": "size-70",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: DIN110 (lame DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
+                    "page": 409
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p410",
+                    "page": 410
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
+                    "page": 411
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 71",
+                 "slug": "size-71",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: DIN110 (lame DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p412",
+                    "page": 412
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p413",
+                    "page": 413
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p414",
+                    "page": 414
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 72",
+                 "slug": "size-72",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: DIN110 (lame DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
+                    "page": 415
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p416",
+                    "page": 416
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
+                    "page": 417
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 73",
+                 "slug": "size-73",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: DIN110 (lame DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p418",
+                    "page": 418
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p419",
+                    "page": 419
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p420",
+                    "page": 420
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "Versiune DC",
+              "slug": "dc-rated",
+              "count": 18,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Dimensiune: 120",
+                 "slug": "size-120",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 120 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
+                    "page": 421
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 120 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
+                    "page": 422
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 121",
+                 "slug": "size-121",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 121 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p423",
+                    "page": 423
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 121 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p424",
+                    "page": 424
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 122",
+                 "slug": "size-122",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 122 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
+                    "page": 425
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 122 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
+                    "page": 426
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 122",
+                 "slug": "size-2-x-122",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 2 x 122 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p427",
+                    "page": 427
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 123",
+                 "slug": "size-123",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 123 - Tip: EF (conexiuni cu șurub)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p428",
+                    "page": 428
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 123 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p429",
+                    "page": 429
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 123",
+                 "slug": "size-2-x-123",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 2 x 123 - Tip: TTF (borne filetate)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p430",
+                    "page": 430
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 300",
+                 "slug": "size-300",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 300 - Tip: Suport",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
+                    "page": 431
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 300 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p432",
+                    "page": 432
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 302",
+                 "slug": "size-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 302 - Tip: Suport",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
+                    "page": 433
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 302",
+                 "slug": "size-2-x-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 2 x 302 - Tip: Suport",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p434",
+                    "page": 434
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 600",
+                 "slug": "size-600",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 600 - Tip: Suport",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p435",
+                    "page": 435
+                   },
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 600 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p436",
+                    "page": 436
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 602",
+                 "slug": "size-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 602 - Tip: Suport",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
+                    "page": 437
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 602",
+                 "slug": "size-2-x-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: gR - Corp pătrat - Versiune DC - Dimensiune: 2 x 602 - Tip: Suport",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p438",
+                    "page": 438
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: aR",
+        "slug": "type-ar",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindric",
+           "slug": "cylindrical",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 10 x 38 mm - Fără indicator",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p439",
+              "page": 439
+             },
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 10 x 38 mm - Cu indicator",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p440",
+              "page": 440
+             },
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 14 x 51 mm - Fără percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p441",
+              "page": 441
+             },
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 14 x 51 mm - Cu percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p442",
+              "page": 442
+             },
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 22 x 58 mm - Fără percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p443",
+              "page": 443
+             },
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 22 x 58 mm - Cu percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p444",
+              "page": 444
+             },
+             {
+              "title": "Tip: aR - Cilindric - Dimensiune: 27 x 60 mm - Cu percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p445",
+              "page": 445
+             }
+            ]
+           }
+          },
+          {
+           "title": "Corp pătrat",
+           "slug": "square-body",
+           "count": 82,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Versiune AC",
+              "slug": "ac-rated",
+              "count": 71,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Dimensiune: NH000",
+                 "slug": "size-nh000",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH000 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p446",
+                    "page": 446
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH000 - Tip: Suport DIN80 - Micro-contact de semnalizare",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p447",
+                    "page": 447
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH000 - Tip: Suport DIN80 - Cu indicator",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p448",
+                    "page": 448
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH000 - Tip: Suport DIN80 - Fără indicator",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p449",
+                    "page": 449
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: NH00",
+                 "slug": "size-nh00",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH00 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
+                    "page": 450
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH00 - Tip: Suport DIN80 - Micro-contact de semnalizare",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p451",
+                    "page": 451
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH00 - Tip: Suport DIN110 - Micro-contact de semnalizare",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p452",
+                    "page": 452
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: NH0",
+                 "slug": "size-nh0",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH0 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
+                    "page": 453
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: NH1",
+                 "slug": "size-nh1",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH1 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p454",
+                    "page": 454
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: NH2",
+                 "slug": "size-nh2",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH2 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p455",
+                    "page": 455
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: NH3",
+                 "slug": "size-nh3",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: NH3 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p456",
+                    "page": 456
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 30",
+                 "slug": "size-30",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Lame canelate DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p457",
+                    "page": 457
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p458",
+                    "page": 458
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p459",
+                    "page": 459
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Lame canelate scurte US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p460",
+                    "page": 460
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p461",
+                    "page": 461
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p462",
+                    "page": 462
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 30 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p463",
+                    "page": 463
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 31",
+                 "slug": "size-31",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Lame canelate DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p464",
+                    "page": 464
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
+                    "page": 465
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p466",
+                    "page": 466
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Lame canelate scurte US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p467",
+                    "page": 467
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p468",
+                    "page": 468
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p469",
+                    "page": 469
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 31 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
+                    "page": 470
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 32",
+                 "slug": "size-32",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Lame canelate DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p471",
+                    "page": 471
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p472",
+                    "page": 472
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p473",
+                    "page": 473
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Lame canelate scurte US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p474",
+                    "page": 474
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p475",
+                    "page": 475
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p476",
+                    "page": 476
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 32 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p477",
+                    "page": 477
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 33",
+                 "slug": "size-33",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Lame canelate DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p478",
+                    "page": 478
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
+                    "page": 479
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p480",
+                    "page": 480
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Lame canelate scurte US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p481",
+                    "page": 481
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p482",
+                    "page": 482
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p483",
+                    "page": 483
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 33 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p484",
+                    "page": 484
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 70",
+                 "slug": "size-70",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
+                    "page": 485
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p486",
+                    "page": 486
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p487",
+                    "page": 487
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p488",
+                    "page": 488
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p489",
+                    "page": 489
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 70 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
+                    "page": 490
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 71",
+                 "slug": "size-71",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p491",
+                    "page": 491
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p492",
+                    "page": 492
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p493",
+                    "page": 493
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p494",
+                    "page": 494
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p495",
+                    "page": 495
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 71 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p496",
+                    "page": 496
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 72",
+                 "slug": "size-72",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
+                    "page": 497
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p498",
+                    "page": 498
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p499",
+                    "page": 499
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p500",
+                    "page": 500
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p501",
+                    "page": 501
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 72 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
+                    "page": 502
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 72",
+                 "slug": "size-2-x-72",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 2 x 72 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
+                    "page": 503
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 73",
+                 "slug": "size-73",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: Lame canelate DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p504",
+                    "page": 504
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: Lame canelate franceze EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p505",
+                    "page": 505
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: Lame canelate lungi US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p506",
+                    "page": 506
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: Lame netede",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p507",
+                    "page": 507
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p508",
+                    "page": 508
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 73 - Tip: Borne filetate US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p509",
+                    "page": 509
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 73",
+                 "slug": "size-2-x-73",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 2 x 73 - Tip: Plăci filetate",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p510",
+                    "page": 510
+                   },
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 2 x 73 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p511",
+                    "page": 511
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 91",
+                 "slug": "size-91",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 91 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
+                    "page": 512
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 92",
+                 "slug": "size-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 92 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p513",
+                    "page": 513
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 92",
+                 "slug": "size-2-x-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 2 x 92 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p514",
+                    "page": 514
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 93",
+                 "slug": "size-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 93 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
+                    "page": 515
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Dimensiune: 2 x 93",
+                 "slug": "size-2-x-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tip: aR - Corp pătrat - Versiune AC - Dimensiune: 2 x 93 - Tip: Borne filetate franceze TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
+                    "page": 516
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "Versiune DC",
+              "slug": "dc-rated",
+              "count": 11,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 70 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p517",
+                 "page": 517
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 72 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
+                 "page": 518
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 2 x 72 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p519",
+                 "page": 519
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 120 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
+                 "page": 520
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 122 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p521",
+                 "page": 521
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 300 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p522",
+                 "page": 522
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 302 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
+                 "page": 523
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 2 x 302 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p524",
+                 "page": 524
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 600 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
+                 "page": 525
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 602 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p526",
+                 "page": 526
+                },
+                {
+                 "title": "Tip: aR - Corp pătrat - Versiune DC - Dimensiune: 2 x 602 - Tip: Suport",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p527",
+                 "page": 527
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Standard BS88-4",
+           "slug": "bs88-4-standard",
+           "count": 11,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Dimensiune: 10 x 28 mm",
+              "slug": "size-10-x-28-mm",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 10 x 28 mm - Tensiune nominală: 250 VAC - Fără indicator de declanșare",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
+                 "page": 528
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 17 x 27 mm",
+              "slug": "size-17-x-27-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 17 x 27 mm - Tensiune nominală: 250 VAC - Fără indicator de declanșare",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p529",
+                 "page": 529
+                },
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 17 x 27 mm - Tensiune nominală: 250 VAC - Cu indicator de declanșare separat",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p530",
+                 "page": 530
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 17 x 49 mm",
+              "slug": "size-17-x-49-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 17 x 49 mm - Tensiune nominală: 690 VAC - Fără indicator de declanșare",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
+                 "page": 531
+                },
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 17 x 49 mm - Tensiune nominală: 690 VAC - Cu indicator de declanșare separat",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
+                 "page": 532
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 36 x 55 mm",
+              "slug": "size-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 36 x 55 mm - Tensiune nominală: 690 VAC - Fără indicator de declanșare",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p533",
+                 "page": 533
+                },
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 36 x 55 mm - Tensiune nominală: 690 VAC - Cu indicator de declanșare integrat",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p534",
+                 "page": 534
+                },
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 36 x 55 mm - Tensiune nominală: 690 VAC - Cu indicator de declanșare separat",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p535",
+                 "page": 535
+                }
+               ]
+              }
+             },
+             {
+              "title": "Dimensiune: 2 x 36 x 55 mm",
+              "slug": "size-2-x-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 2 x 36 x 55 mm - Tensiune nominală: 690 VAC - Fără indicator de declanșare",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
+                 "page": 536
+                },
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 2 x 36 x 55 mm - Tensiune nominală: 690 VAC - Cu indicator de declanșare integrat",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p537",
+                 "page": 537
+                },
+                {
+                 "title": "Tip: aR - Standard BS88-4 - Dimensiune: 2 x 36 x 55 mm - Tensiune nominală: 690 VAC - Cu indicator de declanșare separat",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p538",
+                 "page": 538
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Siguranțe de medie tensiune IEC",
+     "slug": "medium-voltage-fuses",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Protecție amonte DIN P pentru transformatoare",
+        "slug": "din-p-back-up-for-transformers",
+        "count": 7,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 7.2 KV - Lungime: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
+              "page": 562
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
+              "page": 564
+             },
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
+              "page": 569
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 17.5 KV - Lungime: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
+              "page": 571
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 24 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
+              "page": 573
+             },
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 24 KV - Lungime: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
+              "page": 578
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN P pentru transformatoare - Tensiune nominală: 36 KV - Lungime: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
+              "page": 579
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protecție amonte DIN PD pentru transformatoare",
+        "slug": "din-pd-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PD pentru transformatoare - Tensiune nominală: 7.2 KV - Lungime: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
+              "page": 563
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PD pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
+              "page": 565
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PD pentru transformatoare - Tensiune nominală: 24 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
+              "page": 574
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PD pentru transformatoare - Tensiune nominală: 36 KV - Lungime: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
+              "page": 580
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protecție amonte DIN PT pentru transformatoare",
+        "slug": "din-pt-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PT pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
+              "page": 566
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PT pentru transformatoare - Tensiune nominală: 17.5 KV - Lungime: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
+              "page": 572
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PT pentru transformatoare - Tensiune nominală: 24 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
+              "page": 575
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protecție amonte DIN PTD pentru transformatoare",
+        "slug": "din-ptd-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PTD pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
+              "page": 567
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PTD pentru transformatoare - Tensiune nominală: 24 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
+              "page": 576
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PTD pentru transformatoare - Tensiune nominală: 36 KV - Lungime: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
+              "page": 581
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protecție amonte DIN PTS pentru transformatoare",
+        "slug": "din-pts-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PTS pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
+              "page": 568
+             },
+             {
+              "title": "Protecție amonte DIN PTS pentru transformatoare - Tensiune nominală: 12 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
+              "page": 570
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PTS pentru transformatoare - Tensiune nominală: 24 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
+              "page": 577
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN PTS pentru transformatoare - Tensiune nominală: 36 KV - Lungime: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
+              "page": 582
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare",
+        "slug": "nf-ute-back-up-fuses-for-transformers",
+        "count": 6,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare - Tensiune nominală: 7.2 KV - Dimensiune: 55 x 520 mm - Fără percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p583",
+              "page": 583
+             },
+             {
+              "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare - Tensiune nominală: 7.2 KV - Dimensiune: 55 x 520 mm - Cu percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p584",
+              "page": 584
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare - Tensiune nominală: 12 KV - Dimensiune: 55 x 520 mm - Fără percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p585",
+              "page": 585
+             },
+             {
+              "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare - Tensiune nominală: 12 KV - Dimensiune: 55 x 520 mm - Cu percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p586",
+              "page": 586
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare - Tensiune nominală: 24 KV - Dimensiune: 55 x 520 mm - Fără percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p587",
+              "page": 587
+             },
+             {
+              "title": "Siguranțe de protecție amonte NF/UTE pentru transformatoare - Tensiune nominală: 24 KV - Dimensiune: 55 x 520 mm - Cu percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p588",
+              "page": 588
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protecție amonte DIN pentru motoare",
+        "slug": "din-back-up-for-motors",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 3.6 KV",
+           "slug": "rated-voltage-3-6-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN pentru motoare - Tensiune nominală: 3.6 KV - Lungime: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p589",
+              "page": 589
+             },
+             {
+              "title": "Protecție amonte DIN pentru motoare - Tensiune nominală: 3.6 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p590",
+              "page": 590
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN pentru motoare - Tensiune nominală: 7.2 KV - Lungime: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p591",
+              "page": 591
+             },
+             {
+              "title": "Protecție amonte DIN pentru motoare - Tensiune nominală: 7.2 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p592",
+              "page": 592
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecție amonte DIN pentru motoare - Tensiune nominală: 12 KV - Lungime: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-12-kv/p593",
+              "page": 593
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Siguranțe MT iluminat stradal pentru transformatoare",
+        "slug": "mv-street-lighting-fuses-for-transformers",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 1.5 KV",
+           "slug": "rated-voltage-1-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 1.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-1-5-kv/p594",
+              "page": 594
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 2.5 KV",
+           "slug": "rated-voltage-2-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 2.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-2-5-kv/p595",
+              "page": 595
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 3.2 KV - Dimensiune: 10 x 180 mm",
+           "slug": "rated-voltage-3-2-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 3.2 KV - Dimensiune: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-10-x-180-mm/p596",
+              "page": 596
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 3.2 KV - Dimensiune: 36 x 190 mm",
+           "slug": "rated-voltage-3-2-kv-size-36-x-190-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 3.2 KV - Dimensiune: 36 x 190 mm - Fără percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p597",
+              "page": 597
+             },
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 3.2 KV - Dimensiune: 36 x 190 mm - Cu percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p598",
+              "page": 598
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 5.5 KV - Dimensiune: 10 x 180 mm",
+           "slug": "rated-voltage-5-5-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 5.5 KV - Dimensiune: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-10-x-180-mm/p599",
+              "page": 599
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 5.5 KV - Dimensiune: 36 x 250 mm",
+           "slug": "rated-voltage-5-5-kv-size-36-x-250-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 5.5 KV - Dimensiune: 36 x 250 mm - Fără percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p600",
+              "page": 600
+             },
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 5.5 KV - Dimensiune: 36 x 250 mm - Cu percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p601",
+              "page": 601
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 5.5 KV - Dimensiune: 55 x 259 mm",
+           "slug": "rated-voltage-5-5-kv-size-55-x-259-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 5.5 KV - Dimensiune: 55 x 259 mm - Fără percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p602",
+              "page": 602
+             },
+             {
+              "title": "Siguranțe MT iluminat stradal pentru transformatoare - Tensiune nominală: 5.5 KV - Dimensiune: 55 x 259 mm - Cu percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p603",
+              "page": 603
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Siguranțe DC",
+     "slug": "dc-fuses",
+     "count": 10,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Distribuție DC și baterii",
+        "slug": "protection-for-dc-distribution-and-battery",
+        "count": 1,
+        "node": {
+         "type": "leaves",
+         "items": [
+          {
+           "title": "Distribuție DC și baterii",
+           "slug": "selector/protection-for-dc-distribution-and-battery/p609",
+           "page": 609
+          }
+         ]
+        }
+       },
+       {
+        "title": "Siguranțe DC industriale",
+        "slug": "industrial-dc-fuses",
+        "count": 9,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 3,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip: Siguranță cu manșon",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 600 VDC - Tip: Siguranță cu manșon",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-ferrule-fuse/p610",
+                 "page": 610
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: Siguranță pentru montare pe suprafață",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 600 VDC - Tip: Siguranță pentru montare pe suprafață",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-surface-mount-fuse/p611",
+                 "page": 611
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: Montare pe placă de circuit imprimat",
+              "slug": "type-pc-board-mount",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 600 VDC - Tip: Montare pe placă de circuit imprimat",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-pc-board-mount/p612",
+                 "page": 612
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 700 VDC",
+           "slug": "rated-voltage-700-vdc",
+           "count": 2,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip: Siguranță pentru montare pe suprafață",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 700 VDC - Tip: Siguranță pentru montare pe suprafață",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-surface-mount-fuse/p613",
+                 "page": 613
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: Siguranță cu corp rotund",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 700 VDC - Tip: Siguranță cu corp rotund",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-round-body-fuse/p614",
+                 "page": 614
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip: Siguranță cu manșon",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 1000 VDC - Tip: Siguranță cu manșon",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-ferrule-fuse/p615",
+                 "page": 615
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: Siguranță pentru montare pe suprafață",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 1000 VDC - Tip: Siguranță pentru montare pe suprafață",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-surface-mount-fuse/p616",
+                 "page": 616
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: Siguranță cu corp rotund",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 1000 VDC - Tip: Siguranță cu corp rotund",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-fuse/p617",
+                 "page": 617
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip: Siguranță cu corp rotund pentru șuruburi metrice",
+              "slug": "type-round-body-for-metric-screws-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensiune nominală: 1000 VDC - Tip: Siguranță cu corp rotund pentru șuruburi metrice",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-for-metric-screws-fuse/p618",
+                 "page": 618
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Aplicații fotovoltaice",
+     "slug": "photovoltaic-applications",
+     "count": 15,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Siguranțe gPV cilindrice",
+        "slug": "gpv-cylindrical-fuses",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe gPV cilindrice - Tensiune nominală: 600 VDC - Dimensiune: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-600-vdc/p632",
+              "page": 632
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe gPV cilindrice - Tensiune nominală: 1000 VDC - Dimensiune: 10 x 38 mm - Tip: Capac sertizat",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
+              "page": 633
+             },
+             {
+              "title": "Siguranțe gPV cilindrice - Tensiune nominală: 1000 VDC - Dimensiune: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
+              "page": 634
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe gPV cilindrice - Tensiune nominală: 1500 VDC - Dimensiune: 10 x 85 mm - Tip: Capac sertizat",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
+              "page": 635
+             },
+             {
+              "title": "Siguranțe gPV cilindrice - Tensiune nominală: 1500 VDC - Dimensiune: 10 x 85 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
+              "page": 636
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Siguranțe gPV cu corp pătrat",
+        "slug": "gpv-square-body-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensiune nominală: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1000 VDC - Dimensiune: NH1 - Tip: Lame netede",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
+              "page": 637
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1000 VDC - Dimensiune: NH1 - Tip: Montare directă",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
+              "page": 638
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1000 VDC - Dimensiune: NH2 - Tip: Lame netede",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p639",
+              "page": 639
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1000 VDC - Dimensiune: NH2 - Tip: Montare directă",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p640",
+              "page": 640
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensiune nominală: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1500 VDC - Dimensiune: NH1XL - Tip: Lame netede",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p641",
+              "page": 641
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1500 VDC - Dimensiune: NH1L - Tip: Montare directă",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
+              "page": 642
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1500 VDC - Dimensiune: NH2XL - Tip: Lame netede",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
+              "page": 643
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1500 VDC - Dimensiune: NH2L - Tip: Montare directă",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p644",
+              "page": 644
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1500 VDC - Dimensiune: NH3L - Tip: Lame netede",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p645",
+              "page": 645
+             },
+             {
+              "title": "Siguranțe gPV cu corp pătrat - Tensiune nominală: 1500 VDC - Dimensiune: NH3L - Tip: Montare directă",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p646",
+              "page": 646
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Protecție la supratensiuni",
+     "slug": "surge-protection",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Tip: 1",
+        "slug": "type-1",
+        "count": 1,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tip de sistem: L-N (1Ph) - Surge-Trap® Monobloc Seria STMT",
+           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: 1 - Tip de sistem: L-N (1Ph) - Surge-Trap® Monobloc Seria STMT - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
+              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
+              "page": 664
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: 1+2",
+        "slug": "type-1plus2",
+        "count": 18,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Protecția liniilor electrice",
+           "slug": "protection-for-power-lines",
+           "count": 15,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip de sistem: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: L-N (1Ph) - Surge-Trap® Conectabil Seria STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
+                 "page": 666
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: L-N (1Ph) - Surge-Trap® Monobloc Seria STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p672",
+                 "page": 672
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: L-N (1Ph) - Surge-Trap® Conectabil Seria K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
+                 "page": 677
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: N-PE (N)",
+              "slug": "system-type-n-pe-n",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: N-PE (N) - Surge-Trap® Conectabil Seria STPT - Iimp (10/350): 25/50 kA - Imax (8/20): 50 kA - In (8/20): 25/50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p667",
+                 "page": 667
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: N-PE (N) - Surge-Trap® Conectabil Seria K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p678",
+                 "page": 678
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: TT",
+              "slug": "system-type-tt",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TT - Surge-Trap® Conectabil Seria STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
+                 "page": 668
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TT - Surge-Trap® Monobloc Seria STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
+                 "page": 674
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TT - Surge-Trap® Conectabil Seria K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
+                 "page": 679
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: TNC",
+              "slug": "system-type-tnc",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TNC - Surge-Trap® Conectabil Seria STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
+                 "page": 669
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TNC - Surge-Trap® Monobloc Seria STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p675",
+                 "page": 675
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TNC - Surge-Trap® Conectabil Seria K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
+                 "page": 680
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: TNS",
+              "slug": "system-type-tns",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TNS - Surge-Trap® Conectabil Seria STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
+                 "page": 670
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TNS - Surge-Trap® Monobloc Seria STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
+                 "page": 676
+                },
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: TNS - Surge-Trap® Conectabil Seria K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
+                 "page": 681
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 1+2 - Protecția liniilor electrice - Tip de sistem: IT - Surge-Trap® Conectabil Seria STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
+                 "page": 671
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Fotovoltaic și stocare de energie",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: 1+2 - Fotovoltaic și stocare de energie - Surge-Trap® Conectabil - Număr de poli: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
+              "page": 682
+             },
+             {
+              "title": "Tip: 1+2 - Fotovoltaic și stocare de energie - Surge-Trap® Conectabil - Număr de poli: 5 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p683",
+              "page": 683
+             },
+             {
+              "title": "Tip: 1+2 - Fotovoltaic și stocare de energie - Surge-Trap® Conectabil - Număr de poli: 8 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p684",
+              "page": 684
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: 2",
+        "slug": "type-2",
+        "count": 13,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Protecția liniilor electrice",
+           "slug": "protection-for-power-lines",
+           "count": 10,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tip de sistem: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: L-N (1Ph) - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
+                 "page": 685
+                },
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: L-N (1Ph) - Surge-Trap® Conectabil Seria K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
+                 "page": 691
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: TT",
+              "slug": "system-type-tt",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: TT - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
+                 "page": 687
+                },
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: TT - Surge-Trap® Conectabil Seria K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
+                 "page": 693
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: TNC",
+              "slug": "system-type-tnc",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: TNC - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
+                 "page": 688
+                },
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: TNC - Surge-Trap® Conectabil Seria K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
+                 "page": 694
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: TNS",
+              "slug": "system-type-tns",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: TNS - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
+                 "page": 689
+                },
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: TNS - Surge-Trap® Conectabil Seria K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
+                 "page": 695
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tip de sistem: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Tip de sistem: IT - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
+                 "page": 690
+                }
+               ]
+              }
+             },
+             {
+              "title": "Surge-Trap® POP + SPD",
+              "slug": "surge-trap-pop-plus-spd",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tip: 2 - Protecția liniilor electrice - Surge-Trap® POP + SPD - Protecție la supratensiuni de frecvență industrială - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p696",
+                 "page": 696
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Fotovoltaic și stocare de energie",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: 2 - Fotovoltaic și stocare de energie - Surge-Trap® Conectabil - Număr de poli: 3 - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
+              "page": 697
+             },
+             {
+              "title": "Tip: 2 - Fotovoltaic și stocare de energie - Surge-Trap® Conectabil - Număr de poli: 5 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p698",
+              "page": 698
+             },
+             {
+              "title": "Tip: 2 - Fotovoltaic și stocare de energie - Surge-Trap® Conectabil - Număr de poli: 8 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p699",
+              "page": 699
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tip: 2+3",
+        "slug": "type-2plus3",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Protecția liniilor electrice",
+           "slug": "protection-for-power-lines",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Tip de sistem: L-N (1Ph) - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p700",
+              "page": 700
+             },
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Tip de sistem: N-PE (N) - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p701",
+              "page": 701
+             },
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Tip de sistem: TT - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p702",
+              "page": 702
+             },
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Tip de sistem: TNC - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p703",
+              "page": 703
+             },
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Tip de sistem: TNS - Surge-Trap® Conectabil Seria STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p704",
+              "page": 704
+             },
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Surge-Trap® Monobloc Seria STMT - Imax (8/20): 6 kA (20 kA @Un = 240 V) - In (8/20): 3 kA (10 kA @Un = 240 V)",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p705",
+              "page": 705
+             },
+             {
+              "title": "Tip: 2+3 - Protecția liniilor electrice - Surge-Trap® Monobloc Seria STET - Imax (8/20): 20 kA with EMI filter - In (8/20): 10 kA - Icc: 10 kA - IL: 20 A",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
+              "page": 706
+             }
+            ]
+           }
+          },
+          {
+           "title": "Protecție pentru iluminat LED",
+           "slug": "protection-for-led-lighting",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tip: 2+3 - Protecție pentru iluminat LED - Surge-Trap® Monobloc Seria STMT - Imax (8/20): 10 kA - In (8/20): 5 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+              "page": 707
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protecția liniilor de semnal",
+        "slug": "protection-for-signal-lines",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Surge-Trap® Signal - STS NET- IN LINE",
+           "slug": "surge-trap-signal-sts-net-in-line",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecția liniilor de semnal - Surge-Trap® Signal - STS NET- IN LINE - In (8/20): 0.25 A - IL: 0.1 A (1 A @Un = 48 V) - Tip de conexiune: RJ45",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-net-in-line/p708",
+              "page": 708
+             }
+            ]
+           }
+          },
+          {
+           "title": "Surge-Trap® Signal - STS 485",
+           "slug": "surge-trap-signal-sts-485",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protecția liniilor de semnal - Surge-Trap® Signal - STS 485 - Imax (8/20): 10 kA - In (8/20): 5/10 kA - Tip de conexiune: Bornă",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-485/p709",
+              "page": 709
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
