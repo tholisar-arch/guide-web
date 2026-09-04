@@ -20,6 +20,7 @@ import pagesDataCs from "@/data/pages.cs.json";
 import navDataCs from "@/data/nav.cs.json";
 import pagesDataEs from "@/data/pages.es.json";
 import navDataEs from "@/data/nav.es.json";
+import productImages from "@/data/product-images.json";
 import type {
   PageEntry,
   NavRoot,
@@ -231,6 +232,14 @@ const apis: Record<Locale, DataApi> = {
 
 export function getData(locale: Locale): DataApi {
   return apis[locale];
+}
+
+// The small product-family photo shown above the breadcrumb on reference
+// pages. Keyed by PDF page number (shared across locales - the underlying
+// page numbering is identical in every translated pages.XX.json).
+export function getProductImage(pageNumber: number): string | undefined {
+  const filename = (productImages as Record<string, string>)[String(pageNumber)];
+  return filename ? `/images/products/${filename}` : undefined;
 }
 
 // Back-compat default (English) exports for any call site that hasn't

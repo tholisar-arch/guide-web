@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { PageEntry } from "@/lib/types";
-import { getData } from "@/lib/data";
+import { getData, getProductImage } from "@/lib/data";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import ContentBlocks from "@/components/ContentBlocks";
 import ResourceLinks from "@/components/ResourceLinks";
@@ -22,10 +22,19 @@ export default function LeafPageView({
   locale: Locale;
 }) {
   const { prev, next } = getData(locale).getAdjacentPages(entry.page);
+  const productImage = getProductImage(entry.page);
 
   return (
     <SelectorFrame backHref={parentHref} locale={locale}>
       <article>
+        {productImage && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={productImage}
+            alt=""
+            className="mb-3 h-16 w-auto object-contain"
+          />
+        )}
         <Breadcrumbs items={crumbs} />
         <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
           {entry.title}
