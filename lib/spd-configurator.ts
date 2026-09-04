@@ -540,8 +540,177 @@ export const SPD_NODES_IT: Record<string, SpdNode> = {
   },
 };
 
-export function getSpdNodes(locale: "en" | "fr" | "it"): Record<string, SpdNode> {
+// German translation of the same tree: every `to`/`href`/`external` value
+// is identical to SPD_NODES above (the site's slugs don't change between
+// locales - see lib/data.ts), only `title`/`label` text is translated.
+export const SPD_NODES_DE: Record<string, SpdNode> = {
+  hub: {
+    title: "Für welche Art von Anlage ist dies?",
+    options: [
+      { label: "Industrie", to: "industrial" },
+      { label: "Gewerbe / Wohnbereich", to: "commercial" },
+      { label: "Straßenbeleuchtung", to: "street-lighting" },
+      { label: "Photovoltaik", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Industrie — Exposition der Anlage",
+    options: [
+      {
+        label:
+          "Anlage mit Blitzschutz oder in der Nähe eines einschlaggefährdeten Elements",
+        to: "industrial-highly",
+      },
+      {
+        label: "Anlage über Freileitungen versorgt",
+        to: "industrial-moderate",
+      },
+      { label: "Anlage mit Erdkabelverteilung", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Industrie — Stark geschützt",
+    options: [
+      {
+        label: "Stufe 1: Hauptverteiler",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Stufe 2: Unterverteiler (wenn >10 m vom Hauptverteiler)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Stufe 3: Empfindliche Geräte",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Industrie — Mäßig geschützt",
+    options: [
+      {
+        label: "Stufe 1: Hauptverteiler",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Stufe 2: Unterverteiler (wenn >10 m vom Hauptverteiler)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Stufe 3: Empfindliche Geräte",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Industrie — Basisschutz",
+    options: [
+      {
+        label: "Stufe 1: Hauptverteiler",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Stufe 3: Empfindliche Geräte",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Gewerbe / Wohnbereich — Exposition der Anlage",
+    options: [
+      {
+        label:
+          "Anlage mit Blitzschutz oder in der Nähe eines einschlaggefährdeten Elements",
+        to: "commercial-highly",
+      },
+      {
+        label: "Anlage über Freileitungen versorgt",
+        to: "commercial-moderate",
+      },
+      { label: "Anlage mit Erdkabelverteilung", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Gewerbe / Wohnbereich — Stark geschützt",
+    options: [
+      {
+        label: "Schaltschrank",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Empfindliche Geräte",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Gewerbe / Wohnbereich — Mäßig geschützt",
+    options: [
+      {
+        label: "Schaltschrank",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Empfindliche Geräte",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Gewerbe / Wohnbereich — Basisschutz",
+    options: [
+      {
+        label: "Schaltschrank",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Empfindliche Geräte",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Straßenbeleuchtung",
+    options: [
+      {
+        label: "Hersteller von Außenleuchten",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Schaltschrankbauer / Installateur", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Straßenbeleuchtung — Schaltschrankbauer / Installateur",
+    options: [
+      {
+        label: "Mast",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Schaltschrank",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Photovoltaik",
+    options: [
+      {
+        label: "Anschlussdose (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Verteilerschrank (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
+export function getSpdNodes(locale: "en" | "fr" | "it" | "de"): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
+  if (locale === "de") return SPD_NODES_DE;
   return SPD_NODES;
 }

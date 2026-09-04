@@ -1,11 +1,12 @@
-export type Locale = "en" | "fr" | "it";
+export type Locale = "en" | "fr" | "it" | "de";
 
-export const LOCALES: Locale[] = ["en", "fr", "it"];
+export const LOCALES: Locale[] = ["en", "fr", "it", "de"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
   fr: "Français",
   it: "Italiano",
+  de: "Deutsch",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -358,7 +359,90 @@ const it: Dict = {
     "Si aprirà la tua app di posta con tutto già compilato: ti basterà cliccare su Invia.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it };
+const de: Dict = {
+  guideHome: "Katalog-Startseite",
+  crossReferenceSearch: "Kreuzreferenzsuche",
+  spdConfigurator: "SPD-Konfigurator",
+  searchPlaceholderHeader: "Katalog durchsuchen... (Sicherungen, SPD, Spannung...)",
+  searchPlaceholderHero: "Katalog durchsuchen... (Sicherungen, SPD, Spannung...)",
+  home: "Startseite",
+  back: "Zurück",
+  documentation: "Dokumentation",
+  filterReferences: "Referenzen filtern...",
+  noReferencesFound: "Keine Referenzen gefunden.",
+  noResultsFor: (q) => `Keine Ergebnisse für „${q}"`,
+  viewAllResultsFor: (q) => `Alle Ergebnisse für „${q}" anzeigen →`,
+  resultsCountFor: (n, q) => `${n} Ergebnis${n !== 1 ? "se" : ""} für „${q}"`,
+  loading: "Wird geladen...",
+  productSelectorFallback: "Produktselektor",
+  siteSubtitle: "2026 Europa",
+  heroBadge: "Interaktiver Produktselektor · Ausgabe Europa 2026",
+  heroTitle1: "Auswahlhilfe",
+  heroTitle2: "Elektrischer Schutz",
+  heroDescription:
+    "Der gesamte Produktselektor, als Website: Sicherungen, Überspannungsschutzgeräte und Photovoltaik-Lösungen, nach Produktfamilie geordnet und vollständig auf Mobilgerät, Tablet und Desktop nutzbar.",
+  productFamilies: "Produktfamilien",
+  productFamiliesDesc: "Durchsuchen Sie den gesamten Produktselektor nach Kategorie.",
+  moreTools: "Weitere Tools",
+  moreToolsDesc: "Zusätzliche Suchfunktionen auf Basis derselben Produktdaten.",
+  xrefCardTitle: "Kreuzreferenzsuche",
+  xrefCardDesc:
+    "Finden Sie die entsprechende Mersen-Referenz zu einer Wettbewerber-Artikelnummer (Citel, Dehn, Eaton, Siemens und mehr).",
+  spdCardTitle: "SPD-Konfigurator",
+  spdCardDesc:
+    "Beantworten Sie einige Fragen zu Ihrer Anlage, um die passende Überspannungsschutz-Produktfamilie zu finden.",
+  xrefEyebrow: "Kreuzreferenzsuche",
+  xrefH1: "Mersen-Referenz anhand einer Wettbewerber-Artikelnummer finden",
+  xrefDesc:
+    "Suchen Sie anhand einer Wettbewerber-Referenz (Citel, Dehn, Eaton, Siemens, Schneider Electric und mehr), um das entsprechende Mersen-Produkt zu finden.",
+  xrefSearchPlaceholder: "Wettbewerber-Referenz suchen...",
+  xrefResultsFor: (n, q) => `${n} Ergebnis${n !== 1 ? "se" : ""} für „${q}"`,
+  xrefNoResults: "Keine Ergebnisse. Versuchen Sie eine andere Referenz.",
+  xrefMatchedVia: (brand) => `gefunden über ${brand}`,
+  spdEyebrow: "SPD-Konfigurator",
+  spdH1: "Das richtige Überspannungsschutzgerät finden",
+  spdDesc:
+    "Beantworten Sie einige Fragen zu Ihrer Anlage, um die passende Überspannungsschutz-Produktfamilie zu finden.",
+  spdStartOver: "Neu starten",
+  searchTitle: "Suche",
+  searchNoResults: "Keine Ergebnisse. Versuchen Sie einen anderen Suchbegriff.",
+  matchTitle: "Suche",
+  metaSiteTitle: "Auswahlhilfe 2026 Europa | Mersen Elektrischer Schutz",
+  metaSiteDescription:
+    "Interaktive Auswahlhilfe für elektrische Schutzprodukte: Nieder- und Mittelspannungssicherungen, Hochleistungssicherungen, Überspannungsschutzgeräte und Photovoltaik-Lösungen.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/de",
+  sendRequestNav: "Anfrage senden",
+  sendRequestCardTitle: "Anfrage senden",
+  sendRequestCardDesc:
+    "Nehmen Sie Kontakt mit Ihrem lokalen Mersen-Team zu einem Produkt oder Projekt auf.",
+  sendRequestEyebrow: "Kontaktieren Sie uns",
+  sendRequestH1: "Anfrage senden",
+  sendRequestDesc:
+    "Wählen Sie Ihr Land aus, damit wir Ihre Anfrage an den richtigen Ansprechpartner weiterleiten.",
+  sendRequestCountryLabel: "Land",
+  sendRequestCountryPlaceholder: "Land auswählen...",
+  sendRequestFirstNameLabel: "Vorname",
+  sendRequestLastNameLabel: "Nachname",
+  sendRequestCompanyLabel: "Unternehmen (optional)",
+  sendRequestTypeLabel: "Anfrage",
+  sendRequestTypePlaceholder: "Anfrageart auswählen...",
+  sendRequestTypeFuse: "Sicherung",
+  sendRequestTypeSurge: "Überspannungsschutz",
+  sendRequestTypeBoth: "Sicherung & Überspannungsschutz",
+  sendRequestEmailLabel: "Ihre E-Mail",
+  sendRequestEmailPlaceholder: "name@beispiel.de",
+  sendRequestMessageLabel: "Nachricht",
+  sendRequestMessagePlaceholder: "Schreiben Sie Ihre Nachricht...",
+  sendRequestButton: "In der Mail-App öffnen",
+  sendRequestSentTo: (country) =>
+    `Ihre Anfrage wird an unser Team für ${country} gesendet.`,
+  sendRequestSubjectPrefix: "Kontaktanfrage über die Website",
+  sendRequestHint:
+    "Dadurch öffnet sich Ihre eigene E-Mail-App mit bereits ausgefüllten Angaben – klicken Sie dort einfach auf Senden.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];
