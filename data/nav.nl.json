@@ -1,0 +1,4791 @@
+{
+ "chapters": [
+  {
+   "slug": "selector",
+   "title": "Productselector",
+   "overview": [],
+   "categories": [
+    {
+     "title": "Miniatuurzekeringen",
+     "slug": "miniature-fuses",
+     "count": 18,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Glaszekeringen",
+        "slug": "glass-fuses",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Maat: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Glaszekeringen - Maat: 5 x 20 mm - Traag",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p16",
+              "page": 16
+             },
+             {
+              "title": "Glaszekeringen - Maat: 5 x 20 mm - Traag - Artikelnummer assortimentsdoos: H203764",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p17",
+              "page": 17
+             },
+             {
+              "title": "Glaszekeringen - Maat: 5 x 20 mm - Halftraag",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
+              "page": 18
+             },
+             {
+              "title": "Glaszekeringen - Maat: 5 x 20 mm - Halftraag - Artikelnummer assortimentsdoos: P233440",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
+              "page": 19
+             },
+             {
+              "title": "Glaszekeringen - Maat: 5 x 20 mm - Snel",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
+              "page": 20
+             },
+             {
+              "title": "Glaszekeringen - Maat: 5 x 20 mm - Snel - Artikelnummer assortimentsdoos: G203763",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p21",
+              "page": 21
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Glaszekeringen - Maat: 6 x 32 mm - Traag",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p22",
+              "page": 22
+             },
+             {
+              "title": "Glaszekeringen - Maat: 6 x 32 mm - Snel",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
+              "page": 23
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Keramische zekeringen",
+        "slug": "ceramic-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Maat: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Keramische zekeringen - Maat: 5 x 20 mm - Traag",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p24",
+              "page": 24
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 5 x 20 mm - Traag - Artikelnummer assortimentsdoos: C229864",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p25",
+              "page": 25
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 5 x 20 mm - Halftraag",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
+              "page": 26
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 5 x 20 mm - Snel",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
+              "page": 27
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 5 x 20 mm - Snel - Artikelnummer assortimentsdoos: B229863",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p28",
+              "page": 28
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 5 x 20 mm - Extra snel",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p29",
+              "page": 29
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Keramische zekeringen - Maat: 6 x 32 mm - Traag",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p30",
+              "page": 30
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 6 x 32 mm - Halftraag",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
+              "page": 31
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 6 x 32 mm - Snel",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
+              "page": 32
+             },
+             {
+              "title": "Keramische zekeringen - Maat: 6 x 32 mm - Extra snel",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p33",
+              "page": 33
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "IEC laagspanningszekeringen",
+     "slug": "iec-fuses",
+     "count": 156,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Type: Nulbrug",
+        "slug": "type-neutral-link",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Maat: 8.5 x 31.5 mm",
+           "slug": "size-8-5-x-31-5-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: Nulbrug - Maat: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-8-5-x-31-5-mm/p127",
+              "page": 127
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 10 x 38 mm",
+           "slug": "size-10-x-38-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: Nulbrug - Maat: 10 x 38 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-10-x-38-mm/p128",
+              "page": 128
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: gG",
+        "slug": "type-gg",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindrische zekeringspatronen",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 8,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 8.5 x 31.5 mm - Zonder indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p129",
+              "page": 129
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 8.5 x 31.5 mm - Met indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p130",
+              "page": 130
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 10 x 38 mm - Zonder indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p131",
+              "page": 131
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 10 x 38 mm - Met indicator",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p132",
+              "page": 132
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 14 x 51 mm - Zonder slagpin",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p133",
+              "page": 133
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 14 x 51 mm - Met slagpin",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p134",
+              "page": 134
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 22 x 58 mm - Zonder slagpin",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p135",
+              "page": 135
+             },
+             {
+              "title": "Type: gG - Cilindrische zekeringspatronen - Maat: 22 x 58 mm - Met slagpin",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p136",
+              "page": 136
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm DIN D0",
+           "slug": "din-d0-standard",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG - Norm DIN D0 - Maat: D01 (E14)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p137",
+              "page": 137
+             },
+             {
+              "title": "Type: gG - Norm DIN D0 - Maat: D02 (E18)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p138",
+              "page": 138
+             },
+             {
+              "title": "Type: gG - Norm DIN D0 - Maat: D03 (M30x2)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p139",
+              "page": 139
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm DIN D",
+           "slug": "din-d-standard",
+           "count": 5,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG - Norm DIN D - Maat: NDZ",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p140",
+              "page": 140
+             },
+             {
+              "title": "Type: gG - Norm DIN D - Maat: DII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p141",
+              "page": 141
+             },
+             {
+              "title": "Type: gG - Norm DIN D - Maat: DIII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p142",
+              "page": 142
+             },
+             {
+              "title": "Type: gG - Norm DIN D - Maat: DIV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p143",
+              "page": 143
+             },
+             {
+              "title": "Type: gG - Norm DIN D - Maat: DV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p144",
+              "page": 144
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm DIN NH",
+           "slug": "din-nh-standard",
+           "count": 46,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Maat: 000",
+              "slug": "size-000",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 000 - Geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
+                 "page": 148
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 000 - Geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
+                 "page": 149
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 000 - Geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
+                 "page": 150
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 000 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
+                 "page": 151
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 000 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
+                 "page": 152
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 000 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
+                 "page": 153
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 00",
+              "slug": "size-00",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 00 - Geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
+                 "page": 154
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 00 - Geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
+                 "page": 155
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 00 - Geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
+                 "page": 156
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 00 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
+                 "page": 157
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 00 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
+                 "page": 158
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 00 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
+                 "page": 159
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 0",
+              "slug": "size-0",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 0 - Geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
+                 "page": 160
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 0 - Geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
+                 "page": 161
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 0 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
+                 "page": 162
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 0 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
+                 "page": 163
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 0 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
+                 "page": 164
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 1",
+              "slug": "size-1",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
+                 "page": 165
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
+                 "page": 166
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
+                 "page": 167
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
+                 "page": 168
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
+                 "page": 169
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
+                 "page": 170
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 1 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
+                 "page": 171
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 2",
+              "slug": "size-2",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
+                 "page": 172
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
+                 "page": 173
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
+                 "page": 174
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
+                 "page": 175
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
+                 "page": 176
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
+                 "page": 177
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 2 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
+                 "page": 178
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 3",
+              "slug": "size-3",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
+                 "page": 179
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
+                 "page": 180
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
+                 "page": 181
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
+                 "page": 182
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
+                 "page": 183
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Niet-geïsoleerde aansluitlippen - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
+                 "page": 184
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 3 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
+                 "page": 185
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 4",
+              "slug": "size-4",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4 - Met bovenindicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
+                 "page": 186
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4 - Met bovenindicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
+                 "page": 187
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4 - Met middenindicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p188",
+                 "page": 188
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4 - Met middenindicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p189",
+                 "page": 189
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p190",
+                 "page": 190
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 4a",
+              "slug": "size-4a",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4a - Met bovenindicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p191",
+                 "page": 191
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4a - Met middenindicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p192",
+                 "page": 192
+                },
+                {
+                 "title": "Type: gG - Norm DIN NH - Maat: 4a - Met middenindicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p193",
+                 "page": 193
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm BS88",
+           "slug": "bs88-standard",
+           "count": 36,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Type: A1",
+              "slug": "type-a1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A1 - BS-type: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p194",
+                 "page": 194
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A1 - BS-type: BEIT (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p195",
+                 "page": 195
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A2 - BS-type: BTIA (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
+                 "page": 196
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A2 - BS-type: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
+                 "page": 197
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: A3",
+              "slug": "type-a3",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A3 - BS-type: BTSS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
+                 "page": 198
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A3 - BS-type: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
+                 "page": 199
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A3 - BS-type: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p200",
+                 "page": 200
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A3 - BS-type: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p201",
+                 "page": 201
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A4 - BS-type: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p202",
+                 "page": 202
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A4 - BS-type: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p203",
+                 "page": 203
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A4 - BS-type: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p204",
+                 "page": 204
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: A4 - BS-type: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p205",
+                 "page": 205
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B1",
+              "slug": "type-b1",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B1 - BS-type: BTBC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
+                 "page": 206
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B1 - BS-type: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p207",
+                 "page": 207
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B1 - BS-type: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p208",
+                 "page": 208
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B1 - BS-type: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p209",
+                 "page": 209
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B2 - BS-type: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
+                 "page": 210
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B2 - BS-type: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
+                 "page": 211
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B3",
+              "slug": "type-b3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B3 - BS-type: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p212",
+                 "page": 212
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B3 - BS-type: BTKF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p213",
+                 "page": 213
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B3 - BS-type: BTKM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p214",
+                 "page": 214
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B4",
+              "slug": "type-b4",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B4 - BS-type: BTMF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
+                 "page": 215
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: B4 - BS-type: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p216",
+                 "page": 216
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: C1",
+              "slug": "type-c1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: C1 - BS-type: BTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p217",
+                 "page": 217
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: C1 - BS-type: BTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p218",
+                 "page": 218
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: C2",
+              "slug": "type-c2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: C2 - BS-type: BTTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
+                 "page": 219
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: C2 - BS-type: BTTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
+                 "page": 220
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: C3",
+              "slug": "type-c3",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: C3 - BS-type: BTLM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p221",
+                 "page": 221
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: C3 - BS-type: BTLM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p222",
+                 "page": 222
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: F1",
+              "slug": "type-f1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: F1 - BS-type: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
+                 "page": 223
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: F2",
+              "slug": "type-f2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - Type: F2 - BS-type: BES (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p224",
+                 "page": 224
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - Type: F2 - BS-type: BES (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p225",
+                 "page": 225
+                }
+               ]
+              }
+             },
+             {
+              "title": "BS-straatverlichting",
+              "slug": "bs-street-lighting",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - BS-straatverlichting - BS-type: BMD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p226",
+                 "page": 226
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - BS-straatverlichting - BS-type: BLST (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p227",
+                 "page": 227
+                },
+                {
+                 "title": "Type: gG - Norm BS88 - BS-straatverlichting - BS-type: BLD (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p228",
+                 "page": 228
+                }
+               ]
+              }
+             },
+             {
+              "title": "BS-verdeelkast",
+              "slug": "bs-feeder-pillar",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gG - Norm BS88 - BS-verdeelkast",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
+                 "page": 229
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm BS1361",
+           "slug": "bs1361-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG - Norm BS1361 - Huisaansluiting - BS-type: BME (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p230",
+              "page": 230
+             },
+             {
+              "title": "Type: gG - Norm BS1361 - Huisaansluiting - BS-type: BMF (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p231",
+              "page": 231
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: gG Flink",
+        "slug": "type-gg-flink",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Maat: NDZ",
+           "slug": "size-ndz",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG Flink - Maat: NDZ",
+              "slug": "selector/iec-fuses/type-gg-flink/size-ndz/p145",
+              "page": 145
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: DII",
+           "slug": "size-dii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG Flink - Maat: DII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-dii/p146",
+              "page": 146
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: DIII",
+           "slug": "size-diii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gG Flink - Maat: DIII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-diii/p147",
+              "page": 147
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: aM",
+        "slug": "type-am",
+        "count": 29,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindrische zekeringspatronen",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p232",
+              "page": 232
+             },
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 10 x 38 mm - Zonder indicator",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p233",
+              "page": 233
+             },
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 10 x 38 mm - Met indicator",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p234",
+              "page": 234
+             },
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 14 x 51 mm - Zonder slagpin",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p235",
+              "page": 235
+             },
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 14 x 51 mm - Met slagpin",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p236",
+              "page": 236
+             },
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 22 x 58 mm - Zonder slagpin",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p237",
+              "page": 237
+             },
+             {
+              "title": "Type: aM - Cilindrische zekeringspatronen - Maat: 22 x 58 mm - Met slagpin",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p238",
+              "page": 238
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm DIN D0",
+           "slug": "din-d0-standard",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: aM - Norm DIN D0 - Maat: D02",
+              "slug": "selector/iec-fuses/type-am/din-d0-standard/p239",
+              "page": 239
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm DIN NH",
+           "slug": "din-nh-standard",
+           "count": 21,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Maat: 000",
+              "slug": "size-000",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 000 - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
+                 "page": 240
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 000 - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
+                 "page": 241
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 00",
+              "slug": "size-00",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 00 - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
+                 "page": 242
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 00 - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p243",
+                 "page": 243
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 0",
+              "slug": "size-0",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 0 - Met indicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
+                 "page": 244
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 0 - Met indicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p245",
+                 "page": 245
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 0 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p246",
+                 "page": 246
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 1",
+              "slug": "size-1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 1 - Met indicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p247",
+                 "page": 247
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 1 - Met indicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p248",
+                 "page": 248
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 1 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p249",
+                 "page": 249
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 2",
+              "slug": "size-2",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 2 - Met indicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
+                 "page": 250
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 2 - Met indicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p251",
+                 "page": 251
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 2 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
+                 "page": 252
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 3",
+              "slug": "size-3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 3 - Met indicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p253",
+                 "page": 253
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 3 - Met indicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p254",
+                 "page": 254
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 3 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p255",
+                 "page": 255
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 4",
+              "slug": "size-4",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 4 - Met indicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
+                 "page": 256
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 4 - Met indicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p257",
+                 "page": 257
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 4 - Met slagpin",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
+                 "page": 258
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 4a",
+              "slug": "size-4a",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 4a - Met indicator - Nominale spanning: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p259",
+                 "page": 259
+                },
+                {
+                 "title": "Type: aM - Norm DIN NH - Maat: 4a - Met indicator - Nominale spanning: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p260",
+                 "page": 260
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: gM",
+        "slug": "type-gm",
+        "count": 19,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Norm BS88",
+           "slug": "bs88-standard",
+           "count": 19,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Type: A1",
+              "slug": "type-a1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A1 - BS-type: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p261",
+                 "page": 261
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A2 - BS-type: BTIA (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
+                 "page": 262
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A2 - BS-type: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
+                 "page": 263
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: A3",
+              "slug": "type-a3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A3 - BS-type: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
+                 "page": 264
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A3 - BS-type: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p265",
+                 "page": 265
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A3 - BS-type: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p266",
+                 "page": 266
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A4 - BS-type: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p267",
+                 "page": 267
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A4 - BS-type: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p268",
+                 "page": 268
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A4 - BS-type: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p269",
+                 "page": 269
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: A4 - BS-type: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p270",
+                 "page": 270
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B1",
+              "slug": "type-b1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B1 - BS-type: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p271",
+                 "page": 271
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B1 - BS-type: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p272",
+                 "page": 272
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B1 - BS-type: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p273",
+                 "page": 273
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B2 - BS-type: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
+                 "page": 274
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B2 - BS-type: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
+                 "page": 275
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B3",
+              "slug": "type-b3",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B3 - BS-type: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
+                 "page": 276
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: B4",
+              "slug": "type-b4",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: B4 - BS-type: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
+                 "page": 277
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: F1",
+              "slug": "type-f1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gM - Norm BS88 - Type: F1 - BS-type: BNS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p278",
+                 "page": 278
+                },
+                {
+                 "title": "Type: gM - Norm BS88 - Type: F1 - BS-type: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p279",
+                 "page": 279
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: aD",
+        "slug": "type-ad",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindrische zekeringspatronen",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: aD - Cilindrische zekeringspatronen - Maat: 14 x 51 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p280",
+              "page": 280
+             },
+             {
+              "title": "Type: aD - Cilindrische zekeringspatronen - Maat: 22 x 58 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p281",
+              "page": 281
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: aD - Maat: 00",
+              "slug": "selector/iec-fuses/type-ad/size-00/p282",
+              "page": 282
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "UL/CSA laagspanningszekeringen",
+     "slug": "ul-csa-fuses",
+     "count": 20,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Snel",
+        "slug": "fast-acting",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Klasse C",
+           "slug": "class-c",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Klasse C - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-c/p293",
+              "page": 293
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse CC",
+           "slug": "class-cc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Klasse CC - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-cc/p294",
+              "page": 294
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Midget - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/midget/p295",
+              "page": 295
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse T",
+           "slug": "class-t",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Klasse T - Nominale spanning: 300 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
+              "page": 296
+             },
+             {
+              "title": "Snel - Klasse T - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p297",
+              "page": 297
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Klasse J - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-j/p298",
+              "page": 298
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse K5",
+           "slug": "class-k5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Klasse K5 - Nominale spanning: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
+              "page": 299
+             },
+             {
+              "title": "Snel - Klasse K5 - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p300",
+              "page": 300
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Snel - Klasse RK1 - Nominale spanning: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
+              "page": 301
+             },
+             {
+              "title": "Snel - Klasse RK1 - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
+              "page": 302
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Traag",
+        "slug": "time-delay",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Klasse CC",
+           "slug": "class-cc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Traag - Klasse CC - Serie: ATDR - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
+              "page": 303
+             },
+             {
+              "title": "Traag - Klasse CC - Serie: ATQR - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p304",
+              "page": 304
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Traag - Midget - Nominale spanning: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
+              "page": 306
+             },
+             {
+              "title": "Traag - Midget - Nominale spanning: 500 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p307",
+              "page": 307
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Traag - Klasse J - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-j/p308",
+              "page": 308
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse L",
+           "slug": "class-l",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Traag - Klasse L - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-l/p309",
+              "page": 309
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Traag - Klasse RK1 - Nominale spanning: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
+              "page": 310
+             },
+             {
+              "title": "Traag - Klasse RK1 - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p311",
+              "page": 311
+             }
+            ]
+           }
+          },
+          {
+           "title": "Klasse RK5",
+           "slug": "class-rk5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Traag - Klasse RK5 - Nominale spanning: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
+              "page": 312
+             },
+             {
+              "title": "Traag - Klasse RK5 - Nominale spanning: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
+              "page": 313
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Snelle zekeringen",
+     "slug": "high-speed-fuses",
+     "count": 155,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Type: gLB",
+        "slug": "type-glb",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Maat: 14 x 51 mm",
+           "slug": "size-14-x-51-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gLB - Maat: 14 x 51 mm - Met slagpin",
+              "slug": "selector/high-speed-fuses/type-glb/size-14-x-51-mm/p383",
+              "page": 383
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 22 x 58 mm",
+           "slug": "size-22-x-58-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gLB - Maat: 22 x 58 mm - Met slagpin",
+              "slug": "selector/high-speed-fuses/type-glb/size-22-x-58-mm/p384",
+              "page": 384
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 27 x 60 mm",
+           "slug": "size-27-x-60-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gLB - Maat: 27 x 60 mm - Met slagpin",
+              "slug": "selector/high-speed-fuses/type-glb/size-27-x-60-mm/p385",
+              "page": 385
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: gS",
+        "slug": "type-gs",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Maat: 000",
+           "slug": "size-000",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gS - Maat: 000",
+              "slug": "selector/high-speed-fuses/type-gs/size-000/p386",
+              "page": 386
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gS - Maat: 00",
+              "slug": "selector/high-speed-fuses/type-gs/size-00/p387",
+              "page": 387
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 1",
+           "slug": "size-1",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gS - Maat: 1",
+              "slug": "selector/high-speed-fuses/type-gs/size-1/p388",
+              "page": 388
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 2",
+           "slug": "size-2",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gS - Maat: 2",
+              "slug": "selector/high-speed-fuses/type-gs/size-2/p389",
+              "page": 389
+             }
+            ]
+           }
+          },
+          {
+           "title": "Maat: 3",
+           "slug": "size-3",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: gS - Maat: 3",
+              "slug": "selector/high-speed-fuses/type-gs/size-3/p390",
+              "page": 390
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: gR",
+        "slug": "type-gr",
+        "count": 47,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindrisch",
+           "slug": "cylindrical",
+           "count": 17,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "AC-uitvoering",
+              "slug": "ac-rated",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: gR - Cilindrisch - AC-uitvoering - Maat: 10 x 38 mm",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
+                 "page": 391
+                },
+                {
+                 "title": "Type: gR - Cilindrisch - AC-uitvoering - Maat: 14 x 51 mm - Zonder slagpin",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p392",
+                 "page": 392
+                },
+                {
+                 "title": "Type: gR - Cilindrisch - AC-uitvoering - Maat: 14 x 51 mm - Met slagpin",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p393",
+                 "page": 393
+                },
+                {
+                 "title": "Type: gR - Cilindrisch - AC-uitvoering - Maat: 22 x 58 mm - Zonder slagpin",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
+                 "page": 394
+                },
+                {
+                 "title": "Type: gR - Cilindrisch - AC-uitvoering - Maat: 22 x 58 mm - Met slagpin",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
+                 "page": 395
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC-uitvoering",
+              "slug": "dc-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Maat: 27 x 60 mm",
+                 "slug": "size-27-x-60-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 27 x 60 mm - Met slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p396",
+                    "page": 396
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 20 x 127 mm",
+                 "slug": "size-20-x-127-mm",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 20 x 127 mm - Zonder slagpin - Nominale spanning: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
+                    "page": 397
+                   },
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 20 x 127 mm - Zonder slagpin - Nominale spanning: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
+                    "page": 398
+                   },
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 20 x 127 mm - Met slagpin - Nominale spanning: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p399",
+                    "page": 399
+                   },
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 20 x 127 mm - Met slagpin - Nominale spanning: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p400",
+                    "page": 400
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 20 x 190 mm",
+                 "slug": "size-20-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 20 x 190 mm - Zonder slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p401",
+                    "page": 401
+                   },
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 20 x 190 mm - Met slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p402",
+                    "page": 402
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 36 x 190 mm",
+                 "slug": "size-36-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 36 x 190 mm - Zonder slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
+                    "page": 404
+                   },
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 36 x 190 mm - Met slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
+                    "page": 405
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 36 x 250 mm",
+                 "slug": "size-36-x-250-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 36 x 250 mm - Zonder slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p406",
+                    "page": 406
+                   },
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 36 x 250 mm - Met slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p407",
+                    "page": 407
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 36 x 400 mm",
+                 "slug": "size-36-x-400-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Cilindrisch - DC-uitvoering - Maat: 36 x 400 mm - Zonder slagpin",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p408",
+                    "page": 408
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Vierkante behuizing",
+           "slug": "square-body",
+           "count": 30,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "AC-uitvoering",
+              "slug": "ac-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Maat: 70",
+                 "slug": "size-70",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: DIN110 (DIN110-messen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
+                    "page": 409
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p410",
+                    "page": 410
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
+                    "page": 411
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 71",
+                 "slug": "size-71",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: DIN110 (DIN110-messen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p412",
+                    "page": 412
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p413",
+                    "page": 413
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p414",
+                    "page": 414
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 72",
+                 "slug": "size-72",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: DIN110 (DIN110-messen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
+                    "page": 415
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p416",
+                    "page": 416
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
+                    "page": 417
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 73",
+                 "slug": "size-73",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: DIN110 (DIN110-messen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p418",
+                    "page": 418
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p419",
+                    "page": 419
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p420",
+                    "page": 420
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC-uitvoering",
+              "slug": "dc-rated",
+              "count": 18,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Maat: 120",
+                 "slug": "size-120",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 120 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
+                    "page": 421
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 120 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
+                    "page": 422
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 121",
+                 "slug": "size-121",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 121 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p423",
+                    "page": 423
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 121 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p424",
+                    "page": 424
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 122",
+                 "slug": "size-122",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 122 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
+                    "page": 425
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 122 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
+                    "page": 426
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 122",
+                 "slug": "size-2-x-122",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 122 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p427",
+                    "page": 427
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 123",
+                 "slug": "size-123",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 123 - Type: EF (boutverbindingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p428",
+                    "page": 428
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 123 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p429",
+                    "page": 429
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 123",
+                 "slug": "size-2-x-123",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 123 - Type: TTF (schroefdraadaansluitingen)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p430",
+                    "page": 430
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 300",
+                 "slug": "size-300",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 300 - Type: Beugel",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
+                    "page": 431
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 300 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p432",
+                    "page": 432
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 302",
+                 "slug": "size-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 302 - Type: Beugel",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
+                    "page": 433
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 302",
+                 "slug": "size-2-x-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 302 - Type: Beugel",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p434",
+                    "page": 434
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 600",
+                 "slug": "size-600",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 600 - Type: Beugel",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p435",
+                    "page": 435
+                   },
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 600 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p436",
+                    "page": 436
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 602",
+                 "slug": "size-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 602 - Type: Beugel",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
+                    "page": 437
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 602",
+                 "slug": "size-2-x-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: gR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 602 - Type: Beugel",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p438",
+                    "page": 438
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: aR",
+        "slug": "type-ar",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilindrisch",
+           "slug": "cylindrical",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 10 x 38 mm - Zonder indicator",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p439",
+              "page": 439
+             },
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 10 x 38 mm - Met indicator",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p440",
+              "page": 440
+             },
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 14 x 51 mm - Zonder slagpin",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p441",
+              "page": 441
+             },
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 14 x 51 mm - Met slagpin",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p442",
+              "page": 442
+             },
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 22 x 58 mm - Zonder slagpin",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p443",
+              "page": 443
+             },
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 22 x 58 mm - Met slagpin",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p444",
+              "page": 444
+             },
+             {
+              "title": "Type: aR - Cilindrisch - Maat: 27 x 60 mm - Met slagpin",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p445",
+              "page": 445
+             }
+            ]
+           }
+          },
+          {
+           "title": "Vierkante behuizing",
+           "slug": "square-body",
+           "count": 82,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "AC-uitvoering",
+              "slug": "ac-rated",
+              "count": 71,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Maat: NH000",
+                 "slug": "size-nh000",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH000 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p446",
+                    "page": 446
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH000 - Type: DIN80-beugel - Bewakingsmicroschakelaar",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p447",
+                    "page": 447
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH000 - Type: DIN80-beugel - Met indicator",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p448",
+                    "page": 448
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH000 - Type: DIN80-beugel - Zonder indicator",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p449",
+                    "page": 449
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: NH00",
+                 "slug": "size-nh00",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH00 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
+                    "page": 450
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH00 - Type: DIN80-beugel - Bewakingsmicroschakelaar",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p451",
+                    "page": 451
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH00 - Type: DIN110-beugel - Bewakingsmicroschakelaar",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p452",
+                    "page": 452
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: NH0",
+                 "slug": "size-nh0",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH0 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
+                    "page": 453
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: NH1",
+                 "slug": "size-nh1",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH1 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p454",
+                    "page": 454
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: NH2",
+                 "slug": "size-nh2",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH2 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p455",
+                    "page": 455
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: NH3",
+                 "slug": "size-nh3",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: NH3 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p456",
+                    "page": 456
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 30",
+                 "slug": "size-30",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: DIN80 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p457",
+                    "page": 457
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p458",
+                    "page": 458
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p459",
+                    "page": 459
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: KI US korte gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p460",
+                    "page": 460
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p461",
+                    "page": 461
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p462",
+                    "page": 462
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 30 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p463",
+                    "page": 463
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 31",
+                 "slug": "size-31",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: DIN80 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p464",
+                    "page": 464
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
+                    "page": 465
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p466",
+                    "page": 466
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: KI US korte gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p467",
+                    "page": 467
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p468",
+                    "page": 468
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p469",
+                    "page": 469
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 31 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
+                    "page": 470
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 32",
+                 "slug": "size-32",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: DIN80 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p471",
+                    "page": 471
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p472",
+                    "page": 472
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p473",
+                    "page": 473
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: KI US korte gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p474",
+                    "page": 474
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p475",
+                    "page": 475
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p476",
+                    "page": 476
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 32 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p477",
+                    "page": 477
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 33",
+                 "slug": "size-33",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: DIN80 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p478",
+                    "page": 478
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
+                    "page": 479
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p480",
+                    "page": 480
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: KI US korte gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p481",
+                    "page": 481
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p482",
+                    "page": 482
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p483",
+                    "page": 483
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 33 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p484",
+                    "page": 484
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 70",
+                 "slug": "size-70",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
+                    "page": 485
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p486",
+                    "page": 486
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p487",
+                    "page": 487
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p488",
+                    "page": 488
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p489",
+                    "page": 489
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 70 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
+                    "page": 490
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 71",
+                 "slug": "size-71",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p491",
+                    "page": 491
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p492",
+                    "page": 492
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p493",
+                    "page": 493
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p494",
+                    "page": 494
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p495",
+                    "page": 495
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 71 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p496",
+                    "page": 496
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 72",
+                 "slug": "size-72",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
+                    "page": 497
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p498",
+                    "page": 498
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p499",
+                    "page": 499
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p500",
+                    "page": 500
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p501",
+                    "page": 501
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 72 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
+                    "page": 502
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 72",
+                 "slug": "size-2-x-72",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 2 x 72 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
+                    "page": 503
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 73",
+                 "slug": "size-73",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: DIN110 gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p504",
+                    "page": 504
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: EF Franse gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p505",
+                    "page": 505
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: LI US lange gesleufde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p506",
+                    "page": 506
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: Gladde messen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p507",
+                    "page": 507
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p508",
+                    "page": 508
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 73 - Type: TTI US-schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p509",
+                    "page": 509
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 73",
+                 "slug": "size-2-x-73",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 2 x 73 - Type: Schroefdraadplaten",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p510",
+                    "page": 510
+                   },
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 2 x 73 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p511",
+                    "page": 511
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 91",
+                 "slug": "size-91",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 91 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
+                    "page": 512
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 92",
+                 "slug": "size-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 92 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p513",
+                    "page": 513
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 92",
+                 "slug": "size-2-x-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 2 x 92 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p514",
+                    "page": 514
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 93",
+                 "slug": "size-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 93 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
+                    "page": 515
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Maat: 2 x 93",
+                 "slug": "size-2-x-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Type: aR - Vierkante behuizing - AC-uitvoering - Maat: 2 x 93 - Type: TTF Franse schroefdraadaansluitingen",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
+                    "page": 516
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC-uitvoering",
+              "slug": "dc-rated",
+              "count": 11,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 70 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p517",
+                 "page": 517
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 72 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
+                 "page": 518
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 72 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p519",
+                 "page": 519
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 120 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
+                 "page": 520
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 122 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p521",
+                 "page": 521
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 300 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p522",
+                 "page": 522
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 302 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
+                 "page": 523
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 302 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p524",
+                 "page": 524
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 600 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
+                 "page": 525
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 602 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p526",
+                 "page": 526
+                },
+                {
+                 "title": "Type: aR - Vierkante behuizing - DC-uitvoering - Maat: 2 x 602 - Type: Beugel",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p527",
+                 "page": 527
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norm BS88-4",
+           "slug": "bs88-4-standard",
+           "count": 11,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Maat: 10 x 28 mm",
+              "slug": "size-10-x-28-mm",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 10 x 28 mm - Nominale spanning: 250 VAC - Zonder uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
+                 "page": 528
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 17 x 27 mm",
+              "slug": "size-17-x-27-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 17 x 27 mm - Nominale spanning: 250 VAC - Zonder uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p529",
+                 "page": 529
+                },
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 17 x 27 mm - Nominale spanning: 250 VAC - Met aparte uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p530",
+                 "page": 530
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 17 x 49 mm",
+              "slug": "size-17-x-49-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 17 x 49 mm - Nominale spanning: 690 VAC - Zonder uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
+                 "page": 531
+                },
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 17 x 49 mm - Nominale spanning: 690 VAC - Met aparte uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
+                 "page": 532
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 36 x 55 mm",
+              "slug": "size-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 36 x 55 mm - Nominale spanning: 690 VAC - Zonder uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p533",
+                 "page": 533
+                },
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 36 x 55 mm - Nominale spanning: 690 VAC - Met ingebouwde uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p534",
+                 "page": 534
+                },
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 36 x 55 mm - Nominale spanning: 690 VAC - Met aparte uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p535",
+                 "page": 535
+                }
+               ]
+              }
+             },
+             {
+              "title": "Maat: 2 x 36 x 55 mm",
+              "slug": "size-2-x-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 2 x 36 x 55 mm - Nominale spanning: 690 VAC - Zonder uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
+                 "page": 536
+                },
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 2 x 36 x 55 mm - Nominale spanning: 690 VAC - Met ingebouwde uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p537",
+                 "page": 537
+                },
+                {
+                 "title": "Type: aR - Norm BS88-4 - Maat: 2 x 36 x 55 mm - Nominale spanning: 690 VAC - Met aparte uitschakelindicator",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p538",
+                 "page": 538
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "IEC middenspanningszekeringen",
+     "slug": "medium-voltage-fuses",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "DIN P voorzekering voor transformatoren",
+        "slug": "din-p-back-up-for-transformers",
+        "count": 7,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 7.2 KV - Lengte: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
+              "page": 562
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
+              "page": 564
+             },
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
+              "page": 569
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 17.5 KV - Lengte: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
+              "page": 571
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 24 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
+              "page": 573
+             },
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 24 KV - Lengte: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
+              "page": 578
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P voorzekering voor transformatoren - Nominale spanning: 36 KV - Lengte: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
+              "page": 579
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PD voorzekering voor transformatoren",
+        "slug": "din-pd-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD voorzekering voor transformatoren - Nominale spanning: 7.2 KV - Lengte: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
+              "page": 563
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
+              "page": 565
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD voorzekering voor transformatoren - Nominale spanning: 24 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
+              "page": 574
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD voorzekering voor transformatoren - Nominale spanning: 36 KV - Lengte: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
+              "page": 580
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PT voorzekering voor transformatoren",
+        "slug": "din-pt-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PT voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
+              "page": 566
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PT voorzekering voor transformatoren - Nominale spanning: 17.5 KV - Lengte: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
+              "page": 572
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PT voorzekering voor transformatoren - Nominale spanning: 24 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
+              "page": 575
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PTD voorzekering voor transformatoren",
+        "slug": "din-ptd-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTD voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
+              "page": 567
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTD voorzekering voor transformatoren - Nominale spanning: 24 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
+              "page": 576
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTD voorzekering voor transformatoren - Nominale spanning: 36 KV - Lengte: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
+              "page": 581
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PTS voorzekering voor transformatoren",
+        "slug": "din-pts-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTS voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
+              "page": 568
+             },
+             {
+              "title": "DIN PTS voorzekering voor transformatoren - Nominale spanning: 12 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
+              "page": 570
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTS voorzekering voor transformatoren - Nominale spanning: 24 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
+              "page": 577
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTS voorzekering voor transformatoren - Nominale spanning: 36 KV - Lengte: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
+              "page": 582
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "NF/UTE-voorzekeringen voor transformatoren",
+        "slug": "nf-ute-back-up-fuses-for-transformers",
+        "count": 6,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "NF/UTE-voorzekeringen voor transformatoren - Nominale spanning: 7.2 KV - Maat: 55 x 520 mm - Zonder slagpin",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p583",
+              "page": 583
+             },
+             {
+              "title": "NF/UTE-voorzekeringen voor transformatoren - Nominale spanning: 7.2 KV - Maat: 55 x 520 mm - Met slagpin",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p584",
+              "page": 584
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "NF/UTE-voorzekeringen voor transformatoren - Nominale spanning: 12 KV - Maat: 55 x 520 mm - Zonder slagpin",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p585",
+              "page": 585
+             },
+             {
+              "title": "NF/UTE-voorzekeringen voor transformatoren - Nominale spanning: 12 KV - Maat: 55 x 520 mm - Met slagpin",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p586",
+              "page": 586
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "NF/UTE-voorzekeringen voor transformatoren - Nominale spanning: 24 KV - Maat: 55 x 520 mm - Zonder slagpin",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p587",
+              "page": 587
+             },
+             {
+              "title": "NF/UTE-voorzekeringen voor transformatoren - Nominale spanning: 24 KV - Maat: 55 x 520 mm - Met slagpin",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p588",
+              "page": 588
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN voorzekering voor motoren",
+        "slug": "din-back-up-for-motors",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 3.6 KV",
+           "slug": "rated-voltage-3-6-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN voorzekering voor motoren - Nominale spanning: 3.6 KV - Lengte: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p589",
+              "page": 589
+             },
+             {
+              "title": "DIN voorzekering voor motoren - Nominale spanning: 3.6 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p590",
+              "page": 590
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN voorzekering voor motoren - Nominale spanning: 7.2 KV - Lengte: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p591",
+              "page": 591
+             },
+             {
+              "title": "DIN voorzekering voor motoren - Nominale spanning: 7.2 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p592",
+              "page": 592
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN voorzekering voor motoren - Nominale spanning: 12 KV - Lengte: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-12-kv/p593",
+              "page": 593
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "MS-straatverlichtingszekeringen voor transformatoren",
+        "slug": "mv-street-lighting-fuses-for-transformers",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 1.5 KV",
+           "slug": "rated-voltage-1-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 1.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-1-5-kv/p594",
+              "page": 594
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 2.5 KV",
+           "slug": "rated-voltage-2-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 2.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-2-5-kv/p595",
+              "page": 595
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 3.2 KV - Maat: 10 x 180 mm",
+           "slug": "rated-voltage-3-2-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 3.2 KV - Maat: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-10-x-180-mm/p596",
+              "page": 596
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 3.2 KV - Maat: 36 x 190 mm",
+           "slug": "rated-voltage-3-2-kv-size-36-x-190-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 3.2 KV - Maat: 36 x 190 mm - Zonder slagpin",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p597",
+              "page": 597
+             },
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 3.2 KV - Maat: 36 x 190 mm - Met slagpin",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p598",
+              "page": 598
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 5.5 KV - Maat: 10 x 180 mm",
+           "slug": "rated-voltage-5-5-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 5.5 KV - Maat: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-10-x-180-mm/p599",
+              "page": 599
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 5.5 KV - Maat: 36 x 250 mm",
+           "slug": "rated-voltage-5-5-kv-size-36-x-250-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 5.5 KV - Maat: 36 x 250 mm - Zonder slagpin",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p600",
+              "page": 600
+             },
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 5.5 KV - Maat: 36 x 250 mm - Met slagpin",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p601",
+              "page": 601
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 5.5 KV - Maat: 55 x 259 mm",
+           "slug": "rated-voltage-5-5-kv-size-55-x-259-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 5.5 KV - Maat: 55 x 259 mm - Zonder slagpin",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p602",
+              "page": 602
+             },
+             {
+              "title": "MS-straatverlichtingszekeringen voor transformatoren - Nominale spanning: 5.5 KV - Maat: 55 x 259 mm - Met slagpin",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p603",
+              "page": 603
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "DC-zekeringen",
+     "slug": "dc-fuses",
+     "count": 10,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "DC-distributie en batterijen",
+        "slug": "protection-for-dc-distribution-and-battery",
+        "count": 1,
+        "node": {
+         "type": "leaves",
+         "items": [
+          {
+           "title": "DC-distributie en batterijen",
+           "slug": "selector/protection-for-dc-distribution-and-battery/p609",
+           "page": 609
+          }
+         ]
+        }
+       },
+       {
+        "title": "Industriële DC-zekeringen",
+        "slug": "industrial-dc-fuses",
+        "count": 9,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 3,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Type: Zekering met huls",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 600 VDC - Type: Zekering met huls",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-ferrule-fuse/p610",
+                 "page": 610
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: SMD-zekering",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 600 VDC - Type: SMD-zekering",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-surface-mount-fuse/p611",
+                 "page": 611
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Printplaatmontage",
+              "slug": "type-pc-board-mount",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 600 VDC - Type: Printplaatmontage",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-pc-board-mount/p612",
+                 "page": 612
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 700 VDC",
+           "slug": "rated-voltage-700-vdc",
+           "count": 2,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Type: SMD-zekering",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 700 VDC - Type: SMD-zekering",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-surface-mount-fuse/p613",
+                 "page": 613
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Zekering met ronde behuizing",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 700 VDC - Type: Zekering met ronde behuizing",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-round-body-fuse/p614",
+                 "page": 614
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Type: Zekering met huls",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 1000 VDC - Type: Zekering met huls",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-ferrule-fuse/p615",
+                 "page": 615
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: SMD-zekering",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 1000 VDC - Type: SMD-zekering",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-surface-mount-fuse/p616",
+                 "page": 616
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Zekering met ronde behuizing",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 1000 VDC - Type: Zekering met ronde behuizing",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-fuse/p617",
+                 "page": 617
+                }
+               ]
+              }
+             },
+             {
+              "title": "Type: Zekering ronde behuizing voor metrische schroeven",
+              "slug": "type-round-body-for-metric-screws-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Nominale spanning: 1000 VDC - Type: Zekering ronde behuizing voor metrische schroeven",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-for-metric-screws-fuse/p618",
+                 "page": 618
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fotovoltaïsche toepassingen",
+     "slug": "photovoltaic-applications",
+     "count": 15,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "gPV-zekeringen cilindrisch",
+        "slug": "gpv-cylindrical-fuses",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV-zekeringen cilindrisch - Nominale spanning: 600 VDC - Maat: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-600-vdc/p632",
+              "page": 632
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV-zekeringen cilindrisch - Nominale spanning: 1000 VDC - Maat: 10 x 38 mm - Type: Krimpdop",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
+              "page": 633
+             },
+             {
+              "title": "gPV-zekeringen cilindrisch - Nominale spanning: 1000 VDC - Maat: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
+              "page": 634
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV-zekeringen cilindrisch - Nominale spanning: 1500 VDC - Maat: 10 x 85 mm - Type: Krimpdop",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
+              "page": 635
+             },
+             {
+              "title": "gPV-zekeringen cilindrisch - Nominale spanning: 1500 VDC - Maat: 10 x 85 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
+              "page": 636
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "gPV-zekeringen vierkante behuizing",
+        "slug": "gpv-square-body-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Nominale spanning: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1000 VDC - Maat: NH1 - Type: Gladde messen",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
+              "page": 637
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1000 VDC - Maat: NH1 - Type: Directe montage",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
+              "page": 638
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1000 VDC - Maat: NH2 - Type: Gladde messen",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p639",
+              "page": 639
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1000 VDC - Maat: NH2 - Type: Directe montage",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p640",
+              "page": 640
+             }
+            ]
+           }
+          },
+          {
+           "title": "Nominale spanning: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1500 VDC - Maat: NH1XL - Type: Gladde messen",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p641",
+              "page": 641
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1500 VDC - Maat: NH1L - Type: Directe montage",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
+              "page": 642
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1500 VDC - Maat: NH2XL - Type: Gladde messen",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
+              "page": 643
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1500 VDC - Maat: NH2L - Type: Directe montage",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p644",
+              "page": 644
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1500 VDC - Maat: NH3L - Type: Gladde messen",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p645",
+              "page": 645
+             },
+             {
+              "title": "gPV-zekeringen vierkante behuizing - Nominale spanning: 1500 VDC - Maat: NH3L - Type: Directe montage",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p646",
+              "page": 646
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Overspanningsbeveiliging",
+     "slug": "surge-protection",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Type: 1",
+        "slug": "type-1",
+        "count": 1,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Systeemtype: L-N (1Ph) - Surge-Trap® Monoblock Serie STMT",
+           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 1 - Systeemtype: L-N (1Ph) - Surge-Trap® Monoblock Serie STMT - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
+              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
+              "page": 664
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: 1+2",
+        "slug": "type-1plus2",
+        "count": 18,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Bescherming van stroomleidingen",
+           "slug": "protection-for-power-lines",
+           "count": 15,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Systeemtype: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: L-N (1Ph) - Surge-Trap® Insteekbaar Serie STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
+                 "page": 666
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: L-N (1Ph) - Surge-Trap® Monoblock Serie STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p672",
+                 "page": 672
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: L-N (1Ph) - Surge-Trap® Insteekbaar Serie K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
+                 "page": 677
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: N-PE (N)",
+              "slug": "system-type-n-pe-n",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: N-PE (N) - Surge-Trap® Insteekbaar Serie STPT - Iimp (10/350): 25/50 kA - Imax (8/20): 50 kA - In (8/20): 25/50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p667",
+                 "page": 667
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: N-PE (N) - Surge-Trap® Insteekbaar Serie K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p678",
+                 "page": 678
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: TT",
+              "slug": "system-type-tt",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TT - Surge-Trap® Insteekbaar Serie STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
+                 "page": 668
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TT - Surge-Trap® Monoblock Serie STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
+                 "page": 674
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TT - Surge-Trap® Insteekbaar Serie K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
+                 "page": 679
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: TNC",
+              "slug": "system-type-tnc",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TNC - Surge-Trap® Insteekbaar Serie STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
+                 "page": 669
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TNC - Surge-Trap® Monoblock Serie STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p675",
+                 "page": 675
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TNC - Surge-Trap® Insteekbaar Serie K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
+                 "page": 680
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: TNS",
+              "slug": "system-type-tns",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TNS - Surge-Trap® Insteekbaar Serie STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
+                 "page": 670
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TNS - Surge-Trap® Monoblock Serie STPT - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
+                 "page": 676
+                },
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: TNS - Surge-Trap® Insteekbaar Serie K-K1 - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
+                 "page": 681
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 1+2 - Bescherming van stroomleidingen - Systeemtype: IT - Surge-Trap® Insteekbaar Serie STPT - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
+                 "page": 671
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Fotovoltaïsch en energieopslag",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 1+2 - Fotovoltaïsch en energieopslag - Surge-Trap® Insteekbaar - Aantal polen: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
+              "page": 682
+             },
+             {
+              "title": "Type: 1+2 - Fotovoltaïsch en energieopslag - Surge-Trap® Insteekbaar - Aantal polen: 5 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p683",
+              "page": 683
+             },
+             {
+              "title": "Type: 1+2 - Fotovoltaïsch en energieopslag - Surge-Trap® Insteekbaar - Aantal polen: 8 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p684",
+              "page": 684
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: 2",
+        "slug": "type-2",
+        "count": 13,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Bescherming van stroomleidingen",
+           "slug": "protection-for-power-lines",
+           "count": 10,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Systeemtype: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: L-N (1Ph) - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
+                 "page": 685
+                },
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: L-N (1Ph) - Surge-Trap® Insteekbaar Serie K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
+                 "page": 691
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: TT",
+              "slug": "system-type-tt",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: TT - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
+                 "page": 687
+                },
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: TT - Surge-Trap® Insteekbaar Serie K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
+                 "page": 693
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: TNC",
+              "slug": "system-type-tnc",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: TNC - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
+                 "page": 688
+                },
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: TNC - Surge-Trap® Insteekbaar Serie K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
+                 "page": 694
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: TNS",
+              "slug": "system-type-tns",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: TNS - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
+                 "page": 689
+                },
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: TNS - Surge-Trap® Insteekbaar Serie K–K2 - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
+                 "page": 695
+                }
+               ]
+              }
+             },
+             {
+              "title": "Systeemtype: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Systeemtype: IT - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
+                 "page": 690
+                }
+               ]
+              }
+             },
+             {
+              "title": "Surge-Trap® POP + SPD",
+              "slug": "surge-trap-pop-plus-spd",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Type: 2 - Bescherming van stroomleidingen - Surge-Trap® POP + SPD - Overspanningsbeveiliging bij netfrequentie - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p696",
+                 "page": 696
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Fotovoltaïsch en energieopslag",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 2 - Fotovoltaïsch en energieopslag - Surge-Trap® Insteekbaar - Aantal polen: 3 - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
+              "page": 697
+             },
+             {
+              "title": "Type: 2 - Fotovoltaïsch en energieopslag - Surge-Trap® Insteekbaar - Aantal polen: 5 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p698",
+              "page": 698
+             },
+             {
+              "title": "Type: 2 - Fotovoltaïsch en energieopslag - Surge-Trap® Insteekbaar - Aantal polen: 8 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p699",
+              "page": 699
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Type: 2+3",
+        "slug": "type-2plus3",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Bescherming van stroomleidingen",
+           "slug": "protection-for-power-lines",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Systeemtype: L-N (1Ph) - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p700",
+              "page": 700
+             },
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Systeemtype: N-PE (N) - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p701",
+              "page": 701
+             },
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Systeemtype: TT - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p702",
+              "page": 702
+             },
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Systeemtype: TNC - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p703",
+              "page": 703
+             },
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Systeemtype: TNS - Surge-Trap® Insteekbaar Serie STPT - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p704",
+              "page": 704
+             },
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Surge-Trap® Monoblock Serie STMT - Imax (8/20): 6 kA (20 kA @Un = 240 V) - In (8/20): 3 kA (10 kA @Un = 240 V)",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p705",
+              "page": 705
+             },
+             {
+              "title": "Type: 2+3 - Bescherming van stroomleidingen - Surge-Trap® Monoblock Serie STET - Imax (8/20): 20 kA with EMI filter - In (8/20): 10 kA - Icc: 10 kA - IL: 20 A",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
+              "page": 706
+             }
+            ]
+           }
+          },
+          {
+           "title": "Bescherming voor LED-verlichting",
+           "slug": "protection-for-led-lighting",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Type: 2+3 - Bescherming voor LED-verlichting - Surge-Trap® Monoblock Serie STMT - Imax (8/20): 10 kA - In (8/20): 5 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+              "page": 707
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Bescherming van signaallijnen",
+        "slug": "protection-for-signal-lines",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Surge-Trap® Signal - STS NET- IN LINE",
+           "slug": "surge-trap-signal-sts-net-in-line",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Bescherming van signaallijnen - Surge-Trap® Signal - STS NET- IN LINE - In (8/20): 0.25 A - IL: 0.1 A (1 A @Un = 48 V) - Aansluittype: RJ45",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-net-in-line/p708",
+              "page": 708
+             }
+            ]
+           }
+          },
+          {
+           "title": "Surge-Trap® Signal - STS 485",
+           "slug": "surge-trap-signal-sts-485",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Bescherming van signaallijnen - Surge-Trap® Signal - STS 485 - Imax (8/20): 10 kA - In (8/20): 5/10 kA - Aansluittype: Aansluiting",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-485/p709",
+              "page": 709
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

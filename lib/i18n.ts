@@ -1,12 +1,13 @@
-export type Locale = "en" | "fr" | "it" | "de";
+export type Locale = "en" | "fr" | "it" | "de" | "nl";
 
-export const LOCALES: Locale[] = ["en", "fr", "it", "de"];
+export const LOCALES: Locale[] = ["en", "fr", "it", "de", "nl"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
   fr: "Français",
   it: "Italiano",
   de: "Deutsch",
+  nl: "Nederlands",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -442,7 +443,90 @@ const de: Dict = {
     "Dadurch öffnet sich Ihre eigene E-Mail-App mit bereits ausgefüllten Angaben – klicken Sie dort einfach auf Senden.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it, de };
+const nl: Dict = {
+  guideHome: "Catalogus home",
+  crossReferenceSearch: "Kruisreferentie zoeken",
+  spdConfigurator: "SPD-configurator",
+  searchPlaceholderHeader: "Doorzoek de catalogus... (zekeringen, SPD, spanning...)",
+  searchPlaceholderHero: "Doorzoek de catalogus... (zekeringen, SPD, spanning...)",
+  home: "Home",
+  back: "Terug",
+  documentation: "Documentatie",
+  filterReferences: "Referenties filteren...",
+  noReferencesFound: "Geen referenties gevonden.",
+  noResultsFor: (q) => `Geen resultaten voor "${q}"`,
+  viewAllResultsFor: (q) => `Alle resultaten voor "${q}" bekijken →`,
+  resultsCountFor: (n, q) => `${n} resulta${n !== 1 ? "ten" : "at"} voor "${q}"`,
+  loading: "Laden...",
+  productSelectorFallback: "Productselector",
+  siteSubtitle: "2026 Europa",
+  heroBadge: "Interactieve productselector · Editie Europa 2026",
+  heroTitle1: "Selectiegids",
+  heroTitle2: "Elektrische beveiliging",
+  heroDescription:
+    "De volledige productselector, omgezet naar een website: zekeringen, overspanningsbeveiligingen en fotovoltaïsche oplossingen, geordend per productfamilie en volledig te doorbladeren op mobiel, tablet en desktop.",
+  productFamilies: "Productfamilies",
+  productFamiliesDesc: "Blader door de volledige productselector per categorie.",
+  moreTools: "Meer tools",
+  moreToolsDesc: "Aanvullende zoekfuncties op basis van dezelfde productgegevens.",
+  xrefCardTitle: "Kruisreferentie zoeken",
+  xrefCardDesc:
+    "Vind de bijbehorende Mersen-referentie voor een concurrerend artikelnummer (Citel, Dehn, Eaton, Siemens en meer).",
+  spdCardTitle: "SPD-configurator",
+  spdCardDesc:
+    "Beantwoord enkele vragen over uw installatie om de juiste overspanningsbeveiligingsfamilie te vinden.",
+  xrefEyebrow: "Kruisreferentie zoeken",
+  xrefH1: "Vind een Mersen-referentie op basis van een concurrerend artikelnummer",
+  xrefDesc:
+    "Zoek op een referentie van een concurrent (Citel, Dehn, Eaton, Siemens, Schneider Electric en meer) om het bijbehorende Mersen-artikel te vinden.",
+  xrefSearchPlaceholder: "Zoek een concurrerende referentie...",
+  xrefResultsFor: (n, q) => `${n} resulta${n !== 1 ? "ten" : "at"} voor "${q}"`,
+  xrefNoResults: "Geen resultaten. Probeer een andere referentie.",
+  xrefMatchedVia: (brand) => `gevonden via ${brand}`,
+  spdEyebrow: "SPD-configurator",
+  spdH1: "Vind het juiste overspanningsbeveiligingstoestel",
+  spdDesc:
+    "Beantwoord enkele vragen over uw installatie om de juiste overspanningsbeveiligingsfamilie te vinden.",
+  spdStartOver: "Opnieuw beginnen",
+  searchTitle: "Zoeken",
+  searchNoResults: "Geen resultaten. Probeer een andere zoekterm.",
+  matchTitle: "Zoeken",
+  metaSiteTitle: "Selectiegids 2026 Europa | Mersen Elektrische Beveiliging",
+  metaSiteDescription:
+    "Interactieve selectiegids voor elektrische beveiligingsproducten: laag- en middenspanningszekeringen, snelle zekeringen, overspanningsbeveiligingen en fotovoltaïsche oplossingen.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/nl",
+  sendRequestNav: "Aanvraag versturen",
+  sendRequestCardTitle: "Aanvraag versturen",
+  sendRequestCardDesc:
+    "Neem contact op met uw lokale Mersen-team over een product of project.",
+  sendRequestEyebrow: "Neem contact op",
+  sendRequestH1: "Een aanvraag versturen",
+  sendRequestDesc:
+    "Selecteer uw land en wij sturen uw aanvraag door naar de juiste contactpersoon.",
+  sendRequestCountryLabel: "Land",
+  sendRequestCountryPlaceholder: "Selecteer uw land...",
+  sendRequestFirstNameLabel: "Voornaam",
+  sendRequestLastNameLabel: "Achternaam",
+  sendRequestCompanyLabel: "Bedrijf (optioneel)",
+  sendRequestTypeLabel: "Aanvraag",
+  sendRequestTypePlaceholder: "Selecteer een type aanvraag...",
+  sendRequestTypeFuse: "Zekering",
+  sendRequestTypeSurge: "Overspanningsbeveiliging",
+  sendRequestTypeBoth: "Zekering & overspanningsbeveiliging",
+  sendRequestEmailLabel: "Uw e-mail",
+  sendRequestEmailPlaceholder: "naam@voorbeeld.nl",
+  sendRequestMessageLabel: "Bericht",
+  sendRequestMessagePlaceholder: "Schrijf uw bericht...",
+  sendRequestButton: "Openen in e-mailapp",
+  sendRequestSentTo: (country) =>
+    `Uw aanvraag wordt verzonden naar ons team voor ${country}.`,
+  sendRequestSubjectPrefix: "Contactaanvraag via de website",
+  sendRequestHint:
+    "Hierdoor opent uw eigen e-mailapp met alles al ingevuld — klik daar gewoon op Verzenden.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de, nl };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];

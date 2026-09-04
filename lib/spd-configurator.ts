@@ -708,9 +708,180 @@ export const SPD_NODES_DE: Record<string, SpdNode> = {
   },
 };
 
-export function getSpdNodes(locale: "en" | "fr" | "it" | "de"): Record<string, SpdNode> {
+// Dutch translation of the same tree: every `to`/`href`/`external` value
+// is identical to SPD_NODES above (the site's slugs don't change between
+// locales - see lib/data.ts), only `title`/`label` text is translated.
+export const SPD_NODES_NL: Record<string, SpdNode> = {
+  hub: {
+    title: "Voor welk type installatie is dit?",
+    options: [
+      { label: "Industrieel", to: "industrial" },
+      { label: "Commercieel / Residentieel", to: "commercial" },
+      { label: "Straatverlichting", to: "street-lighting" },
+      { label: "Fotovoltaïsch", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Industrieel — blootstelling van de installatie",
+    options: [
+      {
+        label:
+          "Installatie met bliksembeveiliging of nabij een element blootgesteld aan inslagen",
+        to: "industrial-highly",
+      },
+      {
+        label: "Installatie gevoed door bovengrondse leidingen",
+        to: "industrial-moderate",
+      },
+      { label: "Installatie met ondergrondse distributie", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Industrieel — Sterk beschermd",
+    options: [
+      {
+        label: "Niveau 1: Hoofdverdeler",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 2: Verdeelbord (indien >10 m van hoofdverdeler)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 3: Gevoelige apparatuur",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Industrieel — Matig beschermd",
+    options: [
+      {
+        label: "Niveau 1: Hoofdverdeler",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 2: Verdeelbord (indien >10 m van hoofdverdeler)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 3: Gevoelige apparatuur",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Industrieel — Basisbescherming",
+    options: [
+      {
+        label: "Niveau 1: Hoofdverdeler",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Niveau 3: Gevoelige apparatuur",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Commercieel / Residentieel — blootstelling van de installatie",
+    options: [
+      {
+        label:
+          "Installatie met bliksembeveiliging of nabij een element blootgesteld aan inslagen",
+        to: "commercial-highly",
+      },
+      {
+        label: "Installatie gevoed door bovengrondse leidingen",
+        to: "commercial-moderate",
+      },
+      { label: "Installatie met ondergrondse distributie", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Commercieel / Residentieel — Sterk beschermd",
+    options: [
+      {
+        label: "Verdeelbord",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Gevoelige apparatuur",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Commercieel / Residentieel — Matig beschermd",
+    options: [
+      {
+        label: "Verdeelbord",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Gevoelige apparatuur",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Commercieel / Residentieel — Basisbescherming",
+    options: [
+      {
+        label: "Verdeelbord",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Gevoelige apparatuur",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Straatverlichting",
+    options: [
+      {
+        label: "Fabrikant van buitenarmaturen",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Paneelbouwer / Installateur", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Straatverlichting — Paneelbouwer / Installateur",
+    options: [
+      {
+        label: "Mast",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Verdeelbord",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Fotovoltaïsch",
+    options: [
+      {
+        label: "Aansluitdoos (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Verdeelbord (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
+export function getSpdNodes(
+  locale: "en" | "fr" | "it" | "de" | "nl"
+): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
   if (locale === "de") return SPD_NODES_DE;
+  if (locale === "nl") return SPD_NODES_NL;
   return SPD_NODES;
 }
