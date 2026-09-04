@@ -25,16 +25,17 @@ export default function LeafPageView({
   const productImage = getProductImage(entry.page);
 
   return (
-    <SelectorFrame backHref={parentHref} locale={locale}>
-      <article>
-        {productImage && (
+    <SelectorFrame
+      backHref={parentHref}
+      locale={locale}
+      topLeft={
+        productImage && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={productImage}
-            alt=""
-            className="mb-3 h-16 w-auto object-contain"
-          />
-        )}
+          <img src={productImage} alt="" className="h-16 w-auto object-contain" />
+        )
+      }
+    >
+      <article>
         <Breadcrumbs items={crumbs} />
         <h1 className="mb-6 mt-3 text-2xl font-bold text-ink-900 dark:text-white">
           {entry.title}
