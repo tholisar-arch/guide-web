@@ -40,6 +40,12 @@ export default function XrefSearch({ locale }: { locale: Locale }) {
   const dict = t(locale);
   const searchIndexUrl =
     locale === "en" ? "/data/search-index.json" : `/data/search-index.${locale}.json`;
+  // Spanish excludes Surge Protection entirely (no product pages, no SPD
+  // Configurator - see extract/translate_to_es.py), so its cross reference
+  // search also uses a pre-filtered index with every surge-related
+  // competitor reference removed, instead of the shared xref-index.json.
+  const xrefIndexUrl =
+    locale === "es" ? "/data/xref-index.es.json" : "/data/xref-index.json";
   const [query, setQuery] = useState("");
   const [entries, setEntries] = useState<XrefEntry[] | null>(null);
   const [pnToSlug, setPnToSlug] = useState<Map<string, string> | null>(null);
@@ -47,7 +53,7 @@ export default function XrefSearch({ locale }: { locale: Locale }) {
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/xref-index.json").then((r) => r.json()) as Promise<XrefEntry[]>,
+      fetch(xrefIndexUrl).then((r) => r.json()) as Promise<XrefEntry[]>,
       fetch(searchIndexUrl).then((r) => r.json()) as Promise<
         SearchIndexEntry[]
       >,
@@ -62,7 +68,7 @@ export default function XrefSearch({ locale }: { locale: Locale }) {
       setPnToSlug(map);
       setLoading(false);
     });
-  }, [searchIndexUrl]);
+  }, [searchIndexUrl, xrefIndexUrl]);
 
   const results = useMemo(() => {
     if (!entries || query.trim().length < 2) return [];

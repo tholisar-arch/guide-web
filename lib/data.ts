@@ -18,6 +18,8 @@ import pagesDataRo from "@/data/pages.ro.json";
 import navDataRo from "@/data/nav.ro.json";
 import pagesDataCs from "@/data/pages.cs.json";
 import navDataCs from "@/data/nav.cs.json";
+import pagesDataEs from "@/data/pages.es.json";
+import navDataEs from "@/data/nav.es.json";
 import type {
   PageEntry,
   NavRoot,
@@ -27,8 +29,31 @@ import type {
   NavLeafItem,
 } from "@/lib/types";
 
-export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro" | "cs";
-export const LOCALES: Locale[] = ["en", "fr", "it", "de", "nl", "hu", "pt", "pl", "ro", "cs"];
+export type Locale =
+  | "en"
+  | "fr"
+  | "it"
+  | "de"
+  | "nl"
+  | "hu"
+  | "pt"
+  | "pl"
+  | "ro"
+  | "cs"
+  | "es";
+export const LOCALES: Locale[] = [
+  "en",
+  "fr",
+  "it",
+  "de",
+  "nl",
+  "hu",
+  "pt",
+  "pl",
+  "ro",
+  "cs",
+  "es",
+];
 
 export type ListingResult =
   | { kind: "chapter"; chapter: Chapter }
@@ -201,6 +226,7 @@ const apis: Record<Locale, DataApi> = {
   pl: createDataApi(pagesDataPl, navDataPl),
   ro: createDataApi(pagesDataRo, navDataRo),
   cs: createDataApi(pagesDataCs, navDataCs),
+  es: createDataApi(pagesDataEs, navDataEs),
 };
 
 export function getData(locale: Locale): DataApi {

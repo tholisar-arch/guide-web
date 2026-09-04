@@ -1,0 +1,4311 @@
+{
+ "chapters": [
+  {
+   "slug": "selector",
+   "title": "Selector de productos",
+   "overview": [],
+   "categories": [
+    {
+     "title": "Fusibles miniatura",
+     "slug": "miniature-fuses",
+     "count": 18,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Fusibles de vidrio",
+        "slug": "glass-fuses",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tamaño: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles de vidrio - Tamaño: 5 x 20 mm - Retardado",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p16",
+              "page": 16
+             },
+             {
+              "title": "Fusibles de vidrio - Tamaño: 5 x 20 mm - Retardado - Referencia del estuche surtido: H203764",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p17",
+              "page": 17
+             },
+             {
+              "title": "Fusibles de vidrio - Tamaño: 5 x 20 mm - Semirretardado",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
+              "page": 18
+             },
+             {
+              "title": "Fusibles de vidrio - Tamaño: 5 x 20 mm - Semirretardado - Referencia del estuche surtido: P233440",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
+              "page": 19
+             },
+             {
+              "title": "Fusibles de vidrio - Tamaño: 5 x 20 mm - Acción rápida",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
+              "page": 20
+             },
+             {
+              "title": "Fusibles de vidrio - Tamaño: 5 x 20 mm - Acción rápida - Referencia del estuche surtido: G203763",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p21",
+              "page": 21
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles de vidrio - Tamaño: 6 x 32 mm - Retardado",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p22",
+              "page": 22
+             },
+             {
+              "title": "Fusibles de vidrio - Tamaño: 6 x 32 mm - Acción rápida",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
+              "page": 23
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Fusibles cerámicos",
+        "slug": "ceramic-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tamaño: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles cerámicos - Tamaño: 5 x 20 mm - Retardado",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p24",
+              "page": 24
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 5 x 20 mm - Retardado - Referencia del estuche surtido: C229864",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p25",
+              "page": 25
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 5 x 20 mm - Semirretardado",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
+              "page": 26
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 5 x 20 mm - Acción rápida",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
+              "page": 27
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 5 x 20 mm - Acción rápida - Referencia del estuche surtido: B229863",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p28",
+              "page": 28
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 5 x 20 mm - Acción ultrarrápida",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p29",
+              "page": 29
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles cerámicos - Tamaño: 6 x 32 mm - Retardado",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p30",
+              "page": 30
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 6 x 32 mm - Semirretardado",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
+              "page": 31
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 6 x 32 mm - Acción rápida",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
+              "page": 32
+             },
+             {
+              "title": "Fusibles cerámicos - Tamaño: 6 x 32 mm - Acción ultrarrápida",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p33",
+              "page": 33
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fusibles de baja tensión IEC",
+     "slug": "iec-fuses",
+     "count": 156,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Tipo: Puente de neutro",
+        "slug": "type-neutral-link",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tamaño: 8.5 x 31.5 mm",
+           "slug": "size-8-5-x-31-5-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: Puente de neutro - Tamaño: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-8-5-x-31-5-mm/p127",
+              "page": 127
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 10 x 38 mm",
+           "slug": "size-10-x-38-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: Puente de neutro - Tamaño: 10 x 38 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-10-x-38-mm/p128",
+              "page": 128
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: gG",
+        "slug": "type-gg",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Fusibles cilíndricos",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 8,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 8.5 x 31.5 mm - Sin indicador",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p129",
+              "page": 129
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 8.5 x 31.5 mm - Con indicador",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p130",
+              "page": 130
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 10 x 38 mm - Sin indicador",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p131",
+              "page": 131
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 10 x 38 mm - Con indicador",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p132",
+              "page": 132
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 14 x 51 mm - Sin percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p133",
+              "page": 133
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 14 x 51 mm - Con percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p134",
+              "page": 134
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 22 x 58 mm - Sin percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p135",
+              "page": 135
+             },
+             {
+              "title": "Tipo: gG - Fusibles cilíndricos - Tamaño: 22 x 58 mm - Con percutor",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p136",
+              "page": 136
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma DIN D0",
+           "slug": "din-d0-standard",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG - Norma DIN D0 - Tamaño: D01 (E14)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p137",
+              "page": 137
+             },
+             {
+              "title": "Tipo: gG - Norma DIN D0 - Tamaño: D02 (E18)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p138",
+              "page": 138
+             },
+             {
+              "title": "Tipo: gG - Norma DIN D0 - Tamaño: D03 (M30x2)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p139",
+              "page": 139
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma DIN D",
+           "slug": "din-d-standard",
+           "count": 5,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG - Norma DIN D - Tamaño: NDZ",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p140",
+              "page": 140
+             },
+             {
+              "title": "Tipo: gG - Norma DIN D - Tamaño: DII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p141",
+              "page": 141
+             },
+             {
+              "title": "Tipo: gG - Norma DIN D - Tamaño: DIII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p142",
+              "page": 142
+             },
+             {
+              "title": "Tipo: gG - Norma DIN D - Tamaño: DIV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p143",
+              "page": 143
+             },
+             {
+              "title": "Tipo: gG - Norma DIN D - Tamaño: DV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p144",
+              "page": 144
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma DIN NH",
+           "slug": "din-nh-standard",
+           "count": 46,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tamaño: 000",
+              "slug": "size-000",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 000 - Terminales aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
+                 "page": 148
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 000 - Terminales aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
+                 "page": 149
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 000 - Terminales aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
+                 "page": 150
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 000 - Terminales no aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
+                 "page": 151
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 000 - Terminales no aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
+                 "page": 152
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 000 - Terminales no aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
+                 "page": 153
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 00",
+              "slug": "size-00",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 00 - Terminales aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
+                 "page": 154
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 00 - Terminales aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
+                 "page": 155
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 00 - Terminales aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
+                 "page": 156
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 00 - Terminales no aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
+                 "page": 157
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 00 - Terminales no aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
+                 "page": 158
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 00 - Terminales no aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
+                 "page": 159
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 0",
+              "slug": "size-0",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 0 - Terminales aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
+                 "page": 160
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 0 - Terminales aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
+                 "page": 161
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 0 - Terminales no aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
+                 "page": 162
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 0 - Terminales no aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
+                 "page": 163
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 0 - Con percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
+                 "page": 164
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 1",
+              "slug": "size-1",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Terminales aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
+                 "page": 165
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Terminales aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
+                 "page": 166
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Terminales aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
+                 "page": 167
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Terminales no aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
+                 "page": 168
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Terminales no aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
+                 "page": 169
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Terminales no aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
+                 "page": 170
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 1 - Con percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
+                 "page": 171
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 2",
+              "slug": "size-2",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Terminales aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
+                 "page": 172
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Terminales aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
+                 "page": 173
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Terminales aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
+                 "page": 174
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Terminales no aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
+                 "page": 175
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Terminales no aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
+                 "page": 176
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Terminales no aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
+                 "page": 177
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 2 - Con percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
+                 "page": 178
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 3",
+              "slug": "size-3",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Terminales aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
+                 "page": 179
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Terminales aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
+                 "page": 180
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Terminales aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
+                 "page": 181
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Terminales no aislados - Tensión asignada: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
+                 "page": 182
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Terminales no aislados - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
+                 "page": 183
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Terminales no aislados - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
+                 "page": 184
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 3 - Con percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
+                 "page": 185
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 4",
+              "slug": "size-4",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4 - Con indicador superior - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
+                 "page": 186
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4 - Con indicador superior - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
+                 "page": 187
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4 - Con indicador central - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p188",
+                 "page": 188
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4 - Con indicador central - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p189",
+                 "page": 189
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4 - Con percutor",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p190",
+                 "page": 190
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 4a",
+              "slug": "size-4a",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4a - Con indicador superior - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p191",
+                 "page": 191
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4a - Con indicador central - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p192",
+                 "page": 192
+                },
+                {
+                 "title": "Tipo: gG - Norma DIN NH - Tamaño: 4a - Con indicador central - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p193",
+                 "page": 193
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma BS88",
+           "slug": "bs88-standard",
+           "count": 36,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tipo: A1",
+              "slug": "type-a1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A1 - Tipo BS: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p194",
+                 "page": 194
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A1 - Tipo BS: BEIT (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p195",
+                 "page": 195
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A2 - Tipo BS: BTIA (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
+                 "page": 196
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A2 - Tipo BS: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
+                 "page": 197
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: A3",
+              "slug": "type-a3",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A3 - Tipo BS: BTSS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
+                 "page": 198
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A3 - Tipo BS: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
+                 "page": 199
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A3 - Tipo BS: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p200",
+                 "page": 200
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A3 - Tipo BS: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p201",
+                 "page": 201
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A4 - Tipo BS: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p202",
+                 "page": 202
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A4 - Tipo BS: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p203",
+                 "page": 203
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A4 - Tipo BS: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p204",
+                 "page": 204
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: A4 - Tipo BS: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p205",
+                 "page": 205
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B1",
+              "slug": "type-b1",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B1 - Tipo BS: BTBC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
+                 "page": 206
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B1 - Tipo BS: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p207",
+                 "page": 207
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B1 - Tipo BS: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p208",
+                 "page": 208
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B1 - Tipo BS: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p209",
+                 "page": 209
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B2 - Tipo BS: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
+                 "page": 210
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B2 - Tipo BS: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
+                 "page": 211
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B3",
+              "slug": "type-b3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B3 - Tipo BS: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p212",
+                 "page": 212
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B3 - Tipo BS: BTKF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p213",
+                 "page": 213
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B3 - Tipo BS: BTKM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p214",
+                 "page": 214
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B4",
+              "slug": "type-b4",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B4 - Tipo BS: BTMF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
+                 "page": 215
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: B4 - Tipo BS: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p216",
+                 "page": 216
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: C1",
+              "slug": "type-c1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: C1 - Tipo BS: BTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p217",
+                 "page": 217
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: C1 - Tipo BS: BTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p218",
+                 "page": 218
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: C2",
+              "slug": "type-c2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: C2 - Tipo BS: BTTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
+                 "page": 219
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: C2 - Tipo BS: BTTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
+                 "page": 220
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: C3",
+              "slug": "type-c3",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: C3 - Tipo BS: BTLM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p221",
+                 "page": 221
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: C3 - Tipo BS: BTLM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p222",
+                 "page": 222
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: F1",
+              "slug": "type-f1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: F1 - Tipo BS: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
+                 "page": 223
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: F2",
+              "slug": "type-f2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: F2 - Tipo BS: BES (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p224",
+                 "page": 224
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Tipo: F2 - Tipo BS: BES (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p225",
+                 "page": 225
+                }
+               ]
+              }
+             },
+             {
+              "title": "Alumbrado público BS",
+              "slug": "bs-street-lighting",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Alumbrado público BS - Tipo BS: BMD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p226",
+                 "page": 226
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Alumbrado público BS - Tipo BS: BLST (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p227",
+                 "page": 227
+                },
+                {
+                 "title": "Tipo: gG - Norma BS88 - Alumbrado público BS - Tipo BS: BLD (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p228",
+                 "page": 228
+                }
+               ]
+              }
+             },
+             {
+              "title": "Armario de distribución BS",
+              "slug": "bs-feeder-pillar",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gG - Norma BS88 - Armario de distribución BS",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
+                 "page": 229
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma BS1361",
+           "slug": "bs1361-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG - Norma BS1361 - Acometida individual - Tipo BS: BME (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p230",
+              "page": 230
+             },
+             {
+              "title": "Tipo: gG - Norma BS1361 - Acometida individual - Tipo BS: BMF (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p231",
+              "page": 231
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: gG Flink",
+        "slug": "type-gg-flink",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tamaño: NDZ",
+           "slug": "size-ndz",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG Flink - Tamaño: NDZ",
+              "slug": "selector/iec-fuses/type-gg-flink/size-ndz/p145",
+              "page": 145
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: DII",
+           "slug": "size-dii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG Flink - Tamaño: DII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-dii/p146",
+              "page": 146
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: DIII",
+           "slug": "size-diii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gG Flink - Tamaño: DIII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-diii/p147",
+              "page": 147
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: aM",
+        "slug": "type-am",
+        "count": 29,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Fusibles cilíndricos",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p232",
+              "page": 232
+             },
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 10 x 38 mm - Sin indicador",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p233",
+              "page": 233
+             },
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 10 x 38 mm - Con indicador",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p234",
+              "page": 234
+             },
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 14 x 51 mm - Sin percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p235",
+              "page": 235
+             },
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 14 x 51 mm - Con percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p236",
+              "page": 236
+             },
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 22 x 58 mm - Sin percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p237",
+              "page": 237
+             },
+             {
+              "title": "Tipo: aM - Fusibles cilíndricos - Tamaño: 22 x 58 mm - Con percutor",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p238",
+              "page": 238
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma DIN D0",
+           "slug": "din-d0-standard",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: aM - Norma DIN D0 - Tamaño: D02",
+              "slug": "selector/iec-fuses/type-am/din-d0-standard/p239",
+              "page": 239
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma DIN NH",
+           "slug": "din-nh-standard",
+           "count": 21,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tamaño: 000",
+              "slug": "size-000",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 000 - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
+                 "page": 240
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 000 - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
+                 "page": 241
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 00",
+              "slug": "size-00",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 00 - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
+                 "page": 242
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 00 - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p243",
+                 "page": 243
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 0",
+              "slug": "size-0",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 0 - Con indicador - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
+                 "page": 244
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 0 - Con indicador - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p245",
+                 "page": 245
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 0 - Con percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p246",
+                 "page": 246
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 1",
+              "slug": "size-1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 1 - Con indicador - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p247",
+                 "page": 247
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 1 - Con indicador - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p248",
+                 "page": 248
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 1 - Con percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p249",
+                 "page": 249
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 2",
+              "slug": "size-2",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 2 - Con indicador - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
+                 "page": 250
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 2 - Con indicador - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p251",
+                 "page": 251
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 2 - Con percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
+                 "page": 252
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 3",
+              "slug": "size-3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 3 - Con indicador - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p253",
+                 "page": 253
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 3 - Con indicador - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p254",
+                 "page": 254
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 3 - Con percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p255",
+                 "page": 255
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 4",
+              "slug": "size-4",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 4 - Con indicador - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
+                 "page": 256
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 4 - Con indicador - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p257",
+                 "page": 257
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 4 - Con percutor",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
+                 "page": 258
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 4a",
+              "slug": "size-4a",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 4a - Con indicador - Tensión asignada: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p259",
+                 "page": 259
+                },
+                {
+                 "title": "Tipo: aM - Norma DIN NH - Tamaño: 4a - Con indicador - Tensión asignada: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p260",
+                 "page": 260
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: gM",
+        "slug": "type-gm",
+        "count": 19,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Norma BS88",
+           "slug": "bs88-standard",
+           "count": 19,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tipo: A1",
+              "slug": "type-a1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A1 - Tipo BS: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p261",
+                 "page": 261
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A2 - Tipo BS: BTIA (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
+                 "page": 262
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A2 - Tipo BS: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
+                 "page": 263
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: A3",
+              "slug": "type-a3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A3 - Tipo BS: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
+                 "page": 264
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A3 - Tipo BS: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p265",
+                 "page": 265
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A3 - Tipo BS: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p266",
+                 "page": 266
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A4 - Tipo BS: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p267",
+                 "page": 267
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A4 - Tipo BS: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p268",
+                 "page": 268
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A4 - Tipo BS: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p269",
+                 "page": 269
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: A4 - Tipo BS: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p270",
+                 "page": 270
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B1",
+              "slug": "type-b1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B1 - Tipo BS: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p271",
+                 "page": 271
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B1 - Tipo BS: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p272",
+                 "page": 272
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B1 - Tipo BS: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p273",
+                 "page": 273
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B2 - Tipo BS: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
+                 "page": 274
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B2 - Tipo BS: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
+                 "page": 275
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B3",
+              "slug": "type-b3",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B3 - Tipo BS: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
+                 "page": 276
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: B4",
+              "slug": "type-b4",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: B4 - Tipo BS: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
+                 "page": 277
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: F1",
+              "slug": "type-f1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: F1 - Tipo BS: BNS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p278",
+                 "page": 278
+                },
+                {
+                 "title": "Tipo: gM - Norma BS88 - Tipo: F1 - Tipo BS: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p279",
+                 "page": 279
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: aD",
+        "slug": "type-ad",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Fusibles cilíndricos",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: aD - Fusibles cilíndricos - Tamaño: 14 x 51 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p280",
+              "page": 280
+             },
+             {
+              "title": "Tipo: aD - Fusibles cilíndricos - Tamaño: 22 x 58 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p281",
+              "page": 281
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: aD - Tamaño: 00",
+              "slug": "selector/iec-fuses/type-ad/size-00/p282",
+              "page": 282
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fusibles de baja tensión UL/CSA",
+     "slug": "ul-csa-fuses",
+     "count": 20,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Acción rápida",
+        "slug": "fast-acting",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Clase C",
+           "slug": "class-c",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Clase C - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-c/p293",
+              "page": 293
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase CC",
+           "slug": "class-cc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Clase CC - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-cc/p294",
+              "page": 294
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Midget - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/midget/p295",
+              "page": 295
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase T",
+           "slug": "class-t",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Clase T - Tensión asignada: 300 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
+              "page": 296
+             },
+             {
+              "title": "Acción rápida - Clase T - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p297",
+              "page": 297
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Clase J - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-j/p298",
+              "page": 298
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase K5",
+           "slug": "class-k5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Clase K5 - Tensión asignada: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
+              "page": 299
+             },
+             {
+              "title": "Acción rápida - Clase K5 - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p300",
+              "page": 300
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Acción rápida - Clase RK1 - Tensión asignada: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
+              "page": 301
+             },
+             {
+              "title": "Acción rápida - Clase RK1 - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
+              "page": 302
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Retardado",
+        "slug": "time-delay",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Clase CC",
+           "slug": "class-cc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Retardado - Clase CC - Gama: ATDR - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
+              "page": 303
+             },
+             {
+              "title": "Retardado - Clase CC - Gama: ATQR - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p304",
+              "page": 304
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Retardado - Midget - Tensión asignada: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
+              "page": 306
+             },
+             {
+              "title": "Retardado - Midget - Tensión asignada: 500 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p307",
+              "page": 307
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase J",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Retardado - Clase J - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-j/p308",
+              "page": 308
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase L",
+           "slug": "class-l",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Retardado - Clase L - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-l/p309",
+              "page": 309
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase RK1",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Retardado - Clase RK1 - Tensión asignada: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
+              "page": 310
+             },
+             {
+              "title": "Retardado - Clase RK1 - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p311",
+              "page": 311
+             }
+            ]
+           }
+          },
+          {
+           "title": "Clase RK5",
+           "slug": "class-rk5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Retardado - Clase RK5 - Tensión asignada: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
+              "page": 312
+             },
+             {
+              "title": "Retardado - Clase RK5 - Tensión asignada: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
+              "page": 313
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fusibles ultrarrápidos",
+     "slug": "high-speed-fuses",
+     "count": 155,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Tipo: gLB",
+        "slug": "type-glb",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tamaño: 14 x 51 mm",
+           "slug": "size-14-x-51-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gLB - Tamaño: 14 x 51 mm - Con percutor",
+              "slug": "selector/high-speed-fuses/type-glb/size-14-x-51-mm/p383",
+              "page": 383
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 22 x 58 mm",
+           "slug": "size-22-x-58-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gLB - Tamaño: 22 x 58 mm - Con percutor",
+              "slug": "selector/high-speed-fuses/type-glb/size-22-x-58-mm/p384",
+              "page": 384
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 27 x 60 mm",
+           "slug": "size-27-x-60-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gLB - Tamaño: 27 x 60 mm - Con percutor",
+              "slug": "selector/high-speed-fuses/type-glb/size-27-x-60-mm/p385",
+              "page": 385
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: gS",
+        "slug": "type-gs",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tamaño: 000",
+           "slug": "size-000",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gS - Tamaño: 000",
+              "slug": "selector/high-speed-fuses/type-gs/size-000/p386",
+              "page": 386
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gS - Tamaño: 00",
+              "slug": "selector/high-speed-fuses/type-gs/size-00/p387",
+              "page": 387
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 1",
+           "slug": "size-1",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gS - Tamaño: 1",
+              "slug": "selector/high-speed-fuses/type-gs/size-1/p388",
+              "page": 388
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 2",
+           "slug": "size-2",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gS - Tamaño: 2",
+              "slug": "selector/high-speed-fuses/type-gs/size-2/p389",
+              "page": 389
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tamaño: 3",
+           "slug": "size-3",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: gS - Tamaño: 3",
+              "slug": "selector/high-speed-fuses/type-gs/size-3/p390",
+              "page": 390
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: gR",
+        "slug": "type-gr",
+        "count": 47,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilíndrico",
+           "slug": "cylindrical",
+           "count": 17,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Versión AC",
+              "slug": "ac-rated",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: gR - Cilíndrico - Versión AC - Tamaño: 10 x 38 mm",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
+                 "page": 391
+                },
+                {
+                 "title": "Tipo: gR - Cilíndrico - Versión AC - Tamaño: 14 x 51 mm - Sin percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p392",
+                 "page": 392
+                },
+                {
+                 "title": "Tipo: gR - Cilíndrico - Versión AC - Tamaño: 14 x 51 mm - Con percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p393",
+                 "page": 393
+                },
+                {
+                 "title": "Tipo: gR - Cilíndrico - Versión AC - Tamaño: 22 x 58 mm - Sin percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
+                 "page": 394
+                },
+                {
+                 "title": "Tipo: gR - Cilíndrico - Versión AC - Tamaño: 22 x 58 mm - Con percutor",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
+                 "page": 395
+                }
+               ]
+              }
+             },
+             {
+              "title": "Versión DC",
+              "slug": "dc-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Tamaño: 27 x 60 mm",
+                 "slug": "size-27-x-60-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 27 x 60 mm - Con percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p396",
+                    "page": 396
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 20 x 127 mm",
+                 "slug": "size-20-x-127-mm",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 20 x 127 mm - Sin percutor - Tensión asignada: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
+                    "page": 397
+                   },
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 20 x 127 mm - Sin percutor - Tensión asignada: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
+                    "page": 398
+                   },
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 20 x 127 mm - Con percutor - Tensión asignada: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p399",
+                    "page": 399
+                   },
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 20 x 127 mm - Con percutor - Tensión asignada: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p400",
+                    "page": 400
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 20 x 190 mm",
+                 "slug": "size-20-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 20 x 190 mm - Sin percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p401",
+                    "page": 401
+                   },
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 20 x 190 mm - Con percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p402",
+                    "page": 402
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 36 x 190 mm",
+                 "slug": "size-36-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 36 x 190 mm - Sin percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
+                    "page": 404
+                   },
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 36 x 190 mm - Con percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
+                    "page": 405
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 36 x 250 mm",
+                 "slug": "size-36-x-250-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 36 x 250 mm - Sin percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p406",
+                    "page": 406
+                   },
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 36 x 250 mm - Con percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p407",
+                    "page": 407
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 36 x 400 mm",
+                 "slug": "size-36-x-400-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cilíndrico - Versión DC - Tamaño: 36 x 400 mm - Sin percutor",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p408",
+                    "page": 408
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Cuerpo cuadrado",
+           "slug": "square-body",
+           "count": 30,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Versión AC",
+              "slug": "ac-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Tamaño: 70",
+                 "slug": "size-70",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: DIN110 (cuchillas DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
+                    "page": 409
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p410",
+                    "page": 410
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
+                    "page": 411
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 71",
+                 "slug": "size-71",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: DIN110 (cuchillas DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p412",
+                    "page": 412
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p413",
+                    "page": 413
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p414",
+                    "page": 414
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 72",
+                 "slug": "size-72",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: DIN110 (cuchillas DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
+                    "page": 415
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p416",
+                    "page": 416
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
+                    "page": 417
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 73",
+                 "slug": "size-73",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: DIN110 (cuchillas DIN110)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p418",
+                    "page": 418
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p419",
+                    "page": 419
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p420",
+                    "page": 420
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "Versión DC",
+              "slug": "dc-rated",
+              "count": 18,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Tamaño: 120",
+                 "slug": "size-120",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 120 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
+                    "page": 421
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 120 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
+                    "page": 422
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 121",
+                 "slug": "size-121",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 121 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p423",
+                    "page": 423
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 121 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p424",
+                    "page": 424
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 122",
+                 "slug": "size-122",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 122 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
+                    "page": 425
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 122 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
+                    "page": 426
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 122",
+                 "slug": "size-2-x-122",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 122 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p427",
+                    "page": 427
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 123",
+                 "slug": "size-123",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 123 - Tipo: EF (conexiones atornilladas)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p428",
+                    "page": 428
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 123 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p429",
+                    "page": 429
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 123",
+                 "slug": "size-2-x-123",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 123 - Tipo: TTF (terminales roscados)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p430",
+                    "page": 430
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 300",
+                 "slug": "size-300",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 300 - Tipo: Soporte",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
+                    "page": 431
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 300 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p432",
+                    "page": 432
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 302",
+                 "slug": "size-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 302 - Tipo: Soporte",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
+                    "page": 433
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 302",
+                 "slug": "size-2-x-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 302 - Tipo: Soporte",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p434",
+                    "page": 434
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 600",
+                 "slug": "size-600",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 600 - Tipo: Soporte",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p435",
+                    "page": 435
+                   },
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 600 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p436",
+                    "page": 436
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 602",
+                 "slug": "size-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 602 - Tipo: Soporte",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
+                    "page": 437
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 602",
+                 "slug": "size-2-x-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: gR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 602 - Tipo: Soporte",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p438",
+                    "page": 438
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Tipo: aR",
+        "slug": "type-ar",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Cilíndrico",
+           "slug": "cylindrical",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 10 x 38 mm - Sin indicador",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p439",
+              "page": 439
+             },
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 10 x 38 mm - Con indicador",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p440",
+              "page": 440
+             },
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 14 x 51 mm - Sin percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p441",
+              "page": 441
+             },
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 14 x 51 mm - Con percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p442",
+              "page": 442
+             },
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 22 x 58 mm - Sin percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p443",
+              "page": 443
+             },
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 22 x 58 mm - Con percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p444",
+              "page": 444
+             },
+             {
+              "title": "Tipo: aR - Cilíndrico - Tamaño: 27 x 60 mm - Con percutor",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p445",
+              "page": 445
+             }
+            ]
+           }
+          },
+          {
+           "title": "Cuerpo cuadrado",
+           "slug": "square-body",
+           "count": 82,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Versión AC",
+              "slug": "ac-rated",
+              "count": 71,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Tamaño: NH000",
+                 "slug": "size-nh000",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH000 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p446",
+                    "page": 446
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH000 - Tipo: Soporte DIN80 - Microcontacto de señalización",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p447",
+                    "page": 447
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH000 - Tipo: Soporte DIN80 - Con indicador",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p448",
+                    "page": 448
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH000 - Tipo: Soporte DIN80 - Sin indicador",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p449",
+                    "page": 449
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: NH00",
+                 "slug": "size-nh00",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH00 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
+                    "page": 450
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH00 - Tipo: Soporte DIN80 - Microcontacto de señalización",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p451",
+                    "page": 451
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH00 - Tipo: Soporte DIN110 - Microcontacto de señalización",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p452",
+                    "page": 452
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: NH0",
+                 "slug": "size-nh0",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH0 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
+                    "page": 453
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: NH1",
+                 "slug": "size-nh1",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH1 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p454",
+                    "page": 454
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: NH2",
+                 "slug": "size-nh2",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH2 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p455",
+                    "page": 455
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: NH3",
+                 "slug": "size-nh3",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: NH3 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p456",
+                    "page": 456
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 30",
+                 "slug": "size-30",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Cuchillas ranuradas DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p457",
+                    "page": 457
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p458",
+                    "page": 458
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p459",
+                    "page": 459
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Cuchillas ranuradas cortas US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p460",
+                    "page": 460
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p461",
+                    "page": 461
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p462",
+                    "page": 462
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 30 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p463",
+                    "page": 463
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 31",
+                 "slug": "size-31",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Cuchillas ranuradas DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p464",
+                    "page": 464
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
+                    "page": 465
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p466",
+                    "page": 466
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Cuchillas ranuradas cortas US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p467",
+                    "page": 467
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p468",
+                    "page": 468
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p469",
+                    "page": 469
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 31 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
+                    "page": 470
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 32",
+                 "slug": "size-32",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Cuchillas ranuradas DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p471",
+                    "page": 471
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p472",
+                    "page": 472
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p473",
+                    "page": 473
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Cuchillas ranuradas cortas US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p474",
+                    "page": 474
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p475",
+                    "page": 475
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p476",
+                    "page": 476
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 32 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p477",
+                    "page": 477
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 33",
+                 "slug": "size-33",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Cuchillas ranuradas DIN80",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p478",
+                    "page": 478
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
+                    "page": 479
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p480",
+                    "page": 480
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Cuchillas ranuradas cortas US KI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p481",
+                    "page": 481
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p482",
+                    "page": 482
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p483",
+                    "page": 483
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 33 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p484",
+                    "page": 484
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 70",
+                 "slug": "size-70",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
+                    "page": 485
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p486",
+                    "page": 486
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p487",
+                    "page": 487
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p488",
+                    "page": 488
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p489",
+                    "page": 489
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 70 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
+                    "page": 490
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 71",
+                 "slug": "size-71",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p491",
+                    "page": 491
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p492",
+                    "page": 492
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p493",
+                    "page": 493
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p494",
+                    "page": 494
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p495",
+                    "page": 495
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 71 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p496",
+                    "page": 496
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 72",
+                 "slug": "size-72",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
+                    "page": 497
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p498",
+                    "page": 498
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p499",
+                    "page": 499
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p500",
+                    "page": 500
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p501",
+                    "page": 501
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 72 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
+                    "page": 502
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 72",
+                 "slug": "size-2-x-72",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 2 x 72 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
+                    "page": 503
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 73",
+                 "slug": "size-73",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: Cuchillas ranuradas DIN110",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p504",
+                    "page": 504
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: Cuchillas ranuradas francesas EF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p505",
+                    "page": 505
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: Cuchillas ranuradas largas US LI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p506",
+                    "page": 506
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: Cuchillas lisas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p507",
+                    "page": 507
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p508",
+                    "page": 508
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 73 - Tipo: Terminales roscados US TTI",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p509",
+                    "page": 509
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 73",
+                 "slug": "size-2-x-73",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 2 x 73 - Tipo: Placas roscadas",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p510",
+                    "page": 510
+                   },
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 2 x 73 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p511",
+                    "page": 511
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 91",
+                 "slug": "size-91",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 91 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
+                    "page": 512
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 92",
+                 "slug": "size-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 92 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p513",
+                    "page": 513
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 92",
+                 "slug": "size-2-x-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 2 x 92 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p514",
+                    "page": 514
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 93",
+                 "slug": "size-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 93 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
+                    "page": 515
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Tamaño: 2 x 93",
+                 "slug": "size-2-x-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Tipo: aR - Cuerpo cuadrado - Versión AC - Tamaño: 2 x 93 - Tipo: Terminales roscados franceses TTF",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
+                    "page": 516
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "Versión DC",
+              "slug": "dc-rated",
+              "count": 11,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 70 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p517",
+                 "page": 517
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 72 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
+                 "page": 518
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 72 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p519",
+                 "page": 519
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 120 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
+                 "page": 520
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 122 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p521",
+                 "page": 521
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 300 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p522",
+                 "page": 522
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 302 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
+                 "page": 523
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 302 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p524",
+                 "page": 524
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 600 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
+                 "page": 525
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 602 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p526",
+                 "page": 526
+                },
+                {
+                 "title": "Tipo: aR - Cuerpo cuadrado - Versión DC - Tamaño: 2 x 602 - Tipo: Soporte",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p527",
+                 "page": 527
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Norma BS88-4",
+           "slug": "bs88-4-standard",
+           "count": 11,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tamaño: 10 x 28 mm",
+              "slug": "size-10-x-28-mm",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 10 x 28 mm - Tensión asignada: 250 VAC - Sin indicador de disparo",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
+                 "page": 528
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 17 x 27 mm",
+              "slug": "size-17-x-27-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 17 x 27 mm - Tensión asignada: 250 VAC - Sin indicador de disparo",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p529",
+                 "page": 529
+                },
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 17 x 27 mm - Tensión asignada: 250 VAC - Con indicador de disparo separado",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p530",
+                 "page": 530
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 17 x 49 mm",
+              "slug": "size-17-x-49-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 17 x 49 mm - Tensión asignada: 690 VAC - Sin indicador de disparo",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
+                 "page": 531
+                },
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 17 x 49 mm - Tensión asignada: 690 VAC - Con indicador de disparo separado",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
+                 "page": 532
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 36 x 55 mm",
+              "slug": "size-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 36 x 55 mm - Tensión asignada: 690 VAC - Sin indicador de disparo",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p533",
+                 "page": 533
+                },
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 36 x 55 mm - Tensión asignada: 690 VAC - Con indicador de disparo integrado",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p534",
+                 "page": 534
+                },
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 36 x 55 mm - Tensión asignada: 690 VAC - Con indicador de disparo separado",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p535",
+                 "page": 535
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tamaño: 2 x 36 x 55 mm",
+              "slug": "size-2-x-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 2 x 36 x 55 mm - Tensión asignada: 690 VAC - Sin indicador de disparo",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
+                 "page": 536
+                },
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 2 x 36 x 55 mm - Tensión asignada: 690 VAC - Con indicador de disparo integrado",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p537",
+                 "page": 537
+                },
+                {
+                 "title": "Tipo: aR - Norma BS88-4 - Tamaño: 2 x 36 x 55 mm - Tensión asignada: 690 VAC - Con indicador de disparo separado",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p538",
+                 "page": 538
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fusibles de media tensión IEC",
+     "slug": "medium-voltage-fuses",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Protección aguas arriba DIN P para transformadores",
+        "slug": "din-p-back-up-for-transformers",
+        "count": 7,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 7.2 KV - Longitud: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
+              "page": 562
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
+              "page": 564
+             },
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 12 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
+              "page": 569
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 17.5 KV - Longitud: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
+              "page": 571
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
+              "page": 573
+             },
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 24 KV - Longitud: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
+              "page": 578
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
+              "page": 579
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protección aguas arriba DIN PD para transformadores",
+        "slug": "din-pd-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 7.2 KV - Longitud: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
+              "page": 563
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
+              "page": 565
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
+              "page": 574
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
+              "page": 580
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protección aguas arriba DIN PT para transformadores",
+        "slug": "din-pt-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PT para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
+              "page": 566
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PT para transformadores - Tensión asignada: 17.5 KV - Longitud: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
+              "page": 572
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PT para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
+              "page": 575
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protección aguas arriba DIN PTD para transformadores",
+        "slug": "din-ptd-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
+              "page": 567
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
+              "page": 576
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
+              "page": 581
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protección aguas arriba DIN PTS para transformadores",
+        "slug": "din-pts-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
+              "page": 568
+             },
+             {
+              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 12 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
+              "page": 570
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
+              "page": 577
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
+              "page": 582
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Fusibles de protección aguas arriba NF/UTE para transformadores",
+        "slug": "nf-ute-back-up-fuses-for-transformers",
+        "count": 6,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles de protección aguas arriba NF/UTE para transformadores - Tensión asignada: 7.2 KV - Tamaño: 55 x 520 mm - Sin percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p583",
+              "page": 583
+             },
+             {
+              "title": "Fusibles de protección aguas arriba NF/UTE para transformadores - Tensión asignada: 7.2 KV - Tamaño: 55 x 520 mm - Con percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p584",
+              "page": 584
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles de protección aguas arriba NF/UTE para transformadores - Tensión asignada: 12 KV - Tamaño: 55 x 520 mm - Sin percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p585",
+              "page": 585
+             },
+             {
+              "title": "Fusibles de protección aguas arriba NF/UTE para transformadores - Tensión asignada: 12 KV - Tamaño: 55 x 520 mm - Con percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p586",
+              "page": 586
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles de protección aguas arriba NF/UTE para transformadores - Tensión asignada: 24 KV - Tamaño: 55 x 520 mm - Sin percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p587",
+              "page": 587
+             },
+             {
+              "title": "Fusibles de protección aguas arriba NF/UTE para transformadores - Tensión asignada: 24 KV - Tamaño: 55 x 520 mm - Con percutor",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p588",
+              "page": 588
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Protección aguas arriba DIN para motores",
+        "slug": "din-back-up-for-motors",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 3.6 KV",
+           "slug": "rated-voltage-3-6-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN para motores - Tensión asignada: 3.6 KV - Longitud: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p589",
+              "page": 589
+             },
+             {
+              "title": "Protección aguas arriba DIN para motores - Tensión asignada: 3.6 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p590",
+              "page": 590
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN para motores - Tensión asignada: 7.2 KV - Longitud: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p591",
+              "page": 591
+             },
+             {
+              "title": "Protección aguas arriba DIN para motores - Tensión asignada: 7.2 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p592",
+              "page": 592
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Protección aguas arriba DIN para motores - Tensión asignada: 12 KV - Longitud: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-12-kv/p593",
+              "page": 593
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Fusibles MT de alumbrado público para transformadores",
+        "slug": "mv-street-lighting-fuses-for-transformers",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 1.5 KV",
+           "slug": "rated-voltage-1-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 1.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-1-5-kv/p594",
+              "page": 594
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 2.5 KV",
+           "slug": "rated-voltage-2-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 2.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-2-5-kv/p595",
+              "page": 595
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 3.2 KV - Tamaño: 10 x 180 mm",
+           "slug": "rated-voltage-3-2-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 3.2 KV - Tamaño: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-10-x-180-mm/p596",
+              "page": 596
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 3.2 KV - Tamaño: 36 x 190 mm",
+           "slug": "rated-voltage-3-2-kv-size-36-x-190-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 3.2 KV - Tamaño: 36 x 190 mm - Sin percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p597",
+              "page": 597
+             },
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 3.2 KV - Tamaño: 36 x 190 mm - Con percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p598",
+              "page": 598
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 5.5 KV - Tamaño: 10 x 180 mm",
+           "slug": "rated-voltage-5-5-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 5.5 KV - Tamaño: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-10-x-180-mm/p599",
+              "page": 599
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 5.5 KV - Tamaño: 36 x 250 mm",
+           "slug": "rated-voltage-5-5-kv-size-36-x-250-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 5.5 KV - Tamaño: 36 x 250 mm - Sin percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p600",
+              "page": 600
+             },
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 5.5 KV - Tamaño: 36 x 250 mm - Con percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p601",
+              "page": 601
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 5.5 KV - Tamaño: 55 x 259 mm",
+           "slug": "rated-voltage-5-5-kv-size-55-x-259-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 5.5 KV - Tamaño: 55 x 259 mm - Sin percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p602",
+              "page": 602
+             },
+             {
+              "title": "Fusibles MT de alumbrado público para transformadores - Tensión asignada: 5.5 KV - Tamaño: 55 x 259 mm - Con percutor",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p603",
+              "page": 603
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fusibles DC",
+     "slug": "dc-fuses",
+     "count": 10,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Distribución DC y baterías",
+        "slug": "protection-for-dc-distribution-and-battery",
+        "count": 1,
+        "node": {
+         "type": "leaves",
+         "items": [
+          {
+           "title": "Distribución DC y baterías",
+           "slug": "selector/protection-for-dc-distribution-and-battery/p609",
+           "page": 609
+          }
+         ]
+        }
+       },
+       {
+        "title": "Fusibles DC industriales",
+        "slug": "industrial-dc-fuses",
+        "count": 9,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 3,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tipo: Fusible con casquillo",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 600 VDC - Tipo: Fusible con casquillo",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-ferrule-fuse/p610",
+                 "page": 610
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: Fusible de montaje superficial",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 600 VDC - Tipo: Fusible de montaje superficial",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-surface-mount-fuse/p611",
+                 "page": 611
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: Montaje en placa de circuito impreso",
+              "slug": "type-pc-board-mount",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 600 VDC - Tipo: Montaje en placa de circuito impreso",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-pc-board-mount/p612",
+                 "page": 612
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 700 VDC",
+           "slug": "rated-voltage-700-vdc",
+           "count": 2,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tipo: Fusible de montaje superficial",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 700 VDC - Tipo: Fusible de montaje superficial",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-surface-mount-fuse/p613",
+                 "page": 613
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: Fusible de cuerpo redondo",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 700 VDC - Tipo: Fusible de cuerpo redondo",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-round-body-fuse/p614",
+                 "page": 614
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tipo: Fusible con casquillo",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 1000 VDC - Tipo: Fusible con casquillo",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-ferrule-fuse/p615",
+                 "page": 615
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: Fusible de montaje superficial",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 1000 VDC - Tipo: Fusible de montaje superficial",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-surface-mount-fuse/p616",
+                 "page": 616
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: Fusible de cuerpo redondo",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 1000 VDC - Tipo: Fusible de cuerpo redondo",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-fuse/p617",
+                 "page": 617
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tipo: Fusible de cuerpo redondo para tornillos métricos",
+              "slug": "type-round-body-for-metric-screws-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Tensión asignada: 1000 VDC - Tipo: Fusible de cuerpo redondo para tornillos métricos",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-for-metric-screws-fuse/p618",
+                 "page": 618
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Aplicaciones fotovoltaicas",
+     "slug": "photovoltaic-applications",
+     "count": 15,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Fusibles gPV cilíndricos",
+        "slug": "gpv-cylindrical-fuses",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles gPV cilíndricos - Tensión asignada: 600 VDC - Tamaño: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-600-vdc/p632",
+              "page": 632
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles gPV cilíndricos - Tensión asignada: 1000 VDC - Tamaño: 10 x 38 mm - Tipo: Tapa a crimpar",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
+              "page": 633
+             },
+             {
+              "title": "Fusibles gPV cilíndricos - Tensión asignada: 1000 VDC - Tamaño: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
+              "page": 634
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles gPV cilíndricos - Tensión asignada: 1500 VDC - Tamaño: 10 x 85 mm - Tipo: Tapa a crimpar",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
+              "page": 635
+             },
+             {
+              "title": "Fusibles gPV cilíndricos - Tensión asignada: 1500 VDC - Tamaño: 10 x 85 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
+              "page": 636
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Fusibles gPV de cuerpo cuadrado",
+        "slug": "gpv-square-body-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tensión asignada: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1000 VDC - Tamaño: NH1 - Tipo: Cuchillas lisas",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
+              "page": 637
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1000 VDC - Tamaño: NH1 - Tipo: Montaje directo",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
+              "page": 638
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1000 VDC - Tamaño: NH2 - Tipo: Cuchillas lisas",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p639",
+              "page": 639
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1000 VDC - Tamaño: NH2 - Tipo: Montaje directo",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p640",
+              "page": 640
+             }
+            ]
+           }
+          },
+          {
+           "title": "Tensión asignada: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1500 VDC - Tamaño: NH1XL - Tipo: Cuchillas lisas",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p641",
+              "page": 641
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1500 VDC - Tamaño: NH1L - Tipo: Montaje directo",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
+              "page": 642
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1500 VDC - Tamaño: NH2XL - Tipo: Cuchillas lisas",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
+              "page": 643
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1500 VDC - Tamaño: NH2L - Tipo: Montaje directo",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p644",
+              "page": 644
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1500 VDC - Tamaño: NH3L - Tipo: Cuchillas lisas",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p645",
+              "page": 645
+             },
+             {
+              "title": "Fusibles gPV de cuerpo cuadrado - Tensión asignada: 1500 VDC - Tamaño: NH3L - Tipo: Montaje directo",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p646",
+              "page": 646
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

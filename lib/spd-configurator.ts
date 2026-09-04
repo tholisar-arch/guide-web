@@ -25,6 +25,8 @@
 // Where the PDF's answer is itself a single specific reference page
 // (Street Lighting's Pole and Panel Board), it links there directly.
 
+import type { Locale } from "@/lib/i18n";
+
 export type SpdOption = {
   label: string;
   to?: string;
@@ -1719,9 +1721,11 @@ export const SPD_NODES_CS: Record<string, SpdNode> = {
   },
 };
 
-export function getSpdNodes(
-  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro" | "cs"
-): Record<string, SpdNode> {
+// Accepts the full site Locale (not just the locales with their own SPD
+// tree below) since callers pass whatever locale they're rendering for;
+// a locale with no SPD Configurator route (e.g. "es") never actually
+// reaches this function, but the type still has to cover it.
+export function getSpdNodes(locale: Locale): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
   if (locale === "de") return SPD_NODES_DE;

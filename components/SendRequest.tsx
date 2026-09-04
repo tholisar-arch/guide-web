@@ -188,8 +188,12 @@ export default function SendRequest({ locale }: { locale: Locale }) {
               {dict.sendRequestTypePlaceholder}
             </option>
             <option value="fuse">{dict.sendRequestTypeFuse}</option>
-            <option value="surge">{dict.sendRequestTypeSurge}</option>
-            <option value="both">{dict.sendRequestTypeBoth}</option>
+            {locale !== "es" && (
+              <>
+                <option value="surge">{dict.sendRequestTypeSurge}</option>
+                <option value="both">{dict.sendRequestTypeBoth}</option>
+              </>
+            )}
           </select>
         </div>
 

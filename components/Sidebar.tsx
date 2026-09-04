@@ -87,13 +87,15 @@ export default function Sidebar() {
         ))}
       </CategoryRow>
 
-      <Link
-        href={localeHref(locale, "/spd-configurator")}
-        className="mt-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
-      >
-        <Sliders size={15} />
-        {dict.spdConfigurator}
-      </Link>
+      {locale !== "es" && (
+        <Link
+          href={localeHref(locale, "/spd-configurator")}
+          className="mt-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+        >
+          <Sliders size={15} />
+          {dict.spdConfigurator}
+        </Link>
+      )}
 
       <Link
         href={localeHref(locale, "/send-request")}

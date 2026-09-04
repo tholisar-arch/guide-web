@@ -107,22 +107,24 @@ export default function HomeContent({ locale }: { locale: Locale }) {
             </span>
           </Link>
 
-          <Link
-            href={localeHref(locale, "/spd-configurator")}
-            className="group flex items-start gap-4 rounded-lg border border-ink-200 bg-white p-5 transition hover:border-brand-300 hover:shadow-card-hover dark:border-ink-800 dark:bg-ink-900"
-          >
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
-              <Sliders size={20} />
-            </span>
-            <span className="min-w-0 flex-1">
-              <span className="block font-semibold text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
-                {dict.spdCardTitle}
+          {locale !== "es" && (
+            <Link
+              href={localeHref(locale, "/spd-configurator")}
+              className="group flex items-start gap-4 rounded-lg border border-ink-200 bg-white p-5 transition hover:border-brand-300 hover:shadow-card-hover dark:border-ink-800 dark:bg-ink-900"
+            >
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
+                <Sliders size={20} />
               </span>
-              <span className="mt-0.5 block text-sm text-ink-500 dark:text-ink-400">
-                {dict.spdCardDesc}
+              <span className="min-w-0 flex-1">
+                <span className="block font-semibold text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
+                  {dict.spdCardTitle}
+                </span>
+                <span className="mt-0.5 block text-sm text-ink-500 dark:text-ink-400">
+                  {dict.spdCardDesc}
+                </span>
               </span>
-            </span>
-          </Link>
+            </Link>
+          )}
 
           <Link
             href={localeHref(locale, "/send-request")}

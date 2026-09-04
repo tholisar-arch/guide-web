@@ -1,8 +1,8 @@
-export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro" | "cs";
+export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro" | "cs" | "es";
 
 // Kept in alphabetical order by display label (LOCALE_LABELS below) since
 // the language switcher renders this list as-is.
-export const LOCALES: Locale[] = ["cs", "de", "en", "fr", "it", "hu", "nl", "pl", "pt", "ro"];
+export const LOCALES: Locale[] = ["cs", "de", "en", "es", "fr", "it", "hu", "nl", "pl", "pt", "ro"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
@@ -15,6 +15,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   pl: "Polski",
   ro: "Română",
   cs: "Čeština",
+  es: "Español",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -948,7 +949,90 @@ const cs: Dict = {
     "Tímto se otevře vaše e-mailová aplikace se všemi předvyplněnými údaji — stačí kliknout na Odeslat.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl, ro, cs };
+const es: Dict = {
+  guideHome: "Inicio del catálogo",
+  crossReferenceSearch: "Búsqueda por referencia de la competencia",
+  spdConfigurator: "Configurador SPD",
+  searchPlaceholderHeader: "Buscar en el catálogo... (fusibles, tensión...)",
+  searchPlaceholderHero: "Buscar en el catálogo... (fusibles, tensión...)",
+  home: "Inicio",
+  back: "Volver",
+  documentation: "Documentación",
+  filterReferences: "Filtrar referencias...",
+  noReferencesFound: "No se encontró ninguna referencia.",
+  noResultsFor: (q) => `Sin resultados para "${q}"`,
+  viewAllResultsFor: (q) => `Ver todos los resultados para "${q}" →`,
+  resultsCountFor: (n, q) => `${n} resultado${n !== 1 ? "s" : ""} para "${q}"`,
+  loading: "Cargando...",
+  productSelectorFallback: "Selector de productos",
+  siteSubtitle: "2026 Europa",
+  heroBadge: "Selector de productos interactivo · Edición Europa 2026",
+  heroTitle1: "Guía de selección",
+  heroTitle2: "Protección eléctrica",
+  heroDescription:
+    "Todo el selector de productos, transformado en un sitio web: fusibles, organizados por familia de productos y totalmente navegable en móvil, tableta y ordenador.",
+  productFamilies: "Familias de productos",
+  productFamiliesDesc: "Explore todo el selector de productos por categoría.",
+  moreTools: "Más herramientas",
+  moreToolsDesc: "Búsquedas adicionales basadas en los mismos datos de producto.",
+  xrefCardTitle: "Búsqueda por referencia de la competencia",
+  xrefCardDesc:
+    "Encuentre la referencia Mersen equivalente a una referencia de la competencia (Eaton, Siemens, Schneider Electric y más).",
+  spdCardTitle: "Configurador SPD",
+  spdCardDesc:
+    "Responda a algunas preguntas sobre su instalación para encontrar la familia de protección contra sobretensiones adecuada.",
+  xrefEyebrow: "Búsqueda por referencia de la competencia",
+  xrefH1: "Encuentre una referencia Mersen a partir de una referencia de la competencia",
+  xrefDesc:
+    "Busque por una referencia de la competencia (Eaton, Siemens, Schneider Electric y más) para encontrar el artículo Mersen equivalente.",
+  xrefSearchPlaceholder: "Buscar una referencia de la competencia...",
+  xrefResultsFor: (n, q) => `${n} resultado${n !== 1 ? "s" : ""} para "${q}"`,
+  xrefNoResults: "Sin resultados. Pruebe con otra referencia.",
+  xrefMatchedVia: (brand) => `encontrado a través de ${brand}`,
+  spdEyebrow: "Configurador SPD",
+  spdH1: "Encuentre el dispositivo de protección contra sobretensiones adecuado",
+  spdDesc:
+    "Responda a algunas preguntas sobre su instalación para llegar a la familia de productos de protección contra sobretensiones adecuada.",
+  spdStartOver: "Empezar de nuevo",
+  searchTitle: "Buscar",
+  searchNoResults: "Sin resultados. Pruebe con otro término de búsqueda.",
+  matchTitle: "Buscar",
+  metaSiteTitle: "Guía de selección 2026 Europa | Mersen Protección Eléctrica",
+  metaSiteDescription:
+    "Guía de selección interactiva para productos de protección eléctrica: fusibles de baja y media tensión y fusibles ultrarrápidos.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/es",
+  sendRequestNav: "Enviar una solicitud",
+  sendRequestCardTitle: "Enviar una solicitud",
+  sendRequestCardDesc:
+    "Póngase en contacto con su equipo local de Mersen sobre un producto o proyecto.",
+  sendRequestEyebrow: "Contáctenos",
+  sendRequestH1: "Enviar una solicitud",
+  sendRequestDesc:
+    "Seleccione su país y redirigiremos su solicitud al contacto adecuado.",
+  sendRequestCountryLabel: "País",
+  sendRequestCountryPlaceholder: "Seleccione su país...",
+  sendRequestFirstNameLabel: "Nombre",
+  sendRequestLastNameLabel: "Apellidos",
+  sendRequestCompanyLabel: "Empresa (opcional)",
+  sendRequestTypeLabel: "Solicitud",
+  sendRequestTypePlaceholder: "Seleccione un tipo de solicitud...",
+  sendRequestTypeFuse: "Fusible",
+  sendRequestTypeSurge: "Protección contra sobretensiones",
+  sendRequestTypeBoth: "Fusible y protección contra sobretensiones",
+  sendRequestEmailLabel: "Su correo electrónico",
+  sendRequestEmailPlaceholder: "nombre@ejemplo.es",
+  sendRequestMessageLabel: "Mensaje",
+  sendRequestMessagePlaceholder: "Escriba su mensaje...",
+  sendRequestButton: "Abrir en la aplicación de correo",
+  sendRequestSentTo: (country) =>
+    `Su solicitud se enviará a nuestro equipo de ${country}.`,
+  sendRequestSubjectPrefix: "Solicitud de contacto desde el sitio web",
+  sendRequestHint:
+    "Esto abre su propia aplicación de correo con todo ya completado — solo tiene que hacer clic en Enviar.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl, ro, cs, es };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];
