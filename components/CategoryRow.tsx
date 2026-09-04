@@ -41,7 +41,7 @@ export default function CategoryRow({
         }`}
         style={{ paddingLeft: 8 + level * 12 }}
       >
-        <span className={`truncate ${bold ? "font-medium" : ""}`}>{title}</span>
+        <span className={`truncate ${bold ? "font-medium" : ""}`} title={title}>{title}</span>
       </Link>
     );
   }
@@ -59,6 +59,7 @@ export default function CategoryRow({
         <Link
           href={href}
           onClick={stop}
+          title={title}
           className={`min-w-0 flex-1 truncate ${bold ? "font-medium" : ""}`}
         >
           {title}

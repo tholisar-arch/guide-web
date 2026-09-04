@@ -43,7 +43,7 @@ export default function LeafFilterList({
               className="flex items-center gap-3 bg-white px-3 py-2.5 text-sm text-ink-700 transition hover:bg-brand-50 hover:text-brand-700 dark:bg-ink-900 dark:text-ink-200 dark:hover:bg-brand-950 dark:hover:text-brand-300"
             >
               <FileText size={14} className="shrink-0 text-ink-300" />
-              <span className="min-w-0 flex-1 truncate">{it.title}</span>
+              <span className="min-w-0 flex-1 truncate" title={it.title}>{it.title}</span>
             </Link>
           </li>
         ))}

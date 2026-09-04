@@ -17,7 +17,10 @@ export default function GroupCards({
           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-50 text-brand-600 dark:bg-brand-950 dark:text-brand-300">
             <Folder size={17} />
           </span>
-          <span className="min-w-0 flex-1 truncate font-medium text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300">
+          <span
+            className="min-w-0 flex-1 truncate font-medium text-ink-800 group-hover:text-brand-700 dark:text-ink-100 dark:group-hover:text-brand-300"
+            title={it.title}
+          >
             {it.title}
           </span>
           <ArrowRight

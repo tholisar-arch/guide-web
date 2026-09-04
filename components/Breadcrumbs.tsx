@@ -15,12 +15,16 @@ export default function Breadcrumbs({ items }: { items: Crumb[] }) {
           {c.href ? (
             <Link
               href={c.href}
+              title={c.title}
               className="max-w-[220px] truncate hover:text-brand-600 dark:hover:text-brand-400"
             >
               {c.title}
             </Link>
           ) : (
-            <span className="max-w-[280px] truncate text-ink-700 dark:text-ink-200">
+            <span
+              className="max-w-[280px] truncate text-ink-700 dark:text-ink-200"
+              title={c.title}
+            >
               {c.title}
             </span>
           )}

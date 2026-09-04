@@ -45,7 +45,7 @@ export default function LeafPageView({
               className="flex min-w-0 flex-1 items-center gap-2 rounded-lg border border-ink-200 px-3 py-2 text-sm hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:hover:bg-brand-950"
             >
               <ChevronLeft size={16} className="shrink-0 text-ink-400" />
-              <span className="min-w-0 truncate text-ink-600 dark:text-ink-300">
+              <span className="min-w-0 truncate text-ink-600 dark:text-ink-300" title={prev.title}>
                 {prev.title}
               </span>
             </Link>
@@ -57,7 +57,7 @@ export default function LeafPageView({
               href={localeHref(locale, `/guide/${next.slug}`)}
               className="flex min-w-0 flex-1 items-center justify-end gap-2 rounded-lg border border-ink-200 px-3 py-2 text-right text-sm hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:hover:bg-brand-950"
             >
-              <span className="min-w-0 truncate text-ink-600 dark:text-ink-300">
+              <span className="min-w-0 truncate text-ink-600 dark:text-ink-300" title={next.title}>
                 {next.title}
               </span>
               <ChevronRight size={16} className="shrink-0 text-ink-400" />
