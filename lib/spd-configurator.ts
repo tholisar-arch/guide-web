@@ -1045,13 +1045,183 @@ export const SPD_NODES_HU: Record<string, SpdNode> = {
   },
 };
 
+// Portuguese translation of the same tree: every `to`/`href`/`external`
+// value is identical to SPD_NODES above (the site's slugs don't change
+// between locales - see lib/data.ts), only `title`/`label` text is
+// translated.
+export const SPD_NODES_PT: Record<string, SpdNode> = {
+  hub: {
+    title: "Para que tipo de instalação é isto?",
+    options: [
+      { label: "Industrial", to: "industrial" },
+      { label: "Comercial / Residencial", to: "commercial" },
+      { label: "Iluminação pública", to: "street-lighting" },
+      { label: "Fotovoltaico", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Industrial — exposição da instalação",
+    options: [
+      {
+        label:
+          "Instalação com proteção contra descargas atmosféricas ou próxima de um elemento exposto a impactos",
+        to: "industrial-highly",
+      },
+      {
+        label: "Instalação alimentada por linhas aéreas",
+        to: "industrial-moderate",
+      },
+      { label: "Instalação com distribuição subterrânea", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Industrial — Fortemente protegido",
+    options: [
+      {
+        label: "Nível 1: Quadro principal",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Nível 2: Quadro de distribuição (se >10 m do quadro principal)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Nível 3: Equipamento sensível",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Industrial — Moderadamente protegido",
+    options: [
+      {
+        label: "Nível 1: Quadro principal",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Nível 2: Quadro de distribuição (se >10 m do quadro principal)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Nível 3: Equipamento sensível",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Industrial — Proteção básica",
+    options: [
+      {
+        label: "Nível 1: Quadro principal",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Nível 3: Equipamento sensível",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Comercial / Residencial — exposição da instalação",
+    options: [
+      {
+        label:
+          "Instalação com proteção contra descargas atmosféricas ou próxima de um elemento exposto a impactos",
+        to: "commercial-highly",
+      },
+      {
+        label: "Instalação alimentada por linhas aéreas",
+        to: "commercial-moderate",
+      },
+      { label: "Instalação com distribuição subterrânea", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Comercial / Residencial — Fortemente protegido",
+    options: [
+      {
+        label: "Quadro elétrico",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Equipamento sensível",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Comercial / Residencial — Moderadamente protegido",
+    options: [
+      {
+        label: "Quadro elétrico",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Equipamento sensível",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Comercial / Residencial — Proteção básica",
+    options: [
+      {
+        label: "Quadro elétrico",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Equipamento sensível",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Iluminação pública",
+    options: [
+      {
+        label: "Fabricante de luminárias exteriores",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Fabricante de quadros / Instalador", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Iluminação pública — Fabricante de quadros / Instalador",
+    options: [
+      {
+        label: "Poste",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Quadro elétrico",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Fotovoltaico",
+    options: [
+      {
+        label: "Caixa de junção (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Quadro de distribuição (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
 export function getSpdNodes(
-  locale: "en" | "fr" | "it" | "de" | "nl" | "hu"
+  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt"
 ): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
   if (locale === "de") return SPD_NODES_DE;
   if (locale === "nl") return SPD_NODES_NL;
   if (locale === "hu") return SPD_NODES_HU;
+  if (locale === "pt") return SPD_NODES_PT;
   return SPD_NODES;
 }
