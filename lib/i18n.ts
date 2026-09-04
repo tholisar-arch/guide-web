@@ -1,8 +1,8 @@
-export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro";
+export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro" | "cs";
 
 // Kept in alphabetical order by display label (LOCALE_LABELS below) since
 // the language switcher renders this list as-is.
-export const LOCALES: Locale[] = ["de", "en", "fr", "it", "hu", "nl", "pl", "pt", "ro"];
+export const LOCALES: Locale[] = ["cs", "de", "en", "fr", "it", "hu", "nl", "pl", "pt", "ro"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
@@ -14,6 +14,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   pt: "Português",
   pl: "Polski",
   ro: "Română",
+  cs: "Čeština",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -864,7 +865,90 @@ const ro: Dict = {
     "Aceasta vă deschide propria aplicație de e-mail cu totul completat în prealabil — trebuie doar să apăsați Trimitere.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl, ro };
+const cs: Dict = {
+  guideHome: "Domovská stránka katalogu",
+  crossReferenceSearch: "Vyhledávání křížových referencí",
+  spdConfigurator: "Konfigurátor SPD",
+  searchPlaceholderHeader: "Hledat v katalogu... (pojistky, SPD, napětí...)",
+  searchPlaceholderHero: "Hledat v katalogu... (pojistky, SPD, napětí...)",
+  home: "Domů",
+  back: "Zpět",
+  documentation: "Dokumentace",
+  filterReferences: "Filtrovat reference...",
+  noReferencesFound: "Nebyla nalezena žádná reference.",
+  noResultsFor: (q) => `Žádné výsledky pro „${q}"`,
+  viewAllResultsFor: (q) => `Zobrazit všechny výsledky pro „${q}" →`,
+  resultsCountFor: (n, q) => `${n} výsledk${n !== 1 ? "y" : ""} pro „${q}"`,
+  loading: "Načítání...",
+  productSelectorFallback: "Výběr produktů",
+  siteSubtitle: "2026 Evropa",
+  heroBadge: "Interaktivní výběr produktů · Vydání Evropa 2026",
+  heroTitle1: "Průvodce výběrem",
+  heroTitle2: "Elektrická ochrana",
+  heroDescription:
+    "Celý výběr produktů převedený do podoby webu: pojistky, přepěťové ochrany a fotovoltaická řešení, uspořádané podle produktových řad a plně dostupné na mobilu, tabletu i počítači.",
+  productFamilies: "Produktové řady",
+  productFamiliesDesc: "Procházejte celý výběr produktů podle kategorií.",
+  moreTools: "Další nástroje",
+  moreToolsDesc: "Další vyhledávání založená na stejných produktových datech.",
+  xrefCardTitle: "Vyhledávání křížových referencí",
+  xrefCardDesc:
+    "Najděte odpovídající referenci Mersen ke katalogovému číslu konkurence (Citel, Dehn, Eaton, Siemens a další).",
+  spdCardTitle: "Konfigurátor SPD",
+  spdCardDesc:
+    "Odpovězte na několik otázek o vaší instalaci a najděte správnou řadu přepěťových ochran.",
+  xrefEyebrow: "Vyhledávání křížových referencí",
+  xrefH1: "Najděte referenci Mersen podle katalogového čísla konkurence",
+  xrefDesc:
+    "Vyhledejte podle reference konkurence (Citel, Dehn, Eaton, Siemens, Schneider Electric a další) a najděte odpovídající produkt Mersen.",
+  xrefSearchPlaceholder: "Hledat referenci konkurence...",
+  xrefResultsFor: (n, q) => `${n} výsledk${n !== 1 ? "y" : ""} pro „${q}"`,
+  xrefNoResults: "Žádné výsledky. Zkuste jinou referenci.",
+  xrefMatchedVia: (brand) => `nalezeno přes ${brand}`,
+  spdEyebrow: "Konfigurátor SPD",
+  spdH1: "Najděte správné přepěťové ochranné zařízení",
+  spdDesc:
+    "Odpovězte na několik otázek o vaší instalaci a najděte správnou řadu produktů přepěťové ochrany.",
+  spdStartOver: "Začít znovu",
+  searchTitle: "Vyhledávání",
+  searchNoResults: "Žádné výsledky. Zkuste jiný hledaný výraz.",
+  matchTitle: "Vyhledávání",
+  metaSiteTitle: "Průvodce výběrem 2026 Evropa | Mersen Elektrická Ochrana",
+  metaSiteDescription:
+    "Interaktivní průvodce výběrem produktů elektrické ochrany: pojistky nízkého a vysokého napětí, rychlé pojistky, přepěťové ochrany a fotovoltaická řešení.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/cs",
+  sendRequestNav: "Odeslat poptávku",
+  sendRequestCardTitle: "Odeslat poptávku",
+  sendRequestCardDesc:
+    "Kontaktujte místní tým Mersen ohledně produktu nebo projektu.",
+  sendRequestEyebrow: "Kontaktujte nás",
+  sendRequestH1: "Odeslat poptávku",
+  sendRequestDesc:
+    "Vyberte svou zemi a my vaši poptávku přesměrujeme na správný kontakt.",
+  sendRequestCountryLabel: "Země",
+  sendRequestCountryPlaceholder: "Vyberte svou zemi...",
+  sendRequestFirstNameLabel: "Jméno",
+  sendRequestLastNameLabel: "Příjmení",
+  sendRequestCompanyLabel: "Společnost (nepovinné)",
+  sendRequestTypeLabel: "Poptávka",
+  sendRequestTypePlaceholder: "Vyberte typ poptávky...",
+  sendRequestTypeFuse: "Pojistka",
+  sendRequestTypeSurge: "Přepěťová ochrana",
+  sendRequestTypeBoth: "Pojistka a přepěťová ochrana",
+  sendRequestEmailLabel: "Váš e-mail",
+  sendRequestEmailPlaceholder: "jmeno@priklad.cz",
+  sendRequestMessageLabel: "Zpráva",
+  sendRequestMessagePlaceholder: "Napište svou zprávu...",
+  sendRequestButton: "Otevřít v e-mailové aplikaci",
+  sendRequestSentTo: (country) =>
+    `Vaše poptávka bude odeslána našemu týmu pro: ${country}.`,
+  sendRequestSubjectPrefix: "Kontaktní poptávka z webu",
+  sendRequestHint:
+    "Tímto se otevře vaše e-mailová aplikace se všemi předvyplněnými údaji — stačí kliknout na Odeslat.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl, ro, cs };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];

@@ -1551,8 +1551,176 @@ export const SPD_NODES_RO: Record<string, SpdNode> = {
   },
 };
 
+// Czech translation of the same tree: every `to`/`href`/`external` value
+// is identical to SPD_NODES above (the site's slugs don't change between
+// locales - see lib/data.ts), only `title`/`label` text is translated.
+export const SPD_NODES_CS: Record<string, SpdNode> = {
+  hub: {
+    title: "Pro jaký typ instalace je to určeno?",
+    options: [
+      { label: "Průmyslová", to: "industrial" },
+      { label: "Komerční / Rezidenční", to: "commercial" },
+      { label: "Veřejné osvětlení", to: "street-lighting" },
+      { label: "Fotovoltaická", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Průmyslová — vystavení instalace",
+    options: [
+      {
+        label:
+          "Instalace s bleskosvodem nebo v blízkosti prvku vystaveného nárazům",
+        to: "industrial-highly",
+      },
+      {
+        label: "Instalace napájená z venkovního vedení",
+        to: "industrial-moderate",
+      },
+      { label: "Instalace s podzemním rozvodem", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Průmyslová — Vysoce chráněná",
+    options: [
+      {
+        label: "Úroveň 1: Hlavní rozváděč",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Úroveň 2: Podružný rozváděč (pokud >10 m od hlavního rozváděče)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Úroveň 3: Citlivá zařízení",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Průmyslová — Středně chráněná",
+    options: [
+      {
+        label: "Úroveň 1: Hlavní rozváděč",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Úroveň 2: Podružný rozváděč (pokud >10 m od hlavního rozváděče)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Úroveň 3: Citlivá zařízení",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Průmyslová — Základní ochrana",
+    options: [
+      {
+        label: "Úroveň 1: Hlavní rozváděč",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Úroveň 3: Citlivá zařízení",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Komerční / Rezidenční — vystavení instalace",
+    options: [
+      {
+        label:
+          "Instalace s bleskosvodem nebo v blízkosti prvku vystaveného nárazům",
+        to: "commercial-highly",
+      },
+      {
+        label: "Instalace napájená z venkovního vedení",
+        to: "commercial-moderate",
+      },
+      { label: "Instalace s podzemním rozvodem", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Komerční / Rezidenční — Vysoce chráněná",
+    options: [
+      {
+        label: "Elektrický rozváděč",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Citlivá zařízení",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Komerční / Rezidenční — Středně chráněná",
+    options: [
+      {
+        label: "Elektrický rozváděč",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Citlivá zařízení",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Komerční / Rezidenční — Základní ochrana",
+    options: [
+      {
+        label: "Elektrický rozváděč",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Citlivá zařízení",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Veřejné osvětlení",
+    options: [
+      {
+        label: "Výrobce venkovních svítidel",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Výrobce rozváděčů / Instalatér", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Veřejné osvětlení — Výrobce rozváděčů / Instalatér",
+    options: [
+      {
+        label: "Stožár",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Elektrický rozváděč",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Fotovoltaická",
+    options: [
+      {
+        label: "Rozvodná krabice (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Rozvaděč distribuce (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
 export function getSpdNodes(
-  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro"
+  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl" | "ro" | "cs"
 ): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
@@ -1562,5 +1730,6 @@ export function getSpdNodes(
   if (locale === "pt") return SPD_NODES_PT;
   if (locale === "pl") return SPD_NODES_PL;
   if (locale === "ro") return SPD_NODES_RO;
+  if (locale === "cs") return SPD_NODES_CS;
   return SPD_NODES;
 }
