@@ -337,7 +337,7 @@ const it: Dict = {
   metaSiteDescription:
     "Guida interattiva alla selezione dei prodotti di protezione elettrica: fusibili bassa e media tensione, fusibili ultrarapidi, dispositivi di protezione da sovratensione e soluzioni fotovoltaiche.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/it",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Invia una richiesta",
   sendRequestCardTitle: "Invia una richiesta",
   sendRequestCardDesc:
@@ -420,7 +420,7 @@ const de: Dict = {
   metaSiteDescription:
     "Interaktive Auswahlhilfe für elektrische Schutzprodukte: Nieder- und Mittelspannungssicherungen, Hochleistungssicherungen, Überspannungsschutzgeräte und Photovoltaik-Lösungen.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/de",
+  mersenWebsiteUrl: "https://de.mersen.com/de",
   sendRequestNav: "Anfrage senden",
   sendRequestCardTitle: "Anfrage senden",
   sendRequestCardDesc:
@@ -503,7 +503,7 @@ const nl: Dict = {
   metaSiteDescription:
     "Interactieve selectiegids voor elektrische beveiligingsproducten: laag- en middenspanningszekeringen, snelle zekeringen, overspanningsbeveiligingen en fotovoltaïsche oplossingen.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/nl",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Aanvraag versturen",
   sendRequestCardTitle: "Aanvraag versturen",
   sendRequestCardDesc:
@@ -586,7 +586,7 @@ const hu: Dict = {
   metaSiteDescription:
     "Interaktív kiválasztási útmutató elektromos védelmi termékekhez: kis- és középfeszültségű biztosítékok, gyorsbiztosítékok, túlfeszültség-védelmi eszközök és fotovoltaikus megoldások.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/hu",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Kérés küldése",
   sendRequestCardTitle: "Kérés küldése",
   sendRequestCardDesc:
@@ -669,7 +669,7 @@ const pt: Dict = {
   metaSiteDescription:
     "Guia de seleção interativo para produtos de proteção elétrica: fusíveis de baixa e média tensão, fusíveis ultrarrápidos, dispositivos de proteção contra sobretensões e soluções fotovoltaicas.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/pt",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Enviar um pedido",
   sendRequestCardTitle: "Enviar um pedido",
   sendRequestCardDesc:
@@ -752,7 +752,7 @@ const pl: Dict = {
   metaSiteDescription:
     "Interaktywny przewodnik wyboru produktów ochrony elektrycznej: bezpieczniki niskiego i średniego napięcia, bezpieczniki szybkie, urządzenia ochrony przeciwprzepięciowej i rozwiązania fotowoltaiczne.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/pl",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Wyślij zapytanie",
   sendRequestCardTitle: "Wyślij zapytanie",
   sendRequestCardDesc:
@@ -835,7 +835,7 @@ const ro: Dict = {
   metaSiteDescription:
     "Ghid interactiv de selecție pentru produse de protecție electrică: siguranțe de joasă și medie tensiune, siguranțe ultrarapide, dispozitive de protecție la supratensiuni și soluții fotovoltaice.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/ro",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Trimiteți o solicitare",
   sendRequestCardTitle: "Trimiteți o solicitare",
   sendRequestCardDesc:
@@ -918,7 +918,7 @@ const cs: Dict = {
   metaSiteDescription:
     "Interaktivní průvodce výběrem produktů elektrické ochrany: pojistky nízkého a vysokého napětí, rychlé pojistky, přepěťové ochrany a fotovoltaická řešení.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/cs",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Odeslat poptávku",
   sendRequestCardTitle: "Odeslat poptávku",
   sendRequestCardDesc:
@@ -1001,7 +1001,7 @@ const es: Dict = {
   metaSiteDescription:
     "Guía de selección interactiva para productos de protección eléctrica: fusibles de baja y media tensión y fusibles ultrarrápidos.",
   mersenWebsiteLabel: "mersen.com",
-  mersenWebsiteUrl: "https://www.mersen.com/es",
+  mersenWebsiteUrl: "https://www.mersen.com/en",
   sendRequestNav: "Enviar una solicitud",
   sendRequestCardTitle: "Enviar una solicitud",
   sendRequestCardDesc:
