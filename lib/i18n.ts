@@ -90,12 +90,9 @@ type Dict = {
   sendRequestMessageLabel: string;
   sendRequestMessagePlaceholder: string;
   sendRequestButton: string;
-  sendRequestSending: string;
   sendRequestHint: string;
   sendRequestSentTo: (country: string) => string;
   sendRequestSubjectPrefix: string;
-  sendRequestSuccess: string;
-  sendRequestError: string;
 };
 
 const en: Dict = {
@@ -168,15 +165,12 @@ const en: Dict = {
   sendRequestEmailPlaceholder: "name@example.com",
   sendRequestMessageLabel: "Message",
   sendRequestMessagePlaceholder: "Write your message...",
-  sendRequestButton: "Send request",
-  sendRequestSending: "Sending...",
+  sendRequestButton: "Open in Mail App",
   sendRequestSentTo: (country) =>
     `Your request will be sent to our ${country} team.`,
   sendRequestSubjectPrefix: "Website contact request",
-  sendRequestHint: "We'll get back to you as soon as possible.",
-  sendRequestSuccess: "Thank you — your request has been sent. We'll be in touch soon.",
-  sendRequestError:
-    "Something went wrong and your request could not be sent. Please try again in a moment.",
+  sendRequestHint:
+    "This opens your own email app with everything pre-filled — just click Send from there.",
 };
 
 const fr: Dict = {
@@ -249,16 +243,12 @@ const fr: Dict = {
   sendRequestEmailPlaceholder: "nom@exemple.com",
   sendRequestMessageLabel: "Message",
   sendRequestMessagePlaceholder: "Rédigez votre message...",
-  sendRequestButton: "Envoyer la demande",
-  sendRequestSending: "Envoi en cours...",
+  sendRequestButton: "Ouvrir dans l'application mail",
   sendRequestSentTo: (country) =>
     `Votre demande sera envoyée à notre équipe pour ${country}.`,
   sendRequestSubjectPrefix: "Demande de contact depuis le site",
-  sendRequestHint: "Nous vous répondrons dans les meilleurs délais.",
-  sendRequestSuccess:
-    "Merci — votre demande a bien été envoyée. Nous reviendrons vers vous rapidement.",
-  sendRequestError:
-    "Une erreur est survenue et votre demande n'a pas pu être envoyée. Merci de réessayer dans un instant.",
+  sendRequestHint:
+    "Cela ouvre votre messagerie habituelle avec ces informations pré-remplies ; il ne vous reste qu'à cliquer sur Envoyer.",
 };
 
 const dicts: Record<Locale, Dict> = { en, fr };
