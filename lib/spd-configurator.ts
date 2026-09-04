@@ -1214,8 +1214,176 @@ export const SPD_NODES_PT: Record<string, SpdNode> = {
   },
 };
 
+// Polish translation of the same tree: every `to`/`href`/`external` value
+// is identical to SPD_NODES above (the site's slugs don't change between
+// locales - see lib/data.ts), only `title`/`label` text is translated.
+export const SPD_NODES_PL: Record<string, SpdNode> = {
+  hub: {
+    title: "Do jakiego rodzaju instalacji jest to przeznaczone?",
+    options: [
+      { label: "Przemysłowa", to: "industrial" },
+      { label: "Komercyjna / Mieszkaniowa", to: "commercial" },
+      { label: "Oświetlenie uliczne", to: "street-lighting" },
+      { label: "Fotowoltaiczna", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Przemysłowa — narażenie instalacji",
+    options: [
+      {
+        label:
+          "Instalacja z ochroną odgromową lub w pobliżu elementu narażonego na uderzenia",
+        to: "industrial-highly",
+      },
+      {
+        label: "Instalacja zasilana z linii napowietrznych",
+        to: "industrial-moderate",
+      },
+      { label: "Instalacja z rozdziałem podziemnym", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Przemysłowa — Silnie chroniona",
+    options: [
+      {
+        label: "Poziom 1: Rozdzielnica główna",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Poziom 2: Rozdzielnica podrzędna (jeśli >10 m od rozdzielnicy głównej)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Poziom 3: Urządzenia wrażliwe",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Przemysłowa — Umiarkowanie chroniona",
+    options: [
+      {
+        label: "Poziom 1: Rozdzielnica główna",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Poziom 2: Rozdzielnica podrzędna (jeśli >10 m od rozdzielnicy głównej)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Poziom 3: Urządzenia wrażliwe",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Przemysłowa — Ochrona podstawowa",
+    options: [
+      {
+        label: "Poziom 1: Rozdzielnica główna",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Poziom 3: Urządzenia wrażliwe",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Komercyjna / Mieszkaniowa — narażenie instalacji",
+    options: [
+      {
+        label:
+          "Instalacja z ochroną odgromową lub w pobliżu elementu narażonego na uderzenia",
+        to: "commercial-highly",
+      },
+      {
+        label: "Instalacja zasilana z linii napowietrznych",
+        to: "commercial-moderate",
+      },
+      { label: "Instalacja z rozdziałem podziemnym", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Komercyjna / Mieszkaniowa — Silnie chroniona",
+    options: [
+      {
+        label: "Rozdzielnica elektryczna",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Urządzenia wrażliwe",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Komercyjna / Mieszkaniowa — Umiarkowanie chroniona",
+    options: [
+      {
+        label: "Rozdzielnica elektryczna",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Urządzenia wrażliwe",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Komercyjna / Mieszkaniowa — Ochrona podstawowa",
+    options: [
+      {
+        label: "Rozdzielnica elektryczna",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Urządzenia wrażliwe",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Oświetlenie uliczne",
+    options: [
+      {
+        label: "Producent opraw zewnętrznych",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Wykonawca rozdzielnic / Instalator", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Oświetlenie uliczne — Wykonawca rozdzielnic / Instalator",
+    options: [
+      {
+        label: "Słup",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Rozdzielnica elektryczna",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Fotowoltaiczna",
+    options: [
+      {
+        label: "Skrzynka przyłączeniowa (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Rozdzielnica dystrybucyjna (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
 export function getSpdNodes(
-  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt"
+  locale: "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl"
 ): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
@@ -1223,5 +1391,6 @@ export function getSpdNodes(
   if (locale === "nl") return SPD_NODES_NL;
   if (locale === "hu") return SPD_NODES_HU;
   if (locale === "pt") return SPD_NODES_PT;
+  if (locale === "pl") return SPD_NODES_PL;
   return SPD_NODES;
 }

@@ -12,6 +12,7 @@ const MESSAGE: Record<Locale, string> = {
   nl: "Deze cataloguspagina bestaat niet of is niet meer beschikbaar.",
   hu: "Ez a katalógusoldal nem létezik, vagy már nem érhető el.",
   pt: "Esta página do catálogo não existe ou já não está disponível.",
+  pl: "Ta strona katalogu nie istnieje lub nie jest już dostępna.",
 };
 
 const BACK_HOME: Record<Locale, string> = {
@@ -22,6 +23,7 @@ const BACK_HOME: Record<Locale, string> = {
   nl: "Terug naar home",
   hu: "Vissza a kezdőlapra",
   pt: "Voltar ao início",
+  pl: "Powrót do strony głównej",
 };
 
 export default function NotFound() {

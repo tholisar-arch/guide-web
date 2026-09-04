@@ -1,8 +1,8 @@
-export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt";
+export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu" | "pt" | "pl";
 
 // Kept in alphabetical order by display label (LOCALE_LABELS below) since
 // the language switcher renders this list as-is.
-export const LOCALES: Locale[] = ["de", "en", "fr", "it", "hu", "nl", "pt"];
+export const LOCALES: Locale[] = ["de", "en", "fr", "it", "hu", "nl", "pl", "pt"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
@@ -12,6 +12,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   nl: "Nederlands",
   hu: "Magyar",
   pt: "Português",
+  pl: "Polski",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -696,7 +697,90 @@ const pt: Dict = {
     "Isto abre a sua própria aplicação de e-mail com tudo já preenchido — basta clicar em Enviar.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt };
+const pl: Dict = {
+  guideHome: "Strona główna katalogu",
+  crossReferenceSearch: "Wyszukiwarka zamienników",
+  spdConfigurator: "Konfigurator SPD",
+  searchPlaceholderHeader: "Szukaj w katalogu... (bezpieczniki, SPD, napięcie...)",
+  searchPlaceholderHero: "Szukaj w katalogu... (bezpieczniki, SPD, napięcie...)",
+  home: "Strona główna",
+  back: "Wstecz",
+  documentation: "Dokumentacja",
+  filterReferences: "Filtruj referencje...",
+  noReferencesFound: "Nie znaleziono żadnych referencji.",
+  noResultsFor: (q) => `Brak wyników dla „${q}"`,
+  viewAllResultsFor: (q) => `Zobacz wszystkie wyniki dla „${q}" →`,
+  resultsCountFor: (n, q) => `${n} wynik${n !== 1 ? "i" : ""} dla „${q}"`,
+  loading: "Ładowanie...",
+  productSelectorFallback: "Selektor produktów",
+  siteSubtitle: "2026 Europa",
+  heroBadge: "Interaktywny selektor produktów · Edycja Europa 2026",
+  heroTitle1: "Przewodnik wyboru",
+  heroTitle2: "Ochrona elektryczna",
+  heroDescription:
+    "Cały selektor produktów przekształcony w stronę internetową: bezpieczniki, urządzenia ochrony przeciwprzepięciowej i rozwiązania fotowoltaiczne, uporządkowane według rodziny produktów i w pełni dostępne na telefonie, tablecie i komputerze.",
+  productFamilies: "Rodziny produktów",
+  productFamiliesDesc: "Przeglądaj cały selektor produktów według kategorii.",
+  moreTools: "Więcej narzędzi",
+  moreToolsDesc: "Dodatkowe wyszukiwarki oparte na tych samych danych produktowych.",
+  xrefCardTitle: "Wyszukiwarka zamienników",
+  xrefCardDesc:
+    "Znajdź odpowiednik Mersen dla numeru katalogowego konkurencji (Citel, Dehn, Eaton, Siemens i inne).",
+  spdCardTitle: "Konfigurator SPD",
+  spdCardDesc:
+    "Odpowiedz na kilka pytań dotyczących instalacji, aby znaleźć odpowiednią rodzinę ochrony przeciwprzepięciowej.",
+  xrefEyebrow: "Wyszukiwarka zamienników",
+  xrefH1: "Znajdź referencję Mersen na podstawie numeru katalogowego konkurencji",
+  xrefDesc:
+    "Wyszukaj według numeru katalogowego konkurencji (Citel, Dehn, Eaton, Siemens, Schneider Electric i inne), aby znaleźć odpowiedni produkt Mersen.",
+  xrefSearchPlaceholder: "Szukaj numeru katalogowego konkurencji...",
+  xrefResultsFor: (n, q) => `${n} wynik${n !== 1 ? "i" : ""} dla „${q}"`,
+  xrefNoResults: "Brak wyników. Spróbuj innej referencji.",
+  xrefMatchedVia: (brand) => `dopasowano przez ${brand}`,
+  spdEyebrow: "Konfigurator SPD",
+  spdH1: "Znajdź odpowiednie urządzenie ochrony przeciwprzepięciowej",
+  spdDesc:
+    "Odpowiedz na kilka pytań dotyczących instalacji, aby znaleźć odpowiednią rodzinę produktów ochrony przeciwprzepięciowej.",
+  spdStartOver: "Zacznij od nowa",
+  searchTitle: "Wyszukiwanie",
+  searchNoResults: "Brak wyników. Spróbuj innego wyszukiwanego hasła.",
+  matchTitle: "Wyszukiwanie",
+  metaSiteTitle: "Przewodnik wyboru 2026 Europa | Mersen Ochrona Elektryczna",
+  metaSiteDescription:
+    "Interaktywny przewodnik wyboru produktów ochrony elektrycznej: bezpieczniki niskiego i średniego napięcia, bezpieczniki szybkie, urządzenia ochrony przeciwprzepięciowej i rozwiązania fotowoltaiczne.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/pl",
+  sendRequestNav: "Wyślij zapytanie",
+  sendRequestCardTitle: "Wyślij zapytanie",
+  sendRequestCardDesc:
+    "Skontaktuj się z lokalnym zespołem Mersen w sprawie produktu lub projektu.",
+  sendRequestEyebrow: "Skontaktuj się z nami",
+  sendRequestH1: "Wyślij zapytanie",
+  sendRequestDesc:
+    "Wybierz swój kraj, a przekierujemy Twoje zapytanie do właściwej osoby kontaktowej.",
+  sendRequestCountryLabel: "Kraj",
+  sendRequestCountryPlaceholder: "Wybierz swój kraj...",
+  sendRequestFirstNameLabel: "Imię",
+  sendRequestLastNameLabel: "Nazwisko",
+  sendRequestCompanyLabel: "Firma (opcjonalnie)",
+  sendRequestTypeLabel: "Zapytanie",
+  sendRequestTypePlaceholder: "Wybierz rodzaj zapytania...",
+  sendRequestTypeFuse: "Bezpiecznik",
+  sendRequestTypeSurge: "Ochrona przeciwprzepięciowa",
+  sendRequestTypeBoth: "Bezpiecznik i ochrona przeciwprzepięciowa",
+  sendRequestEmailLabel: "Twój e-mail",
+  sendRequestEmailPlaceholder: "imie@przyklad.pl",
+  sendRequestMessageLabel: "Wiadomość",
+  sendRequestMessagePlaceholder: "Napisz swoją wiadomość...",
+  sendRequestButton: "Otwórz w aplikacji pocztowej",
+  sendRequestSentTo: (country) =>
+    `Twoje zapytanie zostanie wysłane do naszego zespołu dla: ${country}.`,
+  sendRequestSubjectPrefix: "Zapytanie kontaktowe ze strony internetowej",
+  sendRequestHint:
+    "Spowoduje to otwarcie Twojej aplikacji pocztowej z gotowymi danymi — wystarczy kliknąć Wyślij.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu, pt, pl };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];
