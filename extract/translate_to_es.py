@@ -74,6 +74,7 @@ PHRASE_DICT = {
     "DIN D Standard": "Norma DIN D",
     "DIN D0 Standard": "Norma DIN D0",
     "DIN NH Standard": "Norma DIN NH",
+    "DIN Back-Up for transformers": "Protección aguas arriba DIN para transformadores",
     "DIN P Back-Up for transformers": "Protección aguas arriba DIN P para transformadores",
     "DIN PD Back-Up for transformers": "Protección aguas arriba DIN PD para transformadores",
     "DIN PT Back-Up for transformers": "Protección aguas arriba DIN PT para transformadores",

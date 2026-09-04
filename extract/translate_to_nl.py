@@ -66,6 +66,7 @@ PHRASE_DICT = {
     "DIN D Standard": "Norm DIN D",
     "DIN D0 Standard": "Norm DIN D0",
     "DIN NH Standard": "Norm DIN NH",
+    "DIN Back-Up for transformers": "DIN voorzekering voor transformatoren",
     "DIN P Back-Up for transformers": "DIN P voorzekering voor transformatoren",
     "DIN PD Back-Up for transformers": "DIN PD voorzekering voor transformatoren",
     "DIN PT Back-Up for transformers": "DIN PT voorzekering voor transformatoren",

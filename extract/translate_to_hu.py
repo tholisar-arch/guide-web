@@ -66,6 +66,7 @@ PHRASE_DICT = {
     "DIN D Standard": "DIN D szabvány",
     "DIN D0 Standard": "DIN D0 szabvány",
     "DIN NH Standard": "DIN NH szabvány",
+    "DIN Back-Up for transformers": "DIN előtétbiztosíték transzformátorokhoz",
     "DIN P Back-Up for transformers": "DIN P előtétbiztosíték transzformátorokhoz",
     "DIN PD Back-Up for transformers": "DIN PD előtétbiztosíték transzformátorokhoz",
     "DIN PT Back-Up for transformers": "DIN PT előtétbiztosíték transzformátorokhoz",

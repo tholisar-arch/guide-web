@@ -3348,333 +3348,343 @@
       "type": "group",
       "children": [
        {
-        "title": "Předřadná pojistka DIN P pro transformátory",
-        "slug": "din-p-back-up-for-transformers",
-        "count": 7,
+        "title": "Předřadná pojistka DIN pro transformátory",
+        "slug": "din-back-up-for-transformers",
+        "count": 21,
         "node": {
          "type": "group",
          "children": [
           {
-           "title": "Jmenovité napětí: 7.2 KV",
-           "slug": "rated-voltage-7-2-kv",
-           "count": 1,
+           "title": "Předřadná pojistka DIN P pro transformátory",
+           "slug": "din-p-back-up-for-transformers",
+           "count": 7,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 7.2 KV - Délka: 192 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
-              "page": 562
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
-              "page": 564
+              "title": "Jmenovité napětí: 7.2 KV",
+              "slug": "rated-voltage-7-2-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 7.2 KV - Délka: 192 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
+                 "page": 562
+                }
+               ]
+              }
              },
              {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 12 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
-              "page": 569
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 17.5 KV",
-           "slug": "rated-voltage-17-5-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 17.5 KV - Délka: 367 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
-              "page": 571
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
-              "page": 573
+              "title": "Jmenovité napětí: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
+                 "page": 564
+                },
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 12 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
+                 "page": 569
+                }
+               ]
+              }
              },
              {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 24 KV - Délka: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
-              "page": 578
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
-              "page": 579
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Předřadná pojistka DIN PD pro transformátory",
-        "slug": "din-pd-back-up-for-transformers",
-        "count": 4,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Jmenovité napětí: 7.2 KV",
-           "slug": "rated-voltage-7-2-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 7.2 KV - Délka: 192 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
-              "page": 563
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
-              "page": 565
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
-              "page": 574
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
-              "page": 580
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Předřadná pojistka DIN PT pro transformátory",
-        "slug": "din-pt-back-up-for-transformers",
-        "count": 3,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Jmenovité napětí: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PT pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
-              "page": 566
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 17.5 KV",
-           "slug": "rated-voltage-17-5-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PT pro transformátory - Jmenovité napětí: 17.5 KV - Délka: 367 mm",
-              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
-              "page": 572
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PT pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
-              "page": 575
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Předřadná pojistka DIN PTD pro transformátory",
-        "slug": "din-ptd-back-up-for-transformers",
-        "count": 3,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Jmenovité napětí: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PTD pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
-              "page": 567
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PTD pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
-              "page": 576
-             }
-            ]
-           }
-          },
-          {
-           "title": "Jmenovité napětí: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PTD pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
-              "page": 581
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Předřadná pojistka DIN PTS pro transformátory",
-        "slug": "din-pts-back-up-for-transformers",
-        "count": 4,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Jmenovité napětí: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
-              "page": 568
+              "title": "Jmenovité napětí: 17.5 KV",
+              "slug": "rated-voltage-17-5-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 17.5 KV - Délka: 367 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
+                 "page": 571
+                }
+               ]
+              }
              },
              {
-              "title": "Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 12 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
-              "page": 570
+              "title": "Jmenovité napětí: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
+                 "page": 573
+                },
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 24 KV - Délka: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
+                 "page": 578
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN P pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
+                 "page": 579
+                }
+               ]
+              }
              }
             ]
            }
           },
           {
-           "title": "Jmenovité napětí: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
+           "title": "Předřadná pojistka DIN PD pro transformátory",
+           "slug": "din-pd-back-up-for-transformers",
+           "count": 4,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
-              "page": 577
+              "title": "Jmenovité napětí: 7.2 KV",
+              "slug": "rated-voltage-7-2-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 7.2 KV - Délka: 192 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
+                 "page": 563
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
+                 "page": 565
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
+                 "page": 574
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PD pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
+                 "page": 580
+                }
+               ]
+              }
              }
             ]
            }
           },
           {
-           "title": "Jmenovité napětí: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
+           "title": "Předřadná pojistka DIN PT pro transformátory",
+           "slug": "din-pt-back-up-for-transformers",
+           "count": 3,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
-              "page": 582
+              "title": "Jmenovité napětí: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PT pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
+                 "page": 566
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 17.5 KV",
+              "slug": "rated-voltage-17-5-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PT pro transformátory - Jmenovité napětí: 17.5 KV - Délka: 367 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
+                 "page": 572
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PT pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
+                 "page": 575
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Předřadná pojistka DIN PTD pro transformátory",
+           "slug": "din-ptd-back-up-for-transformers",
+           "count": 3,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Jmenovité napětí: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTD pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
+                 "page": 567
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTD pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
+                 "page": 576
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTD pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
+                 "page": 581
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Předřadná pojistka DIN PTS pro transformátory",
+           "slug": "din-pts-back-up-for-transformers",
+           "count": 4,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Jmenovité napětí: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 12 KV - Délka: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
+                 "page": 568
+                },
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 12 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
+                 "page": 570
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 24 KV - Délka: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
+                 "page": 577
+                }
+               ]
+              }
+             },
+             {
+              "title": "Jmenovité napětí: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Předřadná pojistka DIN pro transformátory - Předřadná pojistka DIN PTS pro transformátory - Jmenovité napětí: 36 KV - Délka: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
+                 "page": 582
+                }
+               ]
+              }
              }
             ]
            }

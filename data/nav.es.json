@@ -3348,333 +3348,343 @@
       "type": "group",
       "children": [
        {
-        "title": "Protección aguas arriba DIN P para transformadores",
-        "slug": "din-p-back-up-for-transformers",
-        "count": 7,
+        "title": "Protección aguas arriba DIN para transformadores",
+        "slug": "din-back-up-for-transformers",
+        "count": 21,
         "node": {
          "type": "group",
          "children": [
           {
-           "title": "Tensión asignada: 7.2 KV",
-           "slug": "rated-voltage-7-2-kv",
-           "count": 1,
+           "title": "Protección aguas arriba DIN P para transformadores",
+           "slug": "din-p-back-up-for-transformers",
+           "count": 7,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 7.2 KV - Longitud: 192 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
-              "page": 562
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
-              "page": 564
+              "title": "Tensión asignada: 7.2 KV",
+              "slug": "rated-voltage-7-2-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 7.2 KV - Longitud: 192 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
+                 "page": 562
+                }
+               ]
+              }
              },
              {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 12 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
-              "page": 569
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 17.5 KV",
-           "slug": "rated-voltage-17-5-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 17.5 KV - Longitud: 367 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
-              "page": 571
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
-              "page": 573
+              "title": "Tensión asignada: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
+                 "page": 564
+                },
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 12 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
+                 "page": 569
+                }
+               ]
+              }
              },
              {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 24 KV - Longitud: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
-              "page": 578
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN P para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
-              "page": 579
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Protección aguas arriba DIN PD para transformadores",
-        "slug": "din-pd-back-up-for-transformers",
-        "count": 4,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Tensión asignada: 7.2 KV",
-           "slug": "rated-voltage-7-2-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 7.2 KV - Longitud: 192 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
-              "page": 563
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
-              "page": 565
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
-              "page": 574
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PD para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
-              "page": 580
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Protección aguas arriba DIN PT para transformadores",
-        "slug": "din-pt-back-up-for-transformers",
-        "count": 3,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Tensión asignada: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PT para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
-              "page": 566
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 17.5 KV",
-           "slug": "rated-voltage-17-5-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PT para transformadores - Tensión asignada: 17.5 KV - Longitud: 367 mm",
-              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
-              "page": 572
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PT para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
-              "page": 575
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Protección aguas arriba DIN PTD para transformadores",
-        "slug": "din-ptd-back-up-for-transformers",
-        "count": 3,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Tensión asignada: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
-              "page": 567
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
-              "page": 576
-             }
-            ]
-           }
-          },
-          {
-           "title": "Tensión asignada: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
-              "page": 581
-             }
-            ]
-           }
-          }
-         ]
-        }
-       },
-       {
-        "title": "Protección aguas arriba DIN PTS para transformadores",
-        "slug": "din-pts-back-up-for-transformers",
-        "count": 4,
-        "node": {
-         "type": "group",
-         "children": [
-          {
-           "title": "Tensión asignada: 12 KV",
-           "slug": "rated-voltage-12-kv",
-           "count": 2,
-           "node": {
-            "type": "leaves",
-            "items": [
-             {
-              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
-              "page": 568
+              "title": "Tensión asignada: 17.5 KV",
+              "slug": "rated-voltage-17-5-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 17.5 KV - Longitud: 367 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
+                 "page": 571
+                }
+               ]
+              }
              },
              {
-              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 12 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
-              "page": 570
+              "title": "Tensión asignada: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
+                 "page": 573
+                },
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 24 KV - Longitud: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
+                 "page": 578
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN P para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
+                 "page": 579
+                }
+               ]
+              }
              }
             ]
            }
           },
           {
-           "title": "Tensión asignada: 24 KV",
-           "slug": "rated-voltage-24-kv",
-           "count": 1,
+           "title": "Protección aguas arriba DIN PD para transformadores",
+           "slug": "din-pd-back-up-for-transformers",
+           "count": 4,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
-              "page": 577
+              "title": "Tensión asignada: 7.2 KV",
+              "slug": "rated-voltage-7-2-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PD para transformadores - Tensión asignada: 7.2 KV - Longitud: 192 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
+                 "page": 563
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PD para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
+                 "page": 565
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PD para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
+                 "page": 574
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PD para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
+                 "page": 580
+                }
+               ]
+              }
              }
             ]
            }
           },
           {
-           "title": "Tensión asignada: 36 KV",
-           "slug": "rated-voltage-36-kv",
-           "count": 1,
+           "title": "Protección aguas arriba DIN PT para transformadores",
+           "slug": "din-pt-back-up-for-transformers",
+           "count": 3,
            "node": {
-            "type": "leaves",
-            "items": [
+            "type": "group",
+            "children": [
              {
-              "title": "Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
-              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
-              "page": 582
+              "title": "Tensión asignada: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PT para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
+                 "page": 566
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 17.5 KV",
+              "slug": "rated-voltage-17-5-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PT para transformadores - Tensión asignada: 17.5 KV - Longitud: 367 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
+                 "page": 572
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PT para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
+                 "page": 575
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Protección aguas arriba DIN PTD para transformadores",
+           "slug": "din-ptd-back-up-for-transformers",
+           "count": 3,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tensión asignada: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
+                 "page": 567
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
+                 "page": 576
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTD para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
+                 "page": 581
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Protección aguas arriba DIN PTS para transformadores",
+           "slug": "din-pts-back-up-for-transformers",
+           "count": 4,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Tensión asignada: 12 KV",
+              "slug": "rated-voltage-12-kv",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 12 KV - Longitud: 292 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
+                 "page": 568
+                },
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 12 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
+                 "page": 570
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 24 KV",
+              "slug": "rated-voltage-24-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 24 KV - Longitud: 442 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
+                 "page": 577
+                }
+               ]
+              }
+             },
+             {
+              "title": "Tensión asignada: 36 KV",
+              "slug": "rated-voltage-36-kv",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Protección aguas arriba DIN para transformadores - Protección aguas arriba DIN PTS para transformadores - Tensión asignada: 36 KV - Longitud: 537 mm",
+                 "slug": "selector/medium-voltage-fuses/din-back-up-for-transformers/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
+                 "page": 582
+                }
+               ]
+              }
              }
             ]
            }
