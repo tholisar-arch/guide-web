@@ -1,8 +1,8 @@
-export type Locale = "en" | "fr" | "it" | "de" | "nl";
+export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu";
 
 // Kept in alphabetical order by display label (LOCALE_LABELS below) since
 // the language switcher renders this list as-is.
-export const LOCALES: Locale[] = ["de", "en", "fr", "it", "nl"];
+export const LOCALES: Locale[] = ["de", "en", "fr", "it", "hu", "nl"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
@@ -10,6 +10,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   it: "Italiano",
   de: "Deutsch",
   nl: "Nederlands",
+  hu: "Magyar",
 };
 
 // Every non-English locale is prefixed with its own segment ("/fr", "/it").
@@ -528,7 +529,90 @@ const nl: Dict = {
     "Hierdoor opent uw eigen e-mailapp met alles al ingevuld — klik daar gewoon op Verzenden.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr, it, de, nl };
+const hu: Dict = {
+  guideHome: "Katalógus kezdőlap",
+  crossReferenceSearch: "Kereszthivatkozás-kereső",
+  spdConfigurator: "SPD-konfigurátor",
+  searchPlaceholderHeader: "Keresés a katalógusban... (biztosítékok, SPD, feszültség...)",
+  searchPlaceholderHero: "Keresés a katalógusban... (biztosítékok, SPD, feszültség...)",
+  home: "Kezdőlap",
+  back: "Vissza",
+  documentation: "Dokumentáció",
+  filterReferences: "Referenciák szűrése...",
+  noReferencesFound: "Nem található referencia.",
+  noResultsFor: (q) => `Nincs találat erre: "${q}"`,
+  viewAllResultsFor: (q) => `Összes találat megtekintése erre: "${q}" →`,
+  resultsCountFor: (n, q) => `${n} találat erre: "${q}"`,
+  loading: "Betöltés...",
+  productSelectorFallback: "Termékválasztó",
+  siteSubtitle: "2026 Európa",
+  heroBadge: "Interaktív termékválasztó · 2026-os európai kiadás",
+  heroTitle1: "Kiválasztási útmutató",
+  heroTitle2: "Elektromos védelem",
+  heroDescription:
+    "A teljes termékválasztó weboldallá alakítva: biztosítékok, túlfeszültség-védelmi eszközök és fotovoltaikus megoldások, termékcsalád szerint rendezve, teljes mértékben böngészhető mobilon, tableten és asztali gépen.",
+  productFamilies: "Termékcsaládok",
+  productFamiliesDesc: "Böngéssze a teljes termékválasztót kategória szerint.",
+  moreTools: "További eszközök",
+  moreToolsDesc: "Kiegészítő keresések ugyanazon terméklista alapján.",
+  xrefCardTitle: "Kereszthivatkozás-kereső",
+  xrefCardDesc:
+    "Keresse meg a megfelelő Mersen referenciát egy versenytárs cikkszámához (Citel, Dehn, Eaton, Siemens és mások).",
+  spdCardTitle: "SPD-konfigurátor",
+  spdCardDesc:
+    "Válaszoljon néhány kérdésre az Ön rendszeréről, hogy megtalálja a megfelelő túlfeszültségvédelmi termékcsaládot.",
+  xrefEyebrow: "Kereszthivatkozás-kereső",
+  xrefH1: "Mersen referencia keresése versenytárs cikkszám alapján",
+  xrefDesc:
+    "Keressen egy versenytárs referenciája alapján (Citel, Dehn, Eaton, Siemens, Schneider Electric és mások), hogy megtalálja a megfelelő Mersen terméket.",
+  xrefSearchPlaceholder: "Versenytárs referencia keresése...",
+  xrefResultsFor: (n, q) => `${n} találat erre: "${q}"`,
+  xrefNoResults: "Nincs találat. Próbáljon másik referenciát.",
+  xrefMatchedVia: (brand) => `találat itt: ${brand}`,
+  spdEyebrow: "SPD-konfigurátor",
+  spdH1: "Találja meg a megfelelő túlfeszültségvédelmi eszközt",
+  spdDesc:
+    "Válaszoljon néhány kérdésre az Ön rendszeréről, hogy megtalálja a megfelelő túlfeszültségvédelmi termékcsaládot.",
+  spdStartOver: "Újrakezdés",
+  searchTitle: "Keresés",
+  searchNoResults: "Nincs találat. Próbáljon másik keresési kifejezést.",
+  matchTitle: "Keresés",
+  metaSiteTitle: "Kiválasztási útmutató 2026 Európa | Mersen Elektromos Védelem",
+  metaSiteDescription:
+    "Interaktív kiválasztási útmutató elektromos védelmi termékekhez: kis- és középfeszültségű biztosítékok, gyorsbiztosítékok, túlfeszültség-védelmi eszközök és fotovoltaikus megoldások.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/hu",
+  sendRequestNav: "Kérés küldése",
+  sendRequestCardTitle: "Kérés küldése",
+  sendRequestCardDesc:
+    "Vegye fel a kapcsolatot a helyi Mersen csapattal egy termékkel vagy projekttel kapcsolatban.",
+  sendRequestEyebrow: "Kapcsolat",
+  sendRequestH1: "Kérés küldése",
+  sendRequestDesc:
+    "Válassza ki az országát, és a kérését továbbítjuk a megfelelő kapcsolattartóhoz.",
+  sendRequestCountryLabel: "Ország",
+  sendRequestCountryPlaceholder: "Válasszon országot...",
+  sendRequestFirstNameLabel: "Keresztnév",
+  sendRequestLastNameLabel: "Vezetéknév",
+  sendRequestCompanyLabel: "Cég (opcionális)",
+  sendRequestTypeLabel: "Kérés típusa",
+  sendRequestTypePlaceholder: "Válasszon kéréstípust...",
+  sendRequestTypeFuse: "Biztosíték",
+  sendRequestTypeSurge: "Túlfeszültség-védelem",
+  sendRequestTypeBoth: "Biztosíték és túlfeszültség-védelem",
+  sendRequestEmailLabel: "Az Ön e-mail címe",
+  sendRequestEmailPlaceholder: "nev@pelda.hu",
+  sendRequestMessageLabel: "Üzenet",
+  sendRequestMessagePlaceholder: "Írja meg üzenetét...",
+  sendRequestButton: "Megnyitás a levelezőprogramban",
+  sendRequestSentTo: (country) =>
+    `A kérését elküldjük a(z) ${country} csapatunknak.`,
+  sendRequestSubjectPrefix: "Kapcsolatfelvételi kérés a weboldalról",
+  sendRequestHint:
+    "Ez megnyitja saját levelezőprogramját mindennel előre kitöltve — csak kattintson a Küldésre.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it, de, nl, hu };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];

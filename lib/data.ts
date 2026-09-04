@@ -8,6 +8,8 @@ import pagesDataDe from "@/data/pages.de.json";
 import navDataDe from "@/data/nav.de.json";
 import pagesDataNl from "@/data/pages.nl.json";
 import navDataNl from "@/data/nav.nl.json";
+import pagesDataHu from "@/data/pages.hu.json";
+import navDataHu from "@/data/nav.hu.json";
 import type {
   PageEntry,
   NavRoot,
@@ -17,8 +19,8 @@ import type {
   NavLeafItem,
 } from "@/lib/types";
 
-export type Locale = "en" | "fr" | "it" | "de" | "nl";
-export const LOCALES: Locale[] = ["en", "fr", "it", "de", "nl"];
+export type Locale = "en" | "fr" | "it" | "de" | "nl" | "hu";
+export const LOCALES: Locale[] = ["en", "fr", "it", "de", "nl", "hu"];
 
 export type ListingResult =
   | { kind: "chapter"; chapter: Chapter }
@@ -186,6 +188,7 @@ const apis: Record<Locale, DataApi> = {
   it: createDataApi(pagesDataIt, navDataIt),
   de: createDataApi(pagesDataDe, navDataDe),
   nl: createDataApi(pagesDataNl, navDataNl),
+  hu: createDataApi(pagesDataHu, navDataHu),
 };
 
 export function getData(locale: Locale): DataApi {

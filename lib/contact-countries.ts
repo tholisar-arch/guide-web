@@ -28,6 +28,7 @@ const COUNTRIES: {
   it: string;
   de: string;
   nl: string;
+  hu: string;
 }[] = [
   {
     key: "albania",
@@ -37,6 +38,7 @@ const COUNTRIES: {
     it: "Albania",
     de: "Albanien",
     nl: "Albanië",
+    hu: "Albánia",
   },
   {
     key: "andorra",
@@ -46,6 +48,7 @@ const COUNTRIES: {
     it: "Andorra",
     de: "Andorra",
     nl: "Andorra",
+    hu: "Andorra",
   },
   {
     key: "austria",
@@ -55,6 +58,7 @@ const COUNTRIES: {
     it: "Austria",
     de: "Österreich",
     nl: "Oostenrijk",
+    hu: "Ausztria",
   },
   {
     key: "belarus",
@@ -64,6 +68,7 @@ const COUNTRIES: {
     it: "Bielorussia",
     de: "Belarus",
     nl: "Wit-Rusland",
+    hu: "Fehéroroszország",
   },
   {
     key: "belgium",
@@ -73,6 +78,7 @@ const COUNTRIES: {
     it: "Belgio",
     de: "Belgien",
     nl: "België",
+    hu: "Belgium",
   },
   {
     key: "bosnia-herzegovina",
@@ -82,6 +88,7 @@ const COUNTRIES: {
     it: "Bosnia ed Erzegovina",
     de: "Bosnien und Herzegowina",
     nl: "Bosnië en Herzegovina",
+    hu: "Bosznia-Hercegovina",
   },
   {
     key: "bulgaria",
@@ -91,6 +98,7 @@ const COUNTRIES: {
     it: "Bulgaria",
     de: "Bulgarien",
     nl: "Bulgarije",
+    hu: "Bulgária",
   },
   {
     key: "croatia",
@@ -100,6 +108,7 @@ const COUNTRIES: {
     it: "Croazia",
     de: "Kroatien",
     nl: "Kroatië",
+    hu: "Horvátország",
   },
   {
     key: "cyprus",
@@ -109,6 +118,7 @@ const COUNTRIES: {
     it: "Cipro",
     de: "Zypern",
     nl: "Cyprus",
+    hu: "Ciprus",
   },
   {
     key: "czech-republic",
@@ -118,6 +128,7 @@ const COUNTRIES: {
     it: "Repubblica Ceca",
     de: "Tschechien",
     nl: "Tsjechië",
+    hu: "Csehország",
   },
   {
     key: "denmark",
@@ -127,6 +138,7 @@ const COUNTRIES: {
     it: "Danimarca",
     de: "Dänemark",
     nl: "Denemarken",
+    hu: "Dánia",
   },
   {
     key: "estonia",
@@ -136,6 +148,7 @@ const COUNTRIES: {
     it: "Estonia",
     de: "Estland",
     nl: "Estland",
+    hu: "Észtország",
   },
   {
     key: "finland",
@@ -145,6 +158,7 @@ const COUNTRIES: {
     it: "Finlandia",
     de: "Finnland",
     nl: "Finland",
+    hu: "Finnország",
   },
   {
     key: "france",
@@ -154,6 +168,7 @@ const COUNTRIES: {
     it: "Francia",
     de: "Frankreich",
     nl: "Frankrijk",
+    hu: "Franciaország",
   },
   {
     key: "germany",
@@ -163,6 +178,7 @@ const COUNTRIES: {
     it: "Germania",
     de: "Deutschland",
     nl: "Duitsland",
+    hu: "Németország",
   },
   {
     key: "greece",
@@ -172,6 +188,7 @@ const COUNTRIES: {
     it: "Grecia",
     de: "Griechenland",
     nl: "Griekenland",
+    hu: "Görögország",
   },
   {
     key: "hungary",
@@ -181,6 +198,7 @@ const COUNTRIES: {
     it: "Ungheria",
     de: "Ungarn",
     nl: "Hongarije",
+    hu: "Magyarország",
   },
   {
     key: "iceland",
@@ -190,6 +208,7 @@ const COUNTRIES: {
     it: "Islanda",
     de: "Island",
     nl: "IJsland",
+    hu: "Izland",
   },
   {
     key: "ireland",
@@ -199,6 +218,7 @@ const COUNTRIES: {
     it: "Irlanda",
     de: "Irland",
     nl: "Ierland",
+    hu: "Írország",
   },
   {
     key: "italy",
@@ -208,6 +228,7 @@ const COUNTRIES: {
     it: "Italia",
     de: "Italien",
     nl: "Italië",
+    hu: "Olaszország",
   },
   {
     key: "kosovo",
@@ -217,6 +238,7 @@ const COUNTRIES: {
     it: "Kosovo",
     de: "Kosovo",
     nl: "Kosovo",
+    hu: "Koszovó",
   },
   {
     key: "latvia",
@@ -226,6 +248,7 @@ const COUNTRIES: {
     it: "Lettonia",
     de: "Lettland",
     nl: "Letland",
+    hu: "Lettország",
   },
   {
     key: "liechtenstein",
@@ -235,6 +258,7 @@ const COUNTRIES: {
     it: "Liechtenstein",
     de: "Liechtenstein",
     nl: "Liechtenstein",
+    hu: "Liechtenstein",
   },
   {
     key: "lithuania",
@@ -244,6 +268,7 @@ const COUNTRIES: {
     it: "Lituania",
     de: "Litauen",
     nl: "Litouwen",
+    hu: "Litvánia",
   },
   {
     key: "luxembourg",
@@ -253,6 +278,7 @@ const COUNTRIES: {
     it: "Lussemburgo",
     de: "Luxemburg",
     nl: "Luxemburg",
+    hu: "Luxemburg",
   },
   {
     key: "malta",
@@ -262,6 +288,7 @@ const COUNTRIES: {
     it: "Malta",
     de: "Malta",
     nl: "Malta",
+    hu: "Málta",
   },
   {
     key: "moldova",
@@ -271,6 +298,7 @@ const COUNTRIES: {
     it: "Moldavia",
     de: "Republik Moldau",
     nl: "Moldavië",
+    hu: "Moldova",
   },
   {
     key: "monaco",
@@ -280,6 +308,7 @@ const COUNTRIES: {
     it: "Monaco",
     de: "Monaco",
     nl: "Monaco",
+    hu: "Monaco",
   },
   {
     key: "montenegro",
@@ -289,6 +318,7 @@ const COUNTRIES: {
     it: "Montenegro",
     de: "Montenegro",
     nl: "Montenegro",
+    hu: "Montenegró",
   },
   {
     key: "netherlands",
@@ -298,6 +328,7 @@ const COUNTRIES: {
     it: "Paesi Bassi",
     de: "Niederlande",
     nl: "Nederland",
+    hu: "Hollandia",
   },
   {
     key: "north-macedonia",
@@ -307,6 +338,7 @@ const COUNTRIES: {
     it: "Macedonia del Nord",
     de: "Nordmazedonien",
     nl: "Noord-Macedonië",
+    hu: "Észak-Macedónia",
   },
   {
     key: "norway",
@@ -316,6 +348,7 @@ const COUNTRIES: {
     it: "Norvegia",
     de: "Norwegen",
     nl: "Noorwegen",
+    hu: "Norvégia",
   },
   {
     key: "poland",
@@ -325,6 +358,7 @@ const COUNTRIES: {
     it: "Polonia",
     de: "Polen",
     nl: "Polen",
+    hu: "Lengyelország",
   },
   {
     key: "portugal",
@@ -334,6 +368,7 @@ const COUNTRIES: {
     it: "Portogallo",
     de: "Portugal",
     nl: "Portugal",
+    hu: "Portugália",
   },
   {
     key: "romania",
@@ -343,6 +378,7 @@ const COUNTRIES: {
     it: "Romania",
     de: "Rumänien",
     nl: "Roemenië",
+    hu: "Románia",
   },
   {
     key: "russia",
@@ -352,6 +388,7 @@ const COUNTRIES: {
     it: "Russia",
     de: "Russland",
     nl: "Rusland",
+    hu: "Oroszország",
   },
   {
     key: "san-marino",
@@ -361,6 +398,7 @@ const COUNTRIES: {
     it: "San Marino",
     de: "San Marino",
     nl: "San Marino",
+    hu: "San Marino",
   },
   {
     key: "serbia",
@@ -370,6 +408,7 @@ const COUNTRIES: {
     it: "Serbia",
     de: "Serbien",
     nl: "Servië",
+    hu: "Szerbia",
   },
   {
     key: "slovakia",
@@ -379,6 +418,7 @@ const COUNTRIES: {
     it: "Slovacchia",
     de: "Slowakei",
     nl: "Slowakije",
+    hu: "Szlovákia",
   },
   {
     key: "slovenia",
@@ -388,6 +428,7 @@ const COUNTRIES: {
     it: "Slovenia",
     de: "Slowenien",
     nl: "Slovenië",
+    hu: "Szlovénia",
   },
   {
     key: "spain",
@@ -397,6 +438,7 @@ const COUNTRIES: {
     it: "Spagna",
     de: "Spanien",
     nl: "Spanje",
+    hu: "Spanyolország",
   },
   {
     key: "sweden",
@@ -406,6 +448,7 @@ const COUNTRIES: {
     it: "Svezia",
     de: "Schweden",
     nl: "Zweden",
+    hu: "Svédország",
   },
   {
     key: "switzerland",
@@ -415,6 +458,7 @@ const COUNTRIES: {
     it: "Svizzera",
     de: "Schweiz",
     nl: "Zwitserland",
+    hu: "Svájc",
   },
   {
     key: "ukraine",
@@ -424,6 +468,7 @@ const COUNTRIES: {
     it: "Ucraina",
     de: "Ukraine",
     nl: "Oekraïne",
+    hu: "Ukrajna",
   },
   {
     key: "united-kingdom",
@@ -433,6 +478,7 @@ const COUNTRIES: {
     it: "Regno Unito",
     de: "Vereinigtes Königreich",
     nl: "Verenigd Koninkrijk",
+    hu: "Egyesült Királyság",
   },
   {
     key: "vatican-city",
@@ -442,6 +488,7 @@ const COUNTRIES: {
     it: "Città del Vaticano",
     de: "Vatikanstadt",
     nl: "Vaticaanstad",
+    hu: "Vatikán",
   },
 ];
 

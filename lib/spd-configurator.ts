@@ -876,12 +876,182 @@ export const SPD_NODES_NL: Record<string, SpdNode> = {
   },
 };
 
+// Hungarian translation of the same tree: every `to`/`href`/`external`
+// value is identical to SPD_NODES above (the site's slugs don't change
+// between locales - see lib/data.ts), only `title`/`label` text is
+// translated.
+export const SPD_NODES_HU: Record<string, SpdNode> = {
+  hub: {
+    title: "Milyen típusú létesítményről van szó?",
+    options: [
+      { label: "Ipari", to: "industrial" },
+      { label: "Kereskedelmi / Lakossági", to: "commercial" },
+      { label: "Közvilágítás", to: "street-lighting" },
+      { label: "Fotovoltaikus", to: "photovoltaic" },
+    ],
+  },
+  industrial: {
+    title: "Ipari — a létesítmény kitettsége",
+    options: [
+      {
+        label:
+          "Villámvédelemmel rendelkező vagy becsapódásnak kitett elem közelében lévő létesítmény",
+        to: "industrial-highly",
+      },
+      {
+        label: "Légvezetékről táplált létesítmény",
+        to: "industrial-moderate",
+      },
+      { label: "Föld alatti elosztású létesítmény", to: "industrial-basic" },
+    ],
+  },
+  "industrial-highly": {
+    title: "Ipari — Erősen védett",
+    options: [
+      {
+        label: "1. szint: Főelosztó",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "2. szint: Alelosztó (ha >10 m a főelosztótól)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "3. szint: Érzékeny berendezések",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-moderate": {
+    title: "Ipari — Közepesen védett",
+    options: [
+      {
+        label: "1. szint: Főelosztó",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "2. szint: Alelosztó (ha >10 m a főelosztótól)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "3. szint: Érzékeny berendezések",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "industrial-basic": {
+    title: "Ipari — Alapvédelem",
+    options: [
+      {
+        label: "1. szint: Főelosztó",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "3. szint: Érzékeny berendezések",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  commercial: {
+    title: "Kereskedelmi / Lakossági — a létesítmény kitettsége",
+    options: [
+      {
+        label:
+          "Villámvédelemmel rendelkező vagy becsapódásnak kitett elem közelében lévő létesítmény",
+        to: "commercial-highly",
+      },
+      {
+        label: "Légvezetékről táplált létesítmény",
+        to: "commercial-moderate",
+      },
+      { label: "Föld alatti elosztású létesítmény", to: "commercial-basic" },
+    ],
+  },
+  "commercial-highly": {
+    title: "Kereskedelmi / Lakossági — Erősen védett",
+    options: [
+      {
+        label: "Kapcsolószekrény",
+        href: "/guide/selector/surge-protection/type-1plus2/protection-for-power-lines",
+      },
+      {
+        label: "Érzékeny berendezések",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-moderate": {
+    title: "Kereskedelmi / Lakossági — Közepesen védett",
+    options: [
+      {
+        label: "Kapcsolószekrény",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Érzékeny berendezések",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "commercial-basic": {
+    title: "Kereskedelmi / Lakossági — Alapvédelem",
+    options: [
+      {
+        label: "Kapcsolószekrény",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+      {
+        label: "Érzékeny berendezések",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-power-lines",
+      },
+    ],
+  },
+  "street-lighting": {
+    title: "Közvilágítás",
+    options: [
+      {
+        label: "Kültéri lámpatestgyártó",
+        href: "https://www.mersen.com/sites/default/files/medias/PIM/files/DS-Surge-Trap-STL-T23-PP-SERIES-EN.pdf",
+        external: true,
+      },
+      { label: "Panelépítő / Kivitelező", to: "street-lighting-installer" },
+    ],
+  },
+  "street-lighting-installer": {
+    title: "Közvilágítás — Panelépítő / Kivitelező",
+    options: [
+      {
+        label: "Oszlop",
+        href: "/guide/selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+      },
+      {
+        label: "Kapcsolószekrény",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines/p696",
+      },
+    ],
+  },
+  photovoltaic: {
+    title: "Fotovoltaikus",
+    options: [
+      {
+        label: "Csatlakozódoboz (DC)",
+        href: "/guide/selector/surge-protection/type-2/photovoltaic-and-energy-storage",
+      },
+      {
+        label: "Elosztószekrény (AC)",
+        href: "/guide/selector/surge-protection/type-2/protection-for-power-lines",
+      },
+    ],
+  },
+};
+
 export function getSpdNodes(
-  locale: "en" | "fr" | "it" | "de" | "nl"
+  locale: "en" | "fr" | "it" | "de" | "nl" | "hu"
 ): Record<string, SpdNode> {
   if (locale === "fr") return SPD_NODES_FR;
   if (locale === "it") return SPD_NODES_IT;
   if (locale === "de") return SPD_NODES_DE;
   if (locale === "nl") return SPD_NODES_NL;
+  if (locale === "hu") return SPD_NODES_HU;
   return SPD_NODES;
 }

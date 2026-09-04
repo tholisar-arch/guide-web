@@ -1,0 +1,4791 @@
+{
+ "chapters": [
+  {
+   "slug": "selector",
+   "title": "Termékválasztó",
+   "overview": [],
+   "categories": [
+    {
+     "title": "Miniatűr biztosítékok",
+     "slug": "miniature-fuses",
+     "count": 18,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Üveg biztosítékok",
+        "slug": "glass-fuses",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Méret: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Üveg biztosítékok - Méret: 5 x 20 mm - Lomha",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p16",
+              "page": 16
+             },
+             {
+              "title": "Üveg biztosítékok - Méret: 5 x 20 mm - Lomha - Készletdoboz cikkszáma: H203764",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p17",
+              "page": 17
+             },
+             {
+              "title": "Üveg biztosítékok - Méret: 5 x 20 mm - Félig lomha",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p18",
+              "page": 18
+             },
+             {
+              "title": "Üveg biztosítékok - Méret: 5 x 20 mm - Félig lomha - Készletdoboz cikkszáma: P233440",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p19",
+              "page": 19
+             },
+             {
+              "title": "Üveg biztosítékok - Méret: 5 x 20 mm - Gyors kioldású",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p20",
+              "page": 20
+             },
+             {
+              "title": "Üveg biztosítékok - Méret: 5 x 20 mm - Gyors kioldású - Készletdoboz cikkszáma: G203763",
+              "slug": "selector/miniature-fuses/glass-fuses/size-5-x-20-mm/p21",
+              "page": 21
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Üveg biztosítékok - Méret: 6 x 32 mm - Lomha",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p22",
+              "page": 22
+             },
+             {
+              "title": "Üveg biztosítékok - Méret: 6 x 32 mm - Gyors kioldású",
+              "slug": "selector/miniature-fuses/glass-fuses/size-6-x-32-mm/p23",
+              "page": 23
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Kerámia biztosítékok",
+        "slug": "ceramic-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Méret: 5 x 20 mm",
+           "slug": "size-5-x-20-mm",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Kerámia biztosítékok - Méret: 5 x 20 mm - Lomha",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p24",
+              "page": 24
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 5 x 20 mm - Lomha - Készletdoboz cikkszáma: C229864",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p25",
+              "page": 25
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 5 x 20 mm - Félig lomha",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p26",
+              "page": 26
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 5 x 20 mm - Gyors kioldású",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p27",
+              "page": 27
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 5 x 20 mm - Gyors kioldású - Készletdoboz cikkszáma: B229863",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p28",
+              "page": 28
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 5 x 20 mm - Extra gyors kioldású",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-5-x-20-mm/p29",
+              "page": 29
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 6 x 32 mm",
+           "slug": "size-6-x-32-mm",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Kerámia biztosítékok - Méret: 6 x 32 mm - Lomha",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p30",
+              "page": 30
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 6 x 32 mm - Félig lomha",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p31",
+              "page": 31
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 6 x 32 mm - Gyors kioldású",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p32",
+              "page": 32
+             },
+             {
+              "title": "Kerámia biztosítékok - Méret: 6 x 32 mm - Extra gyors kioldású",
+              "slug": "selector/miniature-fuses/ceramic-fuses/size-6-x-32-mm/p33",
+              "page": 33
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "IEC kisfeszültségű biztosítékok",
+     "slug": "iec-fuses",
+     "count": 156,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Típus: Nullavezető híd",
+        "slug": "type-neutral-link",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Méret: 8.5 x 31.5 mm",
+           "slug": "size-8-5-x-31-5-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: Nullavezető híd - Méret: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-8-5-x-31-5-mm/p127",
+              "page": 127
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 10 x 38 mm",
+           "slug": "size-10-x-38-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: Nullavezető híd - Méret: 10 x 38 mm",
+              "slug": "selector/iec-fuses/type-neutral-link/size-10-x-38-mm/p128",
+              "page": 128
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: gG",
+        "slug": "type-gg",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Hengeres biztosítóbetétek",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 8,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 8.5 x 31.5 mm - Jelző nélkül",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p129",
+              "page": 129
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 8.5 x 31.5 mm - Jelzővel",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p130",
+              "page": 130
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 10 x 38 mm - Jelző nélkül",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p131",
+              "page": 131
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 10 x 38 mm - Jelzővel",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p132",
+              "page": 132
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 14 x 51 mm - Ütőszeg nélkül",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p133",
+              "page": 133
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 14 x 51 mm - Ütőszeggel",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p134",
+              "page": 134
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 22 x 58 mm - Ütőszeg nélkül",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p135",
+              "page": 135
+             },
+             {
+              "title": "Típus: gG - Hengeres biztosítóbetétek - Méret: 22 x 58 mm - Ütőszeggel",
+              "slug": "selector/iec-fuses/type-gg/ferrule-fuse-links-standard/p136",
+              "page": 136
+             }
+            ]
+           }
+          },
+          {
+           "title": "DIN D0 szabvány",
+           "slug": "din-d0-standard",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG - DIN D0 szabvány - Méret: D01 (E14)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p137",
+              "page": 137
+             },
+             {
+              "title": "Típus: gG - DIN D0 szabvány - Méret: D02 (E18)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p138",
+              "page": 138
+             },
+             {
+              "title": "Típus: gG - DIN D0 szabvány - Méret: D03 (M30x2)",
+              "slug": "selector/iec-fuses/type-gg/din-d0-standard/p139",
+              "page": 139
+             }
+            ]
+           }
+          },
+          {
+           "title": "DIN D szabvány",
+           "slug": "din-d-standard",
+           "count": 5,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG - DIN D szabvány - Méret: NDZ",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p140",
+              "page": 140
+             },
+             {
+              "title": "Típus: gG - DIN D szabvány - Méret: DII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p141",
+              "page": 141
+             },
+             {
+              "title": "Típus: gG - DIN D szabvány - Méret: DIII",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p142",
+              "page": 142
+             },
+             {
+              "title": "Típus: gG - DIN D szabvány - Méret: DIV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p143",
+              "page": 143
+             },
+             {
+              "title": "Típus: gG - DIN D szabvány - Méret: DV",
+              "slug": "selector/iec-fuses/type-gg/din-d-standard/p144",
+              "page": 144
+             }
+            ]
+           }
+          },
+          {
+           "title": "DIN NH szabvány",
+           "slug": "din-nh-standard",
+           "count": 46,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Méret: 000",
+              "slug": "size-000",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 000 - Szigetelt csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p148",
+                 "page": 148
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 000 - Szigetelt csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p149",
+                 "page": 149
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 000 - Szigetelt csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p150",
+                 "page": 150
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 000 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p151",
+                 "page": 151
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 000 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p152",
+                 "page": 152
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 000 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p153",
+                 "page": 153
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 00",
+              "slug": "size-00",
+              "count": 6,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 00 - Szigetelt csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p154",
+                 "page": 154
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 00 - Szigetelt csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p155",
+                 "page": 155
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 00 - Szigetelt csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p156",
+                 "page": 156
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 00 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p157",
+                 "page": 157
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 00 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p158",
+                 "page": 158
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 00 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p159",
+                 "page": 159
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 0",
+              "slug": "size-0",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 0 - Szigetelt csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p160",
+                 "page": 160
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 0 - Szigetelt csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p161",
+                 "page": 161
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 0 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p162",
+                 "page": 162
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 0 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p163",
+                 "page": 163
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 0 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p164",
+                 "page": 164
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 1",
+              "slug": "size-1",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Szigetelt csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p165",
+                 "page": 165
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Szigetelt csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p166",
+                 "page": 166
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Szigetelt csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p167",
+                 "page": 167
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p168",
+                 "page": 168
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p169",
+                 "page": 169
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p170",
+                 "page": 170
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 1 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p171",
+                 "page": 171
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 2",
+              "slug": "size-2",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Szigetelt csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p172",
+                 "page": 172
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Szigetelt csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p173",
+                 "page": 173
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Szigetelt csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p174",
+                 "page": 174
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p175",
+                 "page": 175
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p176",
+                 "page": 176
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p177",
+                 "page": 177
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 2 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p178",
+                 "page": 178
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 3",
+              "slug": "size-3",
+              "count": 7,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Szigetelt csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p179",
+                 "page": 179
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Szigetelt csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p180",
+                 "page": 180
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Szigetelt csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p181",
+                 "page": 181
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 400 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p182",
+                 "page": 182
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p183",
+                 "page": 183
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Szigeteletlen csatlakozósarukkal - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p184",
+                 "page": 184
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 3 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p185",
+                 "page": 185
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 4",
+              "slug": "size-4",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4 - Felső jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p186",
+                 "page": 186
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4 - Felső jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p187",
+                 "page": 187
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4 - Középső jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p188",
+                 "page": 188
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4 - Középső jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p189",
+                 "page": 189
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p190",
+                 "page": 190
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 4a",
+              "slug": "size-4a",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4a - Felső jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p191",
+                 "page": 191
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4a - Középső jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p192",
+                 "page": 192
+                },
+                {
+                 "title": "Típus: gG - DIN NH szabvány - Méret: 4a - Középső jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-gg/din-nh-standard/p193",
+                 "page": 193
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "BS88 szabvány",
+           "slug": "bs88-standard",
+           "count": 36,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Típus: A1",
+              "slug": "type-a1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A1 - BS típus: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p194",
+                 "page": 194
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A1 - BS típus: BEIT (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p195",
+                 "page": 195
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A2 - BS típus: BTIA (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p196",
+                 "page": 196
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A2 - BS típus: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p197",
+                 "page": 197
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: A3",
+              "slug": "type-a3",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A3 - BS típus: BTSS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p198",
+                 "page": 198
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A3 - BS típus: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p199",
+                 "page": 199
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A3 - BS típus: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p200",
+                 "page": 200
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A3 - BS típus: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p201",
+                 "page": 201
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A4 - BS típus: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p202",
+                 "page": 202
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A4 - BS típus: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p203",
+                 "page": 203
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A4 - BS típus: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p204",
+                 "page": 204
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: A4 - BS típus: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p205",
+                 "page": 205
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B1",
+              "slug": "type-b1",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B1 - BS típus: BTBC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p206",
+                 "page": 206
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B1 - BS típus: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p207",
+                 "page": 207
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B1 - BS típus: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p208",
+                 "page": 208
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B1 - BS típus: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p209",
+                 "page": 209
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B2 - BS típus: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p210",
+                 "page": 210
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B2 - BS típus: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p211",
+                 "page": 211
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B3",
+              "slug": "type-b3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B3 - BS típus: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p212",
+                 "page": 212
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B3 - BS típus: BTKF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p213",
+                 "page": 213
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B3 - BS típus: BTKM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p214",
+                 "page": 214
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B4",
+              "slug": "type-b4",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B4 - BS típus: BTMF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p215",
+                 "page": 215
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: B4 - BS típus: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p216",
+                 "page": 216
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: C1",
+              "slug": "type-c1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: C1 - BS típus: BTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p217",
+                 "page": 217
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: C1 - BS típus: BTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p218",
+                 "page": 218
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: C2",
+              "slug": "type-c2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: C2 - BS típus: BTTM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p219",
+                 "page": 219
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: C2 - BS típus: BTTM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p220",
+                 "page": 220
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: C3",
+              "slug": "type-c3",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: C3 - BS típus: BTLM (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p221",
+                 "page": 221
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: C3 - BS típus: BTLM (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p222",
+                 "page": 222
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: F1",
+              "slug": "type-f1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: F1 - BS típus: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p223",
+                 "page": 223
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: F2",
+              "slug": "type-f2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: F2 - BS típus: BES (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p224",
+                 "page": 224
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - Típus: F2 - BS típus: BES (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p225",
+                 "page": 225
+                }
+               ]
+              }
+             },
+             {
+              "title": "BS közvilágítás",
+              "slug": "bs-street-lighting",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - BS közvilágítás - BS típus: BMD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p226",
+                 "page": 226
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - BS közvilágítás - BS típus: BLST (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p227",
+                 "page": 227
+                },
+                {
+                 "title": "Típus: gG - BS88 szabvány - BS közvilágítás - BS típus: BLD (240 VAC)",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p228",
+                 "page": 228
+                }
+               ]
+              }
+             },
+             {
+              "title": "BS elosztószekrény",
+              "slug": "bs-feeder-pillar",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gG - BS88 szabvány - BS elosztószekrény",
+                 "slug": "selector/iec-fuses/type-gg/bs88-standard/p229",
+                 "page": 229
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "BS1361 szabvány",
+           "slug": "bs1361-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG - BS1361 szabvány - Házi bekötés - BS típus: BME (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p230",
+              "page": 230
+             },
+             {
+              "title": "Típus: gG - BS1361 szabvány - Házi bekötés - BS típus: BMF (415 VAC)",
+              "slug": "selector/iec-fuses/type-gg/bs1361-standard/p231",
+              "page": 231
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: gG Flink",
+        "slug": "type-gg-flink",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Méret: NDZ",
+           "slug": "size-ndz",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG Flink - Méret: NDZ",
+              "slug": "selector/iec-fuses/type-gg-flink/size-ndz/p145",
+              "page": 145
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: DII",
+           "slug": "size-dii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG Flink - Méret: DII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-dii/p146",
+              "page": 146
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: DIII",
+           "slug": "size-diii",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gG Flink - Méret: DIII",
+              "slug": "selector/iec-fuses/type-gg-flink/size-diii/p147",
+              "page": 147
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: aM",
+        "slug": "type-am",
+        "count": 29,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Hengeres biztosítóbetétek",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 8.5 x 31.5 mm",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p232",
+              "page": 232
+             },
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 10 x 38 mm - Jelző nélkül",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p233",
+              "page": 233
+             },
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 10 x 38 mm - Jelzővel",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p234",
+              "page": 234
+             },
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 14 x 51 mm - Ütőszeg nélkül",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p235",
+              "page": 235
+             },
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 14 x 51 mm - Ütőszeggel",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p236",
+              "page": 236
+             },
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 22 x 58 mm - Ütőszeg nélkül",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p237",
+              "page": 237
+             },
+             {
+              "title": "Típus: aM - Hengeres biztosítóbetétek - Méret: 22 x 58 mm - Ütőszeggel",
+              "slug": "selector/iec-fuses/type-am/ferrule-fuse-links-standard/p238",
+              "page": 238
+             }
+            ]
+           }
+          },
+          {
+           "title": "DIN D0 szabvány",
+           "slug": "din-d0-standard",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: aM - DIN D0 szabvány - Méret: D02",
+              "slug": "selector/iec-fuses/type-am/din-d0-standard/p239",
+              "page": 239
+             }
+            ]
+           }
+          },
+          {
+           "title": "DIN NH szabvány",
+           "slug": "din-nh-standard",
+           "count": 21,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Méret: 000",
+              "slug": "size-000",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 000 - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p240",
+                 "page": 240
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 000 - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p241",
+                 "page": 241
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 00",
+              "slug": "size-00",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 00 - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p242",
+                 "page": 242
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 00 - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p243",
+                 "page": 243
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 0",
+              "slug": "size-0",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 0 - Jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p244",
+                 "page": 244
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 0 - Jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p245",
+                 "page": 245
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 0 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p246",
+                 "page": 246
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 1",
+              "slug": "size-1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 1 - Jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p247",
+                 "page": 247
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 1 - Jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p248",
+                 "page": 248
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 1 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p249",
+                 "page": 249
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 2",
+              "slug": "size-2",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 2 - Jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p250",
+                 "page": 250
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 2 - Jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p251",
+                 "page": 251
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 2 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p252",
+                 "page": 252
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 3",
+              "slug": "size-3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 3 - Jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p253",
+                 "page": 253
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 3 - Jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p254",
+                 "page": 254
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 3 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p255",
+                 "page": 255
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 4",
+              "slug": "size-4",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 4 - Jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p256",
+                 "page": 256
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 4 - Jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p257",
+                 "page": 257
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 4 - Ütőszeggel",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p258",
+                 "page": 258
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 4a",
+              "slug": "size-4a",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 4a - Jelzővel - Névleges feszültség: 500 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p259",
+                 "page": 259
+                },
+                {
+                 "title": "Típus: aM - DIN NH szabvány - Méret: 4a - Jelzővel - Névleges feszültség: 690 VAC",
+                 "slug": "selector/iec-fuses/type-am/din-nh-standard/p260",
+                 "page": 260
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: gM",
+        "slug": "type-gm",
+        "count": 19,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "BS88 szabvány",
+           "slug": "bs88-standard",
+           "count": 19,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Típus: A1",
+              "slug": "type-a1",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A1 - BS típus: BNIT (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p261",
+                 "page": 261
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: A2",
+              "slug": "type-a2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A2 - BS típus: BTIA (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p262",
+                 "page": 262
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A2 - BS típus: BTIA (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p263",
+                 "page": 263
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: A3",
+              "slug": "type-a3",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A3 - BS típus: BTSDS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p264",
+                 "page": 264
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A3 - BS típus: BTIS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p265",
+                 "page": 265
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A3 - BS típus: BTIS (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p266",
+                 "page": 266
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: A4",
+              "slug": "type-a4",
+              "count": 4,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A4 - BS típus: BTSD (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p267",
+                 "page": 267
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A4 - BS típus: BTCP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p268",
+                 "page": 268
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A4 - BS típus: BTCP (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p269",
+                 "page": 269
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: A4 - BS típus: BTFP (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p270",
+                 "page": 270
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B1",
+              "slug": "type-b1",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B1 - BS típus: BTSDC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p271",
+                 "page": 271
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B1 - BS típus: BTC (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p272",
+                 "page": 272
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B1 - BS típus: BTC (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p273",
+                 "page": 273
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B2",
+              "slug": "type-b2",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B2 - BS típus: BTF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p274",
+                 "page": 274
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B2 - BS típus: BTF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p275",
+                 "page": 275
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B3",
+              "slug": "type-b3",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B3 - BS típus: BTKF (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p276",
+                 "page": 276
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: B4",
+              "slug": "type-b4",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: B4 - BS típus: BTMF (690 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p277",
+                 "page": 277
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: F1",
+              "slug": "type-f1",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: F1 - BS típus: BNS (415 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p278",
+                 "page": 278
+                },
+                {
+                 "title": "Típus: gM - BS88 szabvány - Típus: F1 - BS típus: BNS (550 VAC)",
+                 "slug": "selector/iec-fuses/type-gm/bs88-standard/p279",
+                 "page": 279
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: aD",
+        "slug": "type-ad",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Hengeres biztosítóbetétek",
+           "slug": "ferrule-fuse-links-standard",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: aD - Hengeres biztosítóbetétek - Méret: 14 x 51 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p280",
+              "page": 280
+             },
+             {
+              "title": "Típus: aD - Hengeres biztosítóbetétek - Méret: 22 x 58 mm",
+              "slug": "selector/iec-fuses/type-ad/ferrule-fuse-links-standard/p281",
+              "page": 281
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: aD - Méret: 00",
+              "slug": "selector/iec-fuses/type-ad/size-00/p282",
+              "page": 282
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "UL/CSA kisfeszültségű biztosítékok",
+     "slug": "ul-csa-fuses",
+     "count": 20,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Gyors kioldású",
+        "slug": "fast-acting",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "C osztály",
+           "slug": "class-c",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - C osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-c/p293",
+              "page": 293
+             }
+            ]
+           }
+          },
+          {
+           "title": "CC osztály",
+           "slug": "class-cc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - CC osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-cc/p294",
+              "page": 294
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - Midget - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/midget/p295",
+              "page": 295
+             }
+            ]
+           }
+          },
+          {
+           "title": "T osztály",
+           "slug": "class-t",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - T osztály - Névleges feszültség: 300 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p296",
+              "page": 296
+             },
+             {
+              "title": "Gyors kioldású - T osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-t/p297",
+              "page": 297
+             }
+            ]
+           }
+          },
+          {
+           "title": "J osztály",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - J osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-j/p298",
+              "page": 298
+             }
+            ]
+           }
+          },
+          {
+           "title": "K5 osztály",
+           "slug": "class-k5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - K5 osztály - Névleges feszültség: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p299",
+              "page": 299
+             },
+             {
+              "title": "Gyors kioldású - K5 osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-k5/p300",
+              "page": 300
+             }
+            ]
+           }
+          },
+          {
+           "title": "RK1 osztály",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Gyors kioldású - RK1 osztály - Névleges feszültség: 250 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p301",
+              "page": 301
+             },
+             {
+              "title": "Gyors kioldású - RK1 osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/fast-acting/class-rk1/p302",
+              "page": 302
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Lomha",
+        "slug": "time-delay",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "CC osztály",
+           "slug": "class-cc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Lomha - CC osztály - Sorozat: ATDR - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p303",
+              "page": 303
+             },
+             {
+              "title": "Lomha - CC osztály - Sorozat: ATQR - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-cc/p304",
+              "page": 304
+             }
+            ]
+           }
+          },
+          {
+           "title": "Midget",
+           "slug": "midget",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Lomha - Midget - Névleges feszültség: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p306",
+              "page": 306
+             },
+             {
+              "title": "Lomha - Midget - Névleges feszültség: 500 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/midget/p307",
+              "page": 307
+             }
+            ]
+           }
+          },
+          {
+           "title": "J osztály",
+           "slug": "class-j",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Lomha - J osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-j/p308",
+              "page": 308
+             }
+            ]
+           }
+          },
+          {
+           "title": "L osztály",
+           "slug": "class-l",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Lomha - L osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-l/p309",
+              "page": 309
+             }
+            ]
+           }
+          },
+          {
+           "title": "RK1 osztály",
+           "slug": "class-rk1",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Lomha - RK1 osztály - Névleges feszültség: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p310",
+              "page": 310
+             },
+             {
+              "title": "Lomha - RK1 osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk1/p311",
+              "page": 311
+             }
+            ]
+           }
+          },
+          {
+           "title": "RK5 osztály",
+           "slug": "class-rk5",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Lomha - RK5 osztály - Névleges feszültség: 250 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p312",
+              "page": 312
+             },
+             {
+              "title": "Lomha - RK5 osztály - Névleges feszültség: 600 VAC",
+              "slug": "selector/ul-csa-fuses/time-delay/class-rk5/p313",
+              "page": 313
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Gyorsbiztosítékok",
+     "slug": "high-speed-fuses",
+     "count": 155,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Típus: gLB",
+        "slug": "type-glb",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Méret: 14 x 51 mm",
+           "slug": "size-14-x-51-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gLB - Méret: 14 x 51 mm - Ütőszeggel",
+              "slug": "selector/high-speed-fuses/type-glb/size-14-x-51-mm/p383",
+              "page": 383
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 22 x 58 mm",
+           "slug": "size-22-x-58-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gLB - Méret: 22 x 58 mm - Ütőszeggel",
+              "slug": "selector/high-speed-fuses/type-glb/size-22-x-58-mm/p384",
+              "page": 384
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 27 x 60 mm",
+           "slug": "size-27-x-60-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gLB - Méret: 27 x 60 mm - Ütőszeggel",
+              "slug": "selector/high-speed-fuses/type-glb/size-27-x-60-mm/p385",
+              "page": 385
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: gS",
+        "slug": "type-gs",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Méret: 000",
+           "slug": "size-000",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gS - Méret: 000",
+              "slug": "selector/high-speed-fuses/type-gs/size-000/p386",
+              "page": 386
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 00",
+           "slug": "size-00",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gS - Méret: 00",
+              "slug": "selector/high-speed-fuses/type-gs/size-00/p387",
+              "page": 387
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 1",
+           "slug": "size-1",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gS - Méret: 1",
+              "slug": "selector/high-speed-fuses/type-gs/size-1/p388",
+              "page": 388
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 2",
+           "slug": "size-2",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gS - Méret: 2",
+              "slug": "selector/high-speed-fuses/type-gs/size-2/p389",
+              "page": 389
+             }
+            ]
+           }
+          },
+          {
+           "title": "Méret: 3",
+           "slug": "size-3",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: gS - Méret: 3",
+              "slug": "selector/high-speed-fuses/type-gs/size-3/p390",
+              "page": 390
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: gR",
+        "slug": "type-gr",
+        "count": 47,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Hengeres",
+           "slug": "cylindrical",
+           "count": 17,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "AC kivitel",
+              "slug": "ac-rated",
+              "count": 5,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: gR - Hengeres - AC kivitel - Méret: 10 x 38 mm",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p391",
+                 "page": 391
+                },
+                {
+                 "title": "Típus: gR - Hengeres - AC kivitel - Méret: 14 x 51 mm - Ütőszeg nélkül",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p392",
+                 "page": 392
+                },
+                {
+                 "title": "Típus: gR - Hengeres - AC kivitel - Méret: 14 x 51 mm - Ütőszeggel",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p393",
+                 "page": 393
+                },
+                {
+                 "title": "Típus: gR - Hengeres - AC kivitel - Méret: 22 x 58 mm - Ütőszeg nélkül",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p394",
+                 "page": 394
+                },
+                {
+                 "title": "Típus: gR - Hengeres - AC kivitel - Méret: 22 x 58 mm - Ütőszeggel",
+                 "slug": "selector/high-speed-fuses/type-gr/cylindrical/p395",
+                 "page": 395
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC kivitel",
+              "slug": "dc-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Méret: 27 x 60 mm",
+                 "slug": "size-27-x-60-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 27 x 60 mm - Ütőszeggel",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p396",
+                    "page": 396
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 20 x 127 mm",
+                 "slug": "size-20-x-127-mm",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 20 x 127 mm - Ütőszeg nélkül - Névleges feszültség: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p397",
+                    "page": 397
+                   },
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 20 x 127 mm - Ütőszeg nélkül - Névleges feszültség: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p398",
+                    "page": 398
+                   },
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 20 x 127 mm - Ütőszeggel - Névleges feszültség: 1000 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p399",
+                    "page": 399
+                   },
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 20 x 127 mm - Ütőszeggel - Névleges feszültség: 1500 VDC",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p400",
+                    "page": 400
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 20 x 190 mm",
+                 "slug": "size-20-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 20 x 190 mm - Ütőszeg nélkül",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p401",
+                    "page": 401
+                   },
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 20 x 190 mm - Ütőszeggel",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p402",
+                    "page": 402
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 36 x 190 mm",
+                 "slug": "size-36-x-190-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 36 x 190 mm - Ütőszeg nélkül",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p404",
+                    "page": 404
+                   },
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 36 x 190 mm - Ütőszeggel",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p405",
+                    "page": 405
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 36 x 250 mm",
+                 "slug": "size-36-x-250-mm",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 36 x 250 mm - Ütőszeg nélkül",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p406",
+                    "page": 406
+                   },
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 36 x 250 mm - Ütőszeggel",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p407",
+                    "page": 407
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 36 x 400 mm",
+                 "slug": "size-36-x-400-mm",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Hengeres - DC kivitel - Méret: 36 x 400 mm - Ütőszeg nélkül",
+                    "slug": "selector/high-speed-fuses/type-gr/cylindrical/p408",
+                    "page": 408
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Négyzet alakú ház",
+           "slug": "square-body",
+           "count": 30,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "AC kivitel",
+              "slug": "ac-rated",
+              "count": 12,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Méret: 70",
+                 "slug": "size-70",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: DIN110 (DIN110 késekkel)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p409",
+                    "page": 409
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p410",
+                    "page": 410
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p411",
+                    "page": 411
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 71",
+                 "slug": "size-71",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: DIN110 (DIN110 késekkel)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p412",
+                    "page": 412
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p413",
+                    "page": 413
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p414",
+                    "page": 414
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 72",
+                 "slug": "size-72",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: DIN110 (DIN110 késekkel)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p415",
+                    "page": 415
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p416",
+                    "page": 416
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p417",
+                    "page": 417
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 73",
+                 "slug": "size-73",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: DIN110 (DIN110 késekkel)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p418",
+                    "page": 418
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p419",
+                    "page": 419
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p420",
+                    "page": 420
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC kivitel",
+              "slug": "dc-rated",
+              "count": 18,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Méret: 120",
+                 "slug": "size-120",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 120 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p421",
+                    "page": 421
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 120 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p422",
+                    "page": 422
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 121",
+                 "slug": "size-121",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 121 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p423",
+                    "page": 423
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 121 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p424",
+                    "page": 424
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 122",
+                 "slug": "size-122",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 122 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p425",
+                    "page": 425
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 122 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p426",
+                    "page": 426
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 122",
+                 "slug": "size-2-x-122",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 2 x 122 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p427",
+                    "page": 427
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 123",
+                 "slug": "size-123",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 123 - Típus: EF (csavaros csatlakozás)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p428",
+                    "page": 428
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 123 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p429",
+                    "page": 429
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 123",
+                 "slug": "size-2-x-123",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 2 x 123 - Típus: TTF (menetes csatlakozók)",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p430",
+                    "page": 430
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 300",
+                 "slug": "size-300",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 300 - Típus: Tartókeret",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p431",
+                    "page": 431
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 300 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p432",
+                    "page": 432
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 302",
+                 "slug": "size-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 302 - Típus: Tartókeret",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p433",
+                    "page": 433
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 302",
+                 "slug": "size-2-x-302",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 2 x 302 - Típus: Tartókeret",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p434",
+                    "page": 434
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 600",
+                 "slug": "size-600",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 600 - Típus: Tartókeret",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p435",
+                    "page": 435
+                   },
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 600 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p436",
+                    "page": 436
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 602",
+                 "slug": "size-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 602 - Típus: Tartókeret",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p437",
+                    "page": 437
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 602",
+                 "slug": "size-2-x-602",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: gR - Négyzet alakú ház - DC kivitel - Méret: 2 x 602 - Típus: Tartókeret",
+                    "slug": "selector/high-speed-fuses/type-gr/square-body/p438",
+                    "page": 438
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: aR",
+        "slug": "type-ar",
+        "count": 100,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Hengeres",
+           "slug": "cylindrical",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: aR - Hengeres - Méret: 10 x 38 mm - Jelző nélkül",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p439",
+              "page": 439
+             },
+             {
+              "title": "Típus: aR - Hengeres - Méret: 10 x 38 mm - Jelzővel",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p440",
+              "page": 440
+             },
+             {
+              "title": "Típus: aR - Hengeres - Méret: 14 x 51 mm - Ütőszeg nélkül",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p441",
+              "page": 441
+             },
+             {
+              "title": "Típus: aR - Hengeres - Méret: 14 x 51 mm - Ütőszeggel",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p442",
+              "page": 442
+             },
+             {
+              "title": "Típus: aR - Hengeres - Méret: 22 x 58 mm - Ütőszeg nélkül",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p443",
+              "page": 443
+             },
+             {
+              "title": "Típus: aR - Hengeres - Méret: 22 x 58 mm - Ütőszeggel",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p444",
+              "page": 444
+             },
+             {
+              "title": "Típus: aR - Hengeres - Méret: 27 x 60 mm - Ütőszeggel",
+              "slug": "selector/high-speed-fuses/type-ar/cylindrical/p445",
+              "page": 445
+             }
+            ]
+           }
+          },
+          {
+           "title": "Négyzet alakú ház",
+           "slug": "square-body",
+           "count": 82,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "AC kivitel",
+              "slug": "ac-rated",
+              "count": 71,
+              "node": {
+               "type": "group",
+               "children": [
+                {
+                 "title": "Méret: NH000",
+                 "slug": "size-nh000",
+                 "count": 4,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH000 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p446",
+                    "page": 446
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH000 - Típus: DIN80 tartókeret - Felügyeleti mikrokapcsoló",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p447",
+                    "page": 447
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH000 - Típus: DIN80 tartókeret - Jelzővel",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p448",
+                    "page": 448
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH000 - Típus: DIN80 tartókeret - Jelző nélkül",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p449",
+                    "page": 449
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: NH00",
+                 "slug": "size-nh00",
+                 "count": 3,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH00 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p450",
+                    "page": 450
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH00 - Típus: DIN80 tartókeret - Felügyeleti mikrokapcsoló",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p451",
+                    "page": 451
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH00 - Típus: DIN110 tartókeret - Felügyeleti mikrokapcsoló",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p452",
+                    "page": 452
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: NH0",
+                 "slug": "size-nh0",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH0 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p453",
+                    "page": 453
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: NH1",
+                 "slug": "size-nh1",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH1 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p454",
+                    "page": 454
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: NH2",
+                 "slug": "size-nh2",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH2 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p455",
+                    "page": 455
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: NH3",
+                 "slug": "size-nh3",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: NH3 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p456",
+                    "page": 456
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 30",
+                 "slug": "size-30",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: DIN80 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p457",
+                    "page": 457
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p458",
+                    "page": 458
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p459",
+                    "page": 459
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: KI US rövid hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p460",
+                    "page": 460
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p461",
+                    "page": 461
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p462",
+                    "page": 462
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 30 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p463",
+                    "page": 463
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 31",
+                 "slug": "size-31",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: DIN80 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p464",
+                    "page": 464
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p465",
+                    "page": 465
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p466",
+                    "page": 466
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: KI US rövid hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p467",
+                    "page": 467
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p468",
+                    "page": 468
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p469",
+                    "page": 469
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 31 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p470",
+                    "page": 470
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 32",
+                 "slug": "size-32",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: DIN80 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p471",
+                    "page": 471
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p472",
+                    "page": 472
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p473",
+                    "page": 473
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: KI US rövid hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p474",
+                    "page": 474
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p475",
+                    "page": 475
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p476",
+                    "page": 476
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 32 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p477",
+                    "page": 477
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 33",
+                 "slug": "size-33",
+                 "count": 7,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: DIN80 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p478",
+                    "page": 478
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p479",
+                    "page": 479
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p480",
+                    "page": 480
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: KI US rövid hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p481",
+                    "page": 481
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p482",
+                    "page": 482
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p483",
+                    "page": 483
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 33 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p484",
+                    "page": 484
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 70",
+                 "slug": "size-70",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p485",
+                    "page": 485
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p486",
+                    "page": 486
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p487",
+                    "page": 487
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p488",
+                    "page": 488
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p489",
+                    "page": 489
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 70 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p490",
+                    "page": 490
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 71",
+                 "slug": "size-71",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p491",
+                    "page": 491
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p492",
+                    "page": 492
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p493",
+                    "page": 493
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p494",
+                    "page": 494
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p495",
+                    "page": 495
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 71 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p496",
+                    "page": 496
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 72",
+                 "slug": "size-72",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p497",
+                    "page": 497
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p498",
+                    "page": 498
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p499",
+                    "page": 499
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p500",
+                    "page": 500
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p501",
+                    "page": 501
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 72 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p502",
+                    "page": 502
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 72",
+                 "slug": "size-2-x-72",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 2 x 72 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p503",
+                    "page": 503
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 73",
+                 "slug": "size-73",
+                 "count": 6,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: DIN110 hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p504",
+                    "page": 504
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: EF francia hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p505",
+                    "page": 505
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: LI US hosszú hornyolt kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p506",
+                    "page": 506
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: Sima kések",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p507",
+                    "page": 507
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p508",
+                    "page": 508
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 73 - Típus: TTI US menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p509",
+                    "page": 509
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 73",
+                 "slug": "size-2-x-73",
+                 "count": 2,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 2 x 73 - Típus: Menetes lemezek",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p510",
+                    "page": 510
+                   },
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 2 x 73 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p511",
+                    "page": 511
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 91",
+                 "slug": "size-91",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 91 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p512",
+                    "page": 512
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 92",
+                 "slug": "size-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 92 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p513",
+                    "page": 513
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 92",
+                 "slug": "size-2-x-92",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 2 x 92 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p514",
+                    "page": 514
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 93",
+                 "slug": "size-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 93 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p515",
+                    "page": 515
+                   }
+                  ]
+                 }
+                },
+                {
+                 "title": "Méret: 2 x 93",
+                 "slug": "size-2-x-93",
+                 "count": 1,
+                 "node": {
+                  "type": "leaves",
+                  "items": [
+                   {
+                    "title": "Típus: aR - Négyzet alakú ház - AC kivitel - Méret: 2 x 93 - Típus: TTF francia menetes csatlakozók",
+                    "slug": "selector/high-speed-fuses/type-ar/square-body/p516",
+                    "page": 516
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             },
+             {
+              "title": "DC kivitel",
+              "slug": "dc-rated",
+              "count": 11,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 70 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p517",
+                 "page": 517
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 72 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p518",
+                 "page": 518
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 2 x 72 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p519",
+                 "page": 519
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 120 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p520",
+                 "page": 520
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 122 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p521",
+                 "page": 521
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 300 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p522",
+                 "page": 522
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 302 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p523",
+                 "page": 523
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 2 x 302 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p524",
+                 "page": 524
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 600 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p525",
+                 "page": 525
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 602 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p526",
+                 "page": 526
+                },
+                {
+                 "title": "Típus: aR - Négyzet alakú ház - DC kivitel - Méret: 2 x 602 - Típus: Tartókeret",
+                 "slug": "selector/high-speed-fuses/type-ar/square-body/p527",
+                 "page": 527
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "BS88-4 szabvány",
+           "slug": "bs88-4-standard",
+           "count": 11,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Méret: 10 x 28 mm",
+              "slug": "size-10-x-28-mm",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 10 x 28 mm - Névleges feszültség: 250 VAC - Kioldásjelző nélkül",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p528",
+                 "page": 528
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 17 x 27 mm",
+              "slug": "size-17-x-27-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 17 x 27 mm - Névleges feszültség: 250 VAC - Kioldásjelző nélkül",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p529",
+                 "page": 529
+                },
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 17 x 27 mm - Névleges feszültség: 250 VAC - Külön kioldásjelzővel",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p530",
+                 "page": 530
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 17 x 49 mm",
+              "slug": "size-17-x-49-mm",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 17 x 49 mm - Névleges feszültség: 690 VAC - Kioldásjelző nélkül",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p531",
+                 "page": 531
+                },
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 17 x 49 mm - Névleges feszültség: 690 VAC - Külön kioldásjelzővel",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p532",
+                 "page": 532
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 36 x 55 mm",
+              "slug": "size-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 36 x 55 mm - Névleges feszültség: 690 VAC - Kioldásjelző nélkül",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p533",
+                 "page": 533
+                },
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 36 x 55 mm - Névleges feszültség: 690 VAC - Beépített kioldásjelzővel",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p534",
+                 "page": 534
+                },
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 36 x 55 mm - Névleges feszültség: 690 VAC - Külön kioldásjelzővel",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p535",
+                 "page": 535
+                }
+               ]
+              }
+             },
+             {
+              "title": "Méret: 2 x 36 x 55 mm",
+              "slug": "size-2-x-36-x-55-mm",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 2 x 36 x 55 mm - Névleges feszültség: 690 VAC - Kioldásjelző nélkül",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p536",
+                 "page": 536
+                },
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 2 x 36 x 55 mm - Névleges feszültség: 690 VAC - Beépített kioldásjelzővel",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p537",
+                 "page": 537
+                },
+                {
+                 "title": "Típus: aR - BS88-4 szabvány - Méret: 2 x 36 x 55 mm - Névleges feszültség: 690 VAC - Külön kioldásjelzővel",
+                 "slug": "selector/high-speed-fuses/type-ar/bs88-4-standard/p538",
+                 "page": 538
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "IEC középfeszültségű biztosítékok",
+     "slug": "medium-voltage-fuses",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "DIN P előtétbiztosíték transzformátorokhoz",
+        "slug": "din-p-back-up-for-transformers",
+        "count": 7,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 7.2 KV - Hossz: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-7-2-kv/p562",
+              "page": 562
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p564",
+              "page": 564
+             },
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-12-kv/p569",
+              "page": 569
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 17.5 KV - Hossz: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-17-5-kv/p571",
+              "page": 571
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 24 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p573",
+              "page": 573
+             },
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 24 KV - Hossz: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-24-kv/p578",
+              "page": 578
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN P előtétbiztosíték transzformátorokhoz - Névleges feszültség: 36 KV - Hossz: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-p-back-up-for-transformers/rated-voltage-36-kv/p579",
+              "page": 579
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PD előtétbiztosíték transzformátorokhoz",
+        "slug": "din-pd-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 7.2 KV - Hossz: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-7-2-kv/p563",
+              "page": 563
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-12-kv/p565",
+              "page": 565
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 24 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-24-kv/p574",
+              "page": 574
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 36 KV - Hossz: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pd-back-up-for-transformers/rated-voltage-36-kv/p580",
+              "page": 580
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PT előtétbiztosíték transzformátorokhoz",
+        "slug": "din-pt-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PT előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-12-kv/p566",
+              "page": 566
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 17.5 KV",
+           "slug": "rated-voltage-17-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PT előtétbiztosíték transzformátorokhoz - Névleges feszültség: 17.5 KV - Hossz: 367 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-17-5-kv/p572",
+              "page": 572
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PT előtétbiztosíték transzformátorokhoz - Névleges feszültség: 24 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pt-back-up-for-transformers/rated-voltage-24-kv/p575",
+              "page": 575
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PTD előtétbiztosíték transzformátorokhoz",
+        "slug": "din-ptd-back-up-for-transformers",
+        "count": 3,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-12-kv/p567",
+              "page": 567
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 24 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-24-kv/p576",
+              "page": 576
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTD előtétbiztosíték transzformátorokhoz - Névleges feszültség: 36 KV - Hossz: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-ptd-back-up-for-transformers/rated-voltage-36-kv/p581",
+              "page": 581
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN PTS előtétbiztosíték transzformátorokhoz",
+        "slug": "din-pts-back-up-for-transformers",
+        "count": 4,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTS előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p568",
+              "page": 568
+             },
+             {
+              "title": "DIN PTS előtétbiztosíték transzformátorokhoz - Névleges feszültség: 12 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-12-kv/p570",
+              "page": 570
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTS előtétbiztosíték transzformátorokhoz - Névleges feszültség: 24 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-24-kv/p577",
+              "page": 577
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 36 KV",
+           "slug": "rated-voltage-36-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN PTS előtétbiztosíték transzformátorokhoz - Névleges feszültség: 36 KV - Hossz: 537 mm",
+              "slug": "selector/medium-voltage-fuses/din-pts-back-up-for-transformers/rated-voltage-36-kv/p582",
+              "page": 582
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "NF/UTE előtétbiztosítékok transzformátorokhoz",
+        "slug": "nf-ute-back-up-fuses-for-transformers",
+        "count": 6,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "NF/UTE előtétbiztosítékok transzformátorokhoz - Névleges feszültség: 7.2 KV - Méret: 55 x 520 mm - Ütőszeg nélkül",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p583",
+              "page": 583
+             },
+             {
+              "title": "NF/UTE előtétbiztosítékok transzformátorokhoz - Névleges feszültség: 7.2 KV - Méret: 55 x 520 mm - Ütőszeggel",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-7-2-kv/p584",
+              "page": 584
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "NF/UTE előtétbiztosítékok transzformátorokhoz - Névleges feszültség: 12 KV - Méret: 55 x 520 mm - Ütőszeg nélkül",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p585",
+              "page": 585
+             },
+             {
+              "title": "NF/UTE előtétbiztosítékok transzformátorokhoz - Névleges feszültség: 12 KV - Méret: 55 x 520 mm - Ütőszeggel",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-12-kv/p586",
+              "page": 586
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 24 KV",
+           "slug": "rated-voltage-24-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "NF/UTE előtétbiztosítékok transzformátorokhoz - Névleges feszültség: 24 KV - Méret: 55 x 520 mm - Ütőszeg nélkül",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p587",
+              "page": 587
+             },
+             {
+              "title": "NF/UTE előtétbiztosítékok transzformátorokhoz - Névleges feszültség: 24 KV - Méret: 55 x 520 mm - Ütőszeggel",
+              "slug": "selector/medium-voltage-fuses/nf-ute-back-up-fuses-for-transformers/rated-voltage-24-kv/p588",
+              "page": 588
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "DIN előtétbiztosíték motorokhoz",
+        "slug": "din-back-up-for-motors",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 3.6 KV",
+           "slug": "rated-voltage-3-6-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN előtétbiztosíték motorokhoz - Névleges feszültség: 3.6 KV - Hossz: 192 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p589",
+              "page": 589
+             },
+             {
+              "title": "DIN előtétbiztosíték motorokhoz - Névleges feszültség: 3.6 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-3-6-kv/p590",
+              "page": 590
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 7.2 KV",
+           "slug": "rated-voltage-7-2-kv",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN előtétbiztosíték motorokhoz - Névleges feszültség: 7.2 KV - Hossz: 292 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p591",
+              "page": 591
+             },
+             {
+              "title": "DIN előtétbiztosíték motorokhoz - Névleges feszültség: 7.2 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-7-2-kv/p592",
+              "page": 592
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 12 KV",
+           "slug": "rated-voltage-12-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "DIN előtétbiztosíték motorokhoz - Névleges feszültség: 12 KV - Hossz: 442 mm",
+              "slug": "selector/medium-voltage-fuses/din-back-up-for-motors/rated-voltage-12-kv/p593",
+              "page": 593
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "KF közvilágítási biztosítékok transzformátorokhoz",
+        "slug": "mv-street-lighting-fuses-for-transformers",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 1.5 KV",
+           "slug": "rated-voltage-1-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 1.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-1-5-kv/p594",
+              "page": 594
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 2.5 KV",
+           "slug": "rated-voltage-2-5-kv",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 2.5 KV",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-2-5-kv/p595",
+              "page": 595
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 3.2 KV - Méret: 10 x 180 mm",
+           "slug": "rated-voltage-3-2-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 3.2 KV - Méret: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-10-x-180-mm/p596",
+              "page": 596
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 3.2 KV - Méret: 36 x 190 mm",
+           "slug": "rated-voltage-3-2-kv-size-36-x-190-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 3.2 KV - Méret: 36 x 190 mm - Ütőszeg nélkül",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p597",
+              "page": 597
+             },
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 3.2 KV - Méret: 36 x 190 mm - Ütőszeggel",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-3-2-kv-size-36-x-190-mm/p598",
+              "page": 598
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 5.5 KV - Méret: 10 x 180 mm",
+           "slug": "rated-voltage-5-5-kv-size-10-x-180-mm",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 5.5 KV - Méret: 10 x 180 mm",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-10-x-180-mm/p599",
+              "page": 599
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 5.5 KV - Méret: 36 x 250 mm",
+           "slug": "rated-voltage-5-5-kv-size-36-x-250-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 5.5 KV - Méret: 36 x 250 mm - Ütőszeg nélkül",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p600",
+              "page": 600
+             },
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 5.5 KV - Méret: 36 x 250 mm - Ütőszeggel",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-36-x-250-mm/p601",
+              "page": 601
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 5.5 KV - Méret: 55 x 259 mm",
+           "slug": "rated-voltage-5-5-kv-size-55-x-259-mm",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 5.5 KV - Méret: 55 x 259 mm - Ütőszeg nélkül",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p602",
+              "page": 602
+             },
+             {
+              "title": "KF közvilágítási biztosítékok transzformátorokhoz - Névleges feszültség: 5.5 KV - Méret: 55 x 259 mm - Ütőszeggel",
+              "slug": "selector/medium-voltage-fuses/mv-street-lighting-fuses-for-transformers/rated-voltage-5-5-kv-size-55-x-259-mm/p603",
+              "page": 603
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "DC biztosítékok",
+     "slug": "dc-fuses",
+     "count": 10,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "DC elosztás és akkumulátorok",
+        "slug": "protection-for-dc-distribution-and-battery",
+        "count": 1,
+        "node": {
+         "type": "leaves",
+         "items": [
+          {
+           "title": "DC elosztás és akkumulátorok",
+           "slug": "selector/protection-for-dc-distribution-and-battery/p609",
+           "page": 609
+          }
+         ]
+        }
+       },
+       {
+        "title": "Ipari DC biztosítékok",
+        "slug": "industrial-dc-fuses",
+        "count": 9,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 3,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Típus: Hüvelyes biztosíték",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 600 VDC - Típus: Hüvelyes biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-ferrule-fuse/p610",
+                 "page": 610
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: SMD biztosíték",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 600 VDC - Típus: SMD biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-surface-mount-fuse/p611",
+                 "page": 611
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: Nyomtatott áramköri szerelés",
+              "slug": "type-pc-board-mount",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 600 VDC - Típus: Nyomtatott áramköri szerelés",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-600-vdc/type-pc-board-mount/p612",
+                 "page": 612
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 700 VDC",
+           "slug": "rated-voltage-700-vdc",
+           "count": 2,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Típus: SMD biztosíték",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 700 VDC - Típus: SMD biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-surface-mount-fuse/p613",
+                 "page": 613
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: Kerek házas biztosíték",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 700 VDC - Típus: Kerek házas biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-700-vdc/type-round-body-fuse/p614",
+                 "page": 614
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Típus: Hüvelyes biztosíték",
+              "slug": "type-ferrule-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 1000 VDC - Típus: Hüvelyes biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-ferrule-fuse/p615",
+                 "page": 615
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: SMD biztosíték",
+              "slug": "type-surface-mount-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 1000 VDC - Típus: SMD biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-surface-mount-fuse/p616",
+                 "page": 616
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: Kerek házas biztosíték",
+              "slug": "type-round-body-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 1000 VDC - Típus: Kerek házas biztosíték",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-fuse/p617",
+                 "page": 617
+                }
+               ]
+              }
+             },
+             {
+              "title": "Típus: Kerek házas biztosíték metrikus csavarokhoz",
+              "slug": "type-round-body-for-metric-screws-fuse",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Névleges feszültség: 1000 VDC - Típus: Kerek házas biztosíték metrikus csavarokhoz",
+                 "slug": "selector/industrial-dc-fuses/rated-voltage-1000-vdc/type-round-body-for-metric-screws-fuse/p618",
+                 "page": 618
+                }
+               ]
+              }
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fotovoltaikus alkalmazások",
+     "slug": "photovoltaic-applications",
+     "count": 15,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "gPV hengeres biztosítékok",
+        "slug": "gpv-cylindrical-fuses",
+        "count": 5,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 600 VDC",
+           "slug": "rated-voltage-600-vdc",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV hengeres biztosítékok - Névleges feszültség: 600 VDC - Méret: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-600-vdc/p632",
+              "page": 632
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV hengeres biztosítékok - Névleges feszültség: 1000 VDC - Méret: 10 x 38 mm - Típus: Krimpelt sapka",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p633",
+              "page": 633
+             },
+             {
+              "title": "gPV hengeres biztosítékok - Névleges feszültség: 1000 VDC - Méret: 10 x 38 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1000-vdc/p634",
+              "page": 634
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 2,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV hengeres biztosítékok - Névleges feszültség: 1500 VDC - Méret: 10 x 85 mm - Típus: Krimpelt sapka",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p635",
+              "page": 635
+             },
+             {
+              "title": "gPV hengeres biztosítékok - Névleges feszültség: 1500 VDC - Méret: 10 x 85 mm",
+              "slug": "selector/photovoltaic-applications/gpv-cylindrical-fuses/rated-voltage-1500-vdc/p636",
+              "page": 636
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "gPV négyzet alakú házas biztosítékok",
+        "slug": "gpv-square-body-fuses",
+        "count": 10,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Névleges feszültség: 1000 VDC",
+           "slug": "rated-voltage-1000-vdc",
+           "count": 4,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1000 VDC - Méret: NH1 - Típus: Sima kések",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p637",
+              "page": 637
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1000 VDC - Méret: NH1 - Típus: Közvetlen szerelés",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p638",
+              "page": 638
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1000 VDC - Méret: NH2 - Típus: Sima kések",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p639",
+              "page": 639
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1000 VDC - Méret: NH2 - Típus: Közvetlen szerelés",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1000-vdc/p640",
+              "page": 640
+             }
+            ]
+           }
+          },
+          {
+           "title": "Névleges feszültség: 1500 VDC",
+           "slug": "rated-voltage-1500-vdc",
+           "count": 6,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1500 VDC - Méret: NH1XL - Típus: Sima kések",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p641",
+              "page": 641
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1500 VDC - Méret: NH1L - Típus: Közvetlen szerelés",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p642",
+              "page": 642
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1500 VDC - Méret: NH2XL - Típus: Sima kések",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p643",
+              "page": 643
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1500 VDC - Méret: NH2L - Típus: Közvetlen szerelés",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p644",
+              "page": 644
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1500 VDC - Méret: NH3L - Típus: Sima kések",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p645",
+              "page": 645
+             },
+             {
+              "title": "gPV négyzet alakú házas biztosítékok - Névleges feszültség: 1500 VDC - Méret: NH3L - Típus: Közvetlen szerelés",
+              "slug": "selector/photovoltaic-applications/gpv-square-body-fuses/rated-voltage-1500-vdc/p646",
+              "page": 646
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "title": "Túlfeszültség-védelem",
+     "slug": "surge-protection",
+     "count": 42,
+     "nav": {
+      "type": "group",
+      "children": [
+       {
+        "title": "Típus: 1",
+        "slug": "type-1",
+        "count": 1,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Rendszertípus: L-N (1Ph) - Surge-Trap® Monoblokk STMT sorozat",
+           "slug": "system-type-l-n-1ph-surge-trap-monobloc-stmt-series",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: 1 - Rendszertípus: L-N (1Ph) - Surge-Trap® Monoblokk STMT sorozat - Iimp (10/350): 50 kA - In (8/20): 50 kA - Icc: 50 kA",
+              "slug": "selector/surge-protection/type-1/system-type-l-n-1ph-surge-trap-monobloc-stmt-series/p664",
+              "page": 664
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: 1+2",
+        "slug": "type-1plus2",
+        "count": 18,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tápvezetékek védelme",
+           "slug": "protection-for-power-lines",
+           "count": 15,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Rendszertípus: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: L-N (1Ph) - Surge-Trap® Dugaszolható STPT sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p666",
+                 "page": 666
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: L-N (1Ph) - Surge-Trap® Monoblokk STPT sorozat - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p672",
+                 "page": 672
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: L-N (1Ph) - Surge-Trap® Dugaszolható K-K1 sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p677",
+                 "page": 677
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: N-PE (N)",
+              "slug": "system-type-n-pe-n",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: N-PE (N) - Surge-Trap® Dugaszolható STPT sorozat - Iimp (10/350): 25/50 kA - Imax (8/20): 50 kA - In (8/20): 25/50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p667",
+                 "page": 667
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: N-PE (N) - Surge-Trap® Dugaszolható K-K1 sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 50 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p678",
+                 "page": 678
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: TT",
+              "slug": "system-type-tt",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TT - Surge-Trap® Dugaszolható STPT sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p668",
+                 "page": 668
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TT - Surge-Trap® Monoblokk STPT sorozat - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p674",
+                 "page": 674
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TT - Surge-Trap® Dugaszolható K-K1 sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p679",
+                 "page": 679
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: TNC",
+              "slug": "system-type-tnc",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TNC - Surge-Trap® Dugaszolható STPT sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p669",
+                 "page": 669
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TNC - Surge-Trap® Monoblokk STPT sorozat - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p675",
+                 "page": 675
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TNC - Surge-Trap® Dugaszolható K-K1 sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p680",
+                 "page": 680
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: TNS",
+              "slug": "system-type-tns",
+              "count": 3,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TNS - Surge-Trap® Dugaszolható STPT sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p670",
+                 "page": 670
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TNS - Surge-Trap® Monoblokk STPT sorozat - Iimp (10/350): 25 kA - Imax (8/20): 100kA - In (8/20): 25 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p676",
+                 "page": 676
+                },
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: TNS - Surge-Trap® Dugaszolható K-K1 sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p681",
+                 "page": 681
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 1+2 - Tápvezetékek védelme - Rendszertípus: IT - Surge-Trap® Dugaszolható STPT sorozat - Iimp (10/350): 12.5 kA - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-1plus2/protection-for-power-lines/p671",
+                 "page": 671
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Fotovoltaikus és energiatárolás",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: 1+2 - Fotovoltaikus és energiatárolás - Surge-Trap® Dugaszolható - Pólusok száma: 3 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p682",
+              "page": 682
+             },
+             {
+              "title": "Típus: 1+2 - Fotovoltaikus és energiatárolás - Surge-Trap® Dugaszolható - Pólusok száma: 5 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p683",
+              "page": 683
+             },
+             {
+              "title": "Típus: 1+2 - Fotovoltaikus és energiatárolás - Surge-Trap® Dugaszolható - Pólusok száma: 8 - Iimp (10/350): 5 kA - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-1plus2/photovoltaic-and-energy-storage/p684",
+              "page": 684
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: 2",
+        "slug": "type-2",
+        "count": 13,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tápvezetékek védelme",
+           "slug": "protection-for-power-lines",
+           "count": 10,
+           "node": {
+            "type": "group",
+            "children": [
+             {
+              "title": "Rendszertípus: L-N (1Ph)",
+              "slug": "system-type-l-n-1ph",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: L-N (1Ph) - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p685",
+                 "page": 685
+                },
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: L-N (1Ph) - Surge-Trap® Dugaszolható K–K2 sorozat - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p691",
+                 "page": 691
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: TT",
+              "slug": "system-type-tt",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: TT - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p687",
+                 "page": 687
+                },
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: TT - Surge-Trap® Dugaszolható K–K2 sorozat - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p693",
+                 "page": 693
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: TNC",
+              "slug": "system-type-tnc",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: TNC - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 40 kA (30 kA @Un = 690 / 1000 V) - In (8/20): 20 kA (10 kA @Un = 690 / 1000 V) - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p688",
+                 "page": 688
+                },
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: TNC - Surge-Trap® Dugaszolható K–K2 sorozat - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p694",
+                 "page": 694
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: TNS",
+              "slug": "system-type-tns",
+              "count": 2,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: TNS - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p689",
+                 "page": 689
+                },
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: TNS - Surge-Trap® Dugaszolható K–K2 sorozat - Imax (8/20): 50 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p695",
+                 "page": 695
+                }
+               ]
+              }
+             },
+             {
+              "title": "Rendszertípus: IT",
+              "slug": "system-type-it",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Rendszertípus: IT - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p690",
+                 "page": 690
+                }
+               ]
+              }
+             },
+             {
+              "title": "Surge-Trap® POP + SPD",
+              "slug": "surge-trap-pop-plus-spd",
+              "count": 1,
+              "node": {
+               "type": "leaves",
+               "items": [
+                {
+                 "title": "Típus: 2 - Tápvezetékek védelme - Surge-Trap® POP + SPD - Hálózati frekvenciás túlfeszültség-védelem - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 25 kA",
+                 "slug": "selector/surge-protection/type-2/protection-for-power-lines/p696",
+                 "page": 696
+                }
+               ]
+              }
+             }
+            ]
+           }
+          },
+          {
+           "title": "Fotovoltaikus és energiatárolás",
+           "slug": "photovoltaic-and-energy-storage",
+           "count": 3,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: 2 - Fotovoltaikus és energiatárolás - Surge-Trap® Dugaszolható - Pólusok száma: 3 - Imax (8/20): 40 kA - In (8/20): 15 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p697",
+              "page": 697
+             },
+             {
+              "title": "Típus: 2 - Fotovoltaikus és energiatárolás - Surge-Trap® Dugaszolható - Pólusok száma: 5 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p698",
+              "page": 698
+             },
+             {
+              "title": "Típus: 2 - Fotovoltaikus és energiatárolás - Surge-Trap® Dugaszolható - Pólusok száma: 8 - Imax (8/20): 40 kA - In (8/20): 20 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2/photovoltaic-and-energy-storage/p699",
+              "page": 699
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Típus: 2+3",
+        "slug": "type-2plus3",
+        "count": 8,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Tápvezetékek védelme",
+           "slug": "protection-for-power-lines",
+           "count": 7,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Rendszertípus: L-N (1Ph) - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p700",
+              "page": 700
+             },
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Rendszertípus: N-PE (N) - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p701",
+              "page": 701
+             },
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Rendszertípus: TT - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p702",
+              "page": 702
+             },
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Rendszertípus: TNC - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p703",
+              "page": 703
+             },
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Rendszertípus: TNS - Surge-Trap® Dugaszolható STPT sorozat - Imax (8/20): 20 kA - In (8/20): 10 kA - Icc: 25 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p704",
+              "page": 704
+             },
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Surge-Trap® Monoblokk STMT sorozat - Imax (8/20): 6 kA (20 kA @Un = 240 V) - In (8/20): 3 kA (10 kA @Un = 240 V)",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p705",
+              "page": 705
+             },
+             {
+              "title": "Típus: 2+3 - Tápvezetékek védelme - Surge-Trap® Monoblokk STET sorozat - Imax (8/20): 20 kA with EMI filter - In (8/20): 10 kA - Icc: 10 kA - IL: 20 A",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-power-lines/p706",
+              "page": 706
+             }
+            ]
+           }
+          },
+          {
+           "title": "LED-világítás védelme",
+           "slug": "protection-for-led-lighting",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Típus: 2+3 - LED-világítás védelme - Surge-Trap® Monoblokk STMT sorozat - Imax (8/20): 10 kA - In (8/20): 5 kA - Icc: 10 kA",
+              "slug": "selector/surge-protection/type-2plus3/protection-for-led-lighting/p707",
+              "page": 707
+             }
+            ]
+           }
+          }
+         ]
+        }
+       },
+       {
+        "title": "Jelvezetékek védelme",
+        "slug": "protection-for-signal-lines",
+        "count": 2,
+        "node": {
+         "type": "group",
+         "children": [
+          {
+           "title": "Surge-Trap® Signal - STS NET- IN LINE",
+           "slug": "surge-trap-signal-sts-net-in-line",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Jelvezetékek védelme - Surge-Trap® Signal - STS NET- IN LINE - In (8/20): 0.25 A - IL: 0.1 A (1 A @Un = 48 V) - Csatlakozás típusa: RJ45",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-net-in-line/p708",
+              "page": 708
+             }
+            ]
+           }
+          },
+          {
+           "title": "Surge-Trap® Signal - STS 485",
+           "slug": "surge-trap-signal-sts-485",
+           "count": 1,
+           "node": {
+            "type": "leaves",
+            "items": [
+             {
+              "title": "Jelvezetékek védelme - Surge-Trap® Signal - STS 485 - Imax (8/20): 10 kA - In (8/20): 5/10 kA - Csatlakozás típusa: Csatlakozó",
+              "slug": "selector/surge-protection/protection-for-signal-lines/surge-trap-signal-sts-485/p709",
+              "page": 709
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
