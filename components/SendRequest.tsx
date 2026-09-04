@@ -170,32 +170,30 @@ export default function SendRequest({ locale }: { locale: Locale }) {
           />
         </div>
 
-        <div>
-          <label
-            htmlFor="send-request-type"
-            className="mb-1 block text-xs font-medium uppercase tracking-wide text-ink-500 dark:text-ink-400"
-          >
-            {dict.sendRequestTypeLabel}
-          </label>
-          <select
-            id="send-request-type"
-            required
-            value={requestType}
-            onChange={(e) => setRequestType(e.target.value)}
-            className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
-          >
-            <option value="" disabled>
-              {dict.sendRequestTypePlaceholder}
-            </option>
-            <option value="fuse">{dict.sendRequestTypeFuse}</option>
-            {locale !== "es" && (
-              <>
-                <option value="surge">{dict.sendRequestTypeSurge}</option>
-                <option value="both">{dict.sendRequestTypeBoth}</option>
-              </>
-            )}
-          </select>
-        </div>
+        {locale !== "es" && (
+          <div>
+            <label
+              htmlFor="send-request-type"
+              className="mb-1 block text-xs font-medium uppercase tracking-wide text-ink-500 dark:text-ink-400"
+            >
+              {dict.sendRequestTypeLabel}
+            </label>
+            <select
+              id="send-request-type"
+              required
+              value={requestType}
+              onChange={(e) => setRequestType(e.target.value)}
+              className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+            >
+              <option value="" disabled>
+                {dict.sendRequestTypePlaceholder}
+              </option>
+              <option value="fuse">{dict.sendRequestTypeFuse}</option>
+              <option value="surge">{dict.sendRequestTypeSurge}</option>
+              <option value="both">{dict.sendRequestTypeBoth}</option>
+            </select>
+          </div>
+        )}
 
         <div>
           <label
