@@ -1,6 +1,8 @@
 export type Locale = "en" | "fr" | "it" | "de" | "nl";
 
-export const LOCALES: Locale[] = ["en", "fr", "it", "de", "nl"];
+// Kept in alphabetical order by display label (LOCALE_LABELS below) since
+// the language switcher renders this list as-is.
+export const LOCALES: Locale[] = ["de", "en", "fr", "it", "nl"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
