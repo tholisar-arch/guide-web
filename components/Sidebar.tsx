@@ -6,7 +6,7 @@ import type { ChapterSelector, SelectorNavNode } from "@/lib/types";
 import CategoryRow from "@/components/CategoryRow";
 import { Home, ArrowLeftRight, Sliders, Mail, ExternalLink } from "lucide-react";
 import Link from "next/link";
-import { localeFromPathname, localeHref, t } from "@/lib/i18n";
+import { localeFromPathname, localeHref, t, type Locale } from "@/lib/i18n";
 
 function SelectorGroupRow({
   locale,
@@ -14,7 +14,7 @@ function SelectorGroupRow({
   node,
   level,
 }: {
-  locale: "en" | "fr";
+  locale: Locale;
   catSlug: string;
   node: SelectorNavNode;
   level: number;

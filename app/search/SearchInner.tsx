@@ -10,7 +10,7 @@ import { localeHref, t, type Locale } from "@/lib/i18n";
 export default function SearchInner({ locale }: { locale: Locale }) {
   const dict = t(locale);
   const indexUrl =
-    locale === "fr" ? "/data/search-index.fr.json" : "/data/search-index.json";
+    locale === "en" ? "/data/search-index.json" : `/data/search-index.${locale}.json`;
   const params = useSearchParams();
   const router = useRouter();
   const q = params.get("q") ?? "";

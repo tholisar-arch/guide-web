@@ -39,7 +39,7 @@ function scoreEntry(entry: XrefEntry, q: string): { score: number; matched: stri
 export default function XrefSearch({ locale }: { locale: Locale }) {
   const dict = t(locale);
   const searchIndexUrl =
-    locale === "fr" ? "/data/search-index.fr.json" : "/data/search-index.json";
+    locale === "en" ? "/data/search-index.json" : `/data/search-index.${locale}.json`;
   const [query, setQuery] = useState("");
   const [entries, setEntries] = useState<XrefEntry[] | null>(null);
   const [pnToSlug, setPnToSlug] = useState<Map<string, string> | null>(null);

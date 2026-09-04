@@ -55,7 +55,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
   const locale = localeFromPathname(pathname);
   const dict = t(locale);
   const indexUrl =
-    locale === "fr" ? "/data/search-index.fr.json" : "/data/search-index.json";
+    locale === "en" ? "/data/search-index.json" : `/data/search-index.${locale}.json`;
 
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");

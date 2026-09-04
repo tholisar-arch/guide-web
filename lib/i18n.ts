@@ -1,30 +1,39 @@
-export type Locale = "en" | "fr";
+export type Locale = "en" | "fr" | "it";
 
-export const LOCALES: Locale[] = ["en", "fr"];
+export const LOCALES: Locale[] = ["en", "fr", "it"];
 
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
   fr: "Français",
+  it: "Italiano",
 };
+
+// Every non-English locale is prefixed with its own segment ("/fr", "/it").
+const PREFIXED_LOCALES = LOCALES.filter((l) => l !== "en");
 
 /** Prefix an internal path ("/guide/...", "/xref", "/spd-configurator",
  * "/search", "/") with the locale segment. English has no prefix. */
 export function localeHref(locale: Locale, path: string): string {
   if (locale === "en") return path;
-  return path === "/" ? "/fr" : `/fr${path}`;
+  return path === "/" ? `/${locale}` : `/${locale}${path}`;
 }
 
 /** Given the current pathname, return the equivalent path under the other
  * locale (used by the language switcher). */
 export function switchLocalePath(pathname: string, target: Locale): string {
-  const stripped = pathname.startsWith("/fr")
-    ? pathname.slice(3) || "/"
-    : pathname;
+  const prefix = PREFIXED_LOCALES.find(
+    (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
+  );
+  const stripped = prefix ? pathname.slice(1 + prefix.length) || "/" : pathname;
   return localeHref(target, stripped);
 }
 
 export function localeFromPathname(pathname: string): Locale {
-  return pathname === "/fr" || pathname.startsWith("/fr/") ? "fr" : "en";
+  return (
+    PREFIXED_LOCALES.find(
+      (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
+    ) ?? "en"
+  );
 }
 
 type Dict = {
@@ -266,7 +275,90 @@ const fr: Dict = {
     "Cela ouvre votre messagerie habituelle avec ces informations pré-remplies ; il ne vous reste qu'à cliquer sur Envoyer.",
 };
 
-const dicts: Record<Locale, Dict> = { en, fr };
+const it: Dict = {
+  guideHome: "Home del catalogo",
+  crossReferenceSearch: "Ricerca per riferimento concorrente",
+  spdConfigurator: "Configuratore SPD",
+  searchPlaceholderHeader: "Cerca nel catalogo... (fusibili, SPD, tensione...)",
+  searchPlaceholderHero: "Cerca nel catalogo... (fusibili, SPD, tensione...)",
+  home: "Home",
+  back: "Indietro",
+  documentation: "Documentazione",
+  filterReferences: "Filtra i riferimenti...",
+  noReferencesFound: "Nessun riferimento trovato.",
+  noResultsFor: (q) => `Nessun risultato per "${q}"`,
+  viewAllResultsFor: (q) => `Vedi tutti i risultati per "${q}" →`,
+  resultsCountFor: (n, q) => `${n} risultat${n !== 1 ? "i" : "o"} per "${q}"`,
+  loading: "Caricamento...",
+  productSelectorFallback: "Selettore di prodotti",
+  siteSubtitle: "2026 Europa",
+  heroBadge: "Selettore di prodotti interattivo · Edizione Europa 2026",
+  heroTitle1: "Guida alla selezione",
+  heroTitle2: "Protezione elettrica",
+  heroDescription:
+    "L'intero selettore di prodotti, trasformato in un sito web: fusibili, dispositivi di protezione contro le sovratensioni e soluzioni fotovoltaiche, organizzati per famiglia di prodotto e completamente consultabili da mobile, tablet e desktop.",
+  productFamilies: "Famiglie di prodotti",
+  productFamiliesDesc: "Sfoglia l'intero selettore di prodotti per categoria.",
+  moreTools: "Altri strumenti",
+  moreToolsDesc: "Ricerche aggiuntive basate sugli stessi dati di prodotto.",
+  xrefCardTitle: "Ricerca per riferimento concorrente",
+  xrefCardDesc:
+    "Trova il riferimento Mersen equivalente a un codice di un concorrente (Citel, Dehn, Eaton, Siemens e altri).",
+  spdCardTitle: "Configuratore SPD",
+  spdCardDesc:
+    "Rispondi ad alcune domande sul tuo impianto per trovare la famiglia di scaricatori di sovratensione più adatta.",
+  xrefEyebrow: "Ricerca per riferimento concorrente",
+  xrefH1: "Trova un riferimento Mersen a partire da un codice concorrente",
+  xrefDesc:
+    "Cerca per riferimento di un concorrente (Citel, Dehn, Eaton, Siemens, Schneider Electric e altri) per trovare l'articolo Mersen equivalente.",
+  xrefSearchPlaceholder: "Cerca un riferimento concorrente...",
+  xrefResultsFor: (n, q) => `${n} risultat${n !== 1 ? "i" : "o"} per "${q}"`,
+  xrefNoResults: "Nessun risultato. Prova un altro riferimento.",
+  xrefMatchedVia: (brand) => `trovato tramite ${brand}`,
+  spdEyebrow: "Configuratore SPD",
+  spdH1: "Trova il dispositivo di protezione da sovratensione giusto",
+  spdDesc:
+    "Rispondi ad alcune domande sul tuo impianto per individuare la famiglia di prodotti di protezione da sovratensione più adatta.",
+  spdStartOver: "Ricomincia",
+  searchTitle: "Ricerca",
+  searchNoResults: "Nessun risultato. Prova un altro termine di ricerca.",
+  matchTitle: "Ricerca",
+  metaSiteTitle: "Guida alla selezione 2026 Europa | Mersen Protezione Elettrica",
+  metaSiteDescription:
+    "Guida interattiva alla selezione dei prodotti di protezione elettrica: fusibili bassa e media tensione, fusibili ultrarapidi, dispositivi di protezione da sovratensione e soluzioni fotovoltaiche.",
+  mersenWebsiteLabel: "mersen.com",
+  mersenWebsiteUrl: "https://www.mersen.com/it",
+  sendRequestNav: "Invia una richiesta",
+  sendRequestCardTitle: "Invia una richiesta",
+  sendRequestCardDesc:
+    "Contatta il team Mersen del tuo paese per un prodotto o un progetto.",
+  sendRequestEyebrow: "Contattaci",
+  sendRequestH1: "Invia una richiesta",
+  sendRequestDesc:
+    "Seleziona il tuo paese: la tua richiesta sarà inoltrata al contatto giusto.",
+  sendRequestCountryLabel: "Paese",
+  sendRequestCountryPlaceholder: "Seleziona il tuo paese...",
+  sendRequestFirstNameLabel: "Nome",
+  sendRequestLastNameLabel: "Cognome",
+  sendRequestCompanyLabel: "Azienda (facoltativo)",
+  sendRequestTypeLabel: "Richiesta",
+  sendRequestTypePlaceholder: "Seleziona un tipo di richiesta...",
+  sendRequestTypeFuse: "Fusibile",
+  sendRequestTypeSurge: "Protezione da sovratensione",
+  sendRequestTypeBoth: "Fusibile e protezione da sovratensione",
+  sendRequestEmailLabel: "La tua email",
+  sendRequestEmailPlaceholder: "nome@esempio.com",
+  sendRequestMessageLabel: "Messaggio",
+  sendRequestMessagePlaceholder: "Scrivi il tuo messaggio...",
+  sendRequestButton: "Apri nell'app di posta",
+  sendRequestSentTo: (country) =>
+    `La tua richiesta sarà inviata al nostro team per ${country}.`,
+  sendRequestSubjectPrefix: "Richiesta di contatto dal sito",
+  sendRequestHint:
+    "Si aprirà la tua app di posta con tutto già compilato: ti basterà cliccare su Invia.",
+};
+
+const dicts: Record<Locale, Dict> = { en, fr, it };
 
 export function t(locale: Locale): Dict {
   return dicts[locale];

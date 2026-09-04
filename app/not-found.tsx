@@ -2,7 +2,19 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { localeFromPathname, localeHref } from "@/lib/i18n";
+import { localeFromPathname, localeHref, type Locale } from "@/lib/i18n";
+
+const MESSAGE: Record<Locale, string> = {
+  en: "This guide page doesn't exist or is no longer available.",
+  fr: "Cette page du guide n'existe pas ou n'est plus disponible.",
+  it: "Questa pagina del catalogo non esiste o non è più disponibile.",
+};
+
+const BACK_HOME: Record<Locale, string> = {
+  en: "Back to home",
+  fr: "Retour à l'accueil",
+  it: "Torna alla home",
+};
 
 export default function NotFound() {
   const pathname = usePathname() ?? "/";
@@ -11,16 +23,12 @@ export default function NotFound() {
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center px-4 py-24 text-center">
       <h1 className="text-3xl font-bold text-ink-900 dark:text-white">404</h1>
-      <p className="mt-2 text-ink-500 dark:text-ink-400">
-        {locale === "fr"
-          ? "Cette page du guide n'existe pas ou n'est plus disponible."
-          : "This guide page doesn't exist or is no longer available."}
-      </p>
+      <p className="mt-2 text-ink-500 dark:text-ink-400">{MESSAGE[locale]}</p>
       <Link
         href={localeHref(locale, "/")}
         className="mt-6 rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
       >
-        {locale === "fr" ? "Retour à l'accueil" : "Back to home"}
+        {BACK_HOME[locale]}
       </Link>
     </div>
   );
