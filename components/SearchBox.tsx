@@ -42,12 +42,23 @@ export function scoreItem(item: SearchItem, q: string): number {
   return score;
 }
 
-export function matchedCode(item: SearchItem, q: string): string | null {
+/** Every reference on this page whose code contains the query, deduped and
+ * in table order - a page can hold several matching Part/Catalog numbers
+ * (e.g. a whole "MI6SF..." series), and all of them should be surfaced,
+ * not just the first one. */
+export function matchedCodes(item: SearchItem, q: string): string[] {
   const query = q.toLowerCase();
-  if (!item.codes) return null;
+  if (!item.codes) return [];
   const tokens = item.codes.split(/\s+/);
-  const hit = tokens.find((c) => c.toLowerCase().includes(query));
-  return hit ?? null;
+  const seen = new Set<string>();
+  const hits: string[] = [];
+  for (const c of tokens) {
+    if (c.toLowerCase().includes(query) && !seen.has(c)) {
+      seen.add(c);
+      hits.push(c);
+    }
+  }
+  return hits;
 }
 
 export default function SearchBox({ variant = "header" }: { variant?: "header" | "hero" }) {
@@ -115,10 +126,12 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
       .map((r) => r.it);
   }, [items, query]);
 
-  function goToItem(slug: string, ref?: string | null) {
+  function goToItem(slug: string, refs: string[]) {
     setOpen(false);
     setQuery("");
-    const suffix = ref ? `?ref=${encodeURIComponent(ref)}` : "";
+    const suffix = refs.length
+      ? `?${refs.map((r) => `ref=${encodeURIComponent(r)}`).join("&")}`
+      : "";
     router.push(localeHref(locale, `/guide/${slug}${suffix}`));
   }
 
@@ -185,11 +198,12 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
           ) : (
             <>
               {results.map((r) => {
-                const ref = matchedCode(r, query);
+                const refs = matchedCodes(r, query);
+                const shown = refs.slice(0, 6);
                 return (
                 <button
                   key={r.slug}
-                  onClick={() => goToItem(r.slug, ref)}
+                  onClick={() => goToItem(r.slug, refs)}
                   className="flex w-full flex-col items-start gap-0.5 rounded-md px-3 py-2 text-left hover:bg-ink-100 dark:hover:bg-ink-800"
                 >
                   <span className="text-xs font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400">
@@ -198,9 +212,21 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
                   <span className="text-sm text-ink-800 dark:text-ink-100">
                     {r.title}
                   </span>
-                  {ref && (
-                    <span className="rounded bg-ink-100 px-1.5 py-0.5 font-mono text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300">
-                      {ref}
+                  {shown.length > 0 && (
+                    <span className="flex flex-wrap gap-1">
+                      {shown.map((code) => (
+                        <span
+                          key={code}
+                          className="rounded bg-ink-100 px-1.5 py-0.5 font-mono text-xs text-ink-600 dark:bg-ink-800 dark:text-ink-300"
+                        >
+                          {code}
+                        </span>
+                      ))}
+                      {refs.length > shown.length && (
+                        <span className="rounded px-1.5 py-0.5 font-mono text-xs text-ink-400">
+                          +{refs.length - shown.length}
+                        </span>
+                      )}
                     </span>
                   )}
                 </button>

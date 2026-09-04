@@ -3,27 +3,32 @@
 import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 
-/** Cross Reference Search links to a product page with ?ref=<mersen part
- * number>; once there, find the table cell holding that exact reference
- * and highlight its row so the visitor can spot it immediately. */
+/** Cross Reference Search and the site search both link to a product page
+ * with one or more ?ref=<mersen part number> params; once there, find every
+ * table cell holding one of those exact references and highlight its row
+ * so the visitor can spot all of them, not just the first, immediately. */
 export default function HighlightRefFromQuery() {
   const params = useSearchParams();
-  const ref = params.get("ref");
+  const refs = params.getAll("ref");
 
   useEffect(() => {
-    if (!ref) return;
-    const target = ref.trim().toLowerCase();
+    if (refs.length === 0) return;
+    const targets = new Set(refs.map((r) => r.trim().toLowerCase()));
     const cells = document.querySelectorAll<HTMLElement>("[data-ref-cell]");
+    let scrolled = false;
     for (const cell of cells) {
       const value = (cell.dataset.refCell || "").trim().toLowerCase();
-      if (value === target) {
+      if (targets.has(value)) {
         const row = cell.closest("tr");
         row?.classList.add("ref-highlight");
-        row?.scrollIntoView({ behavior: "smooth", block: "center" });
-        break;
+        if (!scrolled) {
+          row?.scrollIntoView({ behavior: "smooth", block: "center" });
+          scrolled = true;
+        }
       }
     }
-  }, [ref]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [refs.join("|")]);
 
   return null;
 }
