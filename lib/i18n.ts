@@ -85,6 +85,11 @@ type Dict = {
   sendRequestFirstNameLabel: string;
   sendRequestLastNameLabel: string;
   sendRequestCompanyLabel: string;
+  sendRequestTypeLabel: string;
+  sendRequestTypePlaceholder: string;
+  sendRequestTypeFuse: string;
+  sendRequestTypeSurge: string;
+  sendRequestTypeBoth: string;
   sendRequestEmailLabel: string;
   sendRequestEmailPlaceholder: string;
   sendRequestMessageLabel: string;
@@ -161,6 +166,11 @@ const en: Dict = {
   sendRequestFirstNameLabel: "First name",
   sendRequestLastNameLabel: "Last name",
   sendRequestCompanyLabel: "Company (optional)",
+  sendRequestTypeLabel: "Request",
+  sendRequestTypePlaceholder: "Select a request type...",
+  sendRequestTypeFuse: "Fuse",
+  sendRequestTypeSurge: "Surge Protection",
+  sendRequestTypeBoth: "Fuse & Surge Protection",
   sendRequestEmailLabel: "Your email",
   sendRequestEmailPlaceholder: "name@example.com",
   sendRequestMessageLabel: "Message",
@@ -239,6 +249,11 @@ const fr: Dict = {
   sendRequestFirstNameLabel: "Prénom",
   sendRequestLastNameLabel: "Nom",
   sendRequestCompanyLabel: "Société (facultatif)",
+  sendRequestTypeLabel: "Demande",
+  sendRequestTypePlaceholder: "Sélectionnez un type de demande...",
+  sendRequestTypeFuse: "Fusible",
+  sendRequestTypeSurge: "Protection contre les surtensions",
+  sendRequestTypeBoth: "Fusible et protection contre les surtensions",
   sendRequestEmailLabel: "Votre e-mail",
   sendRequestEmailPlaceholder: "nom@exemple.com",
   sendRequestMessageLabel: "Message",

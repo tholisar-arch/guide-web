@@ -13,10 +13,17 @@ export default function SendRequest({ locale }: { locale: Locale }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [company, setCompany] = useState("");
+  const [requestType, setRequestType] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
   const selectedCountry = countries.find((c) => c.key === countryKey) ?? null;
+
+  const requestTypeLabels: Record<string, string> = {
+    fuse: dict.sendRequestTypeFuse,
+    surge: dict.sendRequestTypeSurge,
+    both: dict.sendRequestTypeBoth,
+  };
 
   const mailtoHref = useMemo(() => {
     if (!selectedCountry) return null;
@@ -27,6 +34,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
     const infoLines = [
       nameLine && `${dict.sendRequestFirstNameLabel}/${dict.sendRequestLastNameLabel}: ${nameLine}`,
       company.trim() && `${dict.sendRequestCompanyLabel}: ${company.trim()}`,
+      requestType && `${dict.sendRequestTypeLabel}: ${requestTypeLabels[requestType]}`,
       email.trim() && `${dict.sendRequestEmailLabel}: ${email.trim()}`,
     ].filter((v): v is string => Boolean(v));
     const body = [infoLines.join("\n"), message.trim()]
@@ -45,7 +53,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
       .join("&");
 
     return `mailto:${selectedCountry.email}?${query}`;
-  }, [selectedCountry, firstName, lastName, company, email, message, dict]);
+  }, [selectedCountry, firstName, lastName, company, requestType, email, message, dict]);
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -150,6 +158,29 @@ export default function SendRequest({ locale }: { locale: Locale }) {
             onChange={(e) => setCompany(e.target.value)}
             className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
           />
+        </div>
+
+        <div>
+          <label
+            htmlFor="send-request-type"
+            className="mb-1 block text-xs font-medium uppercase tracking-wide text-ink-500 dark:text-ink-400"
+          >
+            {dict.sendRequestTypeLabel}
+          </label>
+          <select
+            id="send-request-type"
+            required
+            value={requestType}
+            onChange={(e) => setRequestType(e.target.value)}
+            className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+          >
+            <option value="" disabled>
+              {dict.sendRequestTypePlaceholder}
+            </option>
+            <option value="fuse">{dict.sendRequestTypeFuse}</option>
+            <option value="surge">{dict.sendRequestTypeSurge}</option>
+            <option value="both">{dict.sendRequestTypeBoth}</option>
+          </select>
         </div>
 
         <div>
