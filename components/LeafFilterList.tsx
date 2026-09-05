@@ -25,7 +25,7 @@ export default function LeafFilterList({
   return (
     <div>
       {items.length > 8 && (
-        <div className="mb-4 flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2 dark:border-ink-800 dark:bg-ink-900">
+        <div className="mb-4 flex items-center gap-2 rounded-full border border-ink-200 bg-white px-4 py-2.5 shadow-sm transition focus-within:border-brand-400 focus-within:ring-4 focus-within:ring-brand-100/70 dark:border-ink-800 dark:bg-ink-900 dark:focus-within:ring-brand-950/70">
           <Search size={15} className="text-ink-400" />
           <input
             value={q}
@@ -35,12 +35,12 @@ export default function LeafFilterList({
           />
         </div>
       )}
-      <ul className="divide-y divide-ink-100 overflow-hidden rounded-lg border border-ink-200 dark:divide-ink-800 dark:border-ink-800">
+      <ul className="divide-y divide-ink-100 overflow-hidden rounded-2xl border border-ink-200 shadow-card dark:divide-ink-800 dark:border-ink-800">
         {filtered.map((it) => (
           <li key={it.slug}>
             <Link
               href={localeHref(locale, `/guide/${it.slug}`)}
-              className="flex items-center gap-3 bg-white px-3 py-2.5 text-sm text-ink-700 transition hover:bg-brand-50 hover:text-brand-700 dark:bg-ink-900 dark:text-ink-200 dark:hover:bg-brand-950 dark:hover:text-brand-300"
+              className="flex items-center gap-3 bg-white px-4 py-3 text-sm text-ink-700 transition-colors hover:bg-brand-50 hover:text-brand-700 dark:bg-ink-900 dark:text-ink-200 dark:hover:bg-brand-950/60 dark:hover:text-brand-300"
             >
               <FileText size={14} className="shrink-0 text-ink-300" />
               <span className="min-w-0 flex-1 truncate" title={it.title}>{it.title}</span>

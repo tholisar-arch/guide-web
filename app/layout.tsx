@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning className={inter.variable}>
-      <body className="bg-white font-sans text-ink-800 antialiased dark:bg-ink-950 dark:text-ink-100">
+      <body className="bg-ink-50 font-sans text-ink-800 antialiased dark:bg-ink-950 dark:text-ink-100">
         <Shell sidebar={<Sidebar />}>{children}</Shell>
       </body>
     </html>

@@ -13,7 +13,7 @@ export default function ResourceLinks({
   const dict = t(locale);
 
   return (
-    <div className="mt-6 rounded-lg border border-ink-200 bg-ink-50/60 p-4 dark:border-ink-800 dark:bg-ink-900/40">
+    <div className="mt-6 rounded-2xl border border-ink-200 bg-ink-50/60 p-5 dark:border-ink-800 dark:bg-ink-900/40">
       <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-ink-500 dark:text-ink-400">
         {dict.documentation}
       </h2>
@@ -24,7 +24,7 @@ export default function ResourceLinks({
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm text-brand-600 hover:underline dark:text-brand-400"
+              className="flex items-center gap-2 text-sm text-brand-600 transition-colors hover:text-brand-700 hover:underline dark:text-brand-400 dark:hover:text-brand-300"
             >
               <FileText size={14} className="shrink-0" />
               {link.label}

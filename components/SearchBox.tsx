@@ -149,8 +149,8 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
     <div ref={boxRef} className={`relative min-w-0 ${wide ? "w-full" : "w-full max-w-xs"}`}>
       <form onSubmit={onSubmit} className="min-w-0">
         <div
-          className={`flex min-w-0 items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 shadow-sm transition focus-within:border-brand-500 focus-within:ring-2 focus-within:ring-brand-100 dark:border-ink-700 dark:bg-ink-900 dark:focus-within:ring-brand-950 ${
-            wide ? "h-12 text-base" : "h-9 text-sm"
+          className={`flex min-w-0 items-center gap-2 rounded-full border border-ink-200 bg-white px-4 shadow-sm transition focus-within:border-brand-400 focus-within:shadow-card-hover focus-within:ring-4 focus-within:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-900 dark:focus-within:ring-brand-950/70 ${
+            wide ? "h-14 text-base" : "h-9 text-sm"
           }`}
         >
           {loading ? (
@@ -190,7 +190,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
       </form>
 
       {open && query.trim().length >= 2 && (
-        <div className="absolute left-0 right-0 top-full z-30 mt-2 max-h-96 overflow-y-auto rounded-lg border border-ink-200 bg-white p-1 shadow-lg dark:border-ink-700 dark:bg-ink-900">
+        <div className="absolute left-0 right-0 top-full z-30 mt-2 max-h-96 overflow-y-auto rounded-2xl border border-ink-200/80 bg-white/95 p-1.5 shadow-elevated backdrop-blur-md dark:border-ink-700/80 dark:bg-ink-900/95">
           {results.length === 0 ? (
             <p className="px-3 py-3 text-sm text-ink-400">
               {dict.noResultsFor(query)}
@@ -204,7 +204,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
                 <button
                   key={r.slug}
                   onClick={() => goToItem(r.slug, refs)}
-                  className="flex w-full flex-col items-start gap-0.5 rounded-md px-3 py-2 text-left hover:bg-ink-100 dark:hover:bg-ink-800"
+                  className="flex w-full flex-col items-start gap-0.5 rounded-xl px-3 py-2.5 text-left transition-colors hover:bg-brand-50 dark:hover:bg-brand-950/60"
                 >
                   <span className="text-xs font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400">
                     {r.category ?? dict.productSelectorFallback}
@@ -234,7 +234,7 @@ export default function SearchBox({ variant = "header" }: { variant?: "header" |
               })}
               <button
                 onClick={(e) => onSubmit(e)}
-                className="mt-1 w-full rounded-md px-3 py-2 text-left text-sm text-brand-600 hover:bg-ink-100 dark:hover:bg-ink-800"
+                className="mt-1 w-full rounded-xl px-3 py-2.5 text-left text-sm font-medium text-brand-600 transition-colors hover:bg-brand-50 dark:text-brand-400 dark:hover:bg-brand-950/60"
               >
                 {dict.viewAllResultsFor(query)}
               </button>

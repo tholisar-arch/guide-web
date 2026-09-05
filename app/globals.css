@@ -10,8 +10,14 @@ html.dark {
   color-scheme: dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 ::selection {
@@ -21,6 +27,7 @@ body {
 :focus-visible {
   outline: 2px solid #ff5112;
   outline-offset: 2px;
+  border-radius: 4px;
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -41,4 +48,31 @@ body {
 .ref-highlight {
   background-color: rgba(255, 81, 18, 0.14) !important;
   box-shadow: inset 2px 0 0 0 #ff5112;
+}
+
+/* A soft, Apple-style hover lift for cards and tiles -- a small upward
+   nudge plus a shadow escalation reads as "this is liftable" more than a
+   color change alone. Respects prefers-reduced-motion by skipping the
+   transform, since vestibular-sensitive users only want the transition
+   itself disabled, not the eventual hover state. */
+.hover-lift {
+  transition-property: transform, box-shadow, border-color, background-color;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .hover-lift:hover {
+    transform: none;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -95,7 +95,7 @@ export default function XrefSearch({ locale }: { locale: Locale }) {
         {dict.xrefDesc}
       </p>
 
-      <div className="mb-8 flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2.5 shadow-sm focus-within:border-brand-500 dark:border-ink-700 dark:bg-ink-900">
+      <div className="mb-8 flex items-center gap-2 rounded-full border border-ink-200 bg-white px-4 py-3 shadow-sm transition focus-within:border-brand-400 focus-within:ring-4 focus-within:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-900 dark:focus-within:ring-brand-950/70">
         {loading ? (
           <Loader2 size={17} className="animate-spin text-ink-400" />
         ) : (
@@ -122,7 +122,7 @@ export default function XrefSearch({ locale }: { locale: Locale }) {
           return (
           <li
             key={r.e.pn}
-            className="rounded-lg border border-ink-200 bg-white p-4 dark:border-ink-800 dark:bg-ink-900"
+            className="rounded-2xl border border-ink-200 bg-white p-4 shadow-card transition hover:shadow-card-hover dark:border-ink-800 dark:bg-ink-900"
           >
             <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
               {slug ? (

@@ -16,7 +16,7 @@ export default function Breadcrumbs({ items }: { items: Crumb[] }) {
             <Link
               href={c.href}
               title={c.title}
-              className="max-w-[220px] truncate hover:text-brand-600 dark:hover:text-brand-400"
+              className="max-w-[220px] truncate transition-colors hover:text-brand-600 dark:hover:text-brand-400"
             >
               {c.title}
             </Link>

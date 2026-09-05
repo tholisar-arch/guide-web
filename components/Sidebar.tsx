@@ -47,7 +47,7 @@ export default function Sidebar() {
     <nav className="flex h-full flex-col gap-1 overflow-y-auto no-scrollbar px-2 py-4 text-sm">
       <Link
         href={localeHref(locale, "/")}
-        className="mb-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+        className="mb-2 flex items-center gap-2 rounded-lg px-2 py-1.5 font-medium text-ink-800 transition-colors hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
       >
         <Home size={15} />
         {dict.guideHome}
@@ -55,7 +55,7 @@ export default function Sidebar() {
 
       <Link
         href={localeHref(locale, "/xref")}
-        className="mb-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+        className="mb-2 flex items-center gap-2 rounded-lg px-2 py-1.5 font-medium text-ink-800 transition-colors hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
       >
         <ArrowLeftRight size={15} />
         {dict.crossReferenceSearch}
@@ -90,7 +90,7 @@ export default function Sidebar() {
       {locale !== "es" && (
         <Link
           href={localeHref(locale, "/spd-configurator")}
-          className="mt-2 flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+          className="mt-2 flex items-center gap-2 rounded-lg px-2 py-1.5 font-medium text-ink-800 transition-colors hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
         >
           <Sliders size={15} />
           {dict.spdConfigurator}
@@ -99,7 +99,7 @@ export default function Sidebar() {
 
       <Link
         href={localeHref(locale, "/send-request")}
-        className="flex items-center gap-2 rounded-md px-2 py-1.5 font-medium text-ink-800 hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
+        className="flex items-center gap-2 rounded-lg px-2 py-1.5 font-medium text-ink-800 transition-colors hover:bg-ink-100 dark:text-ink-100 dark:hover:bg-ink-800"
       >
         <Mail size={15} />
         {dict.sendRequestNav}
@@ -109,7 +109,7 @@ export default function Sidebar() {
         href={dict.mersenWebsiteUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 flex items-center gap-2 rounded-md border-t border-ink-100 px-2 pb-1.5 pt-3 text-sm text-ink-500 hover:text-brand-600 dark:border-ink-800 dark:text-ink-400 dark:hover:text-brand-400"
+        className="mt-4 flex items-center gap-2 rounded-lg border-t border-ink-100 px-2 pb-1.5 pt-3 text-sm text-ink-500 transition-colors hover:text-brand-600 dark:border-ink-800 dark:text-ink-400 dark:hover:text-brand-400"
       >
         <ExternalLink size={15} />
         {dict.mersenWebsiteLabel}

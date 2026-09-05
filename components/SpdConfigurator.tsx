@@ -51,7 +51,7 @@ export default function SpdConfigurator({ locale }: { locale: Locale }) {
         </p>
       )}
 
-      <div className="rounded-lg border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900">
+      <div className="rounded-2xl border border-ink-200 bg-white p-6 shadow-card dark:border-ink-800 dark:bg-ink-900">
         <h2 className="mb-4 text-lg font-semibold text-ink-800 dark:text-ink-100">
           {node.title}
         </h2>
@@ -61,7 +61,7 @@ export default function SpdConfigurator({ locale }: { locale: Locale }) {
               <button
                 key={opt.label}
                 onClick={() => choose(opt.to as string)}
-                className="flex w-full items-center justify-between rounded-lg border border-ink-200 px-4 py-3 text-left text-sm text-ink-700 transition hover:border-brand-300 hover:bg-brand-50 dark:border-ink-700 dark:text-ink-200 dark:hover:bg-brand-950"
+                className="flex w-full items-center justify-between rounded-xl border border-ink-200 px-4 py-3 text-left text-sm text-ink-700 transition hover:border-brand-300 hover:bg-brand-50 hover:shadow-card dark:border-ink-700 dark:text-ink-200 dark:hover:bg-brand-950/60"
               >
                 {opt.label}
                 <ChevronRight size={16} className="shrink-0 text-ink-400" />
@@ -72,7 +72,7 @@ export default function SpdConfigurator({ locale }: { locale: Locale }) {
                 href={opt.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex w-full items-center justify-between rounded-lg border border-ink-200 px-4 py-3 text-left text-sm text-ink-700 transition hover:border-brand-300 hover:bg-brand-50 dark:border-ink-700 dark:text-ink-200 dark:hover:bg-brand-950"
+                className="flex w-full items-center justify-between rounded-xl border border-ink-200 px-4 py-3 text-left text-sm text-ink-700 transition hover:border-brand-300 hover:bg-brand-50 hover:shadow-card dark:border-ink-700 dark:text-ink-200 dark:hover:bg-brand-950/60"
               >
                 {opt.label}
                 <ExternalLink size={16} className="shrink-0 text-ink-400" />
@@ -81,7 +81,7 @@ export default function SpdConfigurator({ locale }: { locale: Locale }) {
               <Link
                 key={opt.label}
                 href={localeHref(locale, opt.href as string)}
-                className="flex w-full items-center justify-between rounded-lg border border-brand-200 bg-brand-50 px-4 py-3 text-left text-sm font-medium text-brand-700 transition hover:border-brand-300 hover:bg-brand-100 dark:border-brand-900 dark:bg-brand-950 dark:text-brand-300 dark:hover:bg-brand-900"
+                className="flex w-full items-center justify-between rounded-xl border border-brand-200 bg-brand-50 px-4 py-3 text-left text-sm font-medium text-brand-700 transition hover:border-brand-300 hover:bg-brand-100 hover:shadow-card dark:border-brand-900 dark:bg-brand-950/60 dark:text-brand-300 dark:hover:bg-brand-900"
               >
                 {opt.label}
                 <ChevronRight size={16} className="shrink-0" />
@@ -95,7 +95,7 @@ export default function SpdConfigurator({ locale }: { locale: Locale }) {
         {path.length > 1 && (
           <button
             onClick={goBack}
-            className="flex items-center gap-1.5 rounded-lg border border-ink-200 px-3 py-1.5 text-sm text-ink-600 hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:text-ink-300 dark:hover:bg-brand-950"
+            className="flex items-center gap-1.5 rounded-full border border-ink-200 px-3.5 py-1.5 text-sm text-ink-600 transition hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:text-ink-300 dark:hover:bg-brand-950/60"
           >
             <ChevronLeft size={15} />
             {dict.back}

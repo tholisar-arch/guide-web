@@ -35,7 +35,7 @@ function LanguageSwitcher({ pathname }: { pathname: string }) {
     <div ref={ref} className="relative shrink-0">
       <button
         onClick={() => setOpen((v) => !v)}
-        className="flex h-9 items-center gap-1.5 rounded-md border border-ink-200 px-2.5 text-sm font-medium text-ink-600 hover:bg-ink-100 dark:border-ink-700 dark:text-ink-300 dark:hover:bg-ink-800"
+        className="flex h-9 items-center gap-1.5 rounded-full border border-ink-200 px-3 text-sm font-medium text-ink-600 transition hover:border-ink-300 hover:bg-ink-100 dark:border-ink-700 dark:text-ink-300 dark:hover:bg-ink-800"
         aria-label="Select language"
         aria-expanded={open}
       >
@@ -43,13 +43,13 @@ function LanguageSwitcher({ pathname }: { pathname: string }) {
         <span className="hidden sm:inline">{locale.toUpperCase()}</span>
       </button>
       {open && (
-        <div className="absolute right-0 top-full z-30 mt-2 w-40 overflow-hidden rounded-lg border border-ink-200 bg-white py-1 shadow-lg dark:border-ink-700 dark:bg-ink-900">
+        <div className="absolute right-0 top-full z-30 mt-2 w-44 overflow-hidden rounded-xl border border-ink-200/80 bg-white/95 py-1 shadow-elevated backdrop-blur-md dark:border-ink-700/80 dark:bg-ink-900/95">
           {LOCALES.map((l) => (
             <Link
               key={l}
               href={switchLocalePath(pathname, l)}
               onClick={() => setOpen(false)}
-              className="flex items-center justify-between px-3 py-2 text-sm text-ink-700 hover:bg-ink-100 dark:text-ink-200 dark:hover:bg-ink-800"
+              className="flex items-center justify-between px-3 py-2 text-sm text-ink-700 transition-colors hover:bg-brand-50 hover:text-brand-700 dark:text-ink-200 dark:hover:bg-brand-950 dark:hover:text-brand-300"
             >
               {LOCALE_LABELS[l]}
               {l === locale && <Check size={14} className="text-brand-600 dark:text-brand-400" />}
@@ -79,15 +79,18 @@ export default function Shell({
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-40 flex h-14 items-center gap-3 border-b border-ink-200 bg-white/90 px-3 backdrop-blur dark:border-ink-800 dark:bg-ink-950/90 sm:px-4">
+      <header className="sticky top-0 z-40 flex h-16 items-center gap-3 border-b border-ink-200/70 bg-white/80 px-3 backdrop-blur-md backdrop-saturate-150 dark:border-ink-800/70 dark:bg-ink-950/80 sm:px-5">
         <button
           onClick={() => setOpen((v) => !v)}
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-ink-600 hover:bg-ink-100 lg:hidden dark:text-ink-300 dark:hover:bg-ink-800"
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-ink-600 transition hover:bg-ink-100 lg:hidden dark:text-ink-300 dark:hover:bg-ink-800"
           aria-label="Open menu"
         >
           {open ? <X size={19} /> : <Menu size={19} />}
         </button>
-        <Link href={localeHref(locale, "/")} className="flex shrink-0 items-center gap-3">
+        <Link
+          href={localeHref(locale, "/")}
+          className="flex shrink-0 items-center gap-3 transition-opacity hover:opacity-80"
+        >
           <Image
             src="/brand/mersen-logo.png"
             alt="Mersen"
@@ -118,11 +121,11 @@ export default function Shell({
           onClick={() => setOpen(false)}
         />
         <aside
-          className={`fixed inset-y-0 left-0 z-30 w-72 -translate-x-full border-r border-ink-200 bg-white pt-14 transition-transform lg:static lg:z-0 lg:h-[calc(100vh-3.5rem)] lg:translate-x-0 lg:pt-0 dark:border-ink-800 dark:bg-ink-950 ${
+          className={`fixed inset-y-0 left-0 z-30 w-72 -translate-x-full border-r border-ink-200/70 bg-white pt-16 transition-transform lg:static lg:z-0 lg:h-[calc(100vh-4rem)] lg:translate-x-0 lg:pt-0 dark:border-ink-800/70 dark:bg-ink-950 ${
             open ? "translate-x-0" : ""
           }`}
         >
-          <div className="sticky top-14 h-[calc(100vh-3.5rem)] lg:top-0">
+          <div className="sticky top-16 h-[calc(100vh-4rem)] lg:top-0">
             {sidebar}
           </div>
         </aside>

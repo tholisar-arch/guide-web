@@ -8,7 +8,7 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
           return (
             <div
               key={i}
-              className="overflow-x-auto rounded-lg border border-ink-200 dark:border-ink-800"
+              className="overflow-x-auto rounded-2xl border border-ink-200 shadow-card dark:border-ink-800"
             >
               <table className="w-full min-w-[480px] border-collapse text-sm">
                 {block.headers && (
@@ -17,7 +17,7 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                       {block.headers.map((h, j) => (
                         <th
                           key={j}
-                          className="whitespace-nowrap border-b border-ink-200 px-3 py-2.5 text-left text-xs font-semibold uppercase tracking-wide text-ink-500 dark:border-ink-800 dark:text-ink-400"
+                          className="whitespace-nowrap border-b border-ink-200 px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-ink-500 dark:border-ink-800 dark:text-ink-400"
                         >
                           {h || <span className="text-ink-300">&mdash;</span>}
                         </th>
@@ -29,13 +29,13 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                   {block.rows.map((row, r) => (
                     <tr
                       key={r}
-                      className="border-b border-ink-100 last:border-0 odd:bg-white even:bg-ink-50/50 dark:border-ink-800 dark:odd:bg-ink-900 dark:even:bg-ink-900/50"
+                      className="border-b border-ink-100 transition-colors last:border-0 odd:bg-white even:bg-ink-50/50 hover:bg-brand-50/60 dark:border-ink-800 dark:odd:bg-ink-900 dark:even:bg-ink-900/50 dark:hover:bg-brand-950/30"
                     >
                       {row.map((cell, c) => (
                         <td
                           key={c}
                           data-ref-cell={cell || undefined}
-                          className="whitespace-nowrap px-3 py-2 tabular-nums text-ink-700 dark:text-ink-200"
+                          className="whitespace-nowrap px-4 py-2.5 tabular-nums text-ink-700 dark:text-ink-200"
                         >
                           {cell === "" ? (
                             <span className="text-ink-300 dark:text-ink-600">

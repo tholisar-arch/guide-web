@@ -45,7 +45,7 @@ export default function SearchInner({ locale }: { locale: Locale }) {
         {dict.searchTitle}
       </h1>
       <form onSubmit={onSubmit} className="mb-8">
-        <div className="flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-3 py-2.5 shadow-sm focus-within:border-brand-500 dark:border-ink-700 dark:bg-ink-900">
+        <div className="flex items-center gap-2 rounded-full border border-ink-200 bg-white px-4 py-3 shadow-sm transition focus-within:border-brand-400 focus-within:ring-4 focus-within:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-900 dark:focus-within:ring-brand-950/70">
           <SearchIcon size={17} className="text-ink-400" />
           <input
             value={input}
@@ -63,7 +63,7 @@ export default function SearchInner({ locale }: { locale: Locale }) {
         </p>
       )}
 
-      <ul className="divide-y divide-ink-100 overflow-hidden rounded-lg border border-ink-200 dark:divide-ink-800 dark:border-ink-800">
+      <ul className="divide-y divide-ink-100 overflow-hidden rounded-2xl border border-ink-200 shadow-card dark:divide-ink-800 dark:border-ink-800">
         {results.map((r) => {
           const refs = matchedCodes(r, q);
           const shown = refs.slice(0, 8);
@@ -74,7 +74,7 @@ export default function SearchInner({ locale }: { locale: Locale }) {
           <li key={r.slug}>
             <Link
               href={localeHref(locale, `/guide/${r.slug}${suffix}`)}
-              className="flex items-start gap-3 bg-white px-4 py-3 hover:bg-brand-50 dark:bg-ink-900 dark:hover:bg-brand-950"
+              className="flex items-start gap-3 bg-white px-4 py-3.5 transition-colors hover:bg-brand-50 dark:bg-ink-900 dark:hover:bg-brand-950/60"
             >
               <FileText size={16} className="mt-0.5 shrink-0 text-ink-300" />
               <span className="min-w-0">

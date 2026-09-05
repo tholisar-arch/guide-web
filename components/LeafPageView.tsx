@@ -48,11 +48,11 @@ export default function LeafPageView({
 
         <ResourceLinks links={entry.resourceLinks ?? []} locale={locale} />
 
-        <div className="mt-8 flex items-center justify-between gap-3 border-t border-ink-200 pt-6 dark:border-ink-800">
+        <div className="mt-10 flex items-center justify-between gap-3 border-t border-ink-200 pt-6 dark:border-ink-800">
           {prev ? (
             <Link
               href={localeHref(locale, `/guide/${prev.slug}`)}
-              className="flex min-w-0 flex-1 items-center gap-2 rounded-lg border border-ink-200 px-3 py-2 text-sm hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:hover:bg-brand-950"
+              className="flex min-w-0 flex-1 items-center gap-2 rounded-xl border border-ink-200 px-3.5 py-2.5 text-sm transition hover:border-brand-300 hover:bg-brand-50 hover:shadow-card dark:border-ink-800 dark:hover:bg-brand-950/60"
             >
               <ChevronLeft size={16} className="shrink-0 text-ink-400" />
               <span className="min-w-0 truncate text-ink-600 dark:text-ink-300" title={prev.title}>
@@ -65,7 +65,7 @@ export default function LeafPageView({
           {next ? (
             <Link
               href={localeHref(locale, `/guide/${next.slug}`)}
-              className="flex min-w-0 flex-1 items-center justify-end gap-2 rounded-lg border border-ink-200 px-3 py-2 text-right text-sm hover:border-brand-300 hover:bg-brand-50 dark:border-ink-800 dark:hover:bg-brand-950"
+              className="flex min-w-0 flex-1 items-center justify-end gap-2 rounded-xl border border-ink-200 px-3.5 py-2.5 text-right text-sm transition hover:border-brand-300 hover:bg-brand-50 hover:shadow-card dark:border-ink-800 dark:hover:bg-brand-950/60"
             >
               <span className="min-w-0 truncate text-ink-600 dark:text-ink-300" title={next.title}>
                 {next.title}

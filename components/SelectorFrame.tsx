@@ -23,7 +23,7 @@ export default function SelectorFrame({
           {backHref && (
             <Link
               href={backHref}
-              className="flex shrink-0 items-center gap-1.5 rounded-full border border-ink-300 px-3 py-1 text-xs font-medium text-ink-600 hover:border-brand-400 hover:text-brand-600 dark:border-ink-700 dark:text-ink-300 dark:hover:text-brand-400"
+              className="flex shrink-0 items-center gap-1.5 rounded-full border border-ink-300 px-3.5 py-1.5 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:bg-brand-50 hover:text-brand-600 dark:border-ink-700 dark:text-ink-300 dark:hover:bg-brand-950/40 dark:hover:text-brand-400"
             >
               <ChevronLeft size={13} />
               {dict.back}

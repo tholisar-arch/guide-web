@@ -38,11 +38,11 @@ export default function NotFound() {
 
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center px-4 py-24 text-center">
-      <h1 className="text-3xl font-bold text-ink-900 dark:text-white">404</h1>
+      <h1 className="text-4xl font-bold tracking-tight text-ink-900 dark:text-white">404</h1>
       <p className="mt-2 text-ink-500 dark:text-ink-400">{MESSAGE[locale]}</p>
       <Link
         href={localeHref(locale, "/")}
-        className="mt-6 rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
+        className="mt-7 rounded-full bg-brand-600 px-5 py-2.5 text-sm font-medium text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-brand-700"
       >
         {BACK_HOME[locale]}
       </Link>

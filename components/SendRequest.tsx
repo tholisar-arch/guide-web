@@ -87,7 +87,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
 
       <form
         onSubmit={onSubmit}
-        className="space-y-4 rounded-lg border border-ink-200 bg-white p-5 dark:border-ink-800 dark:bg-ink-900"
+        className="space-y-4 rounded-2xl border border-ink-200 bg-white p-6 shadow-card dark:border-ink-800 dark:bg-ink-900"
       >
         <div>
           <label
@@ -101,7 +101,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
             required
             value={countryKey}
             onChange={(e) => setCountryKey(e.target.value)}
-            className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+            className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
           >
             <option value="" disabled>
               {dict.sendRequestCountryPlaceholder}
@@ -133,7 +133,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
               required
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+              className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
             />
           </div>
           <div>
@@ -149,7 +149,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
               required
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+              className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
             />
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
             type="text"
             value={company}
             onChange={(e) => setCompany(e.target.value)}
-            className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+            className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
           />
         </div>
 
@@ -183,7 +183,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
               required
               value={requestType}
               onChange={(e) => setRequestType(e.target.value)}
-              className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+              className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
             >
               <option value="" disabled>
                 {dict.sendRequestTypePlaceholder}
@@ -209,7 +209,7 @@ export default function SendRequest({ locale }: { locale: Locale }) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder={dict.sendRequestEmailPlaceholder}
-            className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+            className="w-full rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
           />
         </div>
 
@@ -227,13 +227,13 @@ export default function SendRequest({ locale }: { locale: Locale }) {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder={dict.sendRequestMessagePlaceholder}
-            className="w-full resize-y rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950"
+            className="w-full resize-y rounded-lg border border-ink-200 px-3 py-2 text-sm text-ink-800 outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100/70 dark:border-ink-700 dark:bg-ink-950 dark:text-ink-100 dark:focus:ring-brand-950/70"
           />
         </div>
 
         <button
           type="submit"
-          className="flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-brand-700"
+          className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-3 text-sm font-medium text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-brand-700 hover:shadow-glow active:translate-y-0"
         >
           <Send size={15} />
           {dict.sendRequestButton}
