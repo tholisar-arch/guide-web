@@ -18,8 +18,8 @@ export default function SelectorFrame({
   return (
     <div className="mx-auto max-w-5xl px-4 py-6 sm:py-8">
       {(backHref || topLeft) && (
-        <div className="mb-4 flex items-center justify-between gap-3">
-          <div>{topLeft}</div>
+        <div className="mb-5 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+          <div className="min-w-0">{topLeft}</div>
           {backHref && (
             <Link
               href={backHref}

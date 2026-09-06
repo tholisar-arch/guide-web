@@ -31,7 +31,11 @@ export default function LeafPageView({
       topLeft={
         productImage && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={productImage} alt="" className="h-16 w-auto object-contain" />
+          <img
+            src={productImage}
+            alt=""
+            className="max-h-24 w-auto max-w-[280px]"
+          />
         )
       }
     >
