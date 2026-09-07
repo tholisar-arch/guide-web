@@ -16,6 +16,11 @@ const PORTUGAL = "sergio.jimenez@mersen.com";
 const NORDICS_BALTICS = "afshin.pourarsalan@mersen.com";
 const FINLAND = "ville.honka@mersen.com";
 const GERMANY = "torsten.frank@mersen.com";
+const AUSTRIA = "walter.gruber@mersen.com";
+const CZECH_SLOVAKIA = "ctibor.bednar@mersen.com";
+const HUNGARY_ROMANIA = "tamas.borbely@mersen.com";
+const LIECHTENSTEIN_SWITZERLAND = "stefan.probst@mersen.com";
+const POLAND = "michal.skorupa@mersen.com";
 const OTHER = "karoly.galle@mersen.com";
 
 // Every sovereign state of Europe, each mapped to its own contact.
@@ -52,7 +57,7 @@ const COUNTRIES: {
   },
   {
     key: "andorra",
-    email: OTHER,
+    email: SPAIN,
     en: "Andorra",
     fr: "Andorre",
     it: "Andorra",
@@ -67,7 +72,7 @@ const COUNTRIES: {
   },
   {
     key: "austria",
-    email: OTHER,
+    email: AUSTRIA,
     en: "Austria",
     fr: "Autriche",
     it: "Austria",
@@ -172,7 +177,7 @@ const COUNTRIES: {
   },
   {
     key: "czech-republic",
-    email: OTHER,
+    email: CZECH_SLOVAKIA,
     en: "Czech Republic",
     fr: "République tchèque",
     it: "Repubblica Ceca",
@@ -277,7 +282,7 @@ const COUNTRIES: {
   },
   {
     key: "hungary",
-    email: OTHER,
+    email: HUNGARY_ROMANIA,
     en: "Hungary",
     fr: "Hongrie",
     it: "Ungheria",
@@ -367,7 +372,7 @@ const COUNTRIES: {
   },
   {
     key: "liechtenstein",
-    email: OTHER,
+    email: LIECHTENSTEIN_SWITZERLAND,
     en: "Liechtenstein",
     fr: "Liechtenstein",
     it: "Liechtenstein",
@@ -442,7 +447,7 @@ const COUNTRIES: {
   },
   {
     key: "monaco",
-    email: OTHER,
+    email: FRANCE,
     en: "Monaco",
     fr: "Monaco",
     it: "Monaco",
@@ -517,7 +522,7 @@ const COUNTRIES: {
   },
   {
     key: "poland",
-    email: OTHER,
+    email: POLAND,
     en: "Poland",
     fr: "Pologne",
     it: "Polonia",
@@ -547,7 +552,7 @@ const COUNTRIES: {
   },
   {
     key: "romania",
-    email: OTHER,
+    email: HUNGARY_ROMANIA,
     en: "Romania",
     fr: "Roumanie",
     it: "Romania",
@@ -577,7 +582,7 @@ const COUNTRIES: {
   },
   {
     key: "san-marino",
-    email: OTHER,
+    email: ITALY,
     en: "San Marino",
     fr: "Saint-Marin",
     it: "San Marino",
@@ -607,7 +612,7 @@ const COUNTRIES: {
   },
   {
     key: "slovakia",
-    email: OTHER,
+    email: CZECH_SLOVAKIA,
     en: "Slovakia",
     fr: "Slovaquie",
     it: "Slovacchia",
@@ -667,7 +672,7 @@ const COUNTRIES: {
   },
   {
     key: "switzerland",
-    email: OTHER,
+    email: LIECHTENSTEIN_SWITZERLAND,
     en: "Switzerland",
     fr: "Suisse",
     it: "Svizzera",
@@ -712,7 +717,7 @@ const COUNTRIES: {
   },
   {
     key: "vatican-city",
-    email: OTHER,
+    email: ITALY,
     en: "Vatican City",
     fr: "Cité du Vatican",
     it: "Città del Vaticano",
