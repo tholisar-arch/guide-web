@@ -1,5 +1,7 @@
 import type { ContentBlock } from "@/lib/types";
 
+const MERSEN_SEARCH_PREFIX = "https://www.mersen.com/en/products?search_text=";
+
 export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
   return (
     <div className="space-y-4">
@@ -45,6 +47,15 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                             <span className="text-brand-600 dark:text-brand-400">
                               ✓
                             </span>
+                          ) : c === 0 ? (
+                            <a
+                              href={`${MERSEN_SEARCH_PREFIX}${encodeURIComponent(cell)}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-medium text-brand-600 transition-colors hover:text-brand-700 hover:underline dark:text-brand-400 dark:hover:text-brand-300"
+                            >
+                              {cell}
+                            </a>
                           ) : (
                             cell
                           )}
