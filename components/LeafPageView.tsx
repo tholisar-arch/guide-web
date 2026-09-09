@@ -48,7 +48,7 @@ export default function LeafPageView({
         <Suspense fallback={null}>
           <HighlightRefFromQuery />
         </Suspense>
-        <ContentBlocks blocks={entry.blocks} locale={locale} />
+        <ContentBlocks blocks={entry.blocks} />
 
         <ResourceLinks links={entry.resourceLinks ?? []} locale={locale} />
 
