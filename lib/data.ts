@@ -21,6 +21,7 @@ import navDataCs from "@/data/nav.cs.json";
 import pagesDataEs from "@/data/pages.es.json";
 import navDataEs from "@/data/nav.es.json";
 import productImages from "@/data/product-images.json";
+import productLinks from "@/data/product-links.json";
 import type {
   PageEntry,
   NavRoot,
@@ -240,6 +241,16 @@ export function getData(locale: Locale): DataApi {
 export function getProductImage(pageNumber: number): string | undefined {
   const filename = (productImages as Record<string, string>)[String(pageNumber)];
   return filename ? `/images/products/${filename}` : undefined;
+}
+
+// The mersen.com product page path for a reference code (Part Number),
+// e.g. "products/iec-miniature-fuses-5-x20-time-lag-5st-250vac/d090531q-...".
+// Only a curated subset of references has a confirmed page - most table
+// cells intentionally have no entry here and stay plain text. Relative
+// (no leading slash, no locale root) so callers can prefix it with the
+// right mersen.com locale base themselves.
+export function getMersenProductPath(code: string): string | undefined {
+  return (productLinks as Record<string, string>)[code];
 }
 
 // Back-compat default (English) exports for any call site that hasn't

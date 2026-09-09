@@ -1,6 +1,25 @@
 import type { ContentBlock } from "@/lib/types";
+import { getMersenProductPath } from "@/lib/data";
+import { t, type Locale } from "@/lib/i18n";
 
-export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
+// mersen.com hosts a translated URL path (not just a different domain) for
+// French and German, which we haven't verified - so only locales that
+// resolve to the English mersen.com site (every locale but fr/de) get a
+// clickable reference link; fr/de keep plain text.
+function eligibleMersenBase(locale: Locale): string | null {
+  if (locale === "fr" || locale === "de") return null;
+  return t(locale).mersenWebsiteUrl;
+}
+
+export default function ContentBlocks({
+  blocks,
+  locale,
+}: {
+  blocks: ContentBlock[];
+  locale: Locale;
+}) {
+  const mersenBase = eligibleMersenBase(locale);
+
   return (
     <div className="space-y-4">
       {blocks.map((block, i) => {
@@ -31,25 +50,42 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                       key={r}
                       className="border-b border-ink-100 transition-colors last:border-0 odd:bg-white even:bg-ink-50/50 hover:bg-brand-50/60 dark:border-ink-800 dark:odd:bg-ink-900 dark:even:bg-ink-900/50 dark:hover:bg-brand-950/30"
                     >
-                      {row.map((cell, c) => (
-                        <td
-                          key={c}
-                          data-ref-cell={cell || undefined}
-                          className="whitespace-nowrap px-4 py-2.5 tabular-nums text-ink-700 dark:text-ink-200"
-                        >
-                          {cell === "" ? (
-                            <span className="text-ink-300 dark:text-ink-600">
-                              &ndash;
-                            </span>
-                          ) : cell === "✓" ? (
-                            <span className="text-brand-600 dark:text-brand-400">
-                              ✓
-                            </span>
-                          ) : (
-                            cell
-                          )}
-                        </td>
-                      ))}
+                      {row.map((cell, c) => {
+                        // Only the Part Number column (always first) links
+                        // out to the matching mersen.com product page.
+                        const productPath =
+                          c === 0 && mersenBase && cell
+                            ? getMersenProductPath(cell)
+                            : undefined;
+                        return (
+                          <td
+                            key={c}
+                            data-ref-cell={cell || undefined}
+                            className="whitespace-nowrap px-4 py-2.5 tabular-nums text-ink-700 dark:text-ink-200"
+                          >
+                            {cell === "" ? (
+                              <span className="text-ink-300 dark:text-ink-600">
+                                &ndash;
+                              </span>
+                            ) : cell === "✓" ? (
+                              <span className="text-brand-600 dark:text-brand-400">
+                                ✓
+                              </span>
+                            ) : productPath ? (
+                              <a
+                                href={`${mersenBase}/${productPath}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-medium text-brand-600 transition-colors hover:text-brand-700 hover:underline dark:text-brand-400 dark:hover:text-brand-300"
+                              >
+                                {cell}
+                              </a>
+                            ) : (
+                              cell
+                            )}
+                          </td>
+                        );
+                      })}
                     </tr>
                   ))}
                 </tbody>
