@@ -1,8 +1,28 @@
 import type { ContentBlock } from "@/lib/types";
+import type { Locale } from "@/lib/i18n";
 
-const MERSEN_SEARCH_PREFIX = "https://www.mersen.com/en/products?search_text=";
+const MERSEN_SEARCH_PREFIX: Record<Locale, string> = {
+  en: "https://www.mersen.com/en/products?search_text=",
+  fr: "https://www.mersen.com/fr/produits?search_text=",
+  de: "https://de.mersen.com/de/produkte?search_text=",
+  it: "https://www.mersen.com/en/products?search_text=",
+  nl: "https://www.mersen.com/en/products?search_text=",
+  hu: "https://www.mersen.com/en/products?search_text=",
+  pt: "https://www.mersen.com/en/products?search_text=",
+  pl: "https://www.mersen.com/en/products?search_text=",
+  ro: "https://www.mersen.com/en/products?search_text=",
+  cs: "https://www.mersen.com/en/products?search_text=",
+  es: "https://www.mersen.com/en/products?search_text=",
+};
 
-export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
+export default function ContentBlocks({
+  blocks,
+  locale,
+}: {
+  blocks: ContentBlock[];
+  locale: Locale;
+}) {
+  const searchPrefix = MERSEN_SEARCH_PREFIX[locale];
   return (
     <div className="space-y-4">
       {blocks.map((block, i) => {
@@ -49,7 +69,7 @@ export default function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
                             </span>
                           ) : c === 0 ? (
                             <a
-                              href={`${MERSEN_SEARCH_PREFIX}${encodeURIComponent(cell)}`}
+                              href={`${searchPrefix}${encodeURIComponent(cell)}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="font-medium text-brand-600 transition-colors hover:text-brand-700 hover:underline dark:text-brand-400 dark:hover:text-brand-300"
